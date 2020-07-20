@@ -1,0 +1,1513 @@
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[         0,          0]
+NotebookDataLength[     63176,       1512]
+NotebookOptionsPosition[     59968,       1444]
+NotebookOutlinePosition[     60329,       1460]
+CellTagsIndexPosition[     60286,       1457]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"path", "=", 
+   RowBox[{"NotebookDirectory", "[", "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"dataDirectories", "=", 
+   RowBox[{"{", 
+    RowBox[{
+    "\"\<rabi_and_lmg_optimizations_20190228\>\"", ",", 
+     "\"\<rabi_and_lmg_optimizations_different_constraints_20190228\>\""}], 
+    "}"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"(*", 
+   RowBox[{"datafiles", "=", 
+    RowBox[{"FileNames", "[", 
+     RowBox[{"FileNameJoin", "@", 
+      RowBox[{"{", 
+       RowBox[{"path", ",", "\"\<rabi*.csv\>\""}], "}"}]}], "]"}]}], 
+   "*)"}]}]}], "Input",
+ InitializationCell->True,
+ CellChangeTimes->{{3.759752898428138*^9, 3.759752913200004*^9}, {
+  3.759755694859405*^9, 3.759755720370453*^9}, {3.759755754666317*^9, 
+  3.759755813794512*^9}, {3.759825316214664*^9, 3.7598253173600063`*^9}, {
+  3.760337074109889*^9, 3.760337096407474*^9}, {3.760423090860697*^9, 
+  3.7604230914517403`*^9}, {3.76042382936347*^9, 3.760423901832662*^9}, {
+  3.7604448789355497`*^9, 3.760444879304907*^9}},
+ CellLabel->
+  "In[105]:=",ExpressionUUID->"d13b4d64-3822-47af-9b7c-8d025ca4f0e2"],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"SetOptions", "[", 
+   RowBox[{
+    RowBox[{"EvaluationNotebook", "[", "]"}], ",", 
+    RowBox[{"ShowGroupOpener", "\[Rule]", "True"}]}], "]"}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"SetOptions", "[", 
+   RowBox[{"$FrontEndSession", ",", 
+    RowBox[{"ShowGroupOpener", "\[Rule]", "True"}]}], "]"}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"SetOptions", "[", 
+   RowBox[{"$FrontEnd", ",", 
+    RowBox[{"ShowGroupOpener", "\[Rule]", "True"}]}], "]"}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"ClearAll", "@", "t"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"bangRampParametersToProtocol", "[", 
+    RowBox[{"tf_", ",", "y0_", ",", "t1_", ",", "y1_", ",", "y2_"}], "]"}], ":=", 
+   RowBox[{"Piecewise", "[", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"y0", ",", 
+        RowBox[{"0", "\[LessEqual]", "t", "\[LessEqual]", "t1"}]}], "}"}], 
+      ",", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{
+         RowBox[{
+          RowBox[{"(", 
+           RowBox[{"y2", "-", "y1"}], ")"}], 
+          RowBox[{
+           RowBox[{"(", 
+            RowBox[{"t", "-", "t1"}], ")"}], "/", 
+           RowBox[{"(", 
+            RowBox[{"tf", "-", "t1"}], ")"}]}]}], "+", "y1"}], ",", 
+        RowBox[{"t1", "<", "t", "\[LessEqual]", "tf"}]}], "}"}]}], "}"}], 
+    "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"bangRampParametersToProtocol", "[", "dataset_Dataset", "]"}], ":=", 
+   RowBox[{"bangRampParametersToProtocol", "@@", 
+    RowBox[{"List", "@@", 
+     RowBox[{"Normal", "@", 
+      RowBox[{"dataset", "@", 
+       RowBox[{"{", 
+        RowBox[{
+        "\"\<tf\>\"", ",", "\"\<y0\>\"", ",", "\"\<t1\>\"", ",", "\"\<y1\>\"",
+          ",", "\"\<y2\>\""}], "}"}]}]}]}]}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"doubleBangParametersToProtocol", "[", 
+    RowBox[{"tf_", ",", "y0_", ",", "t1_", ",", "y1_"}], "]"}], ":=", 
+   RowBox[{"Piecewise", "[", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"y0", ",", 
+        RowBox[{"0", "\[LessEqual]", "t", "\[LessEqual]", "t1"}]}], "}"}], 
+      ",", 
+      RowBox[{"{", 
+       RowBox[{"y1", ",", 
+        RowBox[{"t1", "<", "t", "\[LessEqual]", "tf"}]}], "}"}]}], "}"}], 
+    "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"doubleBangParametersToProtocol", "[", "dataset_Dataset", "]"}], ":=", 
+   RowBox[{"doubleBangParametersToProtocol", "@@", 
+    RowBox[{"List", "@@", 
+     RowBox[{"Normal", "@", 
+      RowBox[{"dataset", "@", 
+       RowBox[{"{", 
+        RowBox[{
+        "\"\<tf\>\"", ",", "\"\<y0\>\"", ",", "\"\<t1\>\"", ",", 
+         "\"\<y1\>\""}], "}"}]}]}]}]}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"tripleBangParametersToProtocol", "[", 
+    RowBox[{
+    "tf_", ",", "y1_", ",", "y2_", ",", "y3_", ",", "t1_", ",", "t2_"}], 
+    "]"}], ":=", 
+   RowBox[{"Piecewise", "[", 
+    RowBox[{"{", "\[IndentingNewLine]", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"y1", ",", 
+        RowBox[{"0", "\[LessEqual]", "t", "\[LessEqual]", "t1"}]}], "}"}], 
+      ",", "\[IndentingNewLine]", 
+      RowBox[{"{", 
+       RowBox[{"y2", ",", 
+        RowBox[{"t1", "<", "t", "\[LessEqual]", "t2"}]}], "}"}], ",", 
+      "\[IndentingNewLine]", 
+      RowBox[{"{", 
+       RowBox[{"y3", ",", 
+        RowBox[{"t2", "<", "t"}]}], "}"}]}], "\[IndentingNewLine]", "}"}], 
+    "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"tripleBangParametersToProtocol", "[", "dataset_Dataset", "]"}], ":=", 
+   RowBox[{"tripleBangParametersToProtocol", "@@", 
+    RowBox[{"List", "@@", 
+     RowBox[{"Normal", "@", 
+      RowBox[{"dataset", "@", 
+       RowBox[{"{", 
+        RowBox[{
+        "\"\<tf\>\"", ",", "\"\<y1\>\"", ",", "\"\<y2\>\"", ",", "\"\<y3\>\"",
+          ",", "\"\<t1\>\"", ",", "\"\<t2\>\""}], "}"}]}]}]}]}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"CRABParametersToProtocol", "[", 
+    RowBox[{
+    "tf_", ",", "frequencies_", ",", "Ak_", ",", "Bk_", ",", "y0_", ",", 
+     "y1_"}], "]"}], ":=", 
+   RowBox[{"Module", "[", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+      "baseline", ",", "normalisingPulse", ",", "pulseCorrection", ",", 
+       "finalProtocol"}], "}"}], ",", "\[IndentingNewLine]", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"normalisingPulse", "[", "t_", "]"}], ":=", 
+       RowBox[{"0.1", " ", "t", " ", 
+        RowBox[{"(", 
+         RowBox[{"t", "-", "tf"}], ")"}]}]}], ";", "\[IndentingNewLine]", 
+      RowBox[{
+       RowBox[{"pulseCorrection", "[", "t_", "]"}], ":=", 
+       RowBox[{"1", "+", 
+        RowBox[{
+         RowBox[{"normalisingPulse", "[", "t", "]"}], "*", 
+         RowBox[{"Total", "@", 
+          RowBox[{"Plus", "[", "\[IndentingNewLine]", 
+           RowBox[{
+            RowBox[{"Ak", "*", 
+             RowBox[{"Sin", "[", 
+              RowBox[{"2", "Pi", " ", 
+               RowBox[{"Range", "[", 
+                RowBox[{"Length", "@", "frequencies"}], "]"}], 
+               RowBox[{"(", 
+                RowBox[{"1", "+", "frequencies"}], ")"}], "*", 
+               RowBox[{"t", "/", "tf"}]}], "]"}]}], ",", 
+            "\[IndentingNewLine]", 
+            RowBox[{"Bk", "*", 
+             RowBox[{"Cos", "[", 
+              RowBox[{"2", "Pi", " ", 
+               RowBox[{"Range", "[", 
+                RowBox[{"Length", "@", "frequencies"}], "]"}], 
+               RowBox[{"(", 
+                RowBox[{"1", "+", "frequencies"}], ")"}], "*", 
+               RowBox[{"t", "/", "tf"}]}], "]"}]}]}], "\[IndentingNewLine]", 
+           "]"}]}]}]}]}], ";", "\[IndentingNewLine]", 
+      RowBox[{
+       RowBox[{"baseline", "[", "t_", "]"}], ":=", 
+       RowBox[{
+        RowBox[{"Interpolation", "[", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{
+            RowBox[{"{", 
+             RowBox[{"0", ",", "y0"}], "}"}], ",", 
+            RowBox[{"{", 
+             RowBox[{"tf", ",", "y1"}], "}"}]}], "}"}], ",", 
+          RowBox[{"InterpolationOrder", "\[Rule]", "1"}]}], "]"}], "[", "t", 
+        "]"}]}], ";", "\[IndentingNewLine]", 
+      RowBox[{
+       RowBox[{"finalProtocol", "[", "t_", "]"}], ":=", 
+       RowBox[{
+        RowBox[{"baseline", "[", "t", "]"}], "*", 
+        RowBox[{"pulseCorrection", "[", "t", "]"}]}]}], ";", 
+      "\[IndentingNewLine]", 
+      RowBox[{"finalProtocol", "[", "t", "]"}]}]}], "\[IndentingNewLine]", 
+    "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"CRABParametersToProtocol", "[", "dataset_Dataset", "]"}], ":=", 
+   RowBox[{"With", "[", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"numFreqs", "=", 
+       RowBox[{"Length", "@", 
+        RowBox[{
+         RowBox[{"dataset", "[", "Keys", "]"}], "[", 
+         RowBox[{"Select", "[", 
+          RowBox[{
+           RowBox[{
+            RowBox[{"StringTake", "[", 
+             RowBox[{"#", ",", 
+              RowBox[{"UpTo", "@", "3"}]}], "]"}], "\[Equal]", 
+            "\"\<nuk\>\""}], "&"}], "]"}], "]"}]}]}], "}"}], ",", 
+     "\[IndentingNewLine]", 
+     RowBox[{"With", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"pars", "=", 
+         RowBox[{"List", "@@@", 
+          RowBox[{"Normal", "@", 
+           RowBox[{"dataset", "@", 
+            RowBox[{"{", "\[IndentingNewLine]", 
+             RowBox[{"\"\<tf\>\"", ",", "\[IndentingNewLine]", 
+              RowBox[{"Table", "[", 
+               RowBox[{
+                RowBox[{"\"\<nuk\>\"", "<>", 
+                 RowBox[{"ToString", "@", "k"}]}], ",", 
+                RowBox[{"{", 
+                 RowBox[{"k", ",", "numFreqs"}], "}"}]}], "]"}], ",", 
+              "\[IndentingNewLine]", 
+              RowBox[{"Table", "[", 
+               RowBox[{
+                RowBox[{"\"\<A\>\"", "<>", 
+                 RowBox[{"ToString", "@", "k"}]}], ",", 
+                RowBox[{"{", 
+                 RowBox[{"k", ",", "numFreqs"}], "}"}]}], "]"}], ",", 
+              "\[IndentingNewLine]", 
+              RowBox[{"Table", "[", 
+               RowBox[{
+                RowBox[{"\"\<B\>\"", "<>", 
+                 RowBox[{"ToString", "@", "k"}]}], ",", 
+                RowBox[{"{", 
+                 RowBox[{"k", ",", "numFreqs"}], "}"}]}], "]"}], ",", 
+              "\[IndentingNewLine]", "\"\<y0\>\"", ",", "\"\<y1\>\""}], 
+             "\[IndentingNewLine]", "}"}]}]}]}]}], "}"}], ",", 
+       "\[IndentingNewLine]", 
+       RowBox[{"CRABParametersToProtocol", "@@", "pars"}]}], 
+      "\[IndentingNewLine]", 
+      RowBox[{"(*", 
+       RowBox[{"CRABParametersToProtocol", "@@", 
+        RowBox[{"List", "@@", 
+         RowBox[{"Normal", "@", 
+          RowBox[{"dataset", "@", 
+           RowBox[{"{", 
+            RowBox[{
+            "\"\<tf\>\"", ",", "\"\<y1\>\"", ",", "\"\<y2\>\"", ",", 
+             "\"\<y3\>\"", ",", "\"\<t1\>\"", ",", "\"\<t2\>\""}], 
+            "}"}]}]}]}]}], "*)"}], "\[IndentingNewLine]", "]"}]}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"protocolFromDatafile", "[", 
+    RowBox[{"dataset_", ",", "filename_"}], "]"}], ":=", 
+   RowBox[{"Which", "[", "\[IndentingNewLine]", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"StringCases", "[", 
+       RowBox[{"filename", ",", "\"\<bangramp\>\""}], "]"}], "\[NotEqual]", 
+      RowBox[{"{", "}"}]}], ",", "\[IndentingNewLine]", 
+     RowBox[{"bangRampParametersToProtocol", "@", "dataset"}], ",", 
+     "\[IndentingNewLine]", 
+     RowBox[{
+      RowBox[{"StringCases", "[", 
+       RowBox[{"filename", ",", "\"\<doublebang\>\""}], "]"}], "\[NotEqual]", 
+      
+      RowBox[{"{", "}"}]}], ",", "\[IndentingNewLine]", 
+     RowBox[{"doubleBangParametersToProtocol", "@", "dataset"}], ",", 
+     "\[IndentingNewLine]", 
+     RowBox[{
+      RowBox[{"StringCases", "[", 
+       RowBox[{"filename", ",", "\"\<crab\>\""}], "]"}], "\[NotEqual]", 
+      RowBox[{"{", "}"}]}], ",", "\[IndentingNewLine]", 
+     RowBox[{"(*", " ", 
+      RowBox[{
+       RowBox[{
+       "if", " ", "initial", " ", "and", " ", "final", " ", "pulse", " ", 
+        "heights", " ", "were", " ", "not", " ", "in", " ", "the", " ", 
+        "dataset"}], ",", " ", 
+       RowBox[{
+       "try", " ", "to", " ", "infer", " ", "from", " ", "the", " ", 
+        "name"}]}], " ", "*)"}], "\[IndentingNewLine]", 
+     RowBox[{"If", "[", 
+      RowBox[{
+       RowBox[{"Not", "@", 
+        RowBox[{"KeyExistsQ", "[", 
+         RowBox[{"dataset", ",", "\"\<y0\>\""}], "]"}]}], ",", 
+       "\[IndentingNewLine]", 
+       RowBox[{"With", "[", 
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{"criticalParValue", "=", 
+           RowBox[{"Which", "[", "\[IndentingNewLine]", 
+            RowBox[{
+             RowBox[{"StringContainsQ", "[", 
+              RowBox[{"filename", ",", "\"\<rabi\>\""}], "]"}], ",", "5", ",",
+              "\[IndentingNewLine]", 
+             RowBox[{"StringContainsQ", "[", 
+              RowBox[{"filename", ",", "\"\<lmg\>\""}], "]"}], ",", "1"}], 
+            "\[IndentingNewLine]", "]"}]}], "}"}], ",", "\[IndentingNewLine]", 
+         RowBox[{"CRABParametersToProtocol", "@", 
+          RowBox[{"dataset", "@", 
+           RowBox[{"Append", "[", 
+            RowBox[{"<|", 
+             RowBox[{
+              RowBox[{"\"\<y0\>\"", "\[Rule]", "0"}], ",", 
+              RowBox[{"\"\<y1\>\"", "\[Rule]", "criticalParValue"}]}], "|>"}],
+             "]"}]}]}]}], "\[IndentingNewLine]", "]"}], ",", 
+       "\[IndentingNewLine]", 
+       RowBox[{"(*", " ", 
+        RowBox[{"otherwise", ",", " ", 
+         RowBox[{
+         "just", " ", "use", " ", "the", " ", "dataset", " ", "as", " ", 
+          "is"}]}], " ", "*)"}], "\[IndentingNewLine]", 
+       RowBox[{"CRABParametersToProtocol", "@", "dataset"}]}], 
+      "\[IndentingNewLine]", "]"}], ",", "\[IndentingNewLine]", 
+     RowBox[{
+      RowBox[{"StringCases", "[", 
+       RowBox[{"filename", ",", "\"\<triplebang\>\""}], "]"}], "\[NotEqual]", 
+      
+      RowBox[{"{", "}"}]}], ",", "\[IndentingNewLine]", 
+     RowBox[{"tripleBangParametersToProtocol", "@", "dataset"}]}], 
+    "\[IndentingNewLine]", "]"}]}], ";"}]}], "Input",
+ InitializationCell->True,
+ CellChangeTimes->{{3.759756149986364*^9, 3.759756308242422*^9}, {
+   3.759756344772853*^9, 3.7597563783835287`*^9}, {3.7597564729170218`*^9, 
+   3.7597564964633493`*^9}, {3.759756595418338*^9, 3.759756595962524*^9}, {
+   3.759756736417004*^9, 3.759756738483965*^9}, {3.7597570808254013`*^9, 
+   3.759757264286222*^9}, {3.7597572965198793`*^9, 3.759757381482053*^9}, {
+   3.7597584249664097`*^9, 3.759758447420649*^9}, {3.759758547517*^9, 
+   3.759758819126383*^9}, {3.759758868942504*^9, 3.7597590247840014`*^9}, {
+   3.759759076086212*^9, 3.759759077413673*^9}, {3.759759179671373*^9, 
+   3.759759195442622*^9}, {3.7597593072175503`*^9, 3.75975930888163*^9}, {
+   3.759759436094009*^9, 3.759759436277462*^9}, {3.7597594896008244`*^9, 
+   3.7597594896746893`*^9}, {3.759759529597753*^9, 3.759759529685772*^9}, {
+   3.759760393310008*^9, 3.75976039999221*^9}, {3.7597604347677517`*^9, 
+   3.759760480558855*^9}, {3.7597605498172703`*^9, 3.759760574195219*^9}, 
+   3.7597606169489098`*^9, 3.759760652234791*^9, {3.760774479199788*^9, 
+   3.760774513619658*^9}, {3.760774934384164*^9, 3.76077498346983*^9}, {
+   3.760775069783918*^9, 3.760775087932159*^9}, {3.760795700674796*^9, 
+   3.760795705079906*^9}, {3.760865285256916*^9, 3.760865289160905*^9}, {
+   3.760880577185486*^9, 3.7608807160284433`*^9}, {3.761631896952239*^9, 
+   3.7616319272601624`*^9}, {3.761631967503273*^9, 3.761631969797537*^9}, {
+   3.7616320418573303`*^9, 3.761632042499675*^9}, {3.761632164814168*^9, 
+   3.761632207610035*^9}, {3.761632267980256*^9, 3.761632394165959*^9}, {
+   3.761632455075892*^9, 3.7616324894502172`*^9}, {3.761632540242443*^9, 
+   3.761632545451394*^9}, {3.7616326621647863`*^9, 3.761632689166275*^9}, {
+   3.761632772553999*^9, 3.761632860962674*^9}, {3.761633401740576*^9, 
+   3.7616334745646276`*^9}, {3.76163357675413*^9, 3.761633614116828*^9}, {
+   3.7616336757139606`*^9, 3.761633698638773*^9}, {3.7616338845012083`*^9, 
+   3.761633916790614*^9}, {3.761634563253098*^9, 3.7616345637582903`*^9}, {
+   3.7616346805737343`*^9, 3.761634680888342*^9}, {3.761634992616495*^9, 
+   3.761634993336213*^9}, {3.761635047385744*^9, 3.761635053933025*^9}},
+ CellLabel->
+  "In[107]:=",ExpressionUUID->"0eb8df85-37dc-4471-a4ed-d7dda943c3aa"],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{
+   RowBox[{"csvTableToDataset", "[", "dataFromCSV_", "]"}], ":=", 
+   RowBox[{"Transpose", "@", 
+    RowBox[{"Dataset", "@", 
+     RowBox[{"Association", "@", 
+      RowBox[{"Thread", "[", 
+       RowBox[{
+        RowBox[{
+        "dataFromCSV", "\[LeftDoubleBracket]", "1", "\[RightDoubleBracket]"}],
+         "\[Rule]", 
+        RowBox[{"Transpose", "@", 
+         RowBox[{"dataFromCSV", "\[LeftDoubleBracket]", 
+          RowBox[{"2", ";;"}], "\[RightDoubleBracket]"}]}]}], "]"}]}]}]}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"csvExplorer", "[", "filenames_", "]"}], ":=", 
+   RowBox[{"Manipulate", "[", "\[IndentingNewLine]", 
+    RowBox[{
+     RowBox[{"With", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"filename", "=", 
+          RowBox[{"FileBaseName", "@", 
+           RowBox[{
+           "filenames", "\[LeftDoubleBracket]", "k", 
+            "\[RightDoubleBracket]"}]}]}], ",", 
+         RowBox[{"dataset", "=", 
+          RowBox[{"csvTableToDataset", "@", 
+           RowBox[{
+            RowBox[{"Import", "[", 
+             RowBox[{
+             "filenames", "\[LeftDoubleBracket]", "k", 
+              "\[RightDoubleBracket]"}], "]"}], "\[LeftDoubleBracket]", 
+            RowBox[{"All", ",", 
+             RowBox[{"2", ";;"}]}], "\[RightDoubleBracket]"}]}]}]}], "}"}], 
+       ",", "\[IndentingNewLine]", 
+       RowBox[{"Deploy", "@", 
+        RowBox[{"GraphicsRow", "[", 
+         RowBox[{
+          RowBox[{"{", "\[IndentingNewLine]", 
+           RowBox[{
+            RowBox[{"Deploy", "@", 
+             RowBox[{"Graphics", "[", 
+              RowBox[{
+               RowBox[{"{", "\[IndentingNewLine]", 
+                RowBox[{
+                 RowBox[{"PointSize", "@", "0.014"}], ",", 
+                 RowBox[{"RGBColor", "[", 
+                  RowBox[{
+                  "0.368417", ",", " ", "0.506779", ",", " ", "0.709798"}], 
+                  "]"}], ",", "\[IndentingNewLine]", 
+                 RowBox[{"MapIndexed", "[", "\[IndentingNewLine]", 
+                  RowBox[{
+                   RowBox[{
+                    RowBox[{"EventHandler", "[", 
+                    RowBox[{
+                    RowBox[{"Point", "@", "#1"}], ",", "\[IndentingNewLine]", 
+                    
+                    RowBox[{"{", 
+                    RowBox[{"\"\<MouseClicked\>\"", "\[RuleDelayed]", 
+                    RowBox[{"(", 
+                    RowBox[{"solutionIndex", "=", 
+                    RowBox[{"First", "@", "#2"}]}], ")"}]}], "}"}]}], 
+                    "\[IndentingNewLine]", "]"}], "&"}], ",", 
+                   "\[IndentingNewLine]", 
+                   RowBox[{"List", "@@@", 
+                    RowBox[{"Normal", "@", 
+                    RowBox[{"dataset", "[", 
+                    RowBox[{"All", ",", 
+                    RowBox[{"{", 
+                    RowBox[{"\"\<tf\>\"", ",", "\"\<fid\>\""}], "}"}]}], 
+                    "]"}]}]}]}], "\[IndentingNewLine]", "]"}], ",", 
+                 "\[IndentingNewLine]", 
+                 RowBox[{"{", 
+                  RowBox[{"Red", ",", 
+                   RowBox[{"PointSize", "@", "0.02"}], ",", 
+                   RowBox[{"Point", "@", 
+                    RowBox[{"{", 
+                    RowBox[{"List", "@@", 
+                    RowBox[{"Normal", "@", 
+                    RowBox[{"dataset", "[", 
+                    RowBox[{"solutionIndex", ",", 
+                    RowBox[{"{", 
+                    RowBox[{"\"\<tf\>\"", ",", "\"\<fid\>\""}], "}"}]}], 
+                    "]"}]}]}], "}"}]}]}], "}"}]}], "\[IndentingNewLine]", 
+                "}"}], ",", "\[IndentingNewLine]", 
+               RowBox[{"Frame", "\[Rule]", 
+                RowBox[{"{", 
+                 RowBox[{
+                  RowBox[{"{", 
+                   RowBox[{"True", ",", "False"}], "}"}], ",", 
+                  RowBox[{"{", 
+                   RowBox[{"True", ",", "False"}], "}"}]}], "}"}]}], ",", 
+               RowBox[{"PlotRange", "\[Rule]", 
+                RowBox[{"{", 
+                 RowBox[{"All", ",", 
+                  RowBox[{"Normal", "@", 
+                   RowBox[{
+                    RowBox[{"dataset", "[", 
+                    RowBox[{"All", ",", "\"\<fid\>\""}], "]"}], "[", "MinMax",
+                     "]"}]}]}], "}"}]}], ",", "\[IndentingNewLine]", 
+               RowBox[{"AspectRatio", "\[Rule]", 
+                RowBox[{"1", "/", "GoldenRatio"}]}]}], "\[IndentingNewLine]", 
+              "]"}]}], ",", "\[IndentingNewLine]", 
+            RowBox[{"Plot", "[", 
+             RowBox[{
+              RowBox[{"protocolFromDatafile", "[", 
+               RowBox[{
+                RowBox[{"dataset", "@", "solutionIndex"}], ",", "filename"}], 
+               "]"}], ",", 
+              RowBox[{"{", 
+               RowBox[{"t", ",", "0", ",", 
+                RowBox[{"dataset", "[", 
+                 RowBox[{"solutionIndex", ",", "\"\<tf\>\""}], "]"}]}], "}"}],
+               ",", "\[IndentingNewLine]", 
+              RowBox[{"PlotRange", "\[Rule]", 
+               RowBox[{"{", 
+                RowBox[{
+                 RowBox[{"{", 
+                  RowBox[{"0", ",", "All"}], "}"}], ",", 
+                 RowBox[{"{", 
+                  RowBox[{
+                   RowBox[{"-", "10"}], ",", "10"}], "}"}]}], "}"}]}], ",", 
+              RowBox[{"PlotLabel", "\[Rule]", 
+               RowBox[{"\"\<total time:\>\"", "<>", 
+                RowBox[{"ToString", "@", 
+                 RowBox[{"dataset", "[", 
+                  RowBox[{"solutionIndex", ",", "\"\<tf\>\""}], "]"}]}]}]}]}],
+              "\[IndentingNewLine]", "]"}]}], "\[IndentingNewLine]", "}"}], 
+          ",", 
+          RowBox[{"ImageSize", "\[Rule]", "800"}], ",", 
+          RowBox[{"PlotLabel", "\[Rule]", "filename"}]}], "]"}]}]}], 
+      "\[IndentingNewLine]", "]"}], ",", "\[IndentingNewLine]", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"k", ",", "1"}], "}"}], ",", 
+       RowBox[{"Thread", "[", 
+        RowBox[{
+         RowBox[{"Range", "[", 
+          RowBox[{"Length", "@", "filenames"}], "]"}], "\[Rule]", 
+         RowBox[{"FileBaseName", "/@", "filenames"}]}], "]"}]}], "}"}], ",", 
+     "\[IndentingNewLine]", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"solutionIndex", ",", "1"}], "}"}], ",", "1", ",", 
+       RowBox[{"Length", "@", 
+        RowBox[{
+         RowBox[{"Import", "[", 
+          RowBox[{
+          "filenames", "\[LeftDoubleBracket]", "k", "\[RightDoubleBracket]"}],
+           "]"}], "\[LeftDoubleBracket]", 
+         RowBox[{
+          RowBox[{"2", ";;"}], ",", 
+          RowBox[{"2", ";;"}]}], "\[RightDoubleBracket]"}]}], ",", "1", ",", 
+       RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], "}"}], ",", 
+     RowBox[{"ControlPlacement", "\[Rule]", "Right"}]}], 
+    "\[IndentingNewLine]", "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"ClearAll", "@", "csvExplorerLight"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"csvExplorerLight", "[", 
+    RowBox[{"filenames_", ",", 
+     RowBox[{"yRange_:", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"-", "10"}], ",", "10"}], "}"}]}]}], "]"}], ":=", 
+   RowBox[{"Manipulate", "[", "\[IndentingNewLine]", 
+    RowBox[{
+     RowBox[{"With", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"filename", "=", 
+          RowBox[{"FileBaseName", "@", 
+           RowBox[{
+           "filenames", "\[LeftDoubleBracket]", "k", 
+            "\[RightDoubleBracket]"}]}]}], ",", 
+         RowBox[{"dataset", "=", 
+          RowBox[{"csvTableToDataset", "@", 
+           RowBox[{
+            RowBox[{"Import", "[", 
+             RowBox[{
+             "filenames", "\[LeftDoubleBracket]", "k", 
+              "\[RightDoubleBracket]"}], "]"}], "\[LeftDoubleBracket]", 
+            RowBox[{"All", ",", 
+             RowBox[{"2", ";;"}]}], "\[RightDoubleBracket]"}]}]}]}], "}"}], 
+       ",", "\[IndentingNewLine]", 
+       RowBox[{"Deploy", "@", 
+        RowBox[{"GraphicsRow", "[", 
+         RowBox[{
+          RowBox[{"{", "\[IndentingNewLine]", 
+           RowBox[{
+            RowBox[{"Deploy", "@", 
+             RowBox[{"Graphics", "[", 
+              RowBox[{
+               RowBox[{"{", "\[IndentingNewLine]", 
+                RowBox[{
+                 RowBox[{"PointSize", "@", "0.014"}], ",", 
+                 RowBox[{"RGBColor", "[", 
+                  RowBox[{
+                  "0.368417", ",", " ", "0.506779", ",", " ", "0.709798"}], 
+                  "]"}], ",", "\[IndentingNewLine]", 
+                 RowBox[{"Point", "[", 
+                  RowBox[{"List", "@@@", 
+                   RowBox[{"Normal", "@", 
+                    RowBox[{"dataset", "[", 
+                    RowBox[{"All", ",", 
+                    RowBox[{"{", 
+                    RowBox[{"\"\<tf\>\"", ",", "\"\<fid\>\""}], "}"}]}], 
+                    "]"}]}]}], "]"}], ",", "\[IndentingNewLine]", 
+                 RowBox[{"{", 
+                  RowBox[{"Red", ",", 
+                   RowBox[{"PointSize", "@", "0.02"}], ",", 
+                   RowBox[{"Point", "@", 
+                    RowBox[{"{", 
+                    RowBox[{"List", "@@", 
+                    RowBox[{"Normal", "@", 
+                    RowBox[{"dataset", "[", 
+                    RowBox[{"solutionIndex", ",", 
+                    RowBox[{"{", 
+                    RowBox[{"\"\<tf\>\"", ",", "\"\<fid\>\""}], "}"}]}], 
+                    "]"}]}]}], "}"}]}]}], "}"}]}], "\[IndentingNewLine]", 
+                "}"}], ",", "\[IndentingNewLine]", 
+               RowBox[{"Frame", "\[Rule]", 
+                RowBox[{"{", 
+                 RowBox[{
+                  RowBox[{"{", 
+                   RowBox[{"True", ",", "False"}], "}"}], ",", 
+                  RowBox[{"{", 
+                   RowBox[{"True", ",", "False"}], "}"}]}], "}"}]}], ",", 
+               RowBox[{"PlotRange", "\[Rule]", 
+                RowBox[{"{", 
+                 RowBox[{"All", ",", 
+                  RowBox[{"Normal", "@", 
+                   RowBox[{
+                    RowBox[{"dataset", "[", 
+                    RowBox[{"All", ",", "\"\<fid\>\""}], "]"}], "[", "MinMax",
+                     "]"}]}]}], "}"}]}], ",", "\[IndentingNewLine]", 
+               RowBox[{"AspectRatio", "\[Rule]", 
+                RowBox[{"1", "/", "GoldenRatio"}]}]}], "\[IndentingNewLine]", 
+              "]"}]}], ",", "\[IndentingNewLine]", 
+            RowBox[{"With", "[", 
+             RowBox[{
+              RowBox[{"{", 
+               RowBox[{"fun", "=", 
+                RowBox[{"protocolFromDatafile", "[", 
+                 RowBox[{
+                  RowBox[{"dataset", "@", "solutionIndex"}], ",", 
+                  "filename"}], "]"}]}], "}"}], ",", 
+              RowBox[{"Plot", "[", 
+               RowBox[{"fun", ",", 
+                RowBox[{"{", 
+                 RowBox[{"t", ",", "0", ",", 
+                  RowBox[{"dataset", "[", 
+                   RowBox[{"solutionIndex", ",", "\"\<tf\>\""}], "]"}]}], 
+                 "}"}], ",", "\[IndentingNewLine]", 
+                RowBox[{"PlotRange", "\[Rule]", 
+                 RowBox[{"{", 
+                  RowBox[{
+                   RowBox[{"{", 
+                    RowBox[{"0", ",", "All"}], "}"}], ",", "yRange"}], 
+                  "}"}]}], ",", 
+                RowBox[{"PlotLabel", "\[Rule]", 
+                 RowBox[{"\"\<total time:\>\"", "<>", 
+                  RowBox[{"ToString", "@", 
+                   RowBox[{"dataset", "[", 
+                    RowBox[{"solutionIndex", ",", "\"\<tf\>\""}], "]"}]}], 
+                  "<>", "\"\<, fid: \>\"", "<>", 
+                  RowBox[{"ToString", "@", 
+                   RowBox[{"dataset", "[", 
+                    RowBox[{"solutionIndex", ",", "\"\<fid\>\""}], 
+                    "]"}]}]}]}]}], "\[IndentingNewLine]", "]"}]}], "]"}]}], 
+           "\[IndentingNewLine]", "}"}], ",", 
+          RowBox[{"ImageSize", "\[Rule]", "800"}], ",", 
+          RowBox[{"PlotLabel", "\[Rule]", "filename"}]}], "]"}]}]}], 
+      "\[IndentingNewLine]", "]"}], ",", "\[IndentingNewLine]", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"k", ",", "1"}], "}"}], ",", 
+       RowBox[{"Thread", "[", 
+        RowBox[{
+         RowBox[{"Range", "[", 
+          RowBox[{"Length", "@", "filenames"}], "]"}], "\[Rule]", 
+         RowBox[{"FileBaseName", "/@", "filenames"}]}], "]"}]}], "}"}], ",", 
+     "\[IndentingNewLine]", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"solutionIndex", ",", "1"}], "}"}], ",", "1", ",", 
+       RowBox[{"Length", "@", 
+        RowBox[{
+         RowBox[{"Import", "[", 
+          RowBox[{
+          "filenames", "\[LeftDoubleBracket]", "k", "\[RightDoubleBracket]"}],
+           "]"}], "\[LeftDoubleBracket]", 
+         RowBox[{
+          RowBox[{"2", ";;"}], ",", 
+          RowBox[{"2", ";;"}]}], "\[RightDoubleBracket]"}]}], ",", "1", ",", 
+       RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], "}"}], ",", 
+     RowBox[{"ControlPlacement", "\[Rule]", "Right"}]}], 
+    "\[IndentingNewLine]", "]"}]}], ";"}]}], "Input",
+ InitializationCell->True,
+ CellChangeTimes->{{3.7608851291889343`*^9, 3.760885197458028*^9}, 
+   3.7608855697566843`*^9, {3.760887037709285*^9, 3.760887086840444*^9}, {
+   3.761053324743823*^9, 3.761053345950975*^9}, {3.761631357637163*^9, 
+   3.7616314505004997`*^9}, {3.761631555095027*^9, 3.761631577911807*^9}, {
+   3.7616316650462*^9, 3.761631679828582*^9}, {3.761631801290827*^9, 
+   3.76163185709356*^9}, {3.76163416713461*^9, 3.761634179120221*^9}, {
+   3.761634231048682*^9, 3.761634253640902*^9}, {3.761634283814404*^9, 
+   3.7616342867047157`*^9}, {3.761634321424807*^9, 3.761634324477088*^9}, {
+   3.761635189735881*^9, 3.761635229393869*^9}, {3.7616353242359657`*^9, 
+   3.7616353365405283`*^9}, {3.761635375270232*^9, 3.761635398772133*^9}},
+ CellLabel->
+  "In[120]:=",ExpressionUUID->"c838ba29-eb3b-4bf8-83d1-6645271cbc42"],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ "Visualize all results and corresponding protocols in ",
+ StyleBox["rabi_and _lmg _optimizations _ 20190228",
+  FontSlant->"Italic"]
+}], "Section",
+ CellChangeTimes->{{3.760423252289114*^9, 3.760423266958503*^9}, {
+   3.76042400679976*^9, 3.760424021582943*^9}, 
+   3.760775092620281*^9},ExpressionUUID->"507ef154-f147-4b75-ad15-\
+9d1f20d9e175"],
+
+Cell[BoxData[
+ RowBox[{"csvExplorer", "@", 
+  RowBox[{"FileNames", "[", 
+   RowBox[{"FileNameJoin", "@", 
+    RowBox[{"{", 
+     RowBox[{"path", ",", 
+      RowBox[{
+      "dataDirectories", "\[LeftDoubleBracket]", "1", 
+       "\[RightDoubleBracket]"}], ",", "\"\<rabi*.csv\>\""}], "}"}]}], 
+   "]"}]}]], "Input",
+ CellChangeTimes->{{3.7608854280198936`*^9, 3.76088542843526*^9}},
+ CellLabel->
+  "In[302]:=",ExpressionUUID->"7ceb5a44-8c26-4685-8cd3-54790cfb0c5e"],
+
+Cell[BoxData[
+ RowBox[{"csvExplorer", "@", 
+  RowBox[{"FileNames", "[", 
+   RowBox[{"FileNameJoin", "@", 
+    RowBox[{"{", 
+     RowBox[{"path", ",", 
+      RowBox[{
+      "dataDirectories", "\[LeftDoubleBracket]", "1", 
+       "\[RightDoubleBracket]"}], ",", "\"\<lmg*.csv\>\""}], "}"}]}], 
+   "]"}]}]], "Input",
+ CellChangeTimes->{{3.760885281623427*^9, 3.760885326235836*^9}, {
+  3.76088536898645*^9, 3.760885384812482*^9}},
+ CellLabel->
+  "In[279]:=",ExpressionUUID->"b7eed49f-f8cd-428e-998d-9f9e0dd790c0"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ "Visualize all results and corresponding protocols in ",
+ StyleBox["rabi_and _lmg _optimizations _different _constraints _ 20190228",
+  FontSlant->"Italic"]
+}], "Section",
+ CellChangeTimes->{{3.760423252289114*^9, 3.760423266958503*^9}, {
+  3.76042400679976*^9, 
+  3.76042404254605*^9}},ExpressionUUID->"201dcef9-0de6-48f6-b657-\
+1b1aeb798308"],
+
+Cell[BoxData[
+ RowBox[{"csvExplorer", "@", 
+  RowBox[{"FileNames", "[", 
+   RowBox[{"FileNameJoin", "@", 
+    RowBox[{"{", 
+     RowBox[{"path", ",", 
+      RowBox[{
+      "dataDirectories", "\[LeftDoubleBracket]", "2", 
+       "\[RightDoubleBracket]"}], ",", "\"\<rabi*.csv\>\""}], "}"}]}], 
+   "]"}]}]], "Input",
+ CellChangeTimes->{3.760891582201195*^9},
+ CellLabel->
+  "In[303]:=",ExpressionUUID->"1f926b09-084d-4b7a-a625-3d8824d51ecf"],
+
+Cell[BoxData[
+ RowBox[{"DynamicModule", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"datafiles", "=", 
+     RowBox[{"FileNames", "[", 
+      RowBox[{"FileNameJoin", "@", 
+       RowBox[{"{", 
+        RowBox[{"path", ",", 
+         RowBox[{
+         "dataDirectories", "\[LeftDoubleBracket]", "2", 
+          "\[RightDoubleBracket]"}], ",", "\"\<lmg*.csv\>\""}], "}"}]}], 
+      "]"}]}], "}"}], ",", "\[IndentingNewLine]", 
+   RowBox[{"Manipulate", "[", "\[IndentingNewLine]", 
+    RowBox[{
+     RowBox[{"With", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"filename", "=", 
+          RowBox[{"FileBaseName", "@", 
+           RowBox[{
+           "datafiles", "\[LeftDoubleBracket]", "k", 
+            "\[RightDoubleBracket]"}]}]}], ",", 
+         RowBox[{"data", "=", 
+          RowBox[{
+           RowBox[{"Import", "[", 
+            RowBox[{
+            "datafiles", "\[LeftDoubleBracket]", "k", 
+             "\[RightDoubleBracket]"}], "]"}], "\[LeftDoubleBracket]", 
+           RowBox[{
+            RowBox[{"2", ";;"}], ",", 
+            RowBox[{"2", ";;"}]}], "\[RightDoubleBracket]"}]}]}], "}"}], ",", 
+       "\[IndentingNewLine]", 
+       RowBox[{"GraphicsRow", "[", 
+        RowBox[{
+         RowBox[{"{", "\[IndentingNewLine]", 
+          RowBox[{
+           RowBox[{"ListPlot", "[", 
+            RowBox[{
+             RowBox[{"data", "\[LeftDoubleBracket]", 
+              RowBox[{"All", ",", "2"}], "\[RightDoubleBracket]"}], ",", 
+             RowBox[{"PlotRange", "\[Rule]", 
+              RowBox[{"{", 
+               RowBox[{"All", ",", 
+                RowBox[{"{", 
+                 RowBox[{"0.7", ",", "1"}], "}"}]}], "}"}]}], ",", 
+             RowBox[{"Joined", "\[Rule]", "True"}], ",", 
+             RowBox[{"PlotMarkers", "\[Rule]", "Automatic"}], ",", 
+             "\[IndentingNewLine]", 
+             RowBox[{"Epilog", "\[Rule]", 
+              RowBox[{"{", 
+               RowBox[{"Red", ",", 
+                RowBox[{"PointSize", "@", "0.02"}], ",", 
+                RowBox[{"Point", "@", 
+                 RowBox[{"{", 
+                  RowBox[{"{", 
+                   RowBox[{"solutionIndex", ",", 
+                    RowBox[{
+                    RowBox[{"data", "\[LeftDoubleBracket]", 
+                    RowBox[{"All", ",", "2"}], "\[RightDoubleBracket]"}], 
+                    "\[LeftDoubleBracket]", "solutionIndex", 
+                    "\[RightDoubleBracket]"}]}], "}"}], "}"}]}]}], "}"}]}]}], 
+            "\[IndentingNewLine]", "]"}], ",", "\[IndentingNewLine]", 
+           RowBox[{"Plot", "[", 
+            RowBox[{
+             RowBox[{"protocolFromDatafile", "[", 
+              RowBox[{
+               RowBox[{"data", "\[LeftDoubleBracket]", 
+                RowBox[{"solutionIndex", ",", "All"}], 
+                "\[RightDoubleBracket]"}], ",", "filename"}], "]"}], ",", 
+             RowBox[{"{", 
+              RowBox[{"t", ",", "0", ",", 
+               RowBox[{"data", "\[LeftDoubleBracket]", 
+                RowBox[{"solutionIndex", ",", "1"}], 
+                "\[RightDoubleBracket]"}]}], "}"}], ",", 
+             "\[IndentingNewLine]", 
+             RowBox[{"PlotRange", "\[Rule]", 
+              RowBox[{"{", 
+               RowBox[{
+                RowBox[{"{", 
+                 RowBox[{"0", ",", "4"}], "}"}], ",", 
+                RowBox[{"{", 
+                 RowBox[{
+                  RowBox[{"-", "7"}], ",", "7"}], "}"}]}], "}"}]}], ",", 
+             RowBox[{"PlotLabel", "\[Rule]", 
+              RowBox[{"\"\<total time:\>\"", "<>", 
+               RowBox[{"ToString", "@", 
+                RowBox[{"data", "\[LeftDoubleBracket]", 
+                 RowBox[{"solutionIndex", ",", "1"}], 
+                 "\[RightDoubleBracket]"}]}]}]}]}], "\[IndentingNewLine]", 
+            "]"}]}], "\[IndentingNewLine]", "}"}], ",", 
+         RowBox[{"ImageSize", "\[Rule]", "800"}], ",", 
+         RowBox[{"PlotLabel", "\[Rule]", "filename"}]}], "]"}]}], 
+      "\[IndentingNewLine]", "]"}], ",", "\[IndentingNewLine]", 
+     RowBox[{"(*", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{"k", ",", "1"}], "}"}], ",", "1", ",", 
+         RowBox[{"Length", "@", "datafiles"}], ",", "1", ",", 
+         RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], "}"}], ","}],
+       "*)"}], "\[IndentingNewLine]", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"k", ",", "1"}], "}"}], ",", 
+       RowBox[{"Thread", "[", 
+        RowBox[{
+         RowBox[{"Range", "[", 
+          RowBox[{"Length", "@", "datafiles"}], "]"}], "\[Rule]", 
+         RowBox[{"FileBaseName", "/@", "datafiles"}]}], "]"}]}], "}"}], ",", 
+     "\[IndentingNewLine]", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"solutionIndex", ",", "1"}], "}"}], ",", "1", ",", 
+       RowBox[{"Length", "@", 
+        RowBox[{
+         RowBox[{"Import", "[", 
+          RowBox[{
+          "datafiles", "\[LeftDoubleBracket]", "k", "\[RightDoubleBracket]"}],
+           "]"}], "\[LeftDoubleBracket]", 
+         RowBox[{
+          RowBox[{"2", ";;"}], ",", 
+          RowBox[{"2", ";;"}]}], "\[RightDoubleBracket]"}]}], ",", "1", ",", 
+       RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], "}"}], ",", 
+     RowBox[{"ControlPlacement", "\[Rule]", "Right"}]}], 
+    "\[IndentingNewLine]", "]"}]}], "]"}]], "Input",
+ CellChangeTimes->CompressedData["
+1:eJxTTMoPSmViYGAQB2IQza/52UWL+Y3jxnMXE0H0n/7d20B0k+0BMC2jefIe
+iP7X6fEIRPMfiRDSBtJfbdklQPS99dnGIHqnxiEbEB0TstIDRHcfueIDotkm
+aoaC6JKD/xNA9HLb8nQQ/U0sMQNE5/xdmweiC1pU80H0nWCWYhC9xjQSTE9r
+m/odRHuEzgDTizau1dMB0iF/xfRB9LOGn0Eg+vYvxUgQrXdzfjKIzlI9C6Zt
+e/iyQbSFx30w7RB/9ySIjlX/AKbfCH9QLWB546hQYa4Goi+ttG0E0eecT7WB
+6DcVRn0gevO0bxNBtFrx//0g+qzQ1wMgOjdMmqEIpO5+Pph+cPu6GIieZiMv
+DqKfOPI6g+hXEkruIBoAVxSfUA==
+  "],
+ CellLabel->"In[22]:=",ExpressionUUID->"9a7701bc-54c6-4440-b09a-9a0c0a45bafa"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ "Visualize all results and corresponding protocols in ",
+ StyleBox["lmg_different_spinnumbers_20190228",
+  FontSlant->"Italic"]
+}], "Section",
+ CellChangeTimes->{{3.760423252289114*^9, 3.760423266958503*^9}, {
+   3.76042400679976*^9, 3.76042404254605*^9}, {3.760424907422429*^9, 
+   3.7604249100653276`*^9}, 
+   3.760444902506822*^9},ExpressionUUID->"8063db4f-e132-4d47-ae5e-\
+35c505be035b"],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{
+  "spinnumbersPath", "=", "\"\<lmg_different_spinnumbers_20190228\>\""}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{"DynamicModule", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"datafiles", "=", 
+     RowBox[{"FileNames", "[", 
+      RowBox[{"FileNameJoin", "@", 
+       RowBox[{"{", 
+        RowBox[{"path", ",", "spinnumbersPath", ",", "\"\<lmg*.csv\>\""}], 
+        "}"}]}], "]"}]}], "}"}], ",", "\[IndentingNewLine]", 
+   RowBox[{"Manipulate", "[", "\[IndentingNewLine]", 
+    RowBox[{
+     RowBox[{"With", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"filename", "=", 
+          RowBox[{"FileBaseName", "@", 
+           RowBox[{
+           "datafiles", "\[LeftDoubleBracket]", "k", 
+            "\[RightDoubleBracket]"}]}]}], ",", 
+         RowBox[{"data", "=", 
+          RowBox[{
+           RowBox[{"Import", "[", 
+            RowBox[{
+            "datafiles", "\[LeftDoubleBracket]", "k", 
+             "\[RightDoubleBracket]"}], "]"}], "\[LeftDoubleBracket]", 
+           RowBox[{
+            RowBox[{"2", ";;"}], ",", 
+            RowBox[{"2", ";;"}]}], "\[RightDoubleBracket]"}]}]}], "}"}], ",", 
+       "\[IndentingNewLine]", 
+       RowBox[{"GraphicsRow", "[", 
+        RowBox[{
+         RowBox[{"{", "\[IndentingNewLine]", 
+          RowBox[{
+           RowBox[{"ListPlot", "[", 
+            RowBox[{
+             RowBox[{"data", "\[LeftDoubleBracket]", 
+              RowBox[{"All", ",", "2"}], "\[RightDoubleBracket]"}], ",", 
+             RowBox[{"PlotRange", "\[Rule]", 
+              RowBox[{"{", 
+               RowBox[{"All", ",", 
+                RowBox[{"{", 
+                 RowBox[{"0.7", ",", "1"}], "}"}]}], "}"}]}], ",", 
+             RowBox[{"Joined", "\[Rule]", "True"}], ",", 
+             RowBox[{"PlotMarkers", "\[Rule]", "Automatic"}], ",", 
+             "\[IndentingNewLine]", 
+             RowBox[{"Epilog", "\[Rule]", 
+              RowBox[{"{", 
+               RowBox[{"Red", ",", 
+                RowBox[{"PointSize", "@", "0.02"}], ",", 
+                RowBox[{"Point", "@", 
+                 RowBox[{"{", 
+                  RowBox[{"{", 
+                   RowBox[{"solutionIndex", ",", 
+                    RowBox[{
+                    RowBox[{"data", "\[LeftDoubleBracket]", 
+                    RowBox[{"All", ",", "2"}], "\[RightDoubleBracket]"}], 
+                    "\[LeftDoubleBracket]", "solutionIndex", 
+                    "\[RightDoubleBracket]"}]}], "}"}], "}"}]}]}], "}"}]}]}], 
+            "\[IndentingNewLine]", "]"}], ",", "\[IndentingNewLine]", 
+           RowBox[{"Plot", "[", 
+            RowBox[{
+             RowBox[{"protocolFromDatafile", "[", 
+              RowBox[{
+               RowBox[{"data", "\[LeftDoubleBracket]", 
+                RowBox[{"solutionIndex", ",", "All"}], 
+                "\[RightDoubleBracket]"}], ",", "filename"}], "]"}], ",", 
+             RowBox[{"{", 
+              RowBox[{"t", ",", "0", ",", 
+               RowBox[{"data", "\[LeftDoubleBracket]", 
+                RowBox[{"solutionIndex", ",", "1"}], 
+                "\[RightDoubleBracket]"}]}], "}"}], ",", 
+             "\[IndentingNewLine]", 
+             RowBox[{"PlotRange", "\[Rule]", 
+              RowBox[{"{", 
+               RowBox[{
+                RowBox[{"{", 
+                 RowBox[{"0", ",", "4"}], "}"}], ",", "All"}], "}"}]}], ",", 
+             RowBox[{"PlotLabel", "\[Rule]", 
+              RowBox[{"\"\<total time:\>\"", "<>", 
+               RowBox[{"ToString", "@", 
+                RowBox[{"data", "\[LeftDoubleBracket]", 
+                 RowBox[{"solutionIndex", ",", "1"}], 
+                 "\[RightDoubleBracket]"}]}]}]}]}], "\[IndentingNewLine]", 
+            "]"}]}], "\[IndentingNewLine]", "}"}], ",", 
+         RowBox[{"ImageSize", "\[Rule]", "800"}], ",", 
+         RowBox[{"PlotLabel", "\[Rule]", "filename"}]}], "]"}]}], 
+      "\[IndentingNewLine]", "]"}], ",", "\[IndentingNewLine]", 
+     RowBox[{"(*", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{"k", ",", "1"}], "}"}], ",", "1", ",", 
+         RowBox[{"Length", "@", "datafiles"}], ",", "1", ",", 
+         RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], "}"}], ","}],
+       "*)"}], "\[IndentingNewLine]", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"k", ",", "1"}], "}"}], ",", 
+       RowBox[{"Thread", "[", 
+        RowBox[{
+         RowBox[{"Range", "[", 
+          RowBox[{"Length", "@", "datafiles"}], "]"}], "\[Rule]", 
+         RowBox[{"FileBaseName", "/@", "datafiles"}]}], "]"}]}], "}"}], ",", 
+     "\[IndentingNewLine]", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"solutionIndex", ",", "1"}], "}"}], ",", "1", ",", 
+       RowBox[{"Length", "@", 
+        RowBox[{
+         RowBox[{"Import", "[", 
+          RowBox[{
+          "datafiles", "\[LeftDoubleBracket]", "k", "\[RightDoubleBracket]"}],
+           "]"}], "\[LeftDoubleBracket]", 
+         RowBox[{
+          RowBox[{"2", ";;"}], ",", 
+          RowBox[{"2", ";;"}]}], "\[RightDoubleBracket]"}]}], ",", "1", ",", 
+       RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], "}"}], ",", 
+     RowBox[{"ControlPlacement", "\[Rule]", "Right"}]}], 
+    "\[IndentingNewLine]", "]"}]}], "]"}]}], "Input",
+ CellChangeTimes->CompressedData["
+1:eJxTTMoPSmViYGAQA2IQza/52UWL+Y3jxnMXE0H0n/7d20B0k+0BMC2jefIe
+iP7X6fEIRPMfiRDSBtJfbdklQPS99dnGIHqnxiEbEB0TstIDRHcfueIDotkm
+aoaC6JKD/xNA9HLb8nQQ/U0sMQNE5/xdmweiC1pU80H0nWCWYhC9xjQSTE9r
+m/odRHuEzgDTizau1dMB0iF/xfRB9LOGn0Eg+vYvxUgQrXdzfjKIzlI9C6Zt
+e/iyQbSFx30w7RB/9ySIjlX/AKbfCH9QLWB546hQYa4Goi+ttG0E0eecT7WB
+6DcVRn0gevO0bxNBtFrx//0g+qzQ1wMgmqnG+heIVv5m+xtEX9mavbcKSOvt
+yzsMogGpPps/
+  "],
+ CellLabel->"In[58]:=",ExpressionUUID->"8f4cb68f-0813-4613-8a59-e125ef4c7b7c"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ "Visualize all results and corresponding protocols in ",
+ StyleBox["rabi_and _lmg _optimizations _crossingcriticalphase _ 20190305",
+  FontSlant->"Italic"]
+}], "Section",
+ CellChangeTimes->{{3.760423252289114*^9, 3.760423266958503*^9}, {
+   3.76042400679976*^9, 3.76042404254605*^9}, {3.760424907422429*^9, 
+   3.7604249100653276`*^9}, 3.760444902506822*^9, 
+   3.760865336312718*^9},ExpressionUUID->"b11f5fd8-cedc-4a99-aac4-\
+aeaaf9daffda"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"data", "=", 
+  RowBox[{
+   RowBox[{"Import", "[", 
+    RowBox[{"First", "@", 
+     RowBox[{"FileNames", "[", 
+      RowBox[{"FileNameJoin", "@", 
+       RowBox[{"{", 
+        RowBox[{
+        "path", ",", 
+         "\"\<rabi_and_lmg_optimizations_crossingcriticalphase_20190305\>\"", 
+         ",", "\"\<lmg*tf20.csv\>\""}], "}"}]}], "]"}]}], "]"}], 
+   "\[LeftDoubleBracket]", 
+   RowBox[{
+    RowBox[{";;", "3"}], ",", 
+    RowBox[{"2", ";;"}]}], "\[RightDoubleBracket]"}]}]], "Input",
+ CellChangeTimes->{{3.7610577156811247`*^9, 3.7610577176835423`*^9}},
+ CellLabel->
+  "In[130]:=",ExpressionUUID->"ef5a08ee-1aa7-4bc5-8b1b-0719bef64ff9"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"\<\"tf\"\>", ",", "\<\"fid\"\>", ",", "\<\"y0\"\>", 
+     ",", "\<\"t1\"\>", ",", "\<\"y1\"\>"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+    "0.5`", ",", "0.00005152641771048024`", ",", "1.9999999996088456`", ",", 
+     "0.3504737728760296`", ",", 
+     RowBox[{"-", "1.9999776308570496`"}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+    "0.5488721804511278`", ",", "0.00007236521877017731`", ",", 
+     "1.9999999999834803`", ",", "0.3886810896607154`", ",", 
+     RowBox[{"-", "1.9998397627593913`"}]}], "}"}]}], "}"}]], "Output",
+ CellChangeTimes->{3.761057718081707*^9},
+ CellLabel->
+  "Out[130]=",ExpressionUUID->"a54dadff-0c70-4871-ba84-a6daa30aec95"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"With", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"data", "=", 
+     RowBox[{
+      RowBox[{"Import", "[", 
+       RowBox[{"First", "@", 
+        RowBox[{"FileNames", "[", 
+         RowBox[{"FileNameJoin", "@", 
+          RowBox[{"{", 
+           RowBox[{
+           "path", ",", 
+            "\"\<rabi_and_lmg_optimizations_crossingcriticalphase_20190305\>\"\
+", ",", "\"\<lmg*tf20.csv\>\""}], "}"}]}], "]"}]}], "]"}], 
+      "\[LeftDoubleBracket]", 
+      RowBox[{
+       RowBox[{"2", ";;"}], ",", 
+       RowBox[{"2", ";;"}]}], "\[RightDoubleBracket]"}]}], "}"}], ",", 
+   "\[IndentingNewLine]", 
+   RowBox[{"data", "\[LeftDoubleBracket]", "165", "\[RightDoubleBracket]"}]}],
+   "\[IndentingNewLine]", "]"}]], "Input",
+ CellChangeTimes->{{3.7610576483477592`*^9, 3.76105770412694*^9}, {
+  3.761057950142807*^9, 3.761057950872879*^9}},
+ CellLabel->
+  "In[131]:=",ExpressionUUID->"8f010bc1-1435-4888-8f3e-c7781d1bc7a1"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+  "8.515037593984962`", ",", "0.9802002599750584`", ",", 
+   "1.1028390428133723`", ",", "5.188505633129006`", ",", 
+   "1.4782503700513727`"}], "}"}]], "Output",
+ CellChangeTimes->{{3.761057649504266*^9, 3.761057704966091*^9}, 
+   3.761057952550632*^9},
+ CellLabel->
+  "Out[131]=",ExpressionUUID->"47ead36f-9be1-43bb-b986-757ac0290f43"]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{"csvExplorer", "@", 
+  RowBox[{"FileNames", "[", 
+   RowBox[{"FileNameJoin", "@", 
+    RowBox[{"{", 
+     RowBox[{
+     "path", ",", 
+      "\"\<rabi_and_lmg_optimizations_crossingcriticalphase_20190305\>\"", 
+      ",", "\"\<lmg*tf20.csv\>\""}], "}"}]}], "]"}]}]], "Input",
+ CellChangeTimes->{
+  3.7608869265198317`*^9, {3.76105326922121*^9, 3.761053273146264*^9}},
+ CellLabel->
+  "In[124]:=",ExpressionUUID->"d5cc1a23-f0b1-4efc-8a85-37950fb7ccce"],
+
+Cell[BoxData[
+ RowBox[{"csvExplorer", "@", 
+  RowBox[{"FileNames", "[", 
+   RowBox[{"FileNameJoin", "@", 
+    RowBox[{"{", 
+     RowBox[{
+     "path", ",", 
+      "\"\<rabi_and_lmg_optimizations_crossingcriticalphase_20190305\>\"", 
+      ",", "\"\<lmg*tf10.csv\>\""}], "}"}]}], "]"}]}]], "Input",
+ CellChangeTimes->{
+  3.7608869265198317`*^9, {3.76105326922121*^9, 3.761053278940158*^9}},
+ CellLabel->
+  "In[125]:=",ExpressionUUID->"fb3549c3-9e3c-430c-a71a-fe00899e1b75"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Triple bang results", "Section",
+ CellChangeTimes->{{3.7608854915959463`*^9, 
+  3.760885496714554*^9}},ExpressionUUID->"ff60e5a4-0b43-44e3-ad40-\
+9eebbf58982f"],
+
+Cell[BoxData[
+ RowBox[{"csvExplorer", "@", 
+  RowBox[{"FileNames", "[", 
+   RowBox[{"FileNameJoin", "@", 
+    RowBox[{"{", 
+     RowBox[{
+     "path", ",", "\"\<rabi_and_lmg_optimizations_triplebamg_20190305\>\"", 
+      ",", "\"\<*.csv\>\""}], "}"}]}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.760885199697974*^9, 3.760885206497203*^9}, 
+   3.760885505209559*^9},
+ CellLabel->
+  "In[289]:=",ExpressionUUID->"a626c0f0-95c7-462c-b6da-14d78ab6534b"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["LZ optimizations", "Section",
+ CellChangeTimes->{{3.761630702542325*^9, 
+  3.761630705106765*^9}},ExpressionUUID->"03d71cc6-83dd-48d5-9f09-\
+a7d842a6b731"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"FileNames", "[", 
+  RowBox[{"FileNameJoin", "@", 
+   RowBox[{"{", 
+    RowBox[{
+    "path", ",", "\"\<lz_optimizations_2019*\>\"", ",", "\"\<lz*.csv\>\""}], 
+    "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.761630727553597*^9, 3.761630763339489*^9}},
+ CellLabel->"In[20]:=",ExpressionUUID->"8708ad9e-935c-4e53-9a2f-67466a57c50a"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"\<\"/QubServices/Aigis/40168729/Documents/research/Ricardo/python/\
+results/lz_optimizations_20190314/lz_crab2freq_neldermead_bound10.csv\"\>", 
+   ",", "\<\"/QubServices/Aigis/40168729/Documents/research/Ricardo/python/\
+results/lz_optimizations_20190314/lz_crab4freq_neldermead_bound10.csv\"\>", 
+   ",", "\<\"/QubServices/Aigis/40168729/Documents/research/Ricardo/python/\
+results/lz_optimizations_20190314/lz_crab8freq_neldermead_bound10.csv\"\>", 
+   ",", "\<\"/QubServices/Aigis/40168729/Documents/research/Ricardo/python/\
+results/lz_optimizations_20190314/lz_doublebang_powell_bound10.csv\"\>", 
+   ",", "\<\"/QubServices/Aigis/40168729/Documents/research/Ricardo/python/\
+results/lz_optimizations_20190314/lz_doublebang_powell_bound20.csv\"\>", 
+   ",", "\<\"/QubServices/Aigis/40168729/Documents/research/Ricardo/python/\
+results/lz_optimizations_20190314/lz_doublebang_powell_bound30.csv\"\>"}], 
+  "}"}]], "Output",
+ CellChangeTimes->{{3.76163071848654*^9, 3.76163076393655*^9}},
+ CellLabel->"Out[20]=",ExpressionUUID->"9a5c51ad-8b26-4933-a62d-e6a17d5cf6c4"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"csvExplorerLight", "[", 
+  RowBox[{
+   RowBox[{"FileNames", "[", 
+    RowBox[{"FileNameJoin", "@", 
+     RowBox[{"{", 
+      RowBox[{
+      "path", ",", "\"\<lz_optimizations_2019*\>\"", ",", "\"\<lz*.csv\>\""}],
+       "}"}]}], "]"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"-", "20"}], ",", "20"}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{
+  3.7616307674127073`*^9, {3.761634266361807*^9, 3.761634266845296*^9}, {
+   3.761635404112438*^9, 3.761635459014452*^9}},
+ CellLabel->
+  "In[384]:=",ExpressionUUID->"ce8581fd-2ff8-499b-b99a-bb7be52e9e58"],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   DynamicModuleBox[{$CellContext`k$$ = 5, $CellContext`solutionIndex$$ = 1, 
+    Typeset`show$$ = True, Typeset`bookmarkList$$ = {}, 
+    Typeset`bookmarkMode$$ = "Menu", Typeset`animator$$, Typeset`animvar$$ = 
+    1, Typeset`name$$ = "\"untitled\"", Typeset`specs$$ = {{{
+       Hold[$CellContext`k$$], 1}, {
+      1 -> "lz_crab2freq_neldermead_bound10", 2 -> 
+       "lz_crab4freq_neldermead_bound10", 3 -> 
+       "lz_crab8freq_neldermead_bound10", 4 -> "lz_doublebang_powell_bound10",
+        5 -> "lz_doublebang_powell_bound20", 6 -> 
+       "lz_doublebang_powell_bound30"}}, {{
+       Hold[$CellContext`solutionIndex$$], 1}, 1, 
+      Dynamic[
+       Length[
+        Part[
+         Import[
+          
+          Part[{"/QubServices/Aigis/40168729/Documents/research/Ricardo/\
+python/results/lz_optimizations_20190314/lz_crab2freq_neldermead_bound10.csv",
+             "/QubServices/Aigis/40168729/Documents/research/Ricardo/python/\
+results/lz_optimizations_20190314/lz_crab4freq_neldermead_bound10.csv", 
+            "/QubServices/Aigis/40168729/Documents/research/Ricardo/python/\
+results/lz_optimizations_20190314/lz_crab8freq_neldermead_bound10.csv", 
+            "/QubServices/Aigis/40168729/Documents/research/Ricardo/python/\
+results/lz_optimizations_20190314/lz_doublebang_powell_bound10.csv", 
+            "/QubServices/Aigis/40168729/Documents/research/Ricardo/python/\
+results/lz_optimizations_20190314/lz_doublebang_powell_bound20.csv", 
+            "/QubServices/Aigis/40168729/Documents/research/Ricardo/python/\
+results/lz_optimizations_20190314/lz_doublebang_powell_bound30.csv"}, \
+$CellContext`k$$]], 
+         Span[2, All], 
+         Span[2, All]]]], 1}}, Typeset`size$$ = {800., {176., 180.}}, 
+    Typeset`update$$ = 0, Typeset`initDone$$, Typeset`skipInitDone$$ = 
+    True, $CellContext`k$579634$$ = 
+    False, $CellContext`solutionIndex$579635$$ = 0}, 
+    DynamicBox[Manipulate`ManipulateBoxes[
+     1, StandardForm, 
+      "Variables" :> {$CellContext`k$$ = 1, $CellContext`solutionIndex$$ = 1},
+       "ControllerVariables" :> {
+        Hold[$CellContext`k$$, $CellContext`k$579634$$, False], 
+        Hold[$CellContext`solutionIndex$$, \
+$CellContext`solutionIndex$579635$$, 0]}, 
+      "OtherVariables" :> {
+       Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
+        Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
+        Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
+         Typeset`skipInitDone$$}, "Body" :> 
+      With[{$CellContext`filename$ = FileBaseName[
+           
+           Part[{"/QubServices/Aigis/40168729/Documents/research/Ricardo/\
+python/results/lz_optimizations_20190314/lz_crab2freq_neldermead_bound10.csv",
+              "/QubServices/Aigis/40168729/Documents/research/Ricardo/python/\
+results/lz_optimizations_20190314/lz_crab4freq_neldermead_bound10.csv", 
+             "/QubServices/Aigis/40168729/Documents/research/Ricardo/python/\
+results/lz_optimizations_20190314/lz_crab8freq_neldermead_bound10.csv", 
+             "/QubServices/Aigis/40168729/Documents/research/Ricardo/python/\
+results/lz_optimizations_20190314/lz_doublebang_powell_bound10.csv", 
+             "/QubServices/Aigis/40168729/Documents/research/Ricardo/python/\
+results/lz_optimizations_20190314/lz_doublebang_powell_bound20.csv", 
+             "/QubServices/Aigis/40168729/Documents/research/Ricardo/python/\
+results/lz_optimizations_20190314/lz_doublebang_powell_bound30.csv"}, \
+$CellContext`k$$]], $CellContext`dataset$ = $CellContext`csvTableToDataset[
+           Part[
+            Import[
+             
+             Part[{"/QubServices/Aigis/40168729/Documents/research/Ricardo/\
+python/results/lz_optimizations_20190314/lz_crab2freq_neldermead_bound10.csv",
+                "/QubServices/Aigis/40168729/Documents/research/Ricardo/\
+python/results/lz_optimizations_20190314/lz_crab4freq_neldermead_bound10.csv",
+                "/QubServices/Aigis/40168729/Documents/research/Ricardo/\
+python/results/lz_optimizations_20190314/lz_crab8freq_neldermead_bound10.csv",
+                "/QubServices/Aigis/40168729/Documents/research/Ricardo/\
+python/results/lz_optimizations_20190314/lz_doublebang_powell_bound10.csv", 
+               "/QubServices/Aigis/40168729/Documents/research/Ricardo/python/\
+results/lz_optimizations_20190314/lz_doublebang_powell_bound20.csv", 
+               "/QubServices/Aigis/40168729/Documents/research/Ricardo/python/\
+results/lz_optimizations_20190314/lz_doublebang_powell_bound30.csv"}, \
+$CellContext`k$$]], All, 
+            Span[2, All]]]}, 
+        Deploy[
+         GraphicsRow[{
+           Deploy[
+            Graphics[{
+              PointSize[0.014], 
+              RGBColor[0.368417, 0.506779, 0.709798], 
+              Point[
+               Apply[List, 
+                Normal[
+                 $CellContext`dataset$[All, {"tf", "fid"}]], {1}]], {Red, 
+               PointSize[0.02], 
+               Point[{
+                 Apply[List, 
+                  Normal[
+                   $CellContext`dataset$[$CellContext`solutionIndex$$, {
+                    "tf", "fid"}]]]}]}}, 
+             Frame -> {{True, False}, {True, False}}, PlotRange -> {All, 
+               Normal[
+                $CellContext`dataset$[All, "fid"][MinMax]]}, AspectRatio -> 
+             1/GoldenRatio]], 
+           With[{$CellContext`fun$ = $CellContext`protocolFromDatafile[
+               $CellContext`dataset$[$CellContext`solutionIndex$$], \
+$CellContext`filename$]}, 
+            Plot[$CellContext`fun$, {$CellContext`t, 0, 
+              $CellContext`dataset$[$CellContext`solutionIndex$$, "tf"]}, 
+             PlotRange -> {{0, All}, {-20, 20}}, PlotLabel -> 
+             StringJoin["total time:", 
+               ToString[
+                $CellContext`dataset$[$CellContext`solutionIndex$$, "tf"]], 
+               ", fid: ", 
+               ToString[
+                $CellContext`dataset$[$CellContext`solutionIndex$$, 
+                 "fid"]]]]]}, ImageSize -> 800, 
+          PlotLabel -> $CellContext`filename$]]], 
+      "Specifications" :> {{{$CellContext`k$$, 1}, {
+         1 -> "lz_crab2freq_neldermead_bound10", 2 -> 
+          "lz_crab4freq_neldermead_bound10", 3 -> 
+          "lz_crab8freq_neldermead_bound10", 4 -> 
+          "lz_doublebang_powell_bound10", 5 -> "lz_doublebang_powell_bound20",
+           6 -> "lz_doublebang_powell_bound30"}}, \
+{{$CellContext`solutionIndex$$, 1}, 1, 
+         Dynamic[
+          Length[
+           Part[
+            Import[
+             
+             Part[{"/QubServices/Aigis/40168729/Documents/research/Ricardo/\
+python/results/lz_optimizations_20190314/lz_crab2freq_neldermead_bound10.csv",
+                "/QubServices/Aigis/40168729/Documents/research/Ricardo/\
+python/results/lz_optimizations_20190314/lz_crab4freq_neldermead_bound10.csv",
+                "/QubServices/Aigis/40168729/Documents/research/Ricardo/\
+python/results/lz_optimizations_20190314/lz_crab8freq_neldermead_bound10.csv",
+                "/QubServices/Aigis/40168729/Documents/research/Ricardo/\
+python/results/lz_optimizations_20190314/lz_doublebang_powell_bound10.csv", 
+               "/QubServices/Aigis/40168729/Documents/research/Ricardo/python/\
+results/lz_optimizations_20190314/lz_doublebang_powell_bound20.csv", 
+               "/QubServices/Aigis/40168729/Documents/research/Ricardo/python/\
+results/lz_optimizations_20190314/lz_doublebang_powell_bound30.csv"}, \
+$CellContext`k$$]], 
+            Span[2, All], 
+            Span[2, All]]]], 1, Appearance -> "Labeled"}}, 
+      "Options" :> {ControlPlacement -> Right}, "DefaultOptions" :> {}],
+     ImageSizeCache->{1162., {205., 211.}},
+     SingleEvaluation->True],
+    Deinitialization:>None,
+    DynamicModuleValues:>{},
+    SynchronousInitialization->True,
+    UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
+    UnsavedVariables:>{Typeset`initDone$$},
+    UntrackedVariables:>{Typeset`size$$}], "Manipulate",
+   Deployed->True,
+   StripOnInput->False],
+  Manipulate`InterpretManipulate[1]]], "Output",
+ CellChangeTimes->{{3.761634267343424*^9, 3.761634290611844*^9}, 
+   3.761634341339321*^9, {3.7616350771976337`*^9, 3.7616351067857237`*^9}, 
+   3.76163524376175*^9, 3.761635344037657*^9, {3.7616354415655937`*^9, 
+   3.7616354593894377`*^9}},
+ CellLabel->
+  "Out[384]=",ExpressionUUID->"07c72bc6-6ffb-466a-85a5-fbd9997f0ce5"]
+}, Open  ]]
+}, Closed]]
+},
+WindowSize->{1059, 1728},
+WindowMargins->{{Automatic, 1070}, {Automatic, 30}},
+ShowGroupOpener->True,
+FrontEndVersion->"11.3 for Linux x86 (64-bit) (March 6, 2018)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[400, 13, 1133, 27, 125, "Input",ExpressionUUID->"d13b4d64-3822-47af-9b7c-8d025ca4f0e2",
+ InitializationCell->True],
+Cell[1536, 42, 14413, 346, 1600, "Input",ExpressionUUID->"0eb8df85-37dc-4471-a4ed-d7dda943c3aa",
+ InitializationCell->True],
+Cell[15952, 390, 14024, 321, 1175, "Input",ExpressionUUID->"c838ba29-eb3b-4bf8-83d1-6645271cbc42",
+ InitializationCell->True],
+Cell[CellGroupData[{
+Cell[30001, 715, 362, 8, 70, "Section",ExpressionUUID->"507ef154-f147-4b75-ad15-9d1f20d9e175"],
+Cell[30366, 725, 464, 12, 33, "Input",ExpressionUUID->"7ceb5a44-8c26-4685-8cd3-54790cfb0c5e"],
+Cell[30833, 739, 510, 13, 33, "Input",ExpressionUUID->"b7eed49f-f8cd-428e-998d-9f9e0dd790c0"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[31380, 757, 361, 8, 111, "Section",ExpressionUUID->"201dcef9-0de6-48f6-b657-1b1aeb798308"],
+Cell[31744, 767, 439, 12, 33, "Input",ExpressionUUID->"1f926b09-084d-4b7a-a625-3d8824d51ecf"],
+Cell[32186, 781, 5887, 139, 459, "Input",ExpressionUUID->"9a7701bc-54c6-4440-b09a-9a0c0a45bafa"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[38110, 925, 408, 9, 119, "Section",ExpressionUUID->"8063db4f-e132-4d47-ae5e-35c505be035b"],
+Cell[38521, 936, 5802, 137, 367, "Input",ExpressionUUID->"8f4cb68f-0813-4613-8a59-e125ef4c7b7c"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[44360, 1078, 458, 9, 97, "Section",ExpressionUUID->"b11f5fd8-cedc-4a99-aac4-aeaaf9daffda"],
+Cell[CellGroupData[{
+Cell[44843, 1091, 664, 18, 134, "Input",ExpressionUUID->"ef5a08ee-1aa7-4bc5-8b1b-0719bef64ff9"],
+Cell[45510, 1111, 734, 18, 63, "Output",ExpressionUUID->"a54dadff-0c70-4871-ba84-a6daa30aec95"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[46281, 1134, 947, 25, 234, "Input",ExpressionUUID->"8f010bc1-1435-4888-8f3e-c7781d1bc7a1"],
+Cell[47231, 1161, 377, 9, 37, "Output",ExpressionUUID->"47ead36f-9be1-43bb-b986-757ac0290f43"]
+}, Open  ]],
+Cell[47623, 1173, 472, 12, 84, "Input",ExpressionUUID->"d5cc1a23-f0b1-4efc-8a85-37950fb7ccce"],
+Cell[48098, 1187, 472, 12, 84, "Input",ExpressionUUID->"fb3549c3-9e3c-430c-a71a-fe00899e1b75"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[48607, 1204, 166, 3, 70, "Section",ExpressionUUID->"ff60e5a4-0b43-44e3-ad40-9eebbf58982f"],
+Cell[48776, 1209, 447, 11, 59, "Input",ExpressionUUID->"a626c0f0-95c7-462c-b6da-14d78ab6534b"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[49260, 1225, 161, 3, 78, "Section",ExpressionUUID->"03d71cc6-83dd-48d5-9f09-a7d842a6b731"],
+Cell[CellGroupData[{
+Cell[49446, 1232, 356, 8, 33, "Input",ExpressionUUID->"8708ad9e-935c-4e53-9a2f-67466a57c50a"],
+Cell[49805, 1242, 1110, 16, 313, "Output",ExpressionUUID->"9a5c51ad-8b26-4933-a62d-e6a17d5cf6c4"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[50952, 1263, 586, 16, 59, "Input",ExpressionUUID->"ce8581fd-2ff8-499b-b99a-bb7be52e9e58"],
+Cell[51541, 1281, 8399, 159, 435, "Output",ExpressionUUID->"07c72bc6-6ffb-466a-85a5-fbd9997f0ce5"]
+}, Open  ]]
+}, Closed]]
+}
+]
+*)
+

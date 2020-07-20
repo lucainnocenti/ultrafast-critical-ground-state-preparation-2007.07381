@@ -1,0 +1,1 @@
+Here we run again bangramp and doublebang optimizations for lmg and rabi, but changing the parameter constraints to see what happens when more energy is allowed into the system.

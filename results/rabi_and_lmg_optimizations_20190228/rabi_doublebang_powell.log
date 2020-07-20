@@ -1,0 +1,905 @@
+2019-02-28 15:45:10,499 [MainThread  ][INFO ]  Output file name will be "rabi_doublebang_powell.csv"
+2019-02-28 15:45:11,133 [MainThread  ][INFO ]  Using doublebang protocol ansatz.
+2019-02-28 15:45:11,134 [MainThread  ][DEBUG]  Initializing ProtocolAnsatz instance "doublebang"
+2019-02-28 15:45:11,134 [MainThread  ][INFO ]  Using parameters constraints: [[-10.0, 10.0], [None, None], [-10.0, 10.0]]
+2019-02-28 15:45:11,134 [MainThread  ][INFO ]  Using total height constraint: None
+2019-02-28 15:45:11,134 [MainThread  ][INFO ]  ---- Starting iteration 1/100
+2019-02-28 15:45:11,134 [MainThread  ][DEBUG]  Setting hyperparameter tf=0.1
+2019-02-28 15:45:11,134 [MainThread  ][INFO ]  Starting optimization for tf=0.1
+2019-02-28 15:45:11,134 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 15:45:11,134 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 15:45:11,135 [MainThread  ][INFO ]  Initial parameter values: [ 8.07336452  0.05        8.02978939]
+2019-02-28 15:46:32,653 [MainThread  ][INFO ]  Final fidelity: 0.7631631889907305
+2019-02-28 15:46:32,656 [MainThread  ][INFO ]  Final parameters: [ 2.14184577  0.02177892  3.40207221]
+2019-02-28 15:46:32,656 [MainThread  ][INFO ]  Fidelity: 0.7631631889907305
+2019-02-28 15:46:32,656 [MainThread  ][INFO ]  ---- Starting iteration 2/100
+2019-02-28 15:46:32,657 [MainThread  ][DEBUG]  Setting hyperparameter tf=0.1393939393939394
+2019-02-28 15:46:32,657 [MainThread  ][INFO ]  Starting optimization for tf=0.1393939393939394
+2019-02-28 15:46:32,657 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 15:46:32,657 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 15:46:32,657 [MainThread  ][INFO ]  Initial parameter values: [ 6.70560745  0.06969697  8.89823303]
+2019-02-28 15:48:45,740 [MainThread  ][INFO ]  Final fidelity: 0.7653399647035093
+2019-02-28 15:48:45,742 [MainThread  ][INFO ]  Final parameters: [ 6.78070177  0.0668327  -0.52092654]
+2019-02-28 15:48:45,742 [MainThread  ][INFO ]  Fidelity: 0.7653399647035093
+2019-02-28 15:48:45,742 [MainThread  ][INFO ]  ---- Starting iteration 3/100
+2019-02-28 15:48:45,743 [MainThread  ][DEBUG]  Setting hyperparameter tf=0.17878787878787877
+2019-02-28 15:48:45,743 [MainThread  ][INFO ]  Starting optimization for tf=0.17878787878787877
+2019-02-28 15:48:45,743 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 15:48:45,743 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 15:48:45,743 [MainThread  ][INFO ]  Initial parameter values: [ 1.00302133  0.08939394  7.23095689]
+2019-02-28 15:49:46,293 [MainThread  ][INFO ]  Final fidelity: 0.7639498913355044
+2019-02-28 15:49:46,297 [MainThread  ][INFO ]  Final parameters: [ 3.04729395  0.15669327  5.28925791]
+2019-02-28 15:49:46,297 [MainThread  ][INFO ]  Fidelity: 0.7639498913355044
+2019-02-28 15:49:46,298 [MainThread  ][INFO ]  ---- Starting iteration 4/100
+2019-02-28 15:49:46,298 [MainThread  ][DEBUG]  Setting hyperparameter tf=0.21818181818181817
+2019-02-28 15:49:46,298 [MainThread  ][INFO ]  Starting optimization for tf=0.21818181818181817
+2019-02-28 15:49:46,298 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 15:49:46,298 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 15:49:46,298 [MainThread  ][INFO ]  Initial parameter values: [ 5.16742289  0.10909091  5.56123847]
+2019-02-28 15:51:30,676 [MainThread  ][INFO ]  Final fidelity: 0.7677613416017192
+2019-02-28 15:51:30,679 [MainThread  ][INFO ]  Final parameters: [ 5.37880394  0.11686278  1.71227561]
+2019-02-28 15:51:30,679 [MainThread  ][INFO ]  Fidelity: 0.7677613416017192
+2019-02-28 15:51:30,679 [MainThread  ][INFO ]  ---- Starting iteration 5/100
+2019-02-28 15:51:30,680 [MainThread  ][DEBUG]  Setting hyperparameter tf=0.25757575757575757
+2019-02-28 15:51:30,680 [MainThread  ][INFO ]  Starting optimization for tf=0.25757575757575757
+2019-02-28 15:51:30,680 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 15:51:30,680 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 15:51:30,680 [MainThread  ][INFO ]  Initial parameter values: [ 7.85269233  0.12878788  0.6457454 ]
+2019-02-28 15:52:37,837 [MainThread  ][INFO ]  Final fidelity: 0.7708771257717638
+2019-02-28 15:52:37,837 [MainThread  ][INFO ]  Final parameters: [ 6.49686548  0.12524804 -0.23598804]
+2019-02-28 15:52:37,837 [MainThread  ][INFO ]  Fidelity: 0.7708771257717638
+2019-02-28 15:52:37,837 [MainThread  ][INFO ]  ---- Starting iteration 6/100
+2019-02-28 15:52:37,837 [MainThread  ][DEBUG]  Setting hyperparameter tf=0.296969696969697
+2019-02-28 15:52:37,838 [MainThread  ][INFO ]  Starting optimization for tf=0.296969696969697
+2019-02-28 15:52:37,838 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 15:52:37,838 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 15:52:37,838 [MainThread  ][INFO ]  Initial parameter values: [ 1.1378903   0.14848485  2.3447759 ]
+2019-02-28 15:53:41,155 [MainThread  ][INFO ]  Final fidelity: 0.7726390214317739
+2019-02-28 15:53:41,162 [MainThread  ][INFO ]  Final parameters: [ 5.30897094  0.11469624 -0.44973495]
+2019-02-28 15:53:41,162 [MainThread  ][INFO ]  Fidelity: 0.7726390214317739
+2019-02-28 15:53:41,162 [MainThread  ][INFO ]  ---- Starting iteration 7/100
+2019-02-28 15:53:41,162 [MainThread  ][DEBUG]  Setting hyperparameter tf=0.3363636363636363
+2019-02-28 15:53:41,162 [MainThread  ][INFO ]  Starting optimization for tf=0.3363636363636363
+2019-02-28 15:53:41,162 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 15:53:41,162 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 15:53:41,163 [MainThread  ][INFO ]  Initial parameter values: [ 9.38228     0.16818182  0.72600799]
+2019-02-28 15:55:50,907 [MainThread  ][INFO ]  Final fidelity: 0.7780948832923206
+2019-02-28 15:55:50,910 [MainThread  ][INFO ]  Final parameters: [ 7.15469963  0.12238094  1.20416077]
+2019-02-28 15:55:50,910 [MainThread  ][INFO ]  Fidelity: 0.7780948832923206
+2019-02-28 15:55:50,910 [MainThread  ][INFO ]  ---- Starting iteration 8/100
+2019-02-28 15:55:50,911 [MainThread  ][DEBUG]  Setting hyperparameter tf=0.37575757575757573
+2019-02-28 15:55:50,911 [MainThread  ][INFO ]  Starting optimization for tf=0.37575757575757573
+2019-02-28 15:55:50,911 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 15:55:50,911 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 15:55:50,911 [MainThread  ][INFO ]  Initial parameter values: [ 1.28239326  0.18787879  4.61477417]
+2019-02-28 15:57:48,530 [MainThread  ][INFO ]  Final fidelity: 0.7695139907450413
+2019-02-28 15:57:48,535 [MainThread  ][INFO ]  Final parameters: [ 3.29728669  0.34287166  4.61044211]
+2019-02-28 15:57:48,535 [MainThread  ][INFO ]  Fidelity: 0.7695139907450413
+2019-02-28 15:57:48,535 [MainThread  ][INFO ]  ---- Starting iteration 9/100
+2019-02-28 15:57:48,535 [MainThread  ][DEBUG]  Setting hyperparameter tf=0.41515151515151516
+2019-02-28 15:57:48,535 [MainThread  ][INFO ]  Starting optimization for tf=0.41515151515151516
+2019-02-28 15:57:48,535 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 15:57:48,535 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 15:57:48,536 [MainThread  ][INFO ]  Initial parameter values: [ 6.63717974  0.20757576  0.66517244]
+2019-02-28 15:59:38,692 [MainThread  ][INFO ]  Final fidelity: 0.7877066559532825
+2019-02-28 15:59:38,692 [MainThread  ][INFO ]  Final parameters: [ 6.7509936   0.17215626 -0.02875405]
+2019-02-28 15:59:38,693 [MainThread  ][INFO ]  Fidelity: 0.7877066559532825
+2019-02-28 15:59:38,693 [MainThread  ][INFO ]  ---- Starting iteration 10/100
+2019-02-28 15:59:38,693 [MainThread  ][DEBUG]  Setting hyperparameter tf=0.4545454545454545
+2019-02-28 15:59:38,693 [MainThread  ][INFO ]  Starting optimization for tf=0.4545454545454545
+2019-02-28 15:59:38,693 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 15:59:38,693 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 15:59:38,694 [MainThread  ][INFO ]  Initial parameter values: [ 5.10900333  0.22727273  7.25369808]
+2019-02-28 16:03:26,232 [MainThread  ][INFO ]  Final fidelity: 0.7963197363926432
+2019-02-28 16:03:26,240 [MainThread  ][INFO ]  Final parameters: [ 8.79742162  0.12445216  0.41091396]
+2019-02-28 16:03:26,241 [MainThread  ][INFO ]  Fidelity: 0.7963197363926432
+2019-02-28 16:03:26,241 [MainThread  ][INFO ]  ---- Starting iteration 11/100
+2019-02-28 16:03:26,241 [MainThread  ][DEBUG]  Setting hyperparameter tf=0.4939393939393939
+2019-02-28 16:03:26,241 [MainThread  ][INFO ]  Starting optimization for tf=0.4939393939393939
+2019-02-28 16:03:26,241 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 16:03:26,241 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 16:03:26,241 [MainThread  ][INFO ]  Initial parameter values: [ 5.45318384  0.2469697   5.42204741]
+2019-02-28 16:04:53,378 [MainThread  ][INFO ]  Final fidelity: 0.7755365967463224
+2019-02-28 16:04:53,382 [MainThread  ][INFO ]  Final parameters: [ 3.41391618  0.46681643  4.64440979]
+2019-02-28 16:04:53,382 [MainThread  ][INFO ]  Fidelity: 0.7755365967463224
+2019-02-28 16:04:53,382 [MainThread  ][INFO ]  ---- Starting iteration 12/100
+2019-02-28 16:04:53,382 [MainThread  ][DEBUG]  Setting hyperparameter tf=0.5333333333333333
+2019-02-28 16:04:53,382 [MainThread  ][INFO ]  Starting optimization for tf=0.5333333333333333
+2019-02-28 16:04:53,383 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 16:04:53,383 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 16:04:53,383 [MainThread  ][INFO ]  Initial parameter values: [ 7.34408058  0.26666667  8.50875426]
+2019-02-28 16:08:08,487 [MainThread  ][INFO ]  Final fidelity: 0.808521451361673
+2019-02-28 16:08:08,488 [MainThread  ][INFO ]  Final parameters: [ 8.12202351  0.16818247  0.1069704 ]
+2019-02-28 16:08:08,488 [MainThread  ][INFO ]  Fidelity: 0.808521451361673
+2019-02-28 16:08:08,488 [MainThread  ][INFO ]  ---- Starting iteration 13/100
+2019-02-28 16:08:08,488 [MainThread  ][DEBUG]  Setting hyperparameter tf=0.5727272727272726
+2019-02-28 16:08:08,489 [MainThread  ][INFO ]  Starting optimization for tf=0.5727272727272726
+2019-02-28 16:08:08,489 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 16:08:08,489 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 16:08:08,489 [MainThread  ][INFO ]  Initial parameter values: [ 2.37304464  0.28636364  8.69520074]
+2019-02-28 16:10:55,016 [MainThread  ][INFO ]  Final fidelity: 0.8161354139224821
+2019-02-28 16:10:55,020 [MainThread  ][INFO ]  Final parameters: [ 7.77778085  0.18655449  0.05670902]
+2019-02-28 16:10:55,020 [MainThread  ][INFO ]  Fidelity: 0.8161354139224821
+2019-02-28 16:10:55,020 [MainThread  ][INFO ]  ---- Starting iteration 14/100
+2019-02-28 16:10:55,021 [MainThread  ][DEBUG]  Setting hyperparameter tf=0.6121212121212121
+2019-02-28 16:10:55,021 [MainThread  ][INFO ]  Starting optimization for tf=0.6121212121212121
+2019-02-28 16:10:55,021 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 16:10:55,021 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 16:10:55,021 [MainThread  ][INFO ]  Initial parameter values: [ 3.29888663  0.30606061  0.06621796]
+2019-02-28 16:12:26,787 [MainThread  ][INFO ]  Final fidelity: 0.8192339838858723
+2019-02-28 16:12:26,791 [MainThread  ][INFO ]  Final parameters: [ 7.39491009  0.23689295  0.02274632]
+2019-02-28 16:12:26,791 [MainThread  ][INFO ]  Fidelity: 0.8192339838858723
+2019-02-28 16:12:26,791 [MainThread  ][INFO ]  ---- Starting iteration 15/100
+2019-02-28 16:12:26,792 [MainThread  ][DEBUG]  Setting hyperparameter tf=0.6515151515151515
+2019-02-28 16:12:26,792 [MainThread  ][INFO ]  Starting optimization for tf=0.6515151515151515
+2019-02-28 16:12:26,792 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 16:12:26,792 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 16:12:26,792 [MainThread  ][INFO ]  Initial parameter values: [ 6.43113714  0.32575758  7.24341623]
+2019-02-28 16:15:49,070 [MainThread  ][INFO ]  Final fidelity: 0.8320886694084378
+2019-02-28 16:15:49,072 [MainThread  ][INFO ]  Final parameters: [ 9.35997729  0.16515785  0.28570378]
+2019-02-28 16:15:49,073 [MainThread  ][INFO ]  Fidelity: 0.8320886694084378
+2019-02-28 16:15:49,073 [MainThread  ][INFO ]  ---- Starting iteration 16/100
+2019-02-28 16:15:49,073 [MainThread  ][DEBUG]  Setting hyperparameter tf=0.6909090909090908
+2019-02-28 16:15:49,073 [MainThread  ][INFO ]  Starting optimization for tf=0.6909090909090908
+2019-02-28 16:15:49,073 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 16:15:49,073 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 16:15:49,073 [MainThread  ][INFO ]  Initial parameter values: [ 9.69394991  0.34545455  1.69951638]
+2019-02-28 16:17:30,827 [MainThread  ][INFO ]  Final fidelity: 0.8320727261396063
+2019-02-28 16:17:30,830 [MainThread  ][INFO ]  Final parameters: [  6.86573335e+00   3.07655592e-01   1.02849162e-03]
+2019-02-28 16:17:30,830 [MainThread  ][INFO ]  Fidelity: 0.8320727261396063
+2019-02-28 16:17:30,831 [MainThread  ][INFO ]  ---- Starting iteration 17/100
+2019-02-28 16:17:30,831 [MainThread  ][DEBUG]  Setting hyperparameter tf=0.7303030303030302
+2019-02-28 16:17:30,831 [MainThread  ][INFO ]  Starting optimization for tf=0.7303030303030302
+2019-02-28 16:17:30,831 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 16:17:30,831 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 16:17:30,831 [MainThread  ][INFO ]  Initial parameter values: [ 5.48081136  0.36515152  0.86637416]
+2019-02-28 16:19:39,770 [MainThread  ][INFO ]  Final fidelity: 0.8585408755730494
+2019-02-28 16:19:39,771 [MainThread  ][INFO ]  Final parameters: [  9.99999902e+00   1.70792370e-01   9.10253415e-03]
+2019-02-28 16:19:39,771 [MainThread  ][INFO ]  Fidelity: 0.8585408755730494
+2019-02-28 16:19:39,771 [MainThread  ][INFO ]  ---- Starting iteration 18/100
+2019-02-28 16:19:39,771 [MainThread  ][DEBUG]  Setting hyperparameter tf=0.7696969696969697
+2019-02-28 16:19:39,771 [MainThread  ][INFO ]  Starting optimization for tf=0.7696969696969697
+2019-02-28 16:19:39,771 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 16:19:39,771 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 16:19:39,772 [MainThread  ][INFO ]  Initial parameter values: [ 5.6153301   0.38484848  1.93711393]
+2019-02-28 16:23:12,598 [MainThread  ][INFO ]  Final fidelity: 0.8583802407905423
+2019-02-28 16:23:12,600 [MainThread  ][INFO ]  Final parameters: [ 9.81772124  0.18749068  0.46391   ]
+2019-02-28 16:23:12,600 [MainThread  ][INFO ]  Fidelity: 0.8583802407905423
+2019-02-28 16:23:12,600 [MainThread  ][INFO ]  ---- Starting iteration 19/100
+2019-02-28 16:23:12,600 [MainThread  ][DEBUG]  Setting hyperparameter tf=0.809090909090909
+2019-02-28 16:23:12,600 [MainThread  ][INFO ]  Starting optimization for tf=0.809090909090909
+2019-02-28 16:23:12,600 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 16:23:12,600 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 16:23:12,601 [MainThread  ][INFO ]  Initial parameter values: [ 3.41256901  0.40454545  1.87490305]
+2019-02-28 16:24:38,313 [MainThread  ][INFO ]  Final fidelity: 0.8563303661733902
+2019-02-28 16:24:38,322 [MainThread  ][INFO ]  Final parameters: [ 6.89680841  0.36577432  0.01234359]
+2019-02-28 16:24:38,322 [MainThread  ][INFO ]  Fidelity: 0.8563303661733902
+2019-02-28 16:24:38,323 [MainThread  ][INFO ]  ---- Starting iteration 20/100
+2019-02-28 16:24:38,323 [MainThread  ][DEBUG]  Setting hyperparameter tf=0.8484848484848484
+2019-02-28 16:24:38,323 [MainThread  ][INFO ]  Starting optimization for tf=0.8484848484848484
+2019-02-28 16:24:38,323 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 16:24:38,323 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 16:24:38,323 [MainThread  ][INFO ]  Initial parameter values: [ 3.97831113  0.42424242  1.63558356]
+2019-02-28 16:26:34,208 [MainThread  ][INFO ]  Final fidelity: 0.8607332584381912
+2019-02-28 16:26:34,220 [MainThread  ][INFO ]  Final parameters: [ 6.46149992  0.41338624  0.01126036]
+2019-02-28 16:26:34,220 [MainThread  ][INFO ]  Fidelity: 0.8607332584381912
+2019-02-28 16:26:34,220 [MainThread  ][INFO ]  ---- Starting iteration 21/100
+2019-02-28 16:26:34,220 [MainThread  ][DEBUG]  Setting hyperparameter tf=0.8878787878787878
+2019-02-28 16:26:34,220 [MainThread  ][INFO ]  Starting optimization for tf=0.8878787878787878
+2019-02-28 16:26:34,220 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 16:26:34,220 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 16:26:34,221 [MainThread  ][INFO ]  Initial parameter values: [ 3.82348934  0.44393939  8.29684631]
+2019-02-28 16:30:37,993 [MainThread  ][INFO ]  Final fidelity: 0.8903533076217358
+2019-02-28 16:30:37,996 [MainThread  ][INFO ]  Final parameters: [ 8.53372567  0.25294824  0.02500531]
+2019-02-28 16:30:37,996 [MainThread  ][INFO ]  Fidelity: 0.8903533076217358
+2019-02-28 16:30:37,996 [MainThread  ][INFO ]  ---- Starting iteration 22/100
+2019-02-28 16:30:37,996 [MainThread  ][DEBUG]  Setting hyperparameter tf=0.9272727272727271
+2019-02-28 16:30:37,996 [MainThread  ][INFO ]  Starting optimization for tf=0.9272727272727271
+2019-02-28 16:30:37,996 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 16:30:37,996 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 16:30:37,996 [MainThread  ][INFO ]  Initial parameter values: [ 5.29776212  0.46363636  7.21333197]
+2019-02-28 16:32:22,268 [MainThread  ][INFO ]  Final fidelity: 0.8110775982607614
+2019-02-28 16:32:22,271 [MainThread  ][INFO ]  Final parameters: [ 3.63436991  0.92594982 -9.99969599]
+2019-02-28 16:32:22,271 [MainThread  ][INFO ]  Fidelity: 0.8110775982607614
+2019-02-28 16:32:22,271 [MainThread  ][INFO ]  ---- Starting iteration 23/100
+2019-02-28 16:32:22,271 [MainThread  ][DEBUG]  Setting hyperparameter tf=0.9666666666666666
+2019-02-28 16:32:22,272 [MainThread  ][INFO ]  Starting optimization for tf=0.9666666666666666
+2019-02-28 16:32:22,272 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 16:32:22,272 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 16:32:22,272 [MainThread  ][INFO ]  Initial parameter values: [ 5.27672906  0.48333333  0.01248924]
+2019-02-28 16:34:02,647 [MainThread  ][INFO ]  Final fidelity: 0.8887430388163101
+2019-02-28 16:34:02,651 [MainThread  ][INFO ]  Final parameters: [  6.57952985e+00   4.68473152e-01   5.98213944e-03]
+2019-02-28 16:34:02,651 [MainThread  ][INFO ]  Fidelity: 0.8887430388163101
+2019-02-28 16:34:02,652 [MainThread  ][INFO ]  ---- Starting iteration 24/100
+2019-02-28 16:34:02,652 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.006060606060606
+2019-02-28 16:34:02,652 [MainThread  ][INFO ]  Starting optimization for tf=1.006060606060606
+2019-02-28 16:34:02,652 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 16:34:02,652 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 16:34:02,652 [MainThread  ][INFO ]  Initial parameter values: [ 6.23570182  0.5030303   2.68619587]
+2019-02-28 16:35:56,670 [MainThread  ][INFO ]  Final fidelity: 0.8987995420864707
+2019-02-28 16:35:56,684 [MainThread  ][INFO ]  Final parameters: [ 6.60497793  0.49693136  0.01851893]
+2019-02-28 16:35:56,684 [MainThread  ][INFO ]  Fidelity: 0.8987995420864707
+2019-02-28 16:35:56,684 [MainThread  ][INFO ]  ---- Starting iteration 25/100
+2019-02-28 16:35:56,684 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.0454545454545454
+2019-02-28 16:35:56,684 [MainThread  ][INFO ]  Starting optimization for tf=1.0454545454545454
+2019-02-28 16:35:56,684 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 16:35:56,684 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 16:35:56,684 [MainThread  ][INFO ]  Initial parameter values: [ 0.01189873  0.52272727  1.69196852]
+2019-02-28 16:37:39,708 [MainThread  ][INFO ]  Final fidelity: 0.9134016234072984
+2019-02-28 16:37:39,715 [MainThread  ][INFO ]  Final parameters: [ 6.9665992   0.48133056  0.02374387]
+2019-02-28 16:37:39,716 [MainThread  ][INFO ]  Fidelity: 0.9134016234072984
+2019-02-28 16:37:39,716 [MainThread  ][INFO ]  ---- Starting iteration 26/100
+2019-02-28 16:37:39,716 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.0848484848484847
+2019-02-28 16:37:39,716 [MainThread  ][INFO ]  Starting optimization for tf=1.0848484848484847
+2019-02-28 16:37:39,716 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 16:37:39,716 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 16:37:39,716 [MainThread  ][INFO ]  Initial parameter values: [ 7.14435507  0.54242424  8.12057894]
+2019-02-28 16:42:51,361 [MainThread  ][INFO ]  Final fidelity: 0.9501698597629473
+2019-02-28 16:42:51,364 [MainThread  ][INFO ]  Final parameters: [ 9.99999408  0.27590785 -0.04954659]
+2019-02-28 16:42:51,364 [MainThread  ][INFO ]  Fidelity: 0.9501698597629473
+2019-02-28 16:42:51,364 [MainThread  ][INFO ]  ---- Starting iteration 27/100
+2019-02-28 16:42:51,364 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.1242424242424243
+2019-02-28 16:42:51,364 [MainThread  ][INFO ]  Starting optimization for tf=1.1242424242424243
+2019-02-28 16:42:51,364 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 16:42:51,364 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 16:42:51,365 [MainThread  ][INFO ]  Initial parameter values: [ 3.20806627  0.56212121  8.17158848]
+2019-02-28 16:45:03,387 [MainThread  ][INFO ]  Final fidelity: 0.9650592212557743
+2019-02-28 16:45:03,389 [MainThread  ][INFO ]  Final parameters: [ 9.99999977  0.30544936  0.02170873]
+2019-02-28 16:45:03,389 [MainThread  ][INFO ]  Fidelity: 0.9650592212557743
+2019-02-28 16:45:03,389 [MainThread  ][INFO ]  ---- Starting iteration 28/100
+2019-02-28 16:45:03,389 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.1636363636363636
+2019-02-28 16:45:03,389 [MainThread  ][INFO ]  Starting optimization for tf=1.1636363636363636
+2019-02-28 16:45:03,389 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 16:45:03,389 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 16:45:03,390 [MainThread  ][INFO ]  Initial parameter values: [ 8.45264557  0.58181818  4.85136003]
+2019-02-28 16:46:51,655 [MainThread  ][INFO ]  Final fidelity: 0.8965761487339976
+2019-02-28 16:46:51,657 [MainThread  ][INFO ]  Final parameters: [-5.1310941   0.8109978   0.00584462]
+2019-02-28 16:46:51,657 [MainThread  ][INFO ]  Fidelity: 0.8965761487339976
+2019-02-28 16:46:51,657 [MainThread  ][INFO ]  ---- Starting iteration 29/100
+2019-02-28 16:46:51,658 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.2030303030303031
+2019-02-28 16:46:51,658 [MainThread  ][INFO ]  Starting optimization for tf=1.2030303030303031
+2019-02-28 16:46:51,658 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 16:46:51,658 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 16:46:51,658 [MainThread  ][INFO ]  Initial parameter values: [ 6.91029767  0.60151515  2.58780237]
+2019-02-28 16:49:41,880 [MainThread  ][INFO ]  Final fidelity: 0.9750644315475245
+2019-02-28 16:49:41,892 [MainThread  ][INFO ]  Final parameters: [ 9.99999994  0.32511921 -0.20468792]
+2019-02-28 16:49:41,892 [MainThread  ][INFO ]  Fidelity: 0.9750644315475245
+2019-02-28 16:49:41,892 [MainThread  ][INFO ]  ---- Starting iteration 30/100
+2019-02-28 16:49:41,892 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.2424242424242424
+2019-02-28 16:49:41,892 [MainThread  ][INFO ]  Starting optimization for tf=1.2424242424242424
+2019-02-28 16:49:41,892 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 16:49:41,892 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 16:49:41,893 [MainThread  ][INFO ]  Initial parameter values: [ 7.57517253  0.62121212  4.68136818]
+2019-02-28 16:51:00,817 [MainThread  ][INFO ]  Final fidelity: 0.8479279969677124
+2019-02-28 16:51:00,832 [MainThread  ][INFO ]  Final parameters: [ 3.77498664  1.24031485 -9.99995103]
+2019-02-28 16:51:00,832 [MainThread  ][INFO ]  Fidelity: 0.8479279969677124
+2019-02-28 16:51:00,832 [MainThread  ][INFO ]  ---- Starting iteration 31/100
+2019-02-28 16:51:00,832 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.2818181818181817
+2019-02-28 16:51:00,832 [MainThread  ][INFO ]  Starting optimization for tf=1.2818181818181817
+2019-02-28 16:51:00,832 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 16:51:00,832 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 16:51:00,833 [MainThread  ][INFO ]  Initial parameter values: [ 8.4293907   0.64090909  9.49919338]
+2019-02-28 16:55:15,640 [MainThread  ][INFO ]  Final fidelity: 0.9897889490672391
+2019-02-28 16:55:15,655 [MainThread  ][INFO ]  Final parameters: [ 9.99999927  0.34776118 -0.95638657]
+2019-02-28 16:55:15,656 [MainThread  ][INFO ]  Fidelity: 0.9897889490672391
+2019-02-28 16:55:15,656 [MainThread  ][INFO ]  ---- Starting iteration 32/100
+2019-02-28 16:55:15,656 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.3212121212121213
+2019-02-28 16:55:15,656 [MainThread  ][INFO ]  Starting optimization for tf=1.3212121212121213
+2019-02-28 16:55:15,656 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 16:55:15,656 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 16:55:15,656 [MainThread  ][INFO ]  Initial parameter values: [ 0.05999831  0.66060606  5.08351743]
+2019-02-28 16:59:08,773 [MainThread  ][INFO ]  Final fidelity: 0.9874252869907242
+2019-02-28 16:59:08,784 [MainThread  ][INFO ]  Final parameters: [ 8.37559618  0.50193246  0.02442117]
+2019-02-28 16:59:08,784 [MainThread  ][INFO ]  Fidelity: 0.9874252869907242
+2019-02-28 16:59:08,784 [MainThread  ][INFO ]  ---- Starting iteration 33/100
+2019-02-28 16:59:08,784 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.3606060606060606
+2019-02-28 16:59:08,784 [MainThread  ][INFO ]  Starting optimization for tf=1.3606060606060606
+2019-02-28 16:59:08,784 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 16:59:08,784 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 16:59:08,785 [MainThread  ][INFO ]  Initial parameter values: [ 4.38606197  0.68030303  9.17840097]
+2019-02-28 17:02:30,969 [MainThread  ][INFO ]  Final fidelity: 0.9926500092690965
+2019-02-28 17:02:30,970 [MainThread  ][INFO ]  Final parameters: [ 8.85107963  0.48339981  0.16178354]
+2019-02-28 17:02:30,970 [MainThread  ][INFO ]  Fidelity: 0.9926500092690965
+2019-02-28 17:02:30,970 [MainThread  ][INFO ]  ---- Starting iteration 34/100
+2019-02-28 17:02:30,971 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.4
+2019-02-28 17:02:30,971 [MainThread  ][INFO ]  Starting optimization for tf=1.4
+2019-02-28 17:02:30,971 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 17:02:30,971 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 17:02:30,971 [MainThread  ][INFO ]  Initial parameter values: [ 4.87620474  0.7         7.11216245]
+2019-02-28 17:05:33,976 [MainThread  ][INFO ]  Final fidelity: 0.9829556441430262
+2019-02-28 17:05:33,978 [MainThread  ][INFO ]  Final parameters: [ 7.63135096  0.47608671  2.05798084]
+2019-02-28 17:05:33,978 [MainThread  ][INFO ]  Fidelity: 0.9829556441430262
+2019-02-28 17:05:33,978 [MainThread  ][INFO ]  ---- Starting iteration 35/100
+2019-02-28 17:05:33,978 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.4393939393939394
+2019-02-28 17:05:33,979 [MainThread  ][INFO ]  Starting optimization for tf=1.4393939393939394
+2019-02-28 17:05:33,979 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 17:05:33,979 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 17:05:33,979 [MainThread  ][INFO ]  Initial parameter values: [ 0.09441092  0.71969697  9.65835585]
+2019-02-28 17:08:43,576 [MainThread  ][INFO ]  Final fidelity: 0.9878971068184521
+2019-02-28 17:08:43,578 [MainThread  ][INFO ]  Final parameters: [ 6.7708038   0.74552406  0.0154922 ]
+2019-02-28 17:08:43,578 [MainThread  ][INFO ]  Fidelity: 0.9878971068184521
+2019-02-28 17:08:43,578 [MainThread  ][INFO ]  ---- Starting iteration 36/100
+2019-02-28 17:08:43,578 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.4787878787878788
+2019-02-28 17:08:43,579 [MainThread  ][INFO ]  Starting optimization for tf=1.4787878787878788
+2019-02-28 17:08:43,579 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 17:08:43,579 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 17:08:43,579 [MainThread  ][INFO ]  Initial parameter values: [ 3.37182673  0.73939394  0.37699036]
+2019-02-28 17:10:13,826 [MainThread  ][INFO ]  Final fidelity: 0.9894277189056714
+2019-02-28 17:10:13,829 [MainThread  ][INFO ]  Final parameters: [ 6.61042937  0.79027362  0.05521456]
+2019-02-28 17:10:13,830 [MainThread  ][INFO ]  Fidelity: 0.9894277189056714
+2019-02-28 17:10:13,830 [MainThread  ][INFO ]  ---- Starting iteration 37/100
+2019-02-28 17:10:13,830 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.518181818181818
+2019-02-28 17:10:13,830 [MainThread  ][INFO ]  Starting optimization for tf=1.518181818181818
+2019-02-28 17:10:13,830 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 17:10:13,830 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 17:10:13,830 [MainThread  ][INFO ]  Initial parameter values: [ 9.8514795   0.75909091  8.47408606]
+2019-02-28 17:12:45,010 [MainThread  ][INFO ]  Final fidelity: 0.9944417667243229
+2019-02-28 17:12:45,027 [MainThread  ][INFO ]  Final parameters: [ 7.77652733  0.59089612  1.83051547]
+2019-02-28 17:12:45,027 [MainThread  ][INFO ]  Fidelity: 0.9944417667243229
+2019-02-28 17:12:45,027 [MainThread  ][INFO ]  ---- Starting iteration 38/100
+2019-02-28 17:12:45,027 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.5575757575757576
+2019-02-28 17:12:45,027 [MainThread  ][INFO ]  Starting optimization for tf=1.5575757575757576
+2019-02-28 17:12:45,027 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 17:12:45,027 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 17:12:45,028 [MainThread  ][INFO ]  Initial parameter values: [ 3.11343351  0.77878788  8.8013631 ]
+2019-02-28 17:18:30,603 [MainThread  ][INFO ]  Final fidelity: 0.9937824265104098
+2019-02-28 17:18:30,625 [MainThread  ][INFO ]  Final parameters: [ 7.38174206  0.67997378  1.57238801]
+2019-02-28 17:18:30,625 [MainThread  ][INFO ]  Fidelity: 0.9937824265104098
+2019-02-28 17:18:30,625 [MainThread  ][INFO ]  ---- Starting iteration 39/100
+2019-02-28 17:18:30,626 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.596969696969697
+2019-02-28 17:18:30,626 [MainThread  ][INFO ]  Starting optimization for tf=1.596969696969697
+2019-02-28 17:18:30,626 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 17:18:30,626 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 17:18:30,626 [MainThread  ][INFO ]  Initial parameter values: [ 2.9732154   0.79848485  2.51146152]
+2019-02-28 17:20:57,659 [MainThread  ][INFO ]  Final fidelity: 0.9964213737350488
+2019-02-28 17:20:57,671 [MainThread  ][INFO ]  Final parameters: [ 7.06915121  0.72767846  1.76543637]
+2019-02-28 17:20:57,671 [MainThread  ][INFO ]  Fidelity: 0.9964213737350488
+2019-02-28 17:20:57,672 [MainThread  ][INFO ]  ---- Starting iteration 40/100
+2019-02-28 17:20:57,672 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.6363636363636362
+2019-02-28 17:20:57,672 [MainThread  ][INFO ]  Starting optimization for tf=1.6363636363636362
+2019-02-28 17:20:57,672 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 17:20:57,672 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 17:20:57,672 [MainThread  ][INFO ]  Initial parameter values: [ 0.25299765  0.81818182  4.91442889]
+2019-02-28 17:22:40,220 [MainThread  ][INFO ]  Final fidelity: 0.8980699890945003
+2019-02-28 17:22:40,232 [MainThread  ][INFO ]  Final parameters: [ 3.88940283  1.63423269 -9.83461086]
+2019-02-28 17:22:40,232 [MainThread  ][INFO ]  Fidelity: 0.8980699890945003
+2019-02-28 17:22:40,232 [MainThread  ][INFO ]  ---- Starting iteration 41/100
+2019-02-28 17:22:40,232 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.6757575757575758
+2019-02-28 17:22:40,232 [MainThread  ][INFO ]  Starting optimization for tf=1.6757575757575758
+2019-02-28 17:22:40,232 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 17:22:40,232 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 17:22:40,233 [MainThread  ][INFO ]  Initial parameter values: [ 4.51701778  0.83787879  2.31047204]
+2019-02-28 17:25:04,838 [MainThread  ][INFO ]  Final fidelity: 0.9944829051335322
+2019-02-28 17:25:04,851 [MainThread  ][INFO ]  Final parameters: [ 6.52524585  0.86298349  1.79078126]
+2019-02-28 17:25:04,851 [MainThread  ][INFO ]  Fidelity: 0.9944829051335322
+2019-02-28 17:25:04,851 [MainThread  ][INFO ]  ---- Starting iteration 42/100
+2019-02-28 17:25:04,851 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.715151515151515
+2019-02-28 17:25:04,851 [MainThread  ][INFO ]  Starting optimization for tf=1.715151515151515
+2019-02-28 17:25:04,851 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 17:25:04,852 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 17:25:04,852 [MainThread  ][INFO ]  Initial parameter values: [ 0.95934032  0.85757576  0.61153624]
+2019-02-28 17:28:11,222 [MainThread  ][INFO ]  Final fidelity: 0.99761257255569
+2019-02-28 17:28:11,233 [MainThread  ][INFO ]  Final parameters: [ 6.47387431  0.85033899  2.19785688]
+2019-02-28 17:28:11,233 [MainThread  ][INFO ]  Fidelity: 0.99761257255569
+2019-02-28 17:28:11,233 [MainThread  ][INFO ]  ---- Starting iteration 43/100
+2019-02-28 17:28:11,233 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.7545454545454544
+2019-02-28 17:28:11,233 [MainThread  ][INFO ]  Starting optimization for tf=1.7545454545454544
+2019-02-28 17:28:11,233 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 17:28:11,233 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 17:28:11,233 [MainThread  ][INFO ]  Initial parameter values: [ 5.25106177  0.87727273  4.83105576]
+2019-02-28 17:30:20,215 [MainThread  ][INFO ]  Final fidelity: 0.9130188911861968
+2019-02-28 17:30:20,216 [MainThread  ][INFO ]  Final parameters: [ 3.94896028  1.75204403 -9.99995836]
+2019-02-28 17:30:20,216 [MainThread  ][INFO ]  Fidelity: 0.9130188911861968
+2019-02-28 17:30:20,216 [MainThread  ][INFO ]  ---- Starting iteration 44/100
+2019-02-28 17:30:20,216 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.793939393939394
+2019-02-28 17:30:20,216 [MainThread  ][INFO ]  Starting optimization for tf=1.793939393939394
+2019-02-28 17:30:20,216 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 17:30:20,216 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 17:30:20,217 [MainThread  ][INFO ]  Initial parameter values: [ 4.38951453  0.8969697   9.64761983]
+2019-02-28 17:34:17,353 [MainThread  ][INFO ]  Final fidelity: 0.9925964570273262
+2019-02-28 17:34:17,378 [MainThread  ][INFO ]  Final parameters: [ 6.066311    0.86140219  2.86779107]
+2019-02-28 17:34:17,378 [MainThread  ][INFO ]  Fidelity: 0.9925964570273262
+2019-02-28 17:34:17,378 [MainThread  ][INFO ]  ---- Starting iteration 45/100
+2019-02-28 17:34:17,379 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.8333333333333333
+2019-02-28 17:34:17,379 [MainThread  ][INFO ]  Starting optimization for tf=1.8333333333333333
+2019-02-28 17:34:17,379 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 17:34:17,379 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 17:34:17,379 [MainThread  ][INFO ]  Initial parameter values: [ 5.39787972  0.91666667  8.7080292 ]
+2019-02-28 17:37:42,334 [MainThread  ][INFO ]  Final fidelity: 0.9983276280791682
+2019-02-28 17:37:42,396 [MainThread  ][INFO ]  Final parameters: [ 5.79207621  1.09401858  2.10281807]
+2019-02-28 17:37:42,396 [MainThread  ][INFO ]  Fidelity: 0.9983276280791682
+2019-02-28 17:37:42,396 [MainThread  ][INFO ]  ---- Starting iteration 46/100
+2019-02-28 17:37:42,396 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.8727272727272726
+2019-02-28 17:37:42,396 [MainThread  ][INFO ]  Starting optimization for tf=1.8727272727272726
+2019-02-28 17:37:42,396 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 17:37:42,396 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 17:37:42,397 [MainThread  ][INFO ]  Initial parameter values: [ 7.43996539  0.93636364  1.59175342]
+2019-02-28 17:39:21,563 [MainThread  ][INFO ]  Final fidelity: 0.9948848859261098
+2019-02-28 17:39:21,575 [MainThread  ][INFO ]  Final parameters: [ 5.99646533  0.92917354  2.88638998]
+2019-02-28 17:39:21,575 [MainThread  ][INFO ]  Fidelity: 0.9948848859261098
+2019-02-28 17:39:21,575 [MainThread  ][INFO ]  ---- Starting iteration 47/100
+2019-02-28 17:39:21,575 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.912121212121212
+2019-02-28 17:39:21,575 [MainThread  ][INFO ]  Starting optimization for tf=1.912121212121212
+2019-02-28 17:39:21,575 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 17:39:21,575 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 17:39:21,576 [MainThread  ][INFO ]  Initial parameter values: [ 2.71954761  0.95606061  5.62516135]
+2019-02-28 17:40:59,757 [MainThread  ][INFO ]  Final fidelity: 0.926335534114273
+2019-02-28 17:40:59,758 [MainThread  ][INFO ]  Final parameters: [ 3.98299937  1.89306521  4.20767531]
+2019-02-28 17:40:59,758 [MainThread  ][INFO ]  Fidelity: 0.926335534114273
+2019-02-28 17:40:59,758 [MainThread  ][INFO ]  ---- Starting iteration 48/100
+2019-02-28 17:40:59,758 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.9515151515151514
+2019-02-28 17:40:59,758 [MainThread  ][INFO ]  Starting optimization for tf=1.9515151515151514
+2019-02-28 17:40:59,758 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 17:40:59,758 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 17:40:59,758 [MainThread  ][INFO ]  Initial parameter values: [ 9.26959037  0.97575758  8.1371645 ]
+2019-02-28 17:45:50,281 [MainThread  ][INFO ]  Final fidelity: 0.9979062833810176
+2019-02-28 17:45:50,306 [MainThread  ][INFO ]  Final parameters: [ 6.20916804  0.8531363   3.17614751]
+2019-02-28 17:45:50,306 [MainThread  ][INFO ]  Fidelity: 0.9979062833810176
+2019-02-28 17:45:50,306 [MainThread  ][INFO ]  ---- Starting iteration 49/100
+2019-02-28 17:45:50,306 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.9909090909090907
+2019-02-28 17:45:50,306 [MainThread  ][INFO ]  Starting optimization for tf=1.9909090909090907
+2019-02-28 17:45:50,306 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 17:45:50,306 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 17:45:50,307 [MainThread  ][INFO ]  Initial parameter values: [ 4.36067028  0.99545455  5.25007603]
+2019-02-28 17:47:40,324 [MainThread  ][INFO ]  Final fidelity: 0.9382387899712683
+2019-02-28 17:47:40,331 [MainThread  ][INFO ]  Final parameters: [ 4.05417764  1.98866374 -9.99995543]
+2019-02-28 17:47:40,331 [MainThread  ][INFO ]  Fidelity: 0.9382387899712683
+2019-02-28 17:47:40,331 [MainThread  ][INFO ]  ---- Starting iteration 50/100
+2019-02-28 17:47:40,331 [MainThread  ][DEBUG]  Setting hyperparameter tf=2.0303030303030303
+2019-02-28 17:47:40,331 [MainThread  ][INFO ]  Starting optimization for tf=2.0303030303030303
+2019-02-28 17:47:40,331 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 17:47:40,331 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 17:47:40,332 [MainThread  ][INFO ]  Initial parameter values: [ 8.82165854  1.01515152  6.5060042 ]
+2019-02-28 17:53:06,963 [MainThread  ][INFO ]  Final fidelity: 0.9975310108754342
+2019-02-28 17:53:06,980 [MainThread  ][INFO ]  Final parameters: [ 5.1846571   1.47288097  1.8003621 ]
+2019-02-28 17:53:06,980 [MainThread  ][INFO ]  Fidelity: 0.9975310108754342
+2019-02-28 17:53:06,980 [MainThread  ][INFO ]  ---- Starting iteration 51/100
+2019-02-28 17:53:06,981 [MainThread  ][DEBUG]  Setting hyperparameter tf=2.0696969696969694
+2019-02-28 17:53:06,981 [MainThread  ][INFO ]  Starting optimization for tf=2.0696969696969694
+2019-02-28 17:53:06,981 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 17:53:06,981 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 17:53:06,981 [MainThread  ][INFO ]  Initial parameter values: [ 7.14533403  1.03484848  8.17750862]
+2019-02-28 17:56:20,197 [MainThread  ][INFO ]  Final fidelity: 0.9971652627835668
+2019-02-28 17:56:20,199 [MainThread  ][INFO ]  Final parameters: [ 5.18593072  1.39781473  2.63001991]
+2019-02-28 17:56:20,199 [MainThread  ][INFO ]  Fidelity: 0.9971652627835668
+2019-02-28 17:56:20,199 [MainThread  ][INFO ]  ---- Starting iteration 52/100
+2019-02-28 17:56:20,199 [MainThread  ][DEBUG]  Setting hyperparameter tf=2.109090909090909
+2019-02-28 17:56:20,199 [MainThread  ][INFO ]  Starting optimization for tf=2.109090909090909
+2019-02-28 17:56:20,199 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 17:56:20,199 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 17:56:20,200 [MainThread  ][INFO ]  Initial parameter values: [ 7.68738922  1.05454545  8.06534602]
+2019-02-28 17:58:53,833 [MainThread  ][INFO ]  Final fidelity: 0.9932167361780229
+2019-02-28 17:58:53,851 [MainThread  ][INFO ]  Final parameters: [ 4.73550405  1.79328145  0.03952769]
+2019-02-28 17:58:53,851 [MainThread  ][INFO ]  Fidelity: 0.9932167361780229
+2019-02-28 17:58:53,851 [MainThread  ][INFO ]  ---- Starting iteration 53/100
+2019-02-28 17:58:53,851 [MainThread  ][DEBUG]  Setting hyperparameter tf=2.1484848484848484
+2019-02-28 17:58:53,851 [MainThread  ][INFO ]  Starting optimization for tf=2.1484848484848484
+2019-02-28 17:58:53,851 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 17:58:53,851 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 17:58:53,852 [MainThread  ][INFO ]  Initial parameter values: [ 1.14738015  1.07424242  0.167831  ]
+2019-02-28 18:00:44,125 [MainThread  ][INFO ]  Final fidelity: 0.9973979742231465
+2019-02-28 18:00:44,139 [MainThread  ][INFO ]  Final parameters: [ 5.18769157  1.29003525  3.23640045]
+2019-02-28 18:00:44,139 [MainThread  ][INFO ]  Fidelity: 0.9973979742231465
+2019-02-28 18:00:44,139 [MainThread  ][INFO ]  ---- Starting iteration 54/100
+2019-02-28 18:00:44,140 [MainThread  ][DEBUG]  Setting hyperparameter tf=2.187878787878788
+2019-02-28 18:00:44,140 [MainThread  ][INFO ]  Starting optimization for tf=2.187878787878788
+2019-02-28 18:00:44,140 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 18:00:44,140 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 18:00:44,140 [MainThread  ][INFO ]  Initial parameter values: [ 5.29390326  1.09393939  7.51008316]
+2019-02-28 18:04:00,958 [MainThread  ][INFO ]  Final fidelity: 0.9970949074596782
+2019-02-28 18:04:00,959 [MainThread  ][INFO ]  Final parameters: [ 5.0202832   1.48151997  3.0422845 ]
+2019-02-28 18:04:00,959 [MainThread  ][INFO ]  Fidelity: 0.9970949074596782
+2019-02-28 18:04:00,959 [MainThread  ][INFO ]  ---- Starting iteration 55/100
+2019-02-28 18:04:00,959 [MainThread  ][DEBUG]  Setting hyperparameter tf=2.227272727272727
+2019-02-28 18:04:00,959 [MainThread  ][INFO ]  Starting optimization for tf=2.227272727272727
+2019-02-28 18:04:00,959 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 18:04:00,959 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 18:04:00,960 [MainThread  ][INFO ]  Initial parameter values: [ 5.78492916  1.11363636  6.8458414 ]
+2019-02-28 18:06:41,653 [MainThread  ][INFO ]  Final fidelity: 0.9959384423544931
+2019-02-28 18:06:41,654 [MainThread  ][INFO ]  Final parameters: [ 4.73646412  1.91304387  0.07572504]
+2019-02-28 18:06:41,654 [MainThread  ][INFO ]  Fidelity: 0.9959384423544931
+2019-02-28 18:06:41,654 [MainThread  ][INFO ]  ---- Starting iteration 56/100
+2019-02-28 18:06:41,654 [MainThread  ][DEBUG]  Setting hyperparameter tf=2.2666666666666666
+2019-02-28 18:06:41,654 [MainThread  ][INFO ]  Starting optimization for tf=2.2666666666666666
+2019-02-28 18:06:41,654 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 18:06:41,654 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 18:06:41,655 [MainThread  ][INFO ]  Initial parameter values: [ 9.88923888  1.13333333  1.36604446]
+2019-02-28 18:09:52,470 [MainThread  ][INFO ]  Final fidelity: 0.9969463515256632
+2019-02-28 18:09:52,494 [MainThread  ][INFO ]  Final parameters: [ 6.14768675  0.6109169   3.96822533]
+2019-02-28 18:09:52,494 [MainThread  ][INFO ]  Fidelity: 0.9969463515256632
+2019-02-28 18:09:52,494 [MainThread  ][INFO ]  ---- Starting iteration 57/100
+2019-02-28 18:09:52,494 [MainThread  ][DEBUG]  Setting hyperparameter tf=2.306060606060606
+2019-02-28 18:09:52,494 [MainThread  ][INFO ]  Starting optimization for tf=2.306060606060606
+2019-02-28 18:09:52,495 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 18:09:52,495 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 18:09:52,495 [MainThread  ][INFO ]  Initial parameter values: [ 1.93154991  1.1530303   6.10891684]
+2019-02-28 18:14:59,889 [MainThread  ][INFO ]  Final fidelity: 0.9969208854358749
+2019-02-28 18:14:59,908 [MainThread  ][INFO ]  Final parameters: [ 4.81561897  1.67116559  3.21855403]
+2019-02-28 18:14:59,908 [MainThread  ][INFO ]  Fidelity: 0.9969208854358749
+2019-02-28 18:14:59,908 [MainThread  ][INFO ]  ---- Starting iteration 58/100
+2019-02-28 18:14:59,909 [MainThread  ][DEBUG]  Setting hyperparameter tf=2.3454545454545452
+2019-02-28 18:14:59,909 [MainThread  ][INFO ]  Starting optimization for tf=2.3454545454545452
+2019-02-28 18:14:59,909 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 18:14:59,909 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 18:14:59,909 [MainThread  ][INFO ]  Initial parameter values: [ 0.94789954  1.17272727  0.04930535]
+2019-02-28 18:18:25,199 [MainThread  ][INFO ]  Final fidelity: 0.9961331962657828
+2019-02-28 18:18:25,211 [MainThread  ][INFO ]  Final parameters: [ 4.79817763  1.78969098  2.96276902]
+2019-02-28 18:18:25,211 [MainThread  ][INFO ]  Fidelity: 0.9961331962657828
+2019-02-28 18:18:25,211 [MainThread  ][INFO ]  ---- Starting iteration 59/100
+2019-02-28 18:18:25,211 [MainThread  ][DEBUG]  Setting hyperparameter tf=2.3848484848484848
+2019-02-28 18:18:25,211 [MainThread  ][INFO ]  Starting optimization for tf=2.3848484848484848
+2019-02-28 18:18:25,211 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 18:18:25,211 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 18:18:25,212 [MainThread  ][INFO ]  Initial parameter values: [ 2.77968625  1.19242424  9.55228697]
+2019-02-28 18:23:15,813 [MainThread  ][INFO ]  Final fidelity: 0.9985285593462746
+2019-02-28 18:23:15,834 [MainThread  ][INFO ]  Final parameters: [ 4.6759456   2.07698087  1.40383313]
+2019-02-28 18:23:15,834 [MainThread  ][INFO ]  Fidelity: 0.9985285593462746
+2019-02-28 18:23:15,834 [MainThread  ][INFO ]  ---- Starting iteration 60/100
+2019-02-28 18:23:15,834 [MainThread  ][DEBUG]  Setting hyperparameter tf=2.4242424242424243
+2019-02-28 18:23:15,834 [MainThread  ][INFO ]  Starting optimization for tf=2.4242424242424243
+2019-02-28 18:23:15,834 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 18:23:15,834 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 18:23:15,835 [MainThread  ][INFO ]  Initial parameter values: [ 4.26772055  1.21212121  1.22153352]
+2019-02-28 18:25:37,043 [MainThread  ][INFO ]  Final fidelity: 0.9977058768136083
+2019-02-28 18:25:37,067 [MainThread  ][INFO ]  Final parameters: [ 5.6391693   0.73802693  4.07643405]
+2019-02-28 18:25:37,067 [MainThread  ][INFO ]  Fidelity: 0.9977058768136083
+2019-02-28 18:25:37,067 [MainThread  ][INFO ]  ---- Starting iteration 61/100
+2019-02-28 18:25:37,067 [MainThread  ][DEBUG]  Setting hyperparameter tf=2.4636363636363634
+2019-02-28 18:25:37,068 [MainThread  ][INFO ]  Starting optimization for tf=2.4636363636363634
+2019-02-28 18:25:37,068 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 18:25:37,068 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 18:25:37,068 [MainThread  ][INFO ]  Initial parameter values: [ 5.65516986  1.23181818  5.97644611]
+2019-02-28 18:29:59,185 [MainThread  ][INFO ]  Final fidelity: 0.9941095555386789
+2019-02-28 18:29:59,189 [MainThread  ][INFO ]  Final parameters: [-4.79090397  2.11862984 -1.09827318]
+2019-02-28 18:29:59,190 [MainThread  ][INFO ]  Fidelity: 0.9941095555386789
+2019-02-28 18:29:59,190 [MainThread  ][INFO ]  ---- Starting iteration 62/100
+2019-02-28 18:29:59,190 [MainThread  ][DEBUG]  Setting hyperparameter tf=2.503030303030303
+2019-02-28 18:29:59,190 [MainThread  ][INFO ]  Starting optimization for tf=2.503030303030303
+2019-02-28 18:29:59,190 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 18:29:59,190 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 18:29:59,190 [MainThread  ][INFO ]  Initial parameter values: [ 7.00939613  1.25151515  7.8656941 ]
+2019-02-28 18:32:08,853 [MainThread  ][INFO ]  Final fidelity: 0.993538052518366
+2019-02-28 18:32:08,854 [MainThread  ][INFO ]  Final parameters: [ 4.42150395  2.37670089  0.02048412]
+2019-02-28 18:32:08,855 [MainThread  ][INFO ]  Fidelity: 0.993538052518366
+2019-02-28 18:32:08,855 [MainThread  ][INFO ]  ---- Starting iteration 63/100
+2019-02-28 18:32:08,855 [MainThread  ][DEBUG]  Setting hyperparameter tf=2.5424242424242425
+2019-02-28 18:32:08,855 [MainThread  ][INFO ]  Starting optimization for tf=2.5424242424242425
+2019-02-28 18:32:08,855 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 18:32:08,855 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 18:32:08,855 [MainThread  ][INFO ]  Initial parameter values: [ 2.47896041  1.27121212  6.13184263]
+2019-02-28 18:33:41,397 [MainThread  ][INFO ]  Final fidelity: 0.9792926186876454
+2019-02-28 18:33:41,398 [MainThread  ][INFO ]  Final parameters: [ 4.2433961   2.50969449  4.27897651]
+2019-02-28 18:33:41,398 [MainThread  ][INFO ]  Fidelity: 0.9792926186876454
+2019-02-28 18:33:41,398 [MainThread  ][INFO ]  ---- Starting iteration 64/100
+2019-02-28 18:33:41,398 [MainThread  ][DEBUG]  Setting hyperparameter tf=2.5818181818181816
+2019-02-28 18:33:41,398 [MainThread  ][INFO ]  Starting optimization for tf=2.5818181818181816
+2019-02-28 18:33:41,399 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 18:33:41,399 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 18:33:41,399 [MainThread  ][INFO ]  Initial parameter values: [ 7.76582413  1.29090909  8.473291  ]
+2019-02-28 18:37:17,133 [MainThread  ][INFO ]  Final fidelity: 0.9978309109865552
+2019-02-28 18:37:17,146 [MainThread  ][INFO ]  Final parameters: [ 4.53218462  2.3962104  -0.06281514]
+2019-02-28 18:37:17,146 [MainThread  ][INFO ]  Fidelity: 0.9978309109865552
+2019-02-28 18:37:17,146 [MainThread  ][INFO ]  ---- Starting iteration 65/100
+2019-02-28 18:37:17,146 [MainThread  ][DEBUG]  Setting hyperparameter tf=2.621212121212121
+2019-02-28 18:37:17,146 [MainThread  ][INFO ]  Starting optimization for tf=2.621212121212121
+2019-02-28 18:37:17,146 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 18:37:17,146 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 18:37:17,146 [MainThread  ][INFO ]  Initial parameter values: [ 3.18890215  1.31060606  1.18257111]
+2019-02-28 18:40:56,927 [MainThread  ][INFO ]  Final fidelity: 0.9987961655473059
+2019-02-28 18:40:56,929 [MainThread  ][INFO ]  Final parameters: [ 4.76531384  1.54300011  3.99072522]
+2019-02-28 18:40:56,929 [MainThread  ][INFO ]  Fidelity: 0.9987961655473059
+2019-02-28 18:40:56,929 [MainThread  ][INFO ]  ---- Starting iteration 66/100
+2019-02-28 18:40:56,929 [MainThread  ][DEBUG]  Setting hyperparameter tf=2.6606060606060606
+2019-02-28 18:40:56,929 [MainThread  ][INFO ]  Starting optimization for tf=2.6606060606060606
+2019-02-28 18:40:56,929 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 18:40:56,929 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 18:40:56,930 [MainThread  ][INFO ]  Initial parameter values: [ 9.4936197   1.33030303  7.21915526]
+2019-02-28 18:43:15,083 [MainThread  ][INFO ]  Final fidelity: 0.9966177250108216
+2019-02-28 18:43:15,087 [MainThread  ][INFO ]  Final parameters: [ 4.57755966  2.1007672   3.67629806]
+2019-02-28 18:43:15,087 [MainThread  ][INFO ]  Fidelity: 0.9966177250108216
+2019-02-28 18:43:15,087 [MainThread  ][INFO ]  ---- Starting iteration 67/100
+2019-02-28 18:43:15,087 [MainThread  ][DEBUG]  Setting hyperparameter tf=2.6999999999999997
+2019-02-28 18:43:15,087 [MainThread  ][INFO ]  Starting optimization for tf=2.6999999999999997
+2019-02-28 18:43:15,087 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 18:43:15,087 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 18:43:15,088 [MainThread  ][INFO ]  Initial parameter values: [ 5.98555204  1.35        5.32381183]
+2019-02-28 18:46:32,274 [MainThread  ][INFO ]  Final fidelity: 0.987692094683325
+2019-02-28 18:46:32,284 [MainThread  ][INFO ]  Final parameters: [ 4.29311881  2.69358508  5.40884688]
+2019-02-28 18:46:32,284 [MainThread  ][INFO ]  Fidelity: 0.987692094683325
+2019-02-28 18:46:32,284 [MainThread  ][INFO ]  ---- Starting iteration 68/100
+2019-02-28 18:46:32,284 [MainThread  ][DEBUG]  Setting hyperparameter tf=2.7393939393939393
+2019-02-28 18:46:32,284 [MainThread  ][INFO ]  Starting optimization for tf=2.7393939393939393
+2019-02-28 18:46:32,284 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 18:46:32,284 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 18:46:32,285 [MainThread  ][INFO ]  Initial parameter values: [ 1.01276142  1.36969697  2.42939299]
+2019-02-28 18:52:37,719 [MainThread  ][INFO ]  Final fidelity: 0.9984953021850277
+2019-02-28 18:52:37,736 [MainThread  ][INFO ]  Final parameters: [ 4.63380749  1.79038146  4.04765927]
+2019-02-28 18:52:37,736 [MainThread  ][INFO ]  Fidelity: 0.9984953021850277
+2019-02-28 18:52:37,736 [MainThread  ][INFO ]  ---- Starting iteration 69/100
+2019-02-28 18:52:37,736 [MainThread  ][DEBUG]  Setting hyperparameter tf=2.778787878787879
+2019-02-28 18:52:37,736 [MainThread  ][INFO ]  Starting optimization for tf=2.778787878787879
+2019-02-28 18:52:37,736 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 18:52:37,736 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 18:52:37,737 [MainThread  ][INFO ]  Initial parameter values: [ 8.9135272   1.38939394  6.31222531]
+2019-02-28 18:55:02,503 [MainThread  ][INFO ]  Final fidelity: 0.9900686244306713
+2019-02-28 18:55:02,509 [MainThread  ][INFO ]  Final parameters: [ 4.31311034  2.75147818  4.88115186]
+2019-02-28 18:55:02,509 [MainThread  ][INFO ]  Fidelity: 0.9900686244306713
+2019-02-28 18:55:02,509 [MainThread  ][INFO ]  ---- Starting iteration 70/100
+2019-02-28 18:55:02,509 [MainThread  ][DEBUG]  Setting hyperparameter tf=2.818181818181818
+2019-02-28 18:55:02,509 [MainThread  ][INFO ]  Starting optimization for tf=2.818181818181818
+2019-02-28 18:55:02,509 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 18:55:02,509 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 18:55:02,510 [MainThread  ][INFO ]  Initial parameter values: [ 0.61029377  1.40909091  1.12579316]
+2019-02-28 18:58:49,443 [MainThread  ][INFO ]  Final fidelity: 0.998294456313919
+2019-02-28 18:58:49,444 [MainThread  ][INFO ]  Final parameters: [ 4.50327327  2.15761945  4.02832947]
+2019-02-28 18:58:49,444 [MainThread  ][INFO ]  Fidelity: 0.998294456313919
+2019-02-28 18:58:49,444 [MainThread  ][INFO ]  ---- Starting iteration 71/100
+2019-02-28 18:58:49,444 [MainThread  ][DEBUG]  Setting hyperparameter tf=2.8575757575757574
+2019-02-28 18:58:49,444 [MainThread  ][INFO ]  Starting optimization for tf=2.8575757575757574
+2019-02-28 18:58:49,444 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 18:58:49,444 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 18:58:49,444 [MainThread  ][INFO ]  Initial parameter values: [ 2.02762716  1.42878788  0.45587025]
+2019-02-28 19:06:05,954 [MainThread  ][INFO ]  Final fidelity: 0.998033228250442
+2019-02-28 19:06:05,981 [MainThread  ][INFO ]  Final parameters: [ 4.53802135  2.16159056  4.05769099]
+2019-02-28 19:06:05,982 [MainThread  ][INFO ]  Fidelity: 0.998033228250442
+2019-02-28 19:06:05,982 [MainThread  ][INFO ]  ---- Starting iteration 72/100
+2019-02-28 19:06:05,982 [MainThread  ][DEBUG]  Setting hyperparameter tf=2.896969696969697
+2019-02-28 19:06:05,982 [MainThread  ][INFO ]  Starting optimization for tf=2.896969696969697
+2019-02-28 19:06:05,982 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 19:06:05,982 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 19:06:05,983 [MainThread  ][INFO ]  Initial parameter values: [ 1.31366679  1.44848485  9.74878093]
+2019-02-28 19:09:21,970 [MainThread  ][INFO ]  Final fidelity: 0.9966963587640352
+2019-02-28 19:09:21,971 [MainThread  ][INFO ]  Final parameters: [ 4.43674478  2.83495413  0.00858512]
+2019-02-28 19:09:21,972 [MainThread  ][INFO ]  Fidelity: 0.9966963587640352
+2019-02-28 19:09:21,972 [MainThread  ][INFO ]  ---- Starting iteration 73/100
+2019-02-28 19:09:21,972 [MainThread  ][DEBUG]  Setting hyperparameter tf=2.936363636363636
+2019-02-28 19:09:21,972 [MainThread  ][INFO ]  Starting optimization for tf=2.936363636363636
+2019-02-28 19:09:21,972 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 19:09:21,972 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 19:09:21,972 [MainThread  ][INFO ]  Initial parameter values: [ 3.86418235  1.46818182  4.27306988]
+2019-02-28 19:15:01,099 [MainThread  ][INFO ]  Final fidelity: 0.9983081058343961
+2019-02-28 19:15:01,126 [MainThread  ][INFO ]  Final parameters: [ 4.59182406  1.54274727  4.29734413]
+2019-02-28 19:15:01,126 [MainThread  ][INFO ]  Fidelity: 0.9983081058343961
+2019-02-28 19:15:01,126 [MainThread  ][INFO ]  ---- Starting iteration 74/100
+2019-02-28 19:15:01,127 [MainThread  ][DEBUG]  Setting hyperparameter tf=2.9757575757575756
+2019-02-28 19:15:01,127 [MainThread  ][INFO ]  Starting optimization for tf=2.9757575757575756
+2019-02-28 19:15:01,127 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 19:15:01,127 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 19:15:01,127 [MainThread  ][INFO ]  Initial parameter values: [ 0.03938859  1.48787879  8.92932799]
+2019-02-28 19:20:35,632 [MainThread  ][INFO ]  Final fidelity: 0.9962985733108438
+2019-02-28 19:20:35,638 [MainThread  ][INFO ]  Final parameters: [ 4.39213354  2.97409178 -4.49097905]
+2019-02-28 19:20:35,639 [MainThread  ][INFO ]  Fidelity: 0.9962985733108438
+2019-02-28 19:20:35,639 [MainThread  ][INFO ]  ---- Starting iteration 75/100
+2019-02-28 19:20:35,639 [MainThread  ][DEBUG]  Setting hyperparameter tf=3.015151515151515
+2019-02-28 19:20:35,639 [MainThread  ][INFO ]  Starting optimization for tf=3.015151515151515
+2019-02-28 19:20:35,639 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 19:20:35,639 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 19:20:35,639 [MainThread  ][INFO ]  Initial parameter values: [ 9.64259071  1.50757576  7.45768535]
+2019-02-28 19:23:46,786 [MainThread  ][INFO ]  Final fidelity: 0.9976206808417291
+2019-02-28 19:23:46,835 [MainThread  ][INFO ]  Final parameters: [ 4.45690329  2.95509031  1.37930933]
+2019-02-28 19:23:46,835 [MainThread  ][INFO ]  Fidelity: 0.9976206808417291
+2019-02-28 19:23:46,835 [MainThread  ][INFO ]  ---- Starting iteration 76/100
+2019-02-28 19:23:46,836 [MainThread  ][DEBUG]  Setting hyperparameter tf=3.0545454545454542
+2019-02-28 19:23:46,836 [MainThread  ][INFO ]  Starting optimization for tf=3.0545454545454542
+2019-02-28 19:23:46,836 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 19:23:46,836 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 19:23:46,836 [MainThread  ][INFO ]  Initial parameter values: [ 7.45855253  1.52727273  0.40911341]
+2019-02-28 19:27:04,886 [MainThread  ][INFO ]  Final fidelity: 0.9985715046341049
+2019-02-28 19:27:04,909 [MainThread  ][INFO ]  Final parameters: [ 4.46886108  2.77122676  4.03609653]
+2019-02-28 19:27:04,909 [MainThread  ][INFO ]  Fidelity: 0.9985715046341049
+2019-02-28 19:27:04,910 [MainThread  ][INFO ]  ---- Starting iteration 77/100
+2019-02-28 19:27:04,910 [MainThread  ][DEBUG]  Setting hyperparameter tf=3.0939393939393938
+2019-02-28 19:27:04,910 [MainThread  ][INFO ]  Starting optimization for tf=3.0939393939393938
+2019-02-28 19:27:04,910 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 19:27:04,910 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 19:27:04,910 [MainThread  ][INFO ]  Initial parameter values: [ 7.63948583  1.5469697   4.04838739]
+2019-02-28 19:30:43,050 [MainThread  ][INFO ]  Final fidelity: 0.9954700109846377
+2019-02-28 19:30:43,052 [MainThread  ][INFO ]  Final parameters: [-4.34390412  0.36714895  4.41478019]
+2019-02-28 19:30:43,052 [MainThread  ][INFO ]  Fidelity: 0.9954700109846377
+2019-02-28 19:30:43,052 [MainThread  ][INFO ]  ---- Starting iteration 78/100
+2019-02-28 19:30:43,052 [MainThread  ][DEBUG]  Setting hyperparameter tf=3.1333333333333333
+2019-02-28 19:30:43,052 [MainThread  ][INFO ]  Starting optimization for tf=3.1333333333333333
+2019-02-28 19:30:43,052 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 19:30:43,053 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 19:30:43,053 [MainThread  ][INFO ]  Initial parameter values: [ 3.06099377  1.56666667  5.07170878]
+2019-02-28 19:34:16,922 [MainThread  ][INFO ]  Final fidelity: 0.9974375860287559
+2019-02-28 19:34:16,945 [MainThread  ][INFO ]  Final parameters: [ 4.41399984  3.05483366  4.7184762 ]
+2019-02-28 19:34:16,945 [MainThread  ][INFO ]  Fidelity: 0.9974375860287559
+2019-02-28 19:34:16,946 [MainThread  ][INFO ]  ---- Starting iteration 79/100
+2019-02-28 19:34:16,946 [MainThread  ][DEBUG]  Setting hyperparameter tf=3.1727272727272724
+2019-02-28 19:34:16,946 [MainThread  ][INFO ]  Starting optimization for tf=3.1727272727272724
+2019-02-28 19:34:16,946 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 19:34:16,946 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 19:34:16,946 [MainThread  ][INFO ]  Initial parameter values: [ 3.25549118  1.58636364  4.15252178]
+2019-02-28 19:37:35,054 [MainThread  ][INFO ]  Final fidelity: 0.9982221026583867
+2019-02-28 19:37:35,077 [MainThread  ][INFO ]  Final parameters: [ 4.45583812  2.96232736  4.28345369]
+2019-02-28 19:37:35,078 [MainThread  ][INFO ]  Fidelity: 0.9982221026583867
+2019-02-28 19:37:35,078 [MainThread  ][INFO ]  ---- Starting iteration 80/100
+2019-02-28 19:37:35,078 [MainThread  ][DEBUG]  Setting hyperparameter tf=3.212121212121212
+2019-02-28 19:37:35,078 [MainThread  ][INFO ]  Starting optimization for tf=3.212121212121212
+2019-02-28 19:37:35,078 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 19:37:35,078 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 19:37:35,078 [MainThread  ][INFO ]  Initial parameter values: [ 7.8520084   1.60606061  3.0998026 ]
+2019-02-28 19:41:37,428 [MainThread  ][INFO ]  Final fidelity: 0.9970781831459719
+2019-02-28 19:41:37,434 [MainThread  ][INFO ]  Final parameters: [-3.68966124  0.06126422  4.4475763 ]
+2019-02-28 19:41:37,434 [MainThread  ][INFO ]  Fidelity: 0.9970781831459719
+2019-02-28 19:41:37,434 [MainThread  ][INFO ]  ---- Starting iteration 81/100
+2019-02-28 19:41:37,434 [MainThread  ][DEBUG]  Setting hyperparameter tf=3.2515151515151515
+2019-02-28 19:41:37,434 [MainThread  ][INFO ]  Starting optimization for tf=3.2515151515151515
+2019-02-28 19:41:37,435 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 19:41:37,435 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 19:41:37,435 [MainThread  ][INFO ]  Initial parameter values: [ 7.80913456  1.62575758  0.35017844]
+2019-02-28 19:45:28,145 [MainThread  ][INFO ]  Final fidelity: 0.9993241290999603
+2019-02-28 19:45:28,159 [MainThread  ][INFO ]  Final parameters: [ 2.61020107  0.15194837  4.43939337]
+2019-02-28 19:45:28,160 [MainThread  ][INFO ]  Fidelity: 0.9993241290999603
+2019-02-28 19:45:28,160 [MainThread  ][INFO ]  ---- Starting iteration 82/100
+2019-02-28 19:45:28,160 [MainThread  ][DEBUG]  Setting hyperparameter tf=3.2909090909090906
+2019-02-28 19:45:28,160 [MainThread  ][INFO ]  Starting optimization for tf=3.2909090909090906
+2019-02-28 19:45:28,160 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 19:45:28,160 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 19:45:28,161 [MainThread  ][INFO ]  Initial parameter values: [ 3.22907286  1.64545455  3.72208904]
+2019-02-28 19:49:13,546 [MainThread  ][INFO ]  Final fidelity: 0.996716383013553
+2019-02-28 19:49:13,552 [MainThread  ][INFO ]  Final parameters: [-4.11420349  0.55304289  4.45668061]
+2019-02-28 19:49:13,552 [MainThread  ][INFO ]  Fidelity: 0.996716383013553
+2019-02-28 19:49:13,552 [MainThread  ][INFO ]  ---- Starting iteration 83/100
+2019-02-28 19:49:13,552 [MainThread  ][DEBUG]  Setting hyperparameter tf=3.33030303030303
+2019-02-28 19:49:13,552 [MainThread  ][INFO ]  Starting optimization for tf=3.33030303030303
+2019-02-28 19:49:13,552 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 19:49:13,552 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 19:49:13,553 [MainThread  ][INFO ]  Initial parameter values: [ 2.56122332  1.66515152  5.64304518]
+2019-02-28 19:52:28,200 [MainThread  ][INFO ]  Final fidelity: 0.9978817179467139
+2019-02-28 19:52:28,201 [MainThread  ][INFO ]  Final parameters: [ 4.44975993  3.11539083  4.81465348]
+2019-02-28 19:52:28,201 [MainThread  ][INFO ]  Fidelity: 0.9978817179467139
+2019-02-28 19:52:28,201 [MainThread  ][INFO ]  ---- Starting iteration 84/100
+2019-02-28 19:52:28,201 [MainThread  ][DEBUG]  Setting hyperparameter tf=3.3696969696969696
+2019-02-28 19:52:28,201 [MainThread  ][INFO ]  Starting optimization for tf=3.3696969696969696
+2019-02-28 19:52:28,201 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 19:52:28,202 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 19:52:28,202 [MainThread  ][INFO ]  Initial parameter values: [ 6.41384313  1.68484848  0.3877451 ]
+2019-02-28 19:56:15,758 [MainThread  ][INFO ]  Final fidelity: 0.9995835825998199
+2019-02-28 19:56:15,764 [MainThread  ][INFO ]  Final parameters: [ 2.55965674  0.21458462  4.45999701]
+2019-02-28 19:56:15,765 [MainThread  ][INFO ]  Fidelity: 0.9995835825998199
+2019-02-28 19:56:15,765 [MainThread  ][INFO ]  ---- Starting iteration 85/100
+2019-02-28 19:56:15,765 [MainThread  ][DEBUG]  Setting hyperparameter tf=3.4090909090909087
+2019-02-28 19:56:15,765 [MainThread  ][INFO ]  Starting optimization for tf=3.4090909090909087
+2019-02-28 19:56:15,765 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 19:56:15,765 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 19:56:15,765 [MainThread  ][INFO ]  Initial parameter values: [ 8.35152492  1.70454545  3.12909236]
+2019-02-28 19:59:39,317 [MainThread  ][INFO ]  Final fidelity: 0.9994996915072705
+2019-02-28 19:59:39,326 [MainThread  ][INFO ]  Final parameters: [ 2.40223054  0.28060836  4.45426658]
+2019-02-28 19:59:39,326 [MainThread  ][INFO ]  Fidelity: 0.9994996915072705
+2019-02-28 19:59:39,326 [MainThread  ][INFO ]  ---- Starting iteration 86/100
+2019-02-28 19:59:39,326 [MainThread  ][DEBUG]  Setting hyperparameter tf=3.4484848484848483
+2019-02-28 19:59:39,326 [MainThread  ][INFO ]  Starting optimization for tf=3.4484848484848483
+2019-02-28 19:59:39,326 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 19:59:39,326 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 19:59:39,327 [MainThread  ][INFO ]  Initial parameter values: [ 6.000216    1.72424242  3.36294702]
+2019-02-28 20:01:52,638 [MainThread  ][INFO ]  Final fidelity: 0.9970015006620342
+2019-02-28 20:01:52,650 [MainThread  ][INFO ]  Final parameters: [-3.17812728  0.37276207  4.47219488]
+2019-02-28 20:01:52,650 [MainThread  ][INFO ]  Fidelity: 0.9970015006620342
+2019-02-28 20:01:52,650 [MainThread  ][INFO ]  ---- Starting iteration 87/100
+2019-02-28 20:01:52,651 [MainThread  ][DEBUG]  Setting hyperparameter tf=3.487878787878788
+2019-02-28 20:01:52,651 [MainThread  ][INFO ]  Starting optimization for tf=3.487878787878788
+2019-02-28 20:01:52,651 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 20:01:52,651 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 20:01:52,651 [MainThread  ][INFO ]  Initial parameter values: [ 2.17694218  1.74393939  1.65430977]
+2019-02-28 20:05:33,270 [MainThread  ][INFO ]  Final fidelity: 0.999527900566469
+2019-02-28 20:05:33,289 [MainThread  ][INFO ]  Final parameters: [ 2.86574907  0.40215618  4.4715798 ]
+2019-02-28 20:05:33,289 [MainThread  ][INFO ]  Fidelity: 0.999527900566469
+2019-02-28 20:05:33,289 [MainThread  ][INFO ]  ---- Starting iteration 88/100
+2019-02-28 20:05:33,289 [MainThread  ][DEBUG]  Setting hyperparameter tf=3.527272727272727
+2019-02-28 20:05:33,289 [MainThread  ][INFO ]  Starting optimization for tf=3.527272727272727
+2019-02-28 20:05:33,290 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 20:05:33,290 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 20:05:33,290 [MainThread  ][INFO ]  Initial parameter values: [ 3.2269233   1.76363636  6.56327784]
+2019-02-28 20:09:44,156 [MainThread  ][INFO ]  Final fidelity: 0.994647503474847
+2019-02-28 20:09:44,173 [MainThread  ][INFO ]  Final parameters: [ 4.52945931  3.52645337  0.49421681]
+2019-02-28 20:09:44,173 [MainThread  ][INFO ]  Fidelity: 0.994647503474847
+2019-02-28 20:09:44,173 [MainThread  ][INFO ]  ---- Starting iteration 89/100
+2019-02-28 20:09:44,173 [MainThread  ][DEBUG]  Setting hyperparameter tf=3.5666666666666664
+2019-02-28 20:09:44,173 [MainThread  ][INFO ]  Starting optimization for tf=3.5666666666666664
+2019-02-28 20:09:44,173 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 20:09:44,174 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 20:09:44,174 [MainThread  ][INFO ]  Initial parameter values: [ 0.03053881  1.78333333  6.55976118]
+2019-02-28 20:12:28,669 [MainThread  ][INFO ]  Final fidelity: 0.9981177924952783
+2019-02-28 20:12:28,670 [MainThread  ][INFO ]  Final parameters: [ 4.45496929  3.05347568  4.83532571]
+2019-02-28 20:12:28,670 [MainThread  ][INFO ]  Fidelity: 0.9981177924952783
+2019-02-28 20:12:28,670 [MainThread  ][INFO ]  ---- Starting iteration 90/100
+2019-02-28 20:12:28,670 [MainThread  ][DEBUG]  Setting hyperparameter tf=3.606060606060606
+2019-02-28 20:12:28,671 [MainThread  ][INFO ]  Starting optimization for tf=3.606060606060606
+2019-02-28 20:12:28,671 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 20:12:28,671 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 20:12:28,671 [MainThread  ][INFO ]  Initial parameter values: [ 1.5091606   1.8030303   0.11025822]
+2019-02-28 20:17:30,915 [MainThread  ][INFO ]  Final fidelity: 0.9995152342545178
+2019-02-28 20:17:30,916 [MainThread  ][INFO ]  Final parameters: [ 2.77763328  0.52819385  4.48548969]
+2019-02-28 20:17:30,916 [MainThread  ][INFO ]  Fidelity: 0.9995152342545178
+2019-02-28 20:17:30,916 [MainThread  ][INFO ]  ---- Starting iteration 91/100
+2019-02-28 20:17:30,916 [MainThread  ][DEBUG]  Setting hyperparameter tf=3.645454545454545
+2019-02-28 20:17:30,916 [MainThread  ][INFO ]  Starting optimization for tf=3.645454545454545
+2019-02-28 20:17:30,916 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 20:17:30,916 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 20:17:30,917 [MainThread  ][INFO ]  Initial parameter values: [ 4.66144226  1.82272727  6.27141382]
+2019-02-28 20:19:01,789 [MainThread  ][INFO ]  Final fidelity: 0.9920467217755298
+2019-02-28 20:19:01,790 [MainThread  ][INFO ]  Final parameters: [ 4.55125244  3.6446044   7.60015554]
+2019-02-28 20:19:01,790 [MainThread  ][INFO ]  Fidelity: 0.9920467217755298
+2019-02-28 20:19:01,790 [MainThread  ][INFO ]  ---- Starting iteration 92/100
+2019-02-28 20:19:01,790 [MainThread  ][DEBUG]  Setting hyperparameter tf=3.6848484848484846
+2019-02-28 20:19:01,790 [MainThread  ][INFO ]  Starting optimization for tf=3.6848484848484846
+2019-02-28 20:19:01,790 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 20:19:01,790 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 20:19:01,791 [MainThread  ][INFO ]  Initial parameter values: [ 3.13964766  1.84242424  7.77880441]
+2019-02-28 20:23:43,014 [MainThread  ][INFO ]  Final fidelity: 0.9995515644708455
+2019-02-28 20:23:43,015 [MainThread  ][INFO ]  Final parameters: [ 2.16691315  0.46322701  4.49013642]
+2019-02-28 20:23:43,015 [MainThread  ][INFO ]  Fidelity: 0.9995515644708455
+2019-02-28 20:23:43,015 [MainThread  ][INFO ]  ---- Starting iteration 93/100
+2019-02-28 20:23:43,016 [MainThread  ][DEBUG]  Setting hyperparameter tf=3.724242424242424
+2019-02-28 20:23:43,016 [MainThread  ][INFO ]  Starting optimization for tf=3.724242424242424
+2019-02-28 20:23:43,016 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 20:23:43,016 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 20:23:43,016 [MainThread  ][INFO ]  Initial parameter values: [ 1.14583199  1.86212121  5.81676241]
+2019-02-28 20:26:31,514 [MainThread  ][INFO ]  Final fidelity: 0.9981779282733098
+2019-02-28 20:26:31,532 [MainThread  ][INFO ]  Final parameters: [ 4.45084014  3.17827542  4.96456897]
+2019-02-28 20:26:31,532 [MainThread  ][INFO ]  Fidelity: 0.9981779282733098
+2019-02-28 20:26:31,532 [MainThread  ][INFO ]  ---- Starting iteration 94/100
+2019-02-28 20:26:31,532 [MainThread  ][DEBUG]  Setting hyperparameter tf=3.7636363636363632
+2019-02-28 20:26:31,532 [MainThread  ][INFO ]  Starting optimization for tf=3.7636363636363632
+2019-02-28 20:26:31,532 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 20:26:31,532 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 20:26:31,533 [MainThread  ][INFO ]  Initial parameter values: [ 8.55619394  1.88181818  0.51198355]
+2019-02-28 20:30:52,193 [MainThread  ][INFO ]  Final fidelity: 0.9995178911059569
+2019-02-28 20:30:52,196 [MainThread  ][INFO ]  Final parameters: [ 2.44546653  0.65063831  4.49184366]
+2019-02-28 20:30:52,196 [MainThread  ][INFO ]  Fidelity: 0.9995178911059569
+2019-02-28 20:30:52,196 [MainThread  ][INFO ]  ---- Starting iteration 95/100
+2019-02-28 20:30:52,197 [MainThread  ][DEBUG]  Setting hyperparameter tf=3.8030303030303028
+2019-02-28 20:30:52,197 [MainThread  ][INFO ]  Starting optimization for tf=3.8030303030303028
+2019-02-28 20:30:52,197 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 20:30:52,197 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 20:30:52,197 [MainThread  ][INFO ]  Initial parameter values: [ 9.25090375  1.90151515  4.8341803 ]
+2019-02-28 20:34:29,527 [MainThread  ][INFO ]  Final fidelity: 0.9984896043384693
+2019-02-28 20:34:29,535 [MainThread  ][INFO ]  Final parameters: [ 4.35575304  2.31401007  4.70607117]
+2019-02-28 20:34:29,535 [MainThread  ][INFO ]  Fidelity: 0.9984896043384693
+2019-02-28 20:34:29,535 [MainThread  ][INFO ]  ---- Starting iteration 96/100
+2019-02-28 20:34:29,535 [MainThread  ][DEBUG]  Setting hyperparameter tf=3.8424242424242423
+2019-02-28 20:34:29,535 [MainThread  ][INFO ]  Starting optimization for tf=3.8424242424242423
+2019-02-28 20:34:29,535 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 20:34:29,535 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 20:34:29,536 [MainThread  ][INFO ]  Initial parameter values: [ 2.32061753  1.92121212  3.97227779]
+2019-02-28 20:39:04,579 [MainThread  ][INFO ]  Final fidelity: 0.9995401562497395
+2019-02-28 20:39:04,588 [MainThread  ][INFO ]  Final parameters: [ 2.51582456  0.71454994  4.50642903]
+2019-02-28 20:39:04,589 [MainThread  ][INFO ]  Fidelity: 0.9995401562497395
+2019-02-28 20:39:04,589 [MainThread  ][INFO ]  ---- Starting iteration 97/100
+2019-02-28 20:39:04,589 [MainThread  ][DEBUG]  Setting hyperparameter tf=3.8818181818181814
+2019-02-28 20:39:04,589 [MainThread  ][INFO ]  Starting optimization for tf=3.8818181818181814
+2019-02-28 20:39:04,589 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 20:39:04,589 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 20:39:04,589 [MainThread  ][INFO ]  Initial parameter values: [ 6.18519577  1.94090909  7.85755516]
+2019-02-28 20:46:09,542 [MainThread  ][INFO ]  Final fidelity: 0.9995432322202803
+2019-02-28 20:46:09,545 [MainThread  ][INFO ]  Final parameters: [ 2.66433987  0.77277979  4.51586227]
+2019-02-28 20:46:09,545 [MainThread  ][INFO ]  Fidelity: 0.9995432322202803
+2019-02-28 20:46:09,545 [MainThread  ][INFO ]  ---- Starting iteration 98/100
+2019-02-28 20:46:09,546 [MainThread  ][DEBUG]  Setting hyperparameter tf=3.921212121212121
+2019-02-28 20:46:09,546 [MainThread  ][INFO ]  Starting optimization for tf=3.921212121212121
+2019-02-28 20:46:09,546 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 20:46:09,546 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 20:46:09,546 [MainThread  ][INFO ]  Initial parameter values: [ 0.92544636  1.96060606  1.04082845]
+2019-02-28 20:49:58,624 [MainThread  ][INFO ]  Final fidelity: 0.9996520355885824
+2019-02-28 20:49:58,640 [MainThread  ][INFO ]  Final parameters: [ 2.64192522  0.77483783  4.52150395]
+2019-02-28 20:49:58,640 [MainThread  ][INFO ]  Fidelity: 0.9996520355885824
+2019-02-28 20:49:58,640 [MainThread  ][INFO ]  ---- Starting iteration 99/100
+2019-02-28 20:49:58,640 [MainThread  ][DEBUG]  Setting hyperparameter tf=3.9606060606060605
+2019-02-28 20:49:58,640 [MainThread  ][INFO ]  Starting optimization for tf=3.9606060606060605
+2019-02-28 20:49:58,640 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 20:49:58,640 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 20:49:58,641 [MainThread  ][INFO ]  Initial parameter values: [ 7.77285687  1.98030303  2.22601049]
+2019-02-28 20:53:25,856 [MainThread  ][INFO ]  Final fidelity: 0.9994653951412545
+2019-02-28 20:53:25,869 [MainThread  ][INFO ]  Final parameters: [ 2.59509843  0.83807932  4.52163685]
+2019-02-28 20:53:25,869 [MainThread  ][INFO ]  Fidelity: 0.9994653951412545
+2019-02-28 20:53:25,870 [MainThread  ][INFO ]  ---- Starting iteration 100/100
+2019-02-28 20:53:25,870 [MainThread  ][DEBUG]  Setting hyperparameter tf=4.0
+2019-02-28 20:53:25,870 [MainThread  ][INFO ]  Starting optimization for tf=4.0
+2019-02-28 20:53:25,870 [MainThread  ][DEBUG]  Optimization method: Powell
+2019-02-28 20:53:25,870 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 20:53:25,870 [MainThread  ][INFO ]  Initial parameter values: [ 4.51945193  2.          7.25707399]
+2019-02-28 20:56:09,884 [MainThread  ][INFO ]  Final fidelity: 0.7731251160839085
+2019-02-28 20:56:09,885 [MainThread  ][INFO ]  Final parameters: [-1.89851589  3.97112167  2.10213358]
+2019-02-28 20:56:09,886 [MainThread  ][INFO ]  Fidelity: 0.7731251160839085

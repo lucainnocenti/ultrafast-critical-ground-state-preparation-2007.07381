@@ -1,0 +1,11 @@
+20200506
+	Created and run most of the scripts:
+	- crab 4 NM and powell;
+	- crab 10 frequencies NM;
+	- crab 4 and 10 frequencies NM with initial frequencies fixed to zero;
+	- doublebang powell 
+
+	Might decide to run the triplebang as well, but the code needs to be fixed to compute the evolution using expm rather than qutip.mesolve.
+
+	Observations:
+	- The crab optimisations are trying to saturate the frequencies to the \pm200 threshold very often. Is this related to obtaining decent fidelities? To check

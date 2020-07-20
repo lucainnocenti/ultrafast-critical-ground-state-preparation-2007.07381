@@ -1,0 +1,278 @@
+2020-06-18 13:22:21,624 [MainThread  ][INFO ]  Output file name will be "lz_crab2freq_neldermead_bound10.csv"
+2020-06-18 13:22:21,624 [MainThread  ][DEBUG]  Initializing ProtocolAnsatz instance "crab"
+2020-06-18 13:22:21,624 [MainThread  ][DEBUG]  Using 2 frequencies
+2020-06-18 13:22:21,624 [MainThread  ][DEBUG]  Setting hyperparameter y0=-5
+2020-06-18 13:22:21,624 [MainThread  ][DEBUG]  Setting hyperparameter y1=5
+2020-06-18 13:22:21,627 [MainThread  ][INFO ]  Using custom protocol ansatz.
+2020-06-18 13:22:21,628 [MainThread  ][INFO ]  Using parameters constraints: [[-200, 200], [-200, 200], [-200, 200], [-200, 200]]
+2020-06-18 13:22:21,628 [MainThread  ][INFO ]  Using total height constraint: [-10, 10]
+2020-06-18 13:22:21,628 [MainThread  ][INFO ]  ---- Iteration 1/30
+2020-06-18 13:22:21,628 [MainThread  ][DEBUG]  Setting hyperparameter tf=0.01
+2020-06-18 13:22:21,628 [MainThread  ][INFO ]  Starting optimization for tf=0.01
+2020-06-18 13:22:21,628 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2020-06-18 13:22:21,628 [MainThread  ][DEBUG]  Optimization options: {'maxiter': 100000.0, 'maxfev': 100000.0, 'xatol': 1e-08, 'fatol': 1e-08, 'adaptive': True}
+2020-06-18 13:22:21,628 [MainThread  ][INFO ]  Initial parameter values: [0, 0, 0, 0]
+2020-06-18 13:22:42,486 [MainThread  ][INFO ]  Final fidelity: 0.038493570677156946
+2020-06-18 13:22:42,487 [MainThread  ][INFO ]  Final parameters: [  -7.59226138  -48.40613717  199.81038632 -199.9999992 ]
+2020-06-18 13:22:42,487 [MainThread  ][INFO ]  Fidelity: 0.038493570677156946
+2020-06-18 13:22:42,487 [MainThread  ][INFO ]  ---- Iteration 2/30
+2020-06-18 13:22:42,488 [MainThread  ][DEBUG]  Setting hyperparameter tf=0.11310344827586206
+2020-06-18 13:22:42,488 [MainThread  ][INFO ]  Starting optimization for tf=0.11310344827586206
+2020-06-18 13:22:42,488 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2020-06-18 13:22:42,488 [MainThread  ][DEBUG]  Optimization options: {'maxiter': 100000.0, 'maxfev': 100000.0, 'xatol': 1e-08, 'fatol': 1e-08, 'adaptive': True}
+2020-06-18 13:22:42,488 [MainThread  ][INFO ]  Initial parameter values: [0, 0, 0, 0]
+2020-06-18 13:23:43,040 [MainThread  ][INFO ]  Final fidelity: 0.04266592001686714
+2020-06-18 13:23:43,041 [MainThread  ][INFO ]  Final parameters: [ -47.96132154   -7.66380856  200.         -200.        ]
+2020-06-18 13:23:43,041 [MainThread  ][INFO ]  Fidelity: 0.04266592001686714
+2020-06-18 13:23:43,041 [MainThread  ][INFO ]  ---- Iteration 3/30
+2020-06-18 13:23:43,041 [MainThread  ][DEBUG]  Setting hyperparameter tf=0.21620689655172415
+2020-06-18 13:23:43,041 [MainThread  ][INFO ]  Starting optimization for tf=0.21620689655172415
+2020-06-18 13:23:43,041 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2020-06-18 13:23:43,041 [MainThread  ][DEBUG]  Optimization options: {'maxiter': 100000.0, 'maxfev': 100000.0, 'xatol': 1e-08, 'fatol': 1e-08, 'adaptive': True}
+2020-06-18 13:23:43,041 [MainThread  ][INFO ]  Initial parameter values: [0, 0, 0, 0]
+2020-06-18 13:24:31,302 [MainThread  ][INFO ]  Final fidelity: 0.05482503068588723
+2020-06-18 13:24:31,303 [MainThread  ][INFO ]  Final parameters: [ -48.29344437   -7.64052377  200.         -200.        ]
+2020-06-18 13:24:31,303 [MainThread  ][INFO ]  Fidelity: 0.05482503068588723
+2020-06-18 13:24:31,303 [MainThread  ][INFO ]  ---- Iteration 4/30
+2020-06-18 13:24:31,303 [MainThread  ][DEBUG]  Setting hyperparameter tf=0.31931034482758625
+2020-06-18 13:24:31,303 [MainThread  ][INFO ]  Starting optimization for tf=0.31931034482758625
+2020-06-18 13:24:31,303 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2020-06-18 13:24:31,303 [MainThread  ][DEBUG]  Optimization options: {'maxiter': 100000.0, 'maxfev': 100000.0, 'xatol': 1e-08, 'fatol': 1e-08, 'adaptive': True}
+2020-06-18 13:24:31,303 [MainThread  ][INFO ]  Initial parameter values: [0, 0, 0, 0]
+2020-06-18 13:25:39,570 [MainThread  ][INFO ]  Final fidelity: 0.07762219114511043
+2020-06-18 13:25:39,571 [MainThread  ][INFO ]  Final parameters: [ -49.39796777   -7.56308678  200.         -200.        ]
+2020-06-18 13:25:39,571 [MainThread  ][INFO ]  Fidelity: 0.07762219114511043
+2020-06-18 13:25:39,571 [MainThread  ][INFO ]  ---- Iteration 5/30
+2020-06-18 13:25:39,571 [MainThread  ][DEBUG]  Setting hyperparameter tf=0.4224137931034483
+2020-06-18 13:25:39,571 [MainThread  ][INFO ]  Starting optimization for tf=0.4224137931034483
+2020-06-18 13:25:39,571 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2020-06-18 13:25:39,571 [MainThread  ][DEBUG]  Optimization options: {'maxiter': 100000.0, 'maxfev': 100000.0, 'xatol': 1e-08, 'fatol': 1e-08, 'adaptive': True}
+2020-06-18 13:25:39,571 [MainThread  ][INFO ]  Initial parameter values: [0, 0, 0, 0]
+2020-06-18 13:26:31,255 [MainThread  ][INFO ]  Final fidelity: 0.11538492240290181
+2020-06-18 13:26:31,255 [MainThread  ][INFO ]  Final parameters: [  -4.19225676  -17.57669528  200.         -198.48039064]
+2020-06-18 13:26:31,255 [MainThread  ][INFO ]  Fidelity: 0.11538492240290181
+2020-06-18 13:26:31,255 [MainThread  ][INFO ]  ---- Iteration 6/30
+2020-06-18 13:26:31,256 [MainThread  ][DEBUG]  Setting hyperparameter tf=0.5255172413793103
+2020-06-18 13:26:31,256 [MainThread  ][INFO ]  Starting optimization for tf=0.5255172413793103
+2020-06-18 13:26:31,256 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2020-06-18 13:26:31,256 [MainThread  ][DEBUG]  Optimization options: {'maxiter': 100000.0, 'maxfev': 100000.0, 'xatol': 1e-08, 'fatol': 1e-08, 'adaptive': True}
+2020-06-18 13:26:31,256 [MainThread  ][INFO ]  Initial parameter values: [0, 0, 0, 0]
+2020-06-18 13:28:00,540 [MainThread  ][INFO ]  Final fidelity: 0.17370497072257715
+2020-06-18 13:28:00,541 [MainThread  ][INFO ]  Final parameters: [  -4.93846845  -16.04001037  200.         -199.97071129]
+2020-06-18 13:28:00,541 [MainThread  ][INFO ]  Fidelity: 0.17370497072257715
+2020-06-18 13:28:00,541 [MainThread  ][INFO ]  ---- Iteration 7/30
+2020-06-18 13:28:00,541 [MainThread  ][DEBUG]  Setting hyperparameter tf=0.6286206896551725
+2020-06-18 13:28:00,541 [MainThread  ][INFO ]  Starting optimization for tf=0.6286206896551725
+2020-06-18 13:28:00,541 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2020-06-18 13:28:00,541 [MainThread  ][DEBUG]  Optimization options: {'maxiter': 100000.0, 'maxfev': 100000.0, 'xatol': 1e-08, 'fatol': 1e-08, 'adaptive': True}
+2020-06-18 13:28:00,541 [MainThread  ][INFO ]  Initial parameter values: [0, 0, 0, 0]
+2020-06-18 13:28:53,966 [MainThread  ][INFO ]  Final fidelity: 0.23194616537817223
+2020-06-18 13:28:53,966 [MainThread  ][INFO ]  Final parameters: [  44.52603369   40.28281614  107.91035926 -200.        ]
+2020-06-18 13:28:53,967 [MainThread  ][INFO ]  Fidelity: 0.23194616537817223
+2020-06-18 13:28:53,967 [MainThread  ][INFO ]  ---- Iteration 8/30
+2020-06-18 13:28:53,967 [MainThread  ][DEBUG]  Setting hyperparameter tf=0.7317241379310345
+2020-06-18 13:28:53,967 [MainThread  ][INFO ]  Starting optimization for tf=0.7317241379310345
+2020-06-18 13:28:53,967 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2020-06-18 13:28:53,967 [MainThread  ][DEBUG]  Optimization options: {'maxiter': 100000.0, 'maxfev': 100000.0, 'xatol': 1e-08, 'fatol': 1e-08, 'adaptive': True}
+2020-06-18 13:28:53,967 [MainThread  ][INFO ]  Initial parameter values: [0, 0, 0, 0]
+2020-06-18 13:30:10,079 [MainThread  ][INFO ]  Final fidelity: 0.33486061700360337
+2020-06-18 13:30:10,079 [MainThread  ][INFO ]  Final parameters: [ -19.3737912   -26.22473154  126.55164    -200.        ]
+2020-06-18 13:30:10,079 [MainThread  ][INFO ]  Fidelity: 0.33486061700360337
+2020-06-18 13:30:10,079 [MainThread  ][INFO ]  ---- Iteration 9/30
+2020-06-18 13:30:10,080 [MainThread  ][DEBUG]  Setting hyperparameter tf=0.8348275862068966
+2020-06-18 13:30:10,080 [MainThread  ][INFO ]  Starting optimization for tf=0.8348275862068966
+2020-06-18 13:30:10,080 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2020-06-18 13:30:10,080 [MainThread  ][DEBUG]  Optimization options: {'maxiter': 100000.0, 'maxfev': 100000.0, 'xatol': 1e-08, 'fatol': 1e-08, 'adaptive': True}
+2020-06-18 13:30:10,080 [MainThread  ][INFO ]  Initial parameter values: [0, 0, 0, 0]
+2020-06-18 13:31:22,317 [MainThread  ][INFO ]  Final fidelity: 0.4426955468334293
+2020-06-18 13:31:22,317 [MainThread  ][INFO ]  Final parameters: [  -9.60744475  -13.31803335  128.45574703 -200.        ]
+2020-06-18 13:31:22,317 [MainThread  ][INFO ]  Fidelity: 0.4426955468334293
+2020-06-18 13:31:22,317 [MainThread  ][INFO ]  ---- Iteration 10/30
+2020-06-18 13:31:22,317 [MainThread  ][DEBUG]  Setting hyperparameter tf=0.9379310344827586
+2020-06-18 13:31:22,317 [MainThread  ][INFO ]  Starting optimization for tf=0.9379310344827586
+2020-06-18 13:31:22,317 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2020-06-18 13:31:22,318 [MainThread  ][DEBUG]  Optimization options: {'maxiter': 100000.0, 'maxfev': 100000.0, 'xatol': 1e-08, 'fatol': 1e-08, 'adaptive': True}
+2020-06-18 13:31:22,318 [MainThread  ][INFO ]  Initial parameter values: [0, 0, 0, 0]
+2020-06-18 13:32:14,151 [MainThread  ][INFO ]  Final fidelity: 0.5712316996286596
+2020-06-18 13:32:14,151 [MainThread  ][INFO ]  Final parameters: [  -1.30832091   -6.79574664  200.         -157.3659921 ]
+2020-06-18 13:32:14,151 [MainThread  ][INFO ]  Fidelity: 0.5712316996286596
+2020-06-18 13:32:14,151 [MainThread  ][INFO ]  ---- Iteration 11/30
+2020-06-18 13:32:14,151 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.0410344827586206
+2020-06-18 13:32:14,151 [MainThread  ][INFO ]  Starting optimization for tf=1.0410344827586206
+2020-06-18 13:32:14,151 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2020-06-18 13:32:14,151 [MainThread  ][DEBUG]  Optimization options: {'maxiter': 100000.0, 'maxfev': 100000.0, 'xatol': 1e-08, 'fatol': 1e-08, 'adaptive': True}
+2020-06-18 13:32:14,151 [MainThread  ][INFO ]  Initial parameter values: [0, 0, 0, 0]
+2020-06-18 13:33:17,153 [MainThread  ][INFO ]  Final fidelity: 0.6435926706410952
+2020-06-18 13:33:17,153 [MainThread  ][INFO ]  Final parameters: [-6.22363715e-05 -4.21183789e-04  1.85500631e+02 -1.15804377e+02]
+2020-06-18 13:33:17,153 [MainThread  ][INFO ]  Fidelity: 0.6435926706410952
+2020-06-18 13:33:17,153 [MainThread  ][INFO ]  ---- Iteration 12/30
+2020-06-18 13:33:17,153 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.1441379310344828
+2020-06-18 13:33:17,153 [MainThread  ][INFO ]  Starting optimization for tf=1.1441379310344828
+2020-06-18 13:33:17,153 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2020-06-18 13:33:17,153 [MainThread  ][DEBUG]  Optimization options: {'maxiter': 100000.0, 'maxfev': 100000.0, 'xatol': 1e-08, 'fatol': 1e-08, 'adaptive': True}
+2020-06-18 13:33:17,153 [MainThread  ][INFO ]  Initial parameter values: [0, 0, 0, 0]
+2020-06-18 13:34:25,773 [MainThread  ][INFO ]  Final fidelity: 0.7035997477280173
+2020-06-18 13:34:25,774 [MainThread  ][INFO ]  Final parameters: [ 3.89129270e-04  2.80929149e-03  1.39015987e+02 -9.40014654e+01]
+2020-06-18 13:34:25,774 [MainThread  ][INFO ]  Fidelity: 0.7035997477280173
+2020-06-18 13:34:25,774 [MainThread  ][INFO ]  ---- Iteration 13/30
+2020-06-18 13:34:25,774 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.247241379310345
+2020-06-18 13:34:25,774 [MainThread  ][INFO ]  Starting optimization for tf=1.247241379310345
+2020-06-18 13:34:25,774 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2020-06-18 13:34:25,774 [MainThread  ][DEBUG]  Optimization options: {'maxiter': 100000.0, 'maxfev': 100000.0, 'xatol': 1e-08, 'fatol': 1e-08, 'adaptive': True}
+2020-06-18 13:34:25,774 [MainThread  ][INFO ]  Initial parameter values: [0, 0, 0, 0]
+2020-06-18 13:35:43,109 [MainThread  ][INFO ]  Final fidelity: 0.6459529319708628
+2020-06-18 13:35:43,110 [MainThread  ][INFO ]  Final parameters: [ 39.46631555  58.95735614 -15.26656265 -37.14230996]
+2020-06-18 13:35:43,110 [MainThread  ][INFO ]  Fidelity: 0.6459529319708628
+2020-06-18 13:35:43,110 [MainThread  ][INFO ]  ---- Iteration 14/30
+2020-06-18 13:35:43,110 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.3503448275862069
+2020-06-18 13:35:43,110 [MainThread  ][INFO ]  Starting optimization for tf=1.3503448275862069
+2020-06-18 13:35:43,110 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2020-06-18 13:35:43,110 [MainThread  ][DEBUG]  Optimization options: {'maxiter': 100000.0, 'maxfev': 100000.0, 'xatol': 1e-08, 'fatol': 1e-08, 'adaptive': True}
+2020-06-18 13:35:43,110 [MainThread  ][INFO ]  Initial parameter values: [0, 0, 0, 0]
+2020-06-18 13:36:43,161 [MainThread  ][INFO ]  Final fidelity: 0.80882054135932
+2020-06-18 13:36:43,161 [MainThread  ][INFO ]  Final parameters: [-8.94477633e-05 -1.36996175e-04  8.27539468e+01 -6.54042773e+01]
+2020-06-18 13:36:43,161 [MainThread  ][INFO ]  Fidelity: 0.80882054135932
+2020-06-18 13:36:43,161 [MainThread  ][INFO ]  ---- Iteration 15/30
+2020-06-18 13:36:43,161 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.453448275862069
+2020-06-18 13:36:43,161 [MainThread  ][INFO ]  Starting optimization for tf=1.453448275862069
+2020-06-18 13:36:43,161 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2020-06-18 13:36:43,162 [MainThread  ][DEBUG]  Optimization options: {'maxiter': 100000.0, 'maxfev': 100000.0, 'xatol': 1e-08, 'fatol': 1e-08, 'adaptive': True}
+2020-06-18 13:36:43,162 [MainThread  ][INFO ]  Initial parameter values: [0, 0, 0, 0]
+2020-06-18 13:37:56,492 [MainThread  ][INFO ]  Final fidelity: 0.853143292392435
+2020-06-18 13:37:56,493 [MainThread  ][INFO ]  Final parameters: [-6.05652091e-05 -6.44815159e-05  6.51434092e+01 -5.57290235e+01]
+2020-06-18 13:37:56,493 [MainThread  ][INFO ]  Fidelity: 0.853143292392435
+2020-06-18 13:37:56,493 [MainThread  ][INFO ]  ---- Iteration 16/30
+2020-06-18 13:37:56,493 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.556551724137931
+2020-06-18 13:37:56,493 [MainThread  ][INFO ]  Starting optimization for tf=1.556551724137931
+2020-06-18 13:37:56,493 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2020-06-18 13:37:56,493 [MainThread  ][DEBUG]  Optimization options: {'maxiter': 100000.0, 'maxfev': 100000.0, 'xatol': 1e-08, 'fatol': 1e-08, 'adaptive': True}
+2020-06-18 13:37:56,493 [MainThread  ][INFO ]  Initial parameter values: [0, 0, 0, 0]
+2020-06-18 13:39:03,069 [MainThread  ][INFO ]  Final fidelity: 0.8916410656924896
+2020-06-18 13:39:03,069 [MainThread  ][INFO ]  Final parameters: [-2.39207405e-06 -2.52145437e-05  5.16789392e+01 -4.80186369e+01]
+2020-06-18 13:39:03,069 [MainThread  ][INFO ]  Fidelity: 0.8916410656924896
+2020-06-18 13:39:03,070 [MainThread  ][INFO ]  ---- Iteration 17/30
+2020-06-18 13:39:03,070 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.6596551724137931
+2020-06-18 13:39:03,070 [MainThread  ][INFO ]  Starting optimization for tf=1.6596551724137931
+2020-06-18 13:39:03,070 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2020-06-18 13:39:03,070 [MainThread  ][DEBUG]  Optimization options: {'maxiter': 100000.0, 'maxfev': 100000.0, 'xatol': 1e-08, 'fatol': 1e-08, 'adaptive': True}
+2020-06-18 13:39:03,070 [MainThread  ][INFO ]  Initial parameter values: [0, 0, 0, 0]
+2020-06-18 13:40:11,511 [MainThread  ][INFO ]  Final fidelity: 0.9242627110588366
+2020-06-18 13:40:11,512 [MainThread  ][INFO ]  Final parameters: [-7.10761956e-06 -2.63233160e-05  4.11199852e+01 -4.17635529e+01]
+2020-06-18 13:40:11,512 [MainThread  ][INFO ]  Fidelity: 0.9242627110588366
+2020-06-18 13:40:11,512 [MainThread  ][INFO ]  ---- Iteration 18/30
+2020-06-18 13:40:11,512 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.7627586206896553
+2020-06-18 13:40:11,512 [MainThread  ][INFO ]  Starting optimization for tf=1.7627586206896553
+2020-06-18 13:40:11,512 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2020-06-18 13:40:11,512 [MainThread  ][DEBUG]  Optimization options: {'maxiter': 100000.0, 'maxfev': 100000.0, 'xatol': 1e-08, 'fatol': 1e-08, 'adaptive': True}
+2020-06-18 13:40:11,512 [MainThread  ][INFO ]  Initial parameter values: [0, 0, 0, 0]
+2020-06-18 13:41:17,494 [MainThread  ][INFO ]  Final fidelity: 0.9510497398212654
+2020-06-18 13:41:17,494 [MainThread  ][INFO ]  Final parameters: [ 1.74873287e-06  3.28932610e-06  3.26104639e+01 -3.66022064e+01]
+2020-06-18 13:41:17,494 [MainThread  ][INFO ]  Fidelity: 0.9510497398212654
+2020-06-18 13:41:17,494 [MainThread  ][INFO ]  ---- Iteration 19/30
+2020-06-18 13:41:17,494 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.8658620689655172
+2020-06-18 13:41:17,494 [MainThread  ][INFO ]  Starting optimization for tf=1.8658620689655172
+2020-06-18 13:41:17,494 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2020-06-18 13:41:17,494 [MainThread  ][DEBUG]  Optimization options: {'maxiter': 100000.0, 'maxfev': 100000.0, 'xatol': 1e-08, 'fatol': 1e-08, 'adaptive': True}
+2020-06-18 13:41:17,494 [MainThread  ][INFO ]  Initial parameter values: [0, 0, 0, 0]
+2020-06-18 13:42:17,269 [MainThread  ][INFO ]  Final fidelity: 0.9720819194758297
+2020-06-18 13:42:17,269 [MainThread  ][INFO ]  Final parameters: [-1.36782122e-06 -3.56140230e-06  2.55217868e+01 -3.22666238e+01]
+2020-06-18 13:42:17,269 [MainThread  ][INFO ]  Fidelity: 0.9720819194758297
+2020-06-18 13:42:17,270 [MainThread  ][INFO ]  ---- Iteration 20/30
+2020-06-18 13:42:17,270 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.9689655172413794
+2020-06-18 13:42:17,270 [MainThread  ][INFO ]  Starting optimization for tf=1.9689655172413794
+2020-06-18 13:42:17,270 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2020-06-18 13:42:17,270 [MainThread  ][DEBUG]  Optimization options: {'maxiter': 100000.0, 'maxfev': 100000.0, 'xatol': 1e-08, 'fatol': 1e-08, 'adaptive': True}
+2020-06-18 13:42:17,270 [MainThread  ][INFO ]  Initial parameter values: [0, 0, 0, 0]
+2020-06-18 13:43:26,409 [MainThread  ][INFO ]  Final fidelity: 0.98740331432117
+2020-06-18 13:43:26,410 [MainThread  ][INFO ]  Final parameters: [-1.00622714e-06 -5.41132246e-06  1.93333121e+01 -2.85419286e+01]
+2020-06-18 13:43:26,410 [MainThread  ][INFO ]  Fidelity: 0.98740331432117
+2020-06-18 13:43:26,410 [MainThread  ][INFO ]  ---- Iteration 21/30
+2020-06-18 13:43:26,410 [MainThread  ][DEBUG]  Setting hyperparameter tf=2.072068965517241
+2020-06-18 13:43:26,410 [MainThread  ][INFO ]  Starting optimization for tf=2.072068965517241
+2020-06-18 13:43:26,410 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2020-06-18 13:43:26,410 [MainThread  ][DEBUG]  Optimization options: {'maxiter': 100000.0, 'maxfev': 100000.0, 'xatol': 1e-08, 'fatol': 1e-08, 'adaptive': True}
+2020-06-18 13:43:26,410 [MainThread  ][INFO ]  Initial parameter values: [0, 0, 0, 0]
+2020-06-18 13:44:21,972 [MainThread  ][INFO ]  Final fidelity: 0.9968938620857936
+2020-06-18 13:44:21,972 [MainThread  ][INFO ]  Final parameters: [-3.00944822e-06 -8.38573479e-06  1.34888407e+01 -2.52195700e+01]
+2020-06-18 13:44:21,972 [MainThread  ][INFO ]  Fidelity: 0.9968938620857936
+2020-06-18 13:44:21,972 [MainThread  ][INFO ]  ---- Iteration 22/30
+2020-06-18 13:44:21,972 [MainThread  ][DEBUG]  Setting hyperparameter tf=2.175172413793103
+2020-06-18 13:44:21,972 [MainThread  ][INFO ]  Starting optimization for tf=2.175172413793103
+2020-06-18 13:44:21,973 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2020-06-18 13:44:21,973 [MainThread  ][DEBUG]  Optimization options: {'maxiter': 100000.0, 'maxfev': 100000.0, 'xatol': 1e-08, 'fatol': 1e-08, 'adaptive': True}
+2020-06-18 13:44:21,973 [MainThread  ][INFO ]  Initial parameter values: [0, 0, 0, 0]
+2020-06-18 13:45:18,339 [MainThread  ][INFO ]  Final fidelity: 1.0
+2020-06-18 13:45:18,339 [MainThread  ][INFO ]  Final parameters: [ -0.76935504  -1.31870503   0.6827085  -20.33807889]
+2020-06-18 13:45:18,339 [MainThread  ][INFO ]  Fidelity: 1.0
+2020-06-18 13:45:18,339 [MainThread  ][INFO ]  ---- Iteration 23/30
+2020-06-18 13:45:18,339 [MainThread  ][DEBUG]  Setting hyperparameter tf=2.2782758620689654
+2020-06-18 13:45:18,340 [MainThread  ][INFO ]  Starting optimization for tf=2.2782758620689654
+2020-06-18 13:45:18,340 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2020-06-18 13:45:18,340 [MainThread  ][DEBUG]  Optimization options: {'maxiter': 100000.0, 'maxfev': 100000.0, 'xatol': 1e-08, 'fatol': 1e-08, 'adaptive': True}
+2020-06-18 13:45:18,340 [MainThread  ][INFO ]  Initial parameter values: [0, 0, 0, 0]
+2020-06-18 13:46:04,129 [MainThread  ][INFO ]  Final fidelity: 1.0
+2020-06-18 13:46:04,129 [MainThread  ][INFO ]  Final parameters: [  6.18335937   9.25434138  -6.61009784 -12.73851891]
+2020-06-18 13:46:04,129 [MainThread  ][INFO ]  Fidelity: 1.0
+2020-06-18 13:46:04,129 [MainThread  ][INFO ]  ---- Iteration 24/30
+2020-06-18 13:46:04,130 [MainThread  ][DEBUG]  Setting hyperparameter tf=2.3813793103448275
+2020-06-18 13:46:04,130 [MainThread  ][INFO ]  Starting optimization for tf=2.3813793103448275
+2020-06-18 13:46:04,130 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2020-06-18 13:46:04,130 [MainThread  ][DEBUG]  Optimization options: {'maxiter': 100000.0, 'maxfev': 100000.0, 'xatol': 1e-08, 'fatol': 1e-08, 'adaptive': True}
+2020-06-18 13:46:04,130 [MainThread  ][INFO ]  Initial parameter values: [0, 0, 0, 0]
+2020-06-18 13:46:42,041 [MainThread  ][INFO ]  Final fidelity: 1.0
+2020-06-18 13:46:42,042 [MainThread  ][INFO ]  Final parameters: [  4.53227734   5.71425202 -10.22691246  -8.70007298]
+2020-06-18 13:46:42,042 [MainThread  ][INFO ]  Fidelity: 1.0
+2020-06-18 13:46:42,042 [MainThread  ][INFO ]  ---- Iteration 25/30
+2020-06-18 13:46:42,042 [MainThread  ][DEBUG]  Setting hyperparameter tf=2.4844827586206897
+2020-06-18 13:46:42,042 [MainThread  ][INFO ]  Starting optimization for tf=2.4844827586206897
+2020-06-18 13:46:42,042 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2020-06-18 13:46:42,042 [MainThread  ][DEBUG]  Optimization options: {'maxiter': 100000.0, 'maxfev': 100000.0, 'xatol': 1e-08, 'fatol': 1e-08, 'adaptive': True}
+2020-06-18 13:46:42,042 [MainThread  ][INFO ]  Initial parameter values: [0, 0, 0, 0]
+2020-06-18 13:47:30,703 [MainThread  ][INFO ]  Final fidelity: 1.0000000000000004
+2020-06-18 13:47:30,704 [MainThread  ][INFO ]  Final parameters: [  4.62400981   5.17503555 -10.64907337  -6.37374475]
+2020-06-18 13:47:30,704 [MainThread  ][INFO ]  Fidelity: 1.0000000000000004
+2020-06-18 13:47:30,704 [MainThread  ][INFO ]  ---- Iteration 26/30
+2020-06-18 13:47:30,704 [MainThread  ][DEBUG]  Setting hyperparameter tf=2.5875862068965514
+2020-06-18 13:47:30,704 [MainThread  ][INFO ]  Starting optimization for tf=2.5875862068965514
+2020-06-18 13:47:30,704 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2020-06-18 13:47:30,704 [MainThread  ][DEBUG]  Optimization options: {'maxiter': 100000.0, 'maxfev': 100000.0, 'xatol': 1e-08, 'fatol': 1e-08, 'adaptive': True}
+2020-06-18 13:47:30,704 [MainThread  ][INFO ]  Initial parameter values: [0, 0, 0, 0]
+2020-06-18 13:48:09,944 [MainThread  ][INFO ]  Final fidelity: 1.0
+2020-06-18 13:48:09,944 [MainThread  ][INFO ]  Final parameters: [  6.60622257   6.653849   -16.02029485  -3.02507188]
+2020-06-18 13:48:09,944 [MainThread  ][INFO ]  Fidelity: 1.0
+2020-06-18 13:48:09,944 [MainThread  ][INFO ]  ---- Iteration 27/30
+2020-06-18 13:48:09,944 [MainThread  ][DEBUG]  Setting hyperparameter tf=2.6906896551724135
+2020-06-18 13:48:09,944 [MainThread  ][INFO ]  Starting optimization for tf=2.6906896551724135
+2020-06-18 13:48:09,945 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2020-06-18 13:48:09,945 [MainThread  ][DEBUG]  Optimization options: {'maxiter': 100000.0, 'maxfev': 100000.0, 'xatol': 1e-08, 'fatol': 1e-08, 'adaptive': True}
+2020-06-18 13:48:09,945 [MainThread  ][INFO ]  Initial parameter values: [0, 0, 0, 0]
+2020-06-18 13:48:50,590 [MainThread  ][INFO ]  Final fidelity: 1.0000000000000004
+2020-06-18 13:48:50,590 [MainThread  ][INFO ]  Final parameters: [ 5.51464539  4.34758608 -8.24870459 -2.72440983]
+2020-06-18 13:48:50,590 [MainThread  ][INFO ]  Fidelity: 1.0000000000000004
+2020-06-18 13:48:50,590 [MainThread  ][INFO ]  ---- Iteration 28/30
+2020-06-18 13:48:50,590 [MainThread  ][DEBUG]  Setting hyperparameter tf=2.7937931034482757
+2020-06-18 13:48:50,591 [MainThread  ][INFO ]  Starting optimization for tf=2.7937931034482757
+2020-06-18 13:48:50,591 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2020-06-18 13:48:50,591 [MainThread  ][DEBUG]  Optimization options: {'maxiter': 100000.0, 'maxfev': 100000.0, 'xatol': 1e-08, 'fatol': 1e-08, 'adaptive': True}
+2020-06-18 13:48:50,591 [MainThread  ][INFO ]  Initial parameter values: [0, 0, 0, 0]
+2020-06-18 13:49:23,968 [MainThread  ][INFO ]  Final fidelity: 1.0
+2020-06-18 13:49:23,969 [MainThread  ][INFO ]  Final parameters: [  5.36077204   3.7993077  -10.7051664   -0.5129261 ]
+2020-06-18 13:49:23,969 [MainThread  ][INFO ]  Fidelity: 1.0
+2020-06-18 13:49:23,969 [MainThread  ][INFO ]  ---- Iteration 29/30
+2020-06-18 13:49:23,969 [MainThread  ][DEBUG]  Setting hyperparameter tf=2.896896551724138
+2020-06-18 13:49:23,969 [MainThread  ][INFO ]  Starting optimization for tf=2.896896551724138
+2020-06-18 13:49:23,969 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2020-06-18 13:49:23,969 [MainThread  ][DEBUG]  Optimization options: {'maxiter': 100000.0, 'maxfev': 100000.0, 'xatol': 1e-08, 'fatol': 1e-08, 'adaptive': True}
+2020-06-18 13:49:23,969 [MainThread  ][INFO ]  Initial parameter values: [0, 0, 0, 0]
+2020-06-18 13:50:02,554 [MainThread  ][INFO ]  Final fidelity: 1.0
+2020-06-18 13:50:02,554 [MainThread  ][INFO ]  Final parameters: [ 6.76407768  3.51631173 -6.03662097  0.76275295]
+2020-06-18 13:50:02,555 [MainThread  ][INFO ]  Fidelity: 1.0
+2020-06-18 13:50:02,555 [MainThread  ][INFO ]  ---- Iteration 30/30
+2020-06-18 13:50:02,555 [MainThread  ][DEBUG]  Setting hyperparameter tf=3.0
+2020-06-18 13:50:02,555 [MainThread  ][INFO ]  Starting optimization for tf=3.0
+2020-06-18 13:50:02,555 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2020-06-18 13:50:02,555 [MainThread  ][DEBUG]  Optimization options: {'maxiter': 100000.0, 'maxfev': 100000.0, 'xatol': 1e-08, 'fatol': 1e-08, 'adaptive': True}
+2020-06-18 13:50:02,555 [MainThread  ][INFO ]  Initial parameter values: [0, 0, 0, 0]
+2020-06-18 13:50:34,303 [MainThread  ][INFO ]  Final fidelity: 1.0000000000000004
+2020-06-18 13:50:34,303 [MainThread  ][INFO ]  Final parameters: [ 5.34213234  2.84647221 -6.95500098  0.61123428]
+2020-06-18 13:50:34,303 [MainThread  ][INFO ]  Fidelity: 1.0000000000000004

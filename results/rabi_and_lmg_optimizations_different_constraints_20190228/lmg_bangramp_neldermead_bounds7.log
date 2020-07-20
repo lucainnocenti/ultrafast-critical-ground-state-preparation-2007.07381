@@ -1,0 +1,905 @@
+2019-02-28 18:43:40,543 [MainThread  ][INFO ]  Output file name will be "lmg_bangramp_neldermead_bounds7.csv"
+2019-02-28 18:43:40,619 [MainThread  ][INFO ]  Using bangramp protocol ansatz.
+2019-02-28 18:43:40,619 [MainThread  ][DEBUG]  Initializing ProtocolAnsatz instance "bangramp"
+2019-02-28 18:43:40,619 [MainThread  ][INFO ]  Using parameters constraints: [[-7, 7], [None, None], [-7, 7], [-7, 7]]
+2019-02-28 18:43:40,619 [MainThread  ][INFO ]  Using total height constraint: None
+2019-02-28 18:43:40,619 [MainThread  ][INFO ]  ---- Starting iteration 1/100
+2019-02-28 18:43:40,620 [MainThread  ][DEBUG]  Setting hyperparameter tf=0.1
+2019-02-28 18:43:40,620 [MainThread  ][INFO ]  Starting optimization for tf=0.1
+2019-02-28 18:43:40,620 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 18:43:40,620 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 18:43:40,620 [MainThread  ][INFO ]  Initial parameter values: [0.42453188 0.05       0.1388872  0.93615029]
+2019-02-28 18:44:09,590 [MainThread  ][INFO ]  Final fidelity: 0.816341496447834
+2019-02-28 18:44:09,592 [MainThread  ][INFO ]  Final parameters: [ 6.99988297  0.04036878 -0.57175862 -6.94866542]
+2019-02-28 18:44:09,592 [MainThread  ][INFO ]  Fidelity: 0.816341496447834
+2019-02-28 18:44:09,592 [MainThread  ][INFO ]  ---- Starting iteration 2/100
+2019-02-28 18:44:09,593 [MainThread  ][DEBUG]  Setting hyperparameter tf=0.1191919191919192
+2019-02-28 18:44:09,593 [MainThread  ][INFO ]  Starting optimization for tf=0.1191919191919192
+2019-02-28 18:44:09,593 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 18:44:09,593 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 18:44:09,593 [MainThread  ][INFO ]  Initial parameter values: [0.13136615 0.05959596 0.74093578 0.75601278]
+2019-02-28 18:44:41,134 [MainThread  ][INFO ]  Final fidelity: 0.8169320398054066
+2019-02-28 18:44:41,134 [MainThread  ][INFO ]  Final parameters: [ 1.65363962e+00  6.06017749e-08  6.99999837e+00 -6.26924192e+00]
+2019-02-28 18:44:41,134 [MainThread  ][INFO ]  Fidelity: 0.8169320398054066
+2019-02-28 18:44:41,134 [MainThread  ][INFO ]  ---- Starting iteration 3/100
+2019-02-28 18:44:41,135 [MainThread  ][DEBUG]  Setting hyperparameter tf=0.1383838383838384
+2019-02-28 18:44:41,135 [MainThread  ][INFO ]  Starting optimization for tf=0.1383838383838384
+2019-02-28 18:44:41,135 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 18:44:41,135 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 18:44:41,135 [MainThread  ][INFO ]  Initial parameter values: [1.67309248 0.06919192 0.23480392 0.8447868 ]
+2019-02-28 18:45:07,162 [MainThread  ][INFO ]  Final fidelity: 0.8233390380798327
+2019-02-28 18:45:07,162 [MainThread  ][INFO ]  Final parameters: [ 6.98786669  0.05487092 -0.23172916 -6.99972517]
+2019-02-28 18:45:07,163 [MainThread  ][INFO ]  Fidelity: 0.8233390380798327
+2019-02-28 18:45:07,163 [MainThread  ][INFO ]  ---- Starting iteration 4/100
+2019-02-28 18:45:07,163 [MainThread  ][DEBUG]  Setting hyperparameter tf=0.1575757575757576
+2019-02-28 18:45:07,163 [MainThread  ][INFO ]  Starting optimization for tf=0.1575757575757576
+2019-02-28 18:45:07,163 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 18:45:07,163 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 18:45:07,163 [MainThread  ][INFO ]  Initial parameter values: [0.19408948 0.07878788 1.34507367 1.20085   ]
+2019-02-28 18:45:38,651 [MainThread  ][INFO ]  Final fidelity: 0.8291523125668779
+2019-02-28 18:45:38,651 [MainThread  ][INFO ]  Final parameters: [ 6.99997161  0.07420524 -3.30347561 -6.99687691]
+2019-02-28 18:45:38,652 [MainThread  ][INFO ]  Fidelity: 0.8291523125668779
+2019-02-28 18:45:38,652 [MainThread  ][INFO ]  ---- Starting iteration 5/100
+2019-02-28 18:45:38,652 [MainThread  ][DEBUG]  Setting hyperparameter tf=0.17676767676767677
+2019-02-28 18:45:38,652 [MainThread  ][INFO ]  Starting optimization for tf=0.17676767676767677
+2019-02-28 18:45:38,652 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 18:45:38,652 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 18:45:38,652 [MainThread  ][INFO ]  Initial parameter values: [1.32913066 0.08838384 1.53758354 0.64804754]
+2019-02-28 18:45:57,234 [MainThread  ][INFO ]  Final fidelity: 0.8259461669486095
+2019-02-28 18:45:57,235 [MainThread  ][INFO ]  Final parameters: [ 6.99987211  0.07084203 -6.99989691  0.04073152]
+2019-02-28 18:45:57,235 [MainThread  ][INFO ]  Fidelity: 0.8259461669486095
+2019-02-28 18:45:57,235 [MainThread  ][INFO ]  ---- Starting iteration 6/100
+2019-02-28 18:45:57,235 [MainThread  ][DEBUG]  Setting hyperparameter tf=0.19595959595959594
+2019-02-28 18:45:57,235 [MainThread  ][INFO ]  Starting optimization for tf=0.19595959595959594
+2019-02-28 18:45:57,235 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 18:45:57,236 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 18:45:57,236 [MainThread  ][INFO ]  Initial parameter values: [0.97711625 0.0979798  0.1365619  1.03953382]
+2019-02-28 18:46:17,403 [MainThread  ][INFO ]  Final fidelity: 0.8376674683835121
+2019-02-28 18:46:17,403 [MainThread  ][INFO ]  Final parameters: [ 6.99990483  0.07700737  0.1343453  -6.99987346]
+2019-02-28 18:46:17,404 [MainThread  ][INFO ]  Fidelity: 0.8376674683835121
+2019-02-28 18:46:17,404 [MainThread  ][INFO ]  ---- Starting iteration 7/100
+2019-02-28 18:46:17,404 [MainThread  ][DEBUG]  Setting hyperparameter tf=0.21515151515151515
+2019-02-28 18:46:17,404 [MainThread  ][INFO ]  Starting optimization for tf=0.21515151515151515
+2019-02-28 18:46:17,404 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 18:46:17,404 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 18:46:17,405 [MainThread  ][INFO ]  Initial parameter values: [1.95826114 0.10757576 0.09423449 1.12156559]
+2019-02-28 18:46:55,575 [MainThread  ][INFO ]  Final fidelity: 0.843385502222579
+2019-02-28 18:46:55,576 [MainThread  ][INFO ]  Final parameters: [ 6.99993206  0.08441852  0.16550886 -6.96776591]
+2019-02-28 18:46:55,576 [MainThread  ][INFO ]  Fidelity: 0.843385502222579
+2019-02-28 18:46:55,576 [MainThread  ][INFO ]  ---- Starting iteration 8/100
+2019-02-28 18:46:55,576 [MainThread  ][DEBUG]  Setting hyperparameter tf=0.23434343434343433
+2019-02-28 18:46:55,576 [MainThread  ][INFO ]  Starting optimization for tf=0.23434343434343433
+2019-02-28 18:46:55,576 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 18:46:55,576 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 18:46:55,577 [MainThread  ][INFO ]  Initial parameter values: [0.97464531 0.11717172 1.63371444 1.4137994 ]
+2019-02-28 18:47:45,630 [MainThread  ][INFO ]  Final fidelity: 0.8400347447963659
+2019-02-28 18:47:45,644 [MainThread  ][INFO ]  Final parameters: [-1.79085632e-01  1.39718691e-07  6.99998719e+00 -6.05357928e+00]
+2019-02-28 18:47:45,644 [MainThread  ][INFO ]  Fidelity: 0.8400347447963659
+2019-02-28 18:47:45,645 [MainThread  ][INFO ]  ---- Starting iteration 9/100
+2019-02-28 18:47:45,645 [MainThread  ][DEBUG]  Setting hyperparameter tf=0.2535353535353535
+2019-02-28 18:47:45,645 [MainThread  ][INFO ]  Starting optimization for tf=0.2535353535353535
+2019-02-28 18:47:45,645 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 18:47:45,645 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 18:47:45,645 [MainThread  ][INFO ]  Initial parameter values: [0.7823553  0.12676768 0.11858365 0.87091321]
+2019-02-28 18:48:30,129 [MainThread  ][INFO ]  Final fidelity: 0.8562855834870158
+2019-02-28 18:48:30,159 [MainThread  ][INFO ]  Final parameters: [ 6.96271895  0.10106686  0.22228949 -6.99997574]
+2019-02-28 18:48:30,159 [MainThread  ][INFO ]  Fidelity: 0.8562855834870158
+2019-02-28 18:48:30,159 [MainThread  ][INFO ]  ---- Starting iteration 10/100
+2019-02-28 18:48:30,159 [MainThread  ][DEBUG]  Setting hyperparameter tf=0.2727272727272727
+2019-02-28 18:48:30,160 [MainThread  ][INFO ]  Starting optimization for tf=0.2727272727272727
+2019-02-28 18:48:30,160 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 18:48:30,160 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 18:48:30,160 [MainThread  ][INFO ]  Initial parameter values: [0.87731774 0.13636364 0.4840576  1.23096664]
+2019-02-28 18:49:08,572 [MainThread  ][INFO ]  Final fidelity: 0.8672650478359631
+2019-02-28 18:49:08,581 [MainThread  ][INFO ]  Final parameters: [ 6.99995092  0.13150929 -3.34505518 -6.71484865]
+2019-02-28 18:49:08,581 [MainThread  ][INFO ]  Fidelity: 0.8672650478359631
+2019-02-28 18:49:08,581 [MainThread  ][INFO ]  ---- Starting iteration 11/100
+2019-02-28 18:49:08,581 [MainThread  ][DEBUG]  Setting hyperparameter tf=0.2919191919191919
+2019-02-28 18:49:08,581 [MainThread  ][INFO ]  Starting optimization for tf=0.2919191919191919
+2019-02-28 18:49:08,581 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 18:49:08,581 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 18:49:08,582 [MainThread  ][INFO ]  Initial parameter values: [0.44279305 0.1459596  1.26018408 1.42311316]
+2019-02-28 18:49:41,263 [MainThread  ][INFO ]  Final fidelity: 0.8362823619334512
+2019-02-28 18:49:41,264 [MainThread  ][INFO ]  Final parameters: [ 1.82322133  0.19527404  1.68350012 -6.9999997 ]
+2019-02-28 18:49:41,264 [MainThread  ][INFO ]  Fidelity: 0.8362823619334512
+2019-02-28 18:49:41,297 [MainThread  ][INFO ]  ---- Starting iteration 12/100
+2019-02-28 18:49:41,298 [MainThread  ][DEBUG]  Setting hyperparameter tf=0.3111111111111111
+2019-02-28 18:49:41,298 [MainThread  ][INFO ]  Starting optimization for tf=0.3111111111111111
+2019-02-28 18:49:41,298 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 18:49:41,300 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 18:49:41,302 [MainThread  ][INFO ]  Initial parameter values: [1.66820871 0.15555556 1.41819153 0.9535936 ]
+2019-02-28 18:50:02,142 [MainThread  ][INFO ]  Final fidelity: 0.8143940866610213
+2019-02-28 18:50:02,152 [MainThread  ][INFO ]  Final parameters: [0.50275196 0.31109501 0.99348703 0.51920627]
+2019-02-28 18:50:02,152 [MainThread  ][INFO ]  Fidelity: 0.8143940866610213
+2019-02-28 18:50:02,152 [MainThread  ][INFO ]  ---- Starting iteration 13/100
+2019-02-28 18:50:02,152 [MainThread  ][DEBUG]  Setting hyperparameter tf=0.3303030303030303
+2019-02-28 18:50:02,152 [MainThread  ][INFO ]  Starting optimization for tf=0.3303030303030303
+2019-02-28 18:50:02,152 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 18:50:02,152 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 18:50:02,153 [MainThread  ][INFO ]  Initial parameter values: [1.47071835 0.16515152 0.52052346 0.69497232]
+2019-02-28 18:50:29,677 [MainThread  ][INFO ]  Final fidelity: 0.8853323928678686
+2019-02-28 18:50:29,682 [MainThread  ][INFO ]  Final parameters: [ 6.99993019  0.12580409  1.20188972 -6.99995695]
+2019-02-28 18:50:29,682 [MainThread  ][INFO ]  Fidelity: 0.8853323928678686
+2019-02-28 18:50:29,682 [MainThread  ][INFO ]  ---- Starting iteration 14/100
+2019-02-28 18:50:29,682 [MainThread  ][DEBUG]  Setting hyperparameter tf=0.3494949494949495
+2019-02-28 18:50:29,682 [MainThread  ][INFO ]  Starting optimization for tf=0.3494949494949495
+2019-02-28 18:50:29,683 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 18:50:29,683 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 18:50:29,683 [MainThread  ][INFO ]  Initial parameter values: [1.61506181 0.17474747 0.04101394 1.60878763]
+2019-02-28 18:51:10,353 [MainThread  ][INFO ]  Final fidelity: 0.8953461213762006
+2019-02-28 18:51:10,373 [MainThread  ][INFO ]  Final parameters: [ 6.970441    0.14561439  0.16712561 -6.99992978]
+2019-02-28 18:51:10,373 [MainThread  ][INFO ]  Fidelity: 0.8953461213762006
+2019-02-28 18:51:10,373 [MainThread  ][INFO ]  ---- Starting iteration 15/100
+2019-02-28 18:51:10,373 [MainThread  ][DEBUG]  Setting hyperparameter tf=0.3686868686868686
+2019-02-28 18:51:10,373 [MainThread  ][INFO ]  Starting optimization for tf=0.3686868686868686
+2019-02-28 18:51:10,374 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 18:51:10,374 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 18:51:10,374 [MainThread  ][INFO ]  Initial parameter values: [0.92311857 0.18434343 0.65308356 0.65740123]
+2019-02-28 18:51:47,698 [MainThread  ][INFO ]  Final fidelity: 0.9031151907384439
+2019-02-28 18:51:47,700 [MainThread  ][INFO ]  Final parameters: [ 6.99997706  0.14960433  0.6567218  -6.9999792 ]
+2019-02-28 18:51:47,700 [MainThread  ][INFO ]  Fidelity: 0.9031151907384439
+2019-02-28 18:51:47,700 [MainThread  ][INFO ]  ---- Starting iteration 16/100
+2019-02-28 18:51:47,700 [MainThread  ][DEBUG]  Setting hyperparameter tf=0.3878787878787878
+2019-02-28 18:51:47,700 [MainThread  ][INFO ]  Starting optimization for tf=0.3878787878787878
+2019-02-28 18:51:47,700 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 18:51:47,700 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 18:51:47,701 [MainThread  ][INFO ]  Initial parameter values: [0.92179643 0.19393939 0.84567043 0.95550652]
+2019-02-28 18:52:45,348 [MainThread  ][INFO ]  Final fidelity: 0.909561200735027
+2019-02-28 18:52:45,352 [MainThread  ][INFO ]  Final parameters: [ 6.99879633  0.14547374  1.72369232 -6.99974225]
+2019-02-28 18:52:45,352 [MainThread  ][INFO ]  Fidelity: 0.909561200735027
+2019-02-28 18:52:45,352 [MainThread  ][INFO ]  ---- Starting iteration 17/100
+2019-02-28 18:52:45,353 [MainThread  ][DEBUG]  Setting hyperparameter tf=0.407070707070707
+2019-02-28 18:52:45,353 [MainThread  ][INFO ]  Starting optimization for tf=0.407070707070707
+2019-02-28 18:52:45,353 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 18:52:45,353 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 18:52:45,353 [MainThread  ][INFO ]  Initial parameter values: [1.55980191 0.20353535 1.98788416 0.21778751]
+2019-02-28 18:53:34,229 [MainThread  ][INFO ]  Final fidelity: 0.8946324763778792
+2019-02-28 18:53:34,231 [MainThread  ][INFO ]  Final parameters: [ 6.99994196  0.17296594 -6.99992974  0.12576844]
+2019-02-28 18:53:34,232 [MainThread  ][INFO ]  Fidelity: 0.8946324763778792
+2019-02-28 18:53:34,232 [MainThread  ][INFO ]  ---- Starting iteration 18/100
+2019-02-28 18:53:34,232 [MainThread  ][DEBUG]  Setting hyperparameter tf=0.42626262626262623
+2019-02-28 18:53:34,232 [MainThread  ][INFO ]  Starting optimization for tf=0.42626262626262623
+2019-02-28 18:53:34,232 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 18:53:34,232 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 18:53:34,232 [MainThread  ][INFO ]  Initial parameter values: [0.14208772 0.21313131 1.60261975 1.28209339]
+2019-02-28 18:54:24,930 [MainThread  ][INFO ]  Final fidelity: 0.8615253029193541
+2019-02-28 18:54:24,935 [MainThread  ][INFO ]  Final parameters: [ 1.57514837  0.36415014 -6.9999969  -6.99988073]
+2019-02-28 18:54:24,935 [MainThread  ][INFO ]  Fidelity: 0.8615253029193541
+2019-02-28 18:54:24,935 [MainThread  ][INFO ]  ---- Starting iteration 19/100
+2019-02-28 18:54:24,935 [MainThread  ][DEBUG]  Setting hyperparameter tf=0.44545454545454544
+2019-02-28 18:54:24,935 [MainThread  ][INFO ]  Starting optimization for tf=0.44545454545454544
+2019-02-28 18:54:24,935 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 18:54:24,936 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 18:54:24,936 [MainThread  ][INFO ]  Initial parameter values: [0.58315183 0.22272727 1.97958213 1.9765022 ]
+2019-02-28 18:55:38,332 [MainThread  ][INFO ]  Final fidelity: 0.9339216611637394
+2019-02-28 18:55:38,345 [MainThread  ][INFO ]  Final parameters: [ 6.99996287  0.22736288 -6.99968557 -2.86618925]
+2019-02-28 18:55:38,345 [MainThread  ][INFO ]  Fidelity: 0.9339216611637394
+2019-02-28 18:55:38,345 [MainThread  ][INFO ]  ---- Starting iteration 20/100
+2019-02-28 18:55:38,346 [MainThread  ][DEBUG]  Setting hyperparameter tf=0.46464646464646464
+2019-02-28 18:55:38,346 [MainThread  ][INFO ]  Starting optimization for tf=0.46464646464646464
+2019-02-28 18:55:38,346 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 18:55:38,346 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 18:55:38,346 [MainThread  ][INFO ]  Initial parameter values: [0.86796755 0.23232323 0.89835023 0.52225149]
+2019-02-28 18:56:05,976 [MainThread  ][INFO ]  Final fidelity: 0.9002780777613848
+2019-02-28 18:56:05,995 [MainThread  ][INFO ]  Final parameters: [ 4.96694675  0.23239379 -6.99986521  0.69879013]
+2019-02-28 18:56:05,995 [MainThread  ][INFO ]  Fidelity: 0.9002780777613848
+2019-02-28 18:56:05,995 [MainThread  ][INFO ]  ---- Starting iteration 21/100
+2019-02-28 18:56:05,995 [MainThread  ][DEBUG]  Setting hyperparameter tf=0.48383838383838385
+2019-02-28 18:56:05,995 [MainThread  ][INFO ]  Starting optimization for tf=0.48383838383838385
+2019-02-28 18:56:05,995 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 18:56:05,995 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 18:56:05,995 [MainThread  ][INFO ]  Initial parameter values: [1.95219833 0.24191919 1.48862743 1.35383944]
+2019-02-28 18:56:32,353 [MainThread  ][INFO ]  Final fidelity: 0.8225738817377799
+2019-02-28 18:56:32,354 [MainThread  ][INFO ]  Final parameters: [0.50969289 0.48367431 0.14800615 1.30272617]
+2019-02-28 18:56:32,354 [MainThread  ][INFO ]  Fidelity: 0.8225738817377799
+2019-02-28 18:56:32,354 [MainThread  ][INFO ]  ---- Starting iteration 22/100
+2019-02-28 18:56:32,354 [MainThread  ][DEBUG]  Setting hyperparameter tf=0.503030303030303
+2019-02-28 18:56:32,355 [MainThread  ][INFO ]  Starting optimization for tf=0.503030303030303
+2019-02-28 18:56:32,355 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 18:56:32,355 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 18:56:32,355 [MainThread  ][INFO ]  Initial parameter values: [1.26572805 0.25151515 0.83155221 1.47857869]
+2019-02-28 18:57:39,135 [MainThread  ][INFO ]  Final fidelity: 0.9732683620610645
+2019-02-28 18:57:39,136 [MainThread  ][INFO ]  Final parameters: [ 6.99996083  0.29914472 -6.98246276 -6.22282433]
+2019-02-28 18:57:39,136 [MainThread  ][INFO ]  Fidelity: 0.9732683620610645
+2019-02-28 18:57:39,136 [MainThread  ][INFO ]  ---- Starting iteration 23/100
+2019-02-28 18:57:39,136 [MainThread  ][DEBUG]  Setting hyperparameter tf=0.5222222222222221
+2019-02-28 18:57:39,137 [MainThread  ][INFO ]  Starting optimization for tf=0.5222222222222221
+2019-02-28 18:57:39,137 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 18:57:39,137 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 18:57:39,137 [MainThread  ][INFO ]  Initial parameter values: [0.42198274 0.26111111 0.60014969 0.02066012]
+2019-02-28 18:58:13,452 [MainThread  ][INFO ]  Final fidelity: 0.9422073704417774
+2019-02-28 18:58:13,468 [MainThread  ][INFO ]  Final parameters: [ 6.99994714  0.23359028 -6.99798252 -0.06630174]
+2019-02-28 18:58:13,468 [MainThread  ][INFO ]  Fidelity: 0.9422073704417774
+2019-02-28 18:58:13,468 [MainThread  ][INFO ]  ---- Starting iteration 24/100
+2019-02-28 18:58:13,469 [MainThread  ][DEBUG]  Setting hyperparameter tf=0.5414141414141413
+2019-02-28 18:58:13,469 [MainThread  ][INFO ]  Starting optimization for tf=0.5414141414141413
+2019-02-28 18:58:13,469 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 18:58:13,469 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 18:58:13,469 [MainThread  ][INFO ]  Initial parameter values: [1.42039424 0.27070707 1.22058228 1.9419409 ]
+2019-02-28 18:58:59,828 [MainThread  ][INFO ]  Final fidelity: 0.9776171812557083
+2019-02-28 18:58:59,829 [MainThread  ][INFO ]  Final parameters: [ 6.99995624  0.25608216 -0.13244178 -6.99999092]
+2019-02-28 18:58:59,829 [MainThread  ][INFO ]  Fidelity: 0.9776171812557083
+2019-02-28 18:58:59,829 [MainThread  ][INFO ]  ---- Starting iteration 25/100
+2019-02-28 18:58:59,829 [MainThread  ][DEBUG]  Setting hyperparameter tf=0.5606060606060606
+2019-02-28 18:58:59,829 [MainThread  ][INFO ]  Starting optimization for tf=0.5606060606060606
+2019-02-28 18:58:59,829 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 18:58:59,829 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 18:58:59,830 [MainThread  ][INFO ]  Initial parameter values: [1.18656187 0.28030303 0.83146682 0.41592832]
+2019-02-28 18:59:44,929 [MainThread  ][INFO ]  Final fidelity: 0.9914790680673982
+2019-02-28 18:59:44,934 [MainThread  ][INFO ]  Final parameters: [ 6.99996574  0.34671534 -6.70040977 -6.99999787]
+2019-02-28 18:59:44,934 [MainThread  ][INFO ]  Fidelity: 0.9914790680673982
+2019-02-28 18:59:44,934 [MainThread  ][INFO ]  ---- Starting iteration 26/100
+2019-02-28 18:59:44,934 [MainThread  ][DEBUG]  Setting hyperparameter tf=0.5797979797979798
+2019-02-28 18:59:44,934 [MainThread  ][INFO ]  Starting optimization for tf=0.5797979797979798
+2019-02-28 18:59:44,935 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 18:59:44,935 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 18:59:44,935 [MainThread  ][INFO ]  Initial parameter values: [0.27503052 0.28989899 1.92982156 1.08723464]
+2019-02-28 19:00:46,591 [MainThread  ][INFO ]  Final fidelity: 0.9853004254552082
+2019-02-28 19:00:46,592 [MainThread  ][INFO ]  Final parameters: [ 5.48167402  0.38950981 -6.99985854 -6.71763099]
+2019-02-28 19:00:46,592 [MainThread  ][INFO ]  Fidelity: 0.9853004254552082
+2019-02-28 19:00:46,592 [MainThread  ][INFO ]  ---- Starting iteration 27/100
+2019-02-28 19:00:46,592 [MainThread  ][DEBUG]  Setting hyperparameter tf=0.598989898989899
+2019-02-28 19:00:46,592 [MainThread  ][INFO ]  Starting optimization for tf=0.598989898989899
+2019-02-28 19:00:46,592 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 19:00:46,592 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 19:00:46,593 [MainThread  ][INFO ]  Initial parameter values: [0.26775123 0.29949495 0.14940403 0.54532529]
+2019-02-28 19:01:14,874 [MainThread  ][INFO ]  Final fidelity: 0.9818474359938019
+2019-02-28 19:01:14,889 [MainThread  ][INFO ]  Final parameters: [ 5.30717082  0.33420554 -0.47404525 -6.99997309]
+2019-02-28 19:01:14,889 [MainThread  ][INFO ]  Fidelity: 0.9818474359938019
+2019-02-28 19:01:14,889 [MainThread  ][INFO ]  ---- Starting iteration 28/100
+2019-02-28 19:01:14,889 [MainThread  ][DEBUG]  Setting hyperparameter tf=0.6181818181818182
+2019-02-28 19:01:14,889 [MainThread  ][INFO ]  Starting optimization for tf=0.6181818181818182
+2019-02-28 19:01:14,889 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 19:01:14,889 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 19:01:14,890 [MainThread  ][INFO ]  Initial parameter values: [0.37921713 0.30909091 1.03351633 1.3685675 ]
+2019-02-28 19:02:04,497 [MainThread  ][INFO ]  Final fidelity: 0.9806027541371707
+2019-02-28 19:02:04,512 [MainThread  ][INFO ]  Final parameters: [ 5.22389055  0.13161179  6.99985658 -6.69140079]
+2019-02-28 19:02:04,512 [MainThread  ][INFO ]  Fidelity: 0.9806027541371707
+2019-02-28 19:02:04,512 [MainThread  ][INFO ]  ---- Starting iteration 29/100
+2019-02-28 19:02:04,513 [MainThread  ][DEBUG]  Setting hyperparameter tf=0.6373737373737373
+2019-02-28 19:02:04,513 [MainThread  ][INFO ]  Starting optimization for tf=0.6373737373737373
+2019-02-28 19:02:04,513 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 19:02:04,513 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 19:02:04,513 [MainThread  ][INFO ]  Initial parameter values: [0.33386862 0.31868687 0.4692248  0.4749179 ]
+2019-02-28 19:03:09,789 [MainThread  ][INFO ]  Final fidelity: 0.9980855582686289
+2019-02-28 19:03:09,796 [MainThread  ][INFO ]  Final parameters: [ 6.99999283  0.35823984 -3.23562661 -6.41133081]
+2019-02-28 19:03:09,797 [MainThread  ][INFO ]  Fidelity: 0.9980855582686289
+2019-02-28 19:03:09,797 [MainThread  ][INFO ]  ---- Starting iteration 30/100
+2019-02-28 19:03:09,797 [MainThread  ][DEBUG]  Setting hyperparameter tf=0.6565656565656565
+2019-02-28 19:03:09,797 [MainThread  ][INFO ]  Starting optimization for tf=0.6565656565656565
+2019-02-28 19:03:09,797 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 19:03:09,797 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 19:03:09,797 [MainThread  ][INFO ]  Initial parameter values: [0.39041338 0.32828283 0.78749111 1.39504103]
+2019-02-28 19:03:46,817 [MainThread  ][INFO ]  Final fidelity: 0.9980792125156309
+2019-02-28 19:03:46,832 [MainThread  ][INFO ]  Final parameters: [ 6.99998392  0.34106321 -2.65074629 -5.25502522]
+2019-02-28 19:03:46,832 [MainThread  ][INFO ]  Fidelity: 0.9980792125156309
+2019-02-28 19:03:46,832 [MainThread  ][INFO ]  ---- Starting iteration 31/100
+2019-02-28 19:03:46,833 [MainThread  ][DEBUG]  Setting hyperparameter tf=0.6757575757575757
+2019-02-28 19:03:46,833 [MainThread  ][INFO ]  Starting optimization for tf=0.6757575757575757
+2019-02-28 19:03:46,833 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 19:03:46,833 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 19:03:46,833 [MainThread  ][INFO ]  Initial parameter values: [1.25888528 0.33787879 1.54611714 0.73980908]
+2019-02-28 19:04:26,570 [MainThread  ][INFO ]  Final fidelity: 0.9817763749955938
+2019-02-28 19:04:26,570 [MainThread  ][INFO ]  Final parameters: [ 6.99974382  0.29984782 -6.99998637  0.89140258]
+2019-02-28 19:04:26,570 [MainThread  ][INFO ]  Fidelity: 0.9817763749955938
+2019-02-28 19:04:26,570 [MainThread  ][INFO ]  ---- Starting iteration 32/100
+2019-02-28 19:04:26,571 [MainThread  ][DEBUG]  Setting hyperparameter tf=0.6949494949494949
+2019-02-28 19:04:26,571 [MainThread  ][INFO ]  Starting optimization for tf=0.6949494949494949
+2019-02-28 19:04:26,571 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 19:04:26,571 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 19:04:26,571 [MainThread  ][INFO ]  Initial parameter values: [1.10335407 0.34747475 0.39133616 0.32628321]
+2019-02-28 19:05:16,749 [MainThread  ][INFO ]  Final fidelity: 0.9986283862267152
+2019-02-28 19:05:16,761 [MainThread  ][INFO ]  Final parameters: [ 6.42281249  0.30834896  2.36028819 -6.68320735]
+2019-02-28 19:05:16,761 [MainThread  ][INFO ]  Fidelity: 0.9986283862267152
+2019-02-28 19:05:16,761 [MainThread  ][INFO ]  ---- Starting iteration 33/100
+2019-02-28 19:05:16,761 [MainThread  ][DEBUG]  Setting hyperparameter tf=0.7141414141414141
+2019-02-28 19:05:16,761 [MainThread  ][INFO ]  Starting optimization for tf=0.7141414141414141
+2019-02-28 19:05:16,761 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 19:05:16,761 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 19:05:16,762 [MainThread  ][INFO ]  Initial parameter values: [1.59092779 0.35707071 1.00071884 0.66273256]
+2019-02-28 19:06:20,190 [MainThread  ][INFO ]  Final fidelity: 0.9691159324399946
+2019-02-28 19:06:20,191 [MainThread  ][INFO ]  Final parameters: [ 4.85068135  0.36069019 -6.92076931  1.67719064]
+2019-02-28 19:06:20,191 [MainThread  ][INFO ]  Fidelity: 0.9691159324399946
+2019-02-28 19:06:20,191 [MainThread  ][INFO ]  ---- Starting iteration 34/100
+2019-02-28 19:06:20,192 [MainThread  ][DEBUG]  Setting hyperparameter tf=0.7333333333333333
+2019-02-28 19:06:20,192 [MainThread  ][INFO ]  Starting optimization for tf=0.7333333333333333
+2019-02-28 19:06:20,192 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 19:06:20,192 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 19:06:20,192 [MainThread  ][INFO ]  Initial parameter values: [0.33867948 0.36666667 1.95870844 0.64393653]
+2019-02-28 19:07:14,244 [MainThread  ][INFO ]  Final fidelity: 0.9978202136439849
+2019-02-28 19:07:14,245 [MainThread  ][INFO ]  Final parameters: [ 4.09520401  0.5487773  -6.99992039 -6.25333709]
+2019-02-28 19:07:14,245 [MainThread  ][INFO ]  Fidelity: 0.9978202136439849
+2019-02-28 19:07:14,246 [MainThread  ][INFO ]  ---- Starting iteration 35/100
+2019-02-28 19:07:14,246 [MainThread  ][DEBUG]  Setting hyperparameter tf=0.7525252525252525
+2019-02-28 19:07:14,246 [MainThread  ][INFO ]  Starting optimization for tf=0.7525252525252525
+2019-02-28 19:07:14,246 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 19:07:14,246 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 19:07:14,246 [MainThread  ][INFO ]  Initial parameter values: [0.11634261 0.37626263 1.46182219 1.0714548 ]
+2019-02-28 19:07:46,764 [MainThread  ][INFO ]  Final fidelity: 0.9227725826925224
+2019-02-28 19:07:46,765 [MainThread  ][INFO ]  Final parameters: [ 1.28852994  0.67658005 -6.99991705 -6.33826846]
+2019-02-28 19:07:46,765 [MainThread  ][INFO ]  Fidelity: 0.9227725826925224
+2019-02-28 19:07:46,765 [MainThread  ][INFO ]  ---- Starting iteration 36/100
+2019-02-28 19:07:46,765 [MainThread  ][DEBUG]  Setting hyperparameter tf=0.7717171717171717
+2019-02-28 19:07:46,765 [MainThread  ][INFO ]  Starting optimization for tf=0.7717171717171717
+2019-02-28 19:07:46,765 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 19:07:46,766 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 19:07:46,766 [MainThread  ][INFO ]  Initial parameter values: [1.18951664 0.38585859 0.56742421 1.41082618]
+2019-02-28 19:08:47,985 [MainThread  ][INFO ]  Final fidelity: 0.9987829461014223
+2019-02-28 19:08:47,990 [MainThread  ][INFO ]  Final parameters: [ 5.49508965  0.35111117  0.68751748 -4.44762303]
+2019-02-28 19:08:47,991 [MainThread  ][INFO ]  Fidelity: 0.9987829461014223
+2019-02-28 19:08:47,991 [MainThread  ][INFO ]  ---- Starting iteration 37/100
+2019-02-28 19:08:47,991 [MainThread  ][DEBUG]  Setting hyperparameter tf=0.7909090909090909
+2019-02-28 19:08:47,991 [MainThread  ][INFO ]  Starting optimization for tf=0.7909090909090909
+2019-02-28 19:08:47,991 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 19:08:47,991 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 19:08:47,992 [MainThread  ][INFO ]  Initial parameter values: [0.18823753 0.39545455 1.28128663 0.41522434]
+2019-02-28 19:09:35,468 [MainThread  ][INFO ]  Final fidelity: 0.9983907073052203
+2019-02-28 19:09:35,469 [MainThread  ][INFO ]  Final parameters: [ 1.67867707e+00  3.94307249e-07  6.99999657e+00 -4.32828267e+00]
+2019-02-28 19:09:35,469 [MainThread  ][INFO ]  Fidelity: 0.9983907073052203
+2019-02-28 19:09:35,469 [MainThread  ][INFO ]  ---- Starting iteration 38/100
+2019-02-28 19:09:35,469 [MainThread  ][DEBUG]  Setting hyperparameter tf=0.81010101010101
+2019-02-28 19:09:35,469 [MainThread  ][INFO ]  Starting optimization for tf=0.81010101010101
+2019-02-28 19:09:35,469 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 19:09:35,469 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 19:09:35,470 [MainThread  ][INFO ]  Initial parameter values: [1.80349142 0.40505051 0.6083811  0.84219287]
+2019-02-28 19:10:14,799 [MainThread  ][INFO ]  Final fidelity: 0.9988563118935182
+2019-02-28 19:10:14,800 [MainThread  ][INFO ]  Final parameters: [ 4.95272647  0.34432481  1.89910108 -4.39682163]
+2019-02-28 19:10:14,800 [MainThread  ][INFO ]  Fidelity: 0.9988563118935182
+2019-02-28 19:10:14,800 [MainThread  ][INFO ]  ---- Starting iteration 39/100
+2019-02-28 19:10:14,800 [MainThread  ][DEBUG]  Setting hyperparameter tf=0.8292929292929292
+2019-02-28 19:10:14,800 [MainThread  ][INFO ]  Starting optimization for tf=0.8292929292929292
+2019-02-28 19:10:14,800 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 19:10:14,801 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 19:10:14,801 [MainThread  ][INFO ]  Initial parameter values: [1.08088432 0.41464646 1.70320945 1.66755935]
+2019-02-28 19:11:05,361 [MainThread  ][INFO ]  Final fidelity: 0.980363246191489
+2019-02-28 19:11:05,362 [MainThread  ][INFO ]  Final parameters: [ 2.54216482  0.61338834 -6.99995595 -0.28338093]
+2019-02-28 19:11:05,362 [MainThread  ][INFO ]  Fidelity: 0.980363246191489
+2019-02-28 19:11:05,362 [MainThread  ][INFO ]  ---- Starting iteration 40/100
+2019-02-28 19:11:05,362 [MainThread  ][DEBUG]  Setting hyperparameter tf=0.8484848484848484
+2019-02-28 19:11:05,362 [MainThread  ][INFO ]  Starting optimization for tf=0.8484848484848484
+2019-02-28 19:11:05,362 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 19:11:05,362 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 19:11:05,363 [MainThread  ][INFO ]  Initial parameter values: [1.17859888 0.42424242 0.78983743 0.28619966]
+2019-02-28 19:11:39,938 [MainThread  ][INFO ]  Final fidelity: 0.9987585911254994
+2019-02-28 19:11:39,939 [MainThread  ][INFO ]  Final parameters: [ 5.87879357  0.37390933 -3.4036431  -0.64738781]
+2019-02-28 19:11:39,939 [MainThread  ][INFO ]  Fidelity: 0.9987585911254994
+2019-02-28 19:11:39,939 [MainThread  ][INFO ]  ---- Starting iteration 41/100
+2019-02-28 19:11:39,939 [MainThread  ][DEBUG]  Setting hyperparameter tf=0.8676767676767676
+2019-02-28 19:11:39,939 [MainThread  ][INFO ]  Starting optimization for tf=0.8676767676767676
+2019-02-28 19:11:39,939 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 19:11:39,939 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 19:11:39,940 [MainThread  ][INFO ]  Initial parameter values: [1.04519071 0.43383838 1.53374356 1.6966456 ]
+2019-02-28 19:12:28,612 [MainThread  ][INFO ]  Final fidelity: 0.9989367895679171
+2019-02-28 19:12:28,613 [MainThread  ][INFO ]  Final parameters: [ 1.3695759   0.02425232  6.38204734 -3.81436317]
+2019-02-28 19:12:28,613 [MainThread  ][INFO ]  Fidelity: 0.9989367895679171
+2019-02-28 19:12:28,613 [MainThread  ][INFO ]  ---- Starting iteration 42/100
+2019-02-28 19:12:28,613 [MainThread  ][DEBUG]  Setting hyperparameter tf=0.8868686868686868
+2019-02-28 19:12:28,613 [MainThread  ][INFO ]  Starting optimization for tf=0.8868686868686868
+2019-02-28 19:12:28,614 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 19:12:28,614 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 19:12:28,614 [MainThread  ][INFO ]  Initial parameter values: [0.03230779 0.44343434 0.12618282 1.4360223 ]
+2019-02-28 19:13:36,863 [MainThread  ][INFO ]  Final fidelity: 0.9989397623349918
+2019-02-28 19:13:36,875 [MainThread  ][INFO ]  Final parameters: [ 0.03351302  0.03522192  6.402974   -3.78183014]
+2019-02-28 19:13:36,875 [MainThread  ][INFO ]  Fidelity: 0.9989397623349918
+2019-02-28 19:13:36,875 [MainThread  ][INFO ]  ---- Starting iteration 43/100
+2019-02-28 19:13:36,875 [MainThread  ][DEBUG]  Setting hyperparameter tf=0.906060606060606
+2019-02-28 19:13:36,875 [MainThread  ][INFO ]  Starting optimization for tf=0.906060606060606
+2019-02-28 19:13:36,876 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 19:13:36,876 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 19:13:36,876 [MainThread  ][INFO ]  Initial parameter values: [1.7889335  0.4530303  1.57918015 1.59834298]
+2019-02-28 19:14:06,466 [MainThread  ][INFO ]  Final fidelity: 0.8552884406692723
+2019-02-28 19:14:06,478 [MainThread  ][INFO ]  Final parameters: [0.53425918 0.90589001 0.1374044  1.01682815]
+2019-02-28 19:14:06,478 [MainThread  ][INFO ]  Fidelity: 0.8552884406692723
+2019-02-28 19:14:06,478 [MainThread  ][INFO ]  ---- Starting iteration 44/100
+2019-02-28 19:14:06,478 [MainThread  ][DEBUG]  Setting hyperparameter tf=0.9252525252525252
+2019-02-28 19:14:06,478 [MainThread  ][INFO ]  Starting optimization for tf=0.9252525252525252
+2019-02-28 19:14:06,478 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 19:14:06,478 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 19:14:06,479 [MainThread  ][INFO ]  Initial parameter values: [0.47949171 0.46262626 1.60774582 0.58709852]
+2019-02-28 19:14:56,151 [MainThread  ][INFO ]  Final fidelity: 0.9761822967796678
+2019-02-28 19:14:56,152 [MainThread  ][INFO ]  Final parameters: [ 2.16802531  0.66222192 -6.7659179   1.90746244]
+2019-02-28 19:14:56,152 [MainThread  ][INFO ]  Fidelity: 0.9761822967796678
+2019-02-28 19:14:56,153 [MainThread  ][INFO ]  ---- Starting iteration 45/100
+2019-02-28 19:14:56,153 [MainThread  ][DEBUG]  Setting hyperparameter tf=0.9444444444444443
+2019-02-28 19:14:56,153 [MainThread  ][INFO ]  Starting optimization for tf=0.9444444444444443
+2019-02-28 19:14:56,153 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 19:14:56,153 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 19:14:56,153 [MainThread  ][INFO ]  Initial parameter values: [1.27971778 0.47222222 1.63785532 1.07199148]
+2019-02-28 19:15:38,031 [MainThread  ][INFO ]  Final fidelity: 0.998896554130189
+2019-02-28 19:15:38,032 [MainThread  ][INFO ]  Final parameters: [ 3.04071538  0.67969041 -6.71555347 -0.3928905 ]
+2019-02-28 19:15:38,032 [MainThread  ][INFO ]  Fidelity: 0.998896554130189
+2019-02-28 19:15:38,032 [MainThread  ][INFO ]  ---- Starting iteration 46/100
+2019-02-28 19:15:38,033 [MainThread  ][DEBUG]  Setting hyperparameter tf=0.9636363636363635
+2019-02-28 19:15:38,033 [MainThread  ][INFO ]  Starting optimization for tf=0.9636363636363635
+2019-02-28 19:15:38,033 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 19:15:38,033 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 19:15:38,033 [MainThread  ][INFO ]  Initial parameter values: [1.43285671 0.48181818 1.38982303 0.41681947]
+2019-02-28 19:16:25,982 [MainThread  ][INFO ]  Final fidelity: 0.9988722602940904
+2019-02-28 19:16:26,015 [MainThread  ][INFO ]  Final parameters: [ 3.28977575  0.63553683 -6.38859324  0.79307329]
+2019-02-28 19:16:26,015 [MainThread  ][INFO ]  Fidelity: 0.9988722602940904
+2019-02-28 19:16:26,015 [MainThread  ][INFO ]  ---- Starting iteration 47/100
+2019-02-28 19:16:26,016 [MainThread  ][DEBUG]  Setting hyperparameter tf=0.9828282828282827
+2019-02-28 19:16:26,016 [MainThread  ][INFO ]  Starting optimization for tf=0.9828282828282827
+2019-02-28 19:16:26,016 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 19:16:26,016 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 19:16:26,016 [MainThread  ][INFO ]  Initial parameter values: [0.66041094 0.49141414 1.90231352 0.48725369]
+2019-02-28 19:17:16,793 [MainThread  ][INFO ]  Final fidelity: 0.9985968444134371
+2019-02-28 19:17:16,793 [MainThread  ][INFO ]  Final parameters: [ 4.06496913  0.5507132  -6.99978828  2.58381723]
+2019-02-28 19:17:16,793 [MainThread  ][INFO ]  Fidelity: 0.9985968444134371
+2019-02-28 19:17:16,793 [MainThread  ][INFO ]  ---- Starting iteration 48/100
+2019-02-28 19:17:16,794 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.002020202020202
+2019-02-28 19:17:16,794 [MainThread  ][INFO ]  Starting optimization for tf=1.002020202020202
+2019-02-28 19:17:16,794 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 19:17:16,794 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 19:17:16,794 [MainThread  ][INFO ]  Initial parameter values: [1.85562337 0.5010101  0.19981126 0.71164426]
+2019-02-28 19:17:50,092 [MainThread  ][INFO ]  Final fidelity: 0.998992640487116
+2019-02-28 19:17:50,093 [MainThread  ][INFO ]  Final parameters: [ 4.75379497  0.31008539  0.4688021  -1.27152971]
+2019-02-28 19:17:50,093 [MainThread  ][INFO ]  Fidelity: 0.998992640487116
+2019-02-28 19:17:50,094 [MainThread  ][INFO ]  ---- Starting iteration 49/100
+2019-02-28 19:17:50,094 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.0212121212121212
+2019-02-28 19:17:50,094 [MainThread  ][INFO ]  Starting optimization for tf=1.0212121212121212
+2019-02-28 19:17:50,094 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 19:17:50,094 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 19:17:50,094 [MainThread  ][INFO ]  Initial parameter values: [1.44527137 0.51060606 1.77319052 1.55998035]
+2019-02-28 19:18:16,816 [MainThread  ][INFO ]  Final fidelity: 0.8666443504011193
+2019-02-28 19:18:16,817 [MainThread  ][INFO ]  Final parameters: [0.54229388 1.02112292 1.02104141 0.83011711]
+2019-02-28 19:18:16,817 [MainThread  ][INFO ]  Fidelity: 0.8666443504011193
+2019-02-28 19:18:16,817 [MainThread  ][INFO ]  ---- Starting iteration 50/100
+2019-02-28 19:18:16,817 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.0404040404040404
+2019-02-28 19:18:16,817 [MainThread  ][INFO ]  Starting optimization for tf=1.0404040404040404
+2019-02-28 19:18:16,817 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 19:18:16,817 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 19:18:16,818 [MainThread  ][INFO ]  Initial parameter values: [1.74918387 0.52020202 1.02037303 1.19536677]
+2019-02-28 19:19:04,811 [MainThread  ][INFO ]  Final fidelity: 0.9990132640437085
+2019-02-28 19:19:04,812 [MainThread  ][INFO ]  Final parameters: [ 2.37493736  0.74455794 -1.40596479 -3.19103689]
+2019-02-28 19:19:04,812 [MainThread  ][INFO ]  Fidelity: 0.9990132640437085
+2019-02-28 19:19:04,812 [MainThread  ][INFO ]  ---- Starting iteration 51/100
+2019-02-28 19:19:04,812 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.0595959595959596
+2019-02-28 19:19:04,812 [MainThread  ][INFO ]  Starting optimization for tf=1.0595959595959596
+2019-02-28 19:19:04,812 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 19:19:04,812 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 19:19:04,813 [MainThread  ][INFO ]  Initial parameter values: [1.4105742  0.52979798 1.32713507 1.12624404]
+2019-02-28 19:19:47,477 [MainThread  ][INFO ]  Final fidelity: 0.9990103618443369
+2019-02-28 19:19:47,478 [MainThread  ][INFO ]  Final parameters: [ 2.33792967  0.78223468 -3.5785377  -1.65075842]
+2019-02-28 19:19:47,478 [MainThread  ][INFO ]  Fidelity: 0.9990103618443369
+2019-02-28 19:19:47,478 [MainThread  ][INFO ]  ---- Starting iteration 52/100
+2019-02-28 19:19:47,478 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.0787878787878789
+2019-02-28 19:19:47,478 [MainThread  ][INFO ]  Starting optimization for tf=1.0787878787878789
+2019-02-28 19:19:47,478 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 19:19:47,478 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 19:19:47,479 [MainThread  ][INFO ]  Initial parameter values: [1.54758349 0.53939394 0.13643637 0.7114048 ]
+2019-02-28 19:20:22,908 [MainThread  ][INFO ]  Final fidelity: 0.9990113140117486
+2019-02-28 19:20:22,920 [MainThread  ][INFO ]  Final parameters: [ 4.44182041  0.33026455  0.05584245 -0.66677462]
+2019-02-28 19:20:22,920 [MainThread  ][INFO ]  Fidelity: 0.9990113140117486
+2019-02-28 19:20:22,920 [MainThread  ][INFO ]  ---- Starting iteration 53/100
+2019-02-28 19:20:22,921 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.097979797979798
+2019-02-28 19:20:22,921 [MainThread  ][INFO ]  Starting optimization for tf=1.097979797979798
+2019-02-28 19:20:22,921 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 19:20:22,921 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 19:20:22,921 [MainThread  ][INFO ]  Initial parameter values: [0.10365583 0.5489899  0.03717861 0.7464933 ]
+2019-02-28 19:21:07,628 [MainThread  ][INFO ]  Final fidelity: 0.9990556743911587
+2019-02-28 19:21:07,633 [MainThread  ][INFO ]  Final parameters: [-6.98368616e+00  1.15717533e-04  3.89373183e+00 -1.78940469e+00]
+2019-02-28 19:21:07,634 [MainThread  ][INFO ]  Fidelity: 0.9990556743911587
+2019-02-28 19:21:07,634 [MainThread  ][INFO ]  ---- Starting iteration 54/100
+2019-02-28 19:21:07,634 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.1171717171717173
+2019-02-28 19:21:07,634 [MainThread  ][INFO ]  Starting optimization for tf=1.1171717171717173
+2019-02-28 19:21:07,634 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 19:21:07,634 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 19:21:07,634 [MainThread  ][INFO ]  Initial parameter values: [0.31680285 0.55858586 0.25706608 0.04654071]
+2019-02-28 19:21:42,952 [MainThread  ][INFO ]  Final fidelity: 0.9989859300258224
+2019-02-28 19:21:42,963 [MainThread  ][INFO ]  Final parameters: [ 4.99520418  0.3264005  -0.87531192  0.08310584]
+2019-02-28 19:21:42,963 [MainThread  ][INFO ]  Fidelity: 0.9989859300258224
+2019-02-28 19:21:42,963 [MainThread  ][INFO ]  ---- Starting iteration 55/100
+2019-02-28 19:21:42,963 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.1363636363636365
+2019-02-28 19:21:42,963 [MainThread  ][INFO ]  Starting optimization for tf=1.1363636363636365
+2019-02-28 19:21:42,963 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 19:21:42,963 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 19:21:42,964 [MainThread  ][INFO ]  Initial parameter values: [0.51463026 0.56818182 0.76204887 1.55362508]
+2019-02-28 19:22:15,001 [MainThread  ][INFO ]  Final fidelity: 0.9990702549442857
+2019-02-28 19:22:15,008 [MainThread  ][INFO ]  Final parameters: [ 1.85523712  0.88915063  0.62601506 -5.31370144]
+2019-02-28 19:22:15,009 [MainThread  ][INFO ]  Fidelity: 0.9990702549442857
+2019-02-28 19:22:15,009 [MainThread  ][INFO ]  ---- Starting iteration 56/100
+2019-02-28 19:22:15,009 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.1555555555555557
+2019-02-28 19:22:15,009 [MainThread  ][INFO ]  Starting optimization for tf=1.1555555555555557
+2019-02-28 19:22:15,009 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 19:22:15,009 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 19:22:15,010 [MainThread  ][INFO ]  Initial parameter values: [1.53960256 0.57777778 1.95010838 0.94947435]
+2019-02-28 19:22:42,527 [MainThread  ][INFO ]  Final fidelity: 0.8807743358499113
+2019-02-28 19:22:42,528 [MainThread  ][INFO ]  Final parameters: [ 0.55319394  1.15548204 -0.63710456  1.91193075]
+2019-02-28 19:22:42,528 [MainThread  ][INFO ]  Fidelity: 0.8807743358499113
+2019-02-28 19:22:42,528 [MainThread  ][INFO ]  ---- Starting iteration 57/100
+2019-02-28 19:22:42,528 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.1747474747474747
+2019-02-28 19:22:42,528 [MainThread  ][INFO ]  Starting optimization for tf=1.1747474747474747
+2019-02-28 19:22:42,528 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 19:22:42,528 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 19:22:42,529 [MainThread  ][INFO ]  Initial parameter values: [1.36188355 0.58737374 0.55556305 0.51760146]
+2019-02-28 19:23:16,752 [MainThread  ][INFO ]  Final fidelity: 0.9990750184291534
+2019-02-28 19:23:16,752 [MainThread  ][INFO ]  Final parameters: [ 1.88292481  0.86310177 -0.58171233 -2.75912917]
+2019-02-28 19:23:16,752 [MainThread  ][INFO ]  Fidelity: 0.9990750184291534
+2019-02-28 19:23:16,753 [MainThread  ][INFO ]  ---- Starting iteration 58/100
+2019-02-28 19:23:16,753 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.1939393939393939
+2019-02-28 19:23:16,753 [MainThread  ][INFO ]  Starting optimization for tf=1.1939393939393939
+2019-02-28 19:23:16,753 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 19:23:16,753 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 19:23:16,753 [MainThread  ][INFO ]  Initial parameter values: [0.434368   0.5969697  1.53211288 1.50922295]
+2019-02-28 19:24:01,237 [MainThread  ][INFO ]  Final fidelity: 0.9990994439105652
+2019-02-28 19:24:01,252 [MainThread  ][INFO ]  Final parameters: [ 1.62729644  1.0552983  -2.44707797 -6.9528492 ]
+2019-02-28 19:24:01,252 [MainThread  ][INFO ]  Fidelity: 0.9990994439105652
+2019-02-28 19:24:01,252 [MainThread  ][INFO ]  ---- Starting iteration 59/100
+2019-02-28 19:24:01,253 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.213131313131313
+2019-02-28 19:24:01,253 [MainThread  ][INFO ]  Starting optimization for tf=1.213131313131313
+2019-02-28 19:24:01,253 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 19:24:01,253 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 19:24:01,253 [MainThread  ][INFO ]  Initial parameter values: [1.69411876 0.60656566 0.54180176 1.93854903]
+2019-02-28 19:24:34,312 [MainThread  ][INFO ]  Final fidelity: 0.9990931715643931
+2019-02-28 19:24:34,322 [MainThread  ][INFO ]  Final parameters: [ 1.73662965  0.8761315   1.00658119 -3.49638418]
+2019-02-28 19:24:34,322 [MainThread  ][INFO ]  Fidelity: 0.9990931715643931
+2019-02-28 19:24:34,322 [MainThread  ][INFO ]  ---- Starting iteration 60/100
+2019-02-28 19:24:34,322 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.2323232323232323
+2019-02-28 19:24:34,322 [MainThread  ][INFO ]  Starting optimization for tf=1.2323232323232323
+2019-02-28 19:24:34,323 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 19:24:34,323 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 19:24:34,323 [MainThread  ][INFO ]  Initial parameter values: [1.39528816 0.61616162 0.33074921 0.28073217]
+2019-02-28 19:25:00,658 [MainThread  ][INFO ]  Final fidelity: 0.9990509503362186
+2019-02-28 19:25:00,659 [MainThread  ][INFO ]  Final parameters: [ 3.67379293  0.37299285 -0.08012178 -0.06599751]
+2019-02-28 19:25:00,659 [MainThread  ][INFO ]  Fidelity: 0.9990509503362186
+2019-02-28 19:25:00,659 [MainThread  ][INFO ]  ---- Starting iteration 61/100
+2019-02-28 19:25:00,660 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.2515151515151515
+2019-02-28 19:25:00,660 [MainThread  ][INFO ]  Starting optimization for tf=1.2515151515151515
+2019-02-28 19:25:00,660 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 19:25:00,660 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 19:25:00,660 [MainThread  ][INFO ]  Initial parameter values: [1.18776607 0.62575758 0.01663781 1.13082326]
+2019-02-28 19:25:31,292 [MainThread  ][INFO ]  Final fidelity: 0.9990945509051533
+2019-02-28 19:25:31,293 [MainThread  ][INFO ]  Final parameters: [ 1.75064176  0.86941606  0.03626897 -2.05995924]
+2019-02-28 19:25:31,293 [MainThread  ][INFO ]  Fidelity: 0.9990945509051533
+2019-02-28 19:25:31,293 [MainThread  ][INFO ]  ---- Starting iteration 62/100
+2019-02-28 19:25:31,293 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.2707070707070707
+2019-02-28 19:25:31,293 [MainThread  ][INFO ]  Starting optimization for tf=1.2707070707070707
+2019-02-28 19:25:31,293 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 19:25:31,293 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 19:25:31,294 [MainThread  ][INFO ]  Initial parameter values: [1.36079014 0.63535354 0.70357033 1.90798198]
+2019-02-28 19:25:57,252 [MainThread  ][INFO ]  Final fidelity: 0.9991077236139757
+2019-02-28 19:25:57,253 [MainThread  ][INFO ]  Final parameters: [ 1.64276176  0.88615993  1.05800342 -2.77607372]
+2019-02-28 19:25:57,253 [MainThread  ][INFO ]  Fidelity: 0.9991077236139757
+2019-02-28 19:25:57,253 [MainThread  ][INFO ]  ---- Starting iteration 63/100
+2019-02-28 19:25:57,253 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.2898989898989899
+2019-02-28 19:25:57,253 [MainThread  ][INFO ]  Starting optimization for tf=1.2898989898989899
+2019-02-28 19:25:57,253 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 19:25:57,253 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 19:25:57,254 [MainThread  ][INFO ]  Initial parameter values: [1.94010256 0.64494949 0.4251986  1.44957552]
+2019-02-28 19:26:35,778 [MainThread  ][INFO ]  Final fidelity: 0.9990909130664567
+2019-02-28 19:26:35,779 [MainThread  ][INFO ]  Final parameters: [ 2.24853577  0.55049882  0.69445324 -0.72322478]
+2019-02-28 19:26:35,779 [MainThread  ][INFO ]  Fidelity: 0.9990909130664567
+2019-02-28 19:26:35,779 [MainThread  ][INFO ]  ---- Starting iteration 64/100
+2019-02-28 19:26:35,779 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.309090909090909
+2019-02-28 19:26:35,779 [MainThread  ][INFO ]  Starting optimization for tf=1.309090909090909
+2019-02-28 19:26:35,779 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 19:26:35,779 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 19:26:35,780 [MainThread  ][INFO ]  Initial parameter values: [0.82986161 0.65454545 0.53639105 0.91322485]
+2019-02-28 19:27:02,985 [MainThread  ][INFO ]  Final fidelity: 0.9991070782238222
+2019-02-28 19:27:02,993 [MainThread  ][INFO ]  Final parameters: [ 1.70232782  0.80700169  0.79429982 -1.62015559]
+2019-02-28 19:27:02,993 [MainThread  ][INFO ]  Fidelity: 0.9991070782238222
+2019-02-28 19:27:02,993 [MainThread  ][INFO ]  ---- Starting iteration 65/100
+2019-02-28 19:27:02,993 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.3282828282828283
+2019-02-28 19:27:02,994 [MainThread  ][INFO ]  Starting optimization for tf=1.3282828282828283
+2019-02-28 19:27:02,994 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 19:27:02,994 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 19:27:02,994 [MainThread  ][INFO ]  Initial parameter values: [0.07814567 0.66414141 1.97557451 0.66979866]
+2019-02-28 19:27:54,772 [MainThread  ][INFO ]  Final fidelity: 0.9990609398125602
+2019-02-28 19:27:54,788 [MainThread  ][INFO ]  Final parameters: [ 0.15573245  0.21783066  3.68759326 -1.65527804]
+2019-02-28 19:27:54,788 [MainThread  ][INFO ]  Fidelity: 0.9990609398125602
+2019-02-28 19:27:54,788 [MainThread  ][INFO ]  ---- Starting iteration 66/100
+2019-02-28 19:27:54,789 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.3474747474747475
+2019-02-28 19:27:54,789 [MainThread  ][INFO ]  Starting optimization for tf=1.3474747474747475
+2019-02-28 19:27:54,789 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 19:27:54,789 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 19:27:54,789 [MainThread  ][INFO ]  Initial parameter values: [1.09911008 0.67373737 1.52103246 0.90752899]
+2019-02-28 19:28:49,410 [MainThread  ][INFO ]  Final fidelity: 0.9990991580927128
+2019-02-28 19:28:49,411 [MainThread  ][INFO ]  Final parameters: [ 1.60687423  1.07053309 -6.17265553  2.4816139 ]
+2019-02-28 19:28:49,411 [MainThread  ][INFO ]  Fidelity: 0.9990991580927128
+2019-02-28 19:28:49,411 [MainThread  ][INFO ]  ---- Starting iteration 67/100
+2019-02-28 19:28:49,411 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.3666666666666667
+2019-02-28 19:28:49,411 [MainThread  ][INFO ]  Starting optimization for tf=1.3666666666666667
+2019-02-28 19:28:49,411 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 19:28:49,411 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 19:28:49,412 [MainThread  ][INFO ]  Initial parameter values: [1.29980101 0.68333333 1.01503045 1.99069212]
+2019-02-28 19:29:19,935 [MainThread  ][INFO ]  Final fidelity: 0.9991193968968738
+2019-02-28 19:29:19,936 [MainThread  ][INFO ]  Final parameters: [ 1.6920261   0.73181966  1.00390808 -1.11017096]
+2019-02-28 19:29:19,936 [MainThread  ][INFO ]  Fidelity: 0.9991193968968738
+2019-02-28 19:29:19,936 [MainThread  ][INFO ]  ---- Starting iteration 68/100
+2019-02-28 19:29:19,936 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.385858585858586
+2019-02-28 19:29:19,936 [MainThread  ][INFO ]  Starting optimization for tf=1.385858585858586
+2019-02-28 19:29:19,936 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 19:29:19,936 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 19:29:19,937 [MainThread  ][INFO ]  Initial parameter values: [0.6286264  0.69292929 0.15375674 0.97132866]
+2019-02-28 19:29:43,622 [MainThread  ][INFO ]  Final fidelity: 0.999127357615499
+2019-02-28 19:29:43,627 [MainThread  ][INFO ]  Final parameters: [ 1.53701156  0.92482361  0.21210226 -1.20054101]
+2019-02-28 19:29:43,627 [MainThread  ][INFO ]  Fidelity: 0.999127357615499
+2019-02-28 19:29:43,627 [MainThread  ][INFO ]  ---- Starting iteration 69/100
+2019-02-28 19:29:43,627 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.405050505050505
+2019-02-28 19:29:43,627 [MainThread  ][INFO ]  Starting optimization for tf=1.405050505050505
+2019-02-28 19:29:43,627 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 19:29:43,627 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 19:29:43,628 [MainThread  ][INFO ]  Initial parameter values: [1.6647372  0.70252525 0.20533786 0.65324303]
+2019-02-28 19:30:09,941 [MainThread  ][INFO ]  Final fidelity: 0.9991064568926616
+2019-02-28 19:30:09,942 [MainThread  ][INFO ]  Final parameters: [2.6750845  0.44548872 0.25340314 0.08970719]
+2019-02-28 19:30:09,942 [MainThread  ][INFO ]  Fidelity: 0.9991064568926616
+2019-02-28 19:30:09,942 [MainThread  ][INFO ]  ---- Starting iteration 70/100
+2019-02-28 19:30:09,942 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.4242424242424243
+2019-02-28 19:30:09,943 [MainThread  ][INFO ]  Starting optimization for tf=1.4242424242424243
+2019-02-28 19:30:09,943 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 19:30:09,943 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 19:30:09,943 [MainThread  ][INFO ]  Initial parameter values: [0.96260735 0.71212121 1.96407491 0.33715819]
+2019-02-28 19:30:44,952 [MainThread  ][INFO ]  Final fidelity: 0.9991083899137702
+2019-02-28 19:30:44,953 [MainThread  ][INFO ]  Final parameters: [ 1.64699974  0.95739217 -1.9486211   0.65129667]
+2019-02-28 19:30:44,953 [MainThread  ][INFO ]  Fidelity: 0.9991083899137702
+2019-02-28 19:30:44,953 [MainThread  ][INFO ]  ---- Starting iteration 71/100
+2019-02-28 19:30:44,954 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.4434343434343435
+2019-02-28 19:30:44,954 [MainThread  ][INFO ]  Starting optimization for tf=1.4434343434343435
+2019-02-28 19:30:44,954 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 19:30:44,954 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 19:30:44,954 [MainThread  ][INFO ]  Initial parameter values: [1.13243977 0.72171717 0.45907011 1.26611467]
+2019-02-28 19:31:19,847 [MainThread  ][INFO ]  Final fidelity: 0.9991565095648341
+2019-02-28 19:31:19,848 [MainThread  ][INFO ]  Final parameters: [ 1.30972659  1.11664376  0.61807488 -2.37697989]
+2019-02-28 19:31:19,848 [MainThread  ][INFO ]  Fidelity: 0.9991565095648341
+2019-02-28 19:31:19,848 [MainThread  ][INFO ]  ---- Starting iteration 72/100
+2019-02-28 19:31:19,848 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.4626262626262627
+2019-02-28 19:31:19,848 [MainThread  ][INFO ]  Starting optimization for tf=1.4626262626262627
+2019-02-28 19:31:19,848 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 19:31:19,848 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 19:31:19,848 [MainThread  ][INFO ]  Initial parameter values: [1.53491605 0.73131313 1.12214312 0.51120836]
+2019-02-28 19:31:55,184 [MainThread  ][INFO ]  Final fidelity: 0.9991152913007009
+2019-02-28 19:31:55,195 [MainThread  ][INFO ]  Final parameters: [ 1.56831909  1.01529207 -2.3396543   0.99672068]
+2019-02-28 19:31:55,195 [MainThread  ][INFO ]  Fidelity: 0.9991152913007009
+2019-02-28 19:31:55,195 [MainThread  ][INFO ]  ---- Starting iteration 73/100
+2019-02-28 19:31:55,195 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.481818181818182
+2019-02-28 19:31:55,195 [MainThread  ][INFO ]  Starting optimization for tf=1.481818181818182
+2019-02-28 19:31:55,195 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 19:31:55,195 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 19:31:55,196 [MainThread  ][INFO ]  Initial parameter values: [1.11001934 0.74090909 1.12970251 0.00307824]
+2019-02-28 19:32:24,718 [MainThread  ][INFO ]  Final fidelity: 0.9991251682994365
+2019-02-28 19:32:24,719 [MainThread  ][INFO ]  Final parameters: [ 1.72604623  0.76396508 -0.01388509  0.00287097]
+2019-02-28 19:32:24,719 [MainThread  ][INFO ]  Fidelity: 0.9991251682994365
+2019-02-28 19:32:24,719 [MainThread  ][INFO ]  ---- Starting iteration 74/100
+2019-02-28 19:32:24,719 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.501010101010101
+2019-02-28 19:32:24,719 [MainThread  ][INFO ]  Starting optimization for tf=1.501010101010101
+2019-02-28 19:32:24,720 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 19:32:24,720 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 19:32:24,720 [MainThread  ][INFO ]  Initial parameter values: [1.24056969 0.75050505 1.86815545 1.25754092]
+2019-02-28 19:32:58,776 [MainThread  ][INFO ]  Final fidelity: 0.9991510732816424
+2019-02-28 19:32:58,786 [MainThread  ][INFO ]  Final parameters: [ 1.32738156  1.22349224 -4.24864889  1.54250807]
+2019-02-28 19:32:58,787 [MainThread  ][INFO ]  Fidelity: 0.9991510732816424
+2019-02-28 19:32:58,787 [MainThread  ][INFO ]  ---- Starting iteration 75/100
+2019-02-28 19:32:58,787 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.52020202020202
+2019-02-28 19:32:58,787 [MainThread  ][INFO ]  Starting optimization for tf=1.52020202020202
+2019-02-28 19:32:58,787 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 19:32:58,787 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 19:32:58,787 [MainThread  ][INFO ]  Initial parameter values: [0.70680262 0.76010101 1.38296002 0.05394548]
+2019-02-28 19:33:32,503 [MainThread  ][INFO ]  Final fidelity: 0.9991358599801846
+2019-02-28 19:33:32,519 [MainThread  ][INFO ]  Final parameters: [1.67481201 0.75789163 0.14146707 0.02531454]
+2019-02-28 19:33:32,519 [MainThread  ][INFO ]  Fidelity: 0.9991358599801846
+2019-02-28 19:33:32,519 [MainThread  ][INFO ]  ---- Starting iteration 76/100
+2019-02-28 19:33:32,519 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.5393939393939393
+2019-02-28 19:33:32,519 [MainThread  ][INFO ]  Starting optimization for tf=1.5393939393939393
+2019-02-28 19:33:32,519 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 19:33:32,519 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 19:33:32,520 [MainThread  ][INFO ]  Initial parameter values: [1.5150731  0.76969697 1.90706843 1.71863126]
+2019-02-28 19:33:58,601 [MainThread  ][INFO ]  Final fidelity: 0.9228220710939321
+2019-02-28 19:33:58,605 [MainThread  ][INFO ]  Final parameters: [0.59557475 1.53939272 0.65583205 1.39421211]
+2019-02-28 19:33:58,605 [MainThread  ][INFO ]  Fidelity: 0.9228220710939321
+2019-02-28 19:33:58,605 [MainThread  ][INFO ]  ---- Starting iteration 77/100
+2019-02-28 19:33:58,605 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.5585858585858585
+2019-02-28 19:33:58,605 [MainThread  ][INFO ]  Starting optimization for tf=1.5585858585858585
+2019-02-28 19:33:58,605 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 19:33:58,605 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 19:33:58,606 [MainThread  ][INFO ]  Initial parameter values: [0.67966364 0.77929293 1.69557371 1.06241966]
+2019-02-28 19:34:26,447 [MainThread  ][INFO ]  Final fidelity: 0.9991580825373634
+2019-02-28 19:34:26,451 [MainThread  ][INFO ]  Final parameters: [ 1.29432902  1.18093393 -1.66177688  0.34725077]
+2019-02-28 19:34:26,452 [MainThread  ][INFO ]  Fidelity: 0.9991580825373634
+2019-02-28 19:34:26,452 [MainThread  ][INFO ]  ---- Starting iteration 78/100
+2019-02-28 19:34:26,452 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.5777777777777777
+2019-02-28 19:34:26,452 [MainThread  ][INFO ]  Starting optimization for tf=1.5777777777777777
+2019-02-28 19:34:26,452 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 19:34:26,452 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 19:34:26,452 [MainThread  ][INFO ]  Initial parameter values: [1.33327508 0.78888889 0.24834008 1.20475341]
+2019-02-28 19:34:56,329 [MainThread  ][INFO ]  Final fidelity: 0.9991526549235771
+2019-02-28 19:34:56,338 [MainThread  ][INFO ]  Final parameters: [1.66098568 0.70809473 0.35724256 0.09231807]
+2019-02-28 19:34:56,338 [MainThread  ][INFO ]  Fidelity: 0.9991526549235771
+2019-02-28 19:34:56,338 [MainThread  ][INFO ]  ---- Starting iteration 79/100
+2019-02-28 19:34:56,338 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.596969696969697
+2019-02-28 19:34:56,338 [MainThread  ][INFO ]  Starting optimization for tf=1.596969696969697
+2019-02-28 19:34:56,338 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 19:34:56,338 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 19:34:56,339 [MainThread  ][INFO ]  Initial parameter values: [0.6375042  0.79848485 1.71421522 0.47746321]
+2019-02-28 19:35:30,890 [MainThread  ][INFO ]  Final fidelity: 0.9991698553398568
+2019-02-28 19:35:30,894 [MainThread  ][INFO ]  Final parameters: [ 1.23985481  1.23850031 -1.88836938  0.5455631 ]
+2019-02-28 19:35:30,894 [MainThread  ][INFO ]  Fidelity: 0.9991698553398568
+2019-02-28 19:35:30,894 [MainThread  ][INFO ]  ---- Starting iteration 80/100
+2019-02-28 19:35:30,894 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.6161616161616161
+2019-02-28 19:35:30,895 [MainThread  ][INFO ]  Starting optimization for tf=1.6161616161616161
+2019-02-28 19:35:30,895 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 19:35:30,895 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 19:35:30,895 [MainThread  ][INFO ]  Initial parameter values: [0.99437653 0.80808081 1.47313442 1.91337512]
+2019-02-28 19:36:05,888 [MainThread  ][INFO ]  Final fidelity: 0.9991977667417868
+2019-02-28 19:36:05,890 [MainThread  ][INFO ]  Final parameters: [ 1.12782688  1.16324976  1.40084786 -1.65627958]
+2019-02-28 19:36:05,890 [MainThread  ][INFO ]  Fidelity: 0.9991977667417868
+2019-02-28 19:36:05,890 [MainThread  ][INFO ]  ---- Starting iteration 81/100
+2019-02-28 19:36:05,891 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.6353535353535353
+2019-02-28 19:36:05,891 [MainThread  ][INFO ]  Starting optimization for tf=1.6353535353535353
+2019-02-28 19:36:05,891 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 19:36:05,895 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 19:36:05,896 [MainThread  ][INFO ]  Initial parameter values: [1.22693816 0.81767677 0.04160607 1.4347811 ]
+2019-02-28 19:36:37,899 [MainThread  ][INFO ]  Final fidelity: 0.9991663425635143
+2019-02-28 19:36:37,900 [MainThread  ][INFO ]  Final parameters: [1.34341186 0.98103399 0.05167599 0.0573038 ]
+2019-02-28 19:36:37,900 [MainThread  ][INFO ]  Fidelity: 0.9991663425635143
+2019-02-28 19:36:37,900 [MainThread  ][INFO ]  ---- Starting iteration 82/100
+2019-02-28 19:36:37,901 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.6545454545454545
+2019-02-28 19:36:37,901 [MainThread  ][INFO ]  Starting optimization for tf=1.6545454545454545
+2019-02-28 19:36:37,901 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 19:36:37,901 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 19:36:37,901 [MainThread  ][INFO ]  Initial parameter values: [0.03663947 0.82727273 0.32418502 1.05704098]
+2019-02-28 19:37:16,943 [MainThread  ][INFO ]  Final fidelity: 0.9991830301283596
+2019-02-28 19:37:16,957 [MainThread  ][INFO ]  Final parameters: [ 0.68343606  0.11009449  1.88759112 -0.23152362]
+2019-02-28 19:37:16,957 [MainThread  ][INFO ]  Fidelity: 0.9991830301283596
+2019-02-28 19:37:16,957 [MainThread  ][INFO ]  ---- Starting iteration 83/100
+2019-02-28 19:37:16,957 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.6737373737373737
+2019-02-28 19:37:16,957 [MainThread  ][INFO ]  Starting optimization for tf=1.6737373737373737
+2019-02-28 19:37:16,957 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 19:37:16,958 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 19:37:16,958 [MainThread  ][INFO ]  Initial parameter values: [1.56720807 0.83686869 1.92170336 1.98467342]
+2019-02-28 19:37:44,574 [MainThread  ][INFO ]  Final fidelity: 0.9369013714035608
+2019-02-28 19:37:44,589 [MainThread  ][INFO ]  Final parameters: [0.609558   1.67358671 1.20460412 0.72418092]
+2019-02-28 19:37:44,589 [MainThread  ][INFO ]  Fidelity: 0.9369013714035608
+2019-02-28 19:37:44,589 [MainThread  ][INFO ]  ---- Starting iteration 84/100
+2019-02-28 19:37:44,589 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.692929292929293
+2019-02-28 19:37:44,589 [MainThread  ][INFO ]  Starting optimization for tf=1.692929292929293
+2019-02-28 19:37:44,589 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 19:37:44,589 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 19:37:44,590 [MainThread  ][INFO ]  Initial parameter values: [0.87012803 0.84646465 0.22692076 0.46839834]
+2019-02-28 19:38:15,056 [MainThread  ][INFO ]  Final fidelity: 0.9991732482632418
+2019-02-28 19:38:15,056 [MainThread  ][INFO ]  Final parameters: [1.43110453 0.85567205 0.16871211 0.3092286 ]
+2019-02-28 19:38:15,057 [MainThread  ][INFO ]  Fidelity: 0.9991732482632418
+2019-02-28 19:38:15,057 [MainThread  ][INFO ]  ---- Starting iteration 85/100
+2019-02-28 19:38:15,057 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.7121212121212122
+2019-02-28 19:38:15,057 [MainThread  ][INFO ]  Starting optimization for tf=1.7121212121212122
+2019-02-28 19:38:15,057 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 19:38:15,057 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 19:38:15,057 [MainThread  ][INFO ]  Initial parameter values: [0.1027703  0.85606061 1.02771366 0.92050249]
+2019-02-28 19:39:02,638 [MainThread  ][INFO ]  Final fidelity: 0.9992077745697875
+2019-02-28 19:39:02,639 [MainThread  ][INFO ]  Final parameters: [ 0.17124302  0.02735705  1.7264303  -0.0633565 ]
+2019-02-28 19:39:02,639 [MainThread  ][INFO ]  Fidelity: 0.9992077745697875
+2019-02-28 19:39:02,639 [MainThread  ][INFO ]  ---- Starting iteration 86/100
+2019-02-28 19:39:02,639 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.7313131313131314
+2019-02-28 19:39:02,640 [MainThread  ][INFO ]  Starting optimization for tf=1.7313131313131314
+2019-02-28 19:39:02,640 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 19:39:02,640 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 19:39:02,640 [MainThread  ][INFO ]  Initial parameter values: [0.7246595  0.86565657 0.77722166 0.70552077]
+2019-02-28 19:39:23,371 [MainThread  ][INFO ]  Final fidelity: 0.9992017218181224
+2019-02-28 19:39:23,372 [MainThread  ][INFO ]  Final parameters: [ 1.20126281  0.96145957  0.74523032 -0.15691591]
+2019-02-28 19:39:23,372 [MainThread  ][INFO ]  Fidelity: 0.9992017218181224
+2019-02-28 19:39:23,372 [MainThread  ][INFO ]  ---- Starting iteration 87/100
+2019-02-28 19:39:23,372 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.7505050505050506
+2019-02-28 19:39:23,372 [MainThread  ][INFO ]  Starting optimization for tf=1.7505050505050506
+2019-02-28 19:39:23,373 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 19:39:23,373 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 19:39:23,373 [MainThread  ][INFO ]  Initial parameter values: [0.57294538 0.87525253 0.2441031  1.55640696]
+2019-02-28 19:39:50,498 [MainThread  ][INFO ]  Final fidelity: 0.9992420425600955
+2019-02-28 19:39:50,505 [MainThread  ][INFO ]  Final parameters: [ 0.99677684  1.5163817   0.30991117 -2.04847762]
+2019-02-28 19:39:50,505 [MainThread  ][INFO ]  Fidelity: 0.9992420425600955
+2019-02-28 19:39:50,505 [MainThread  ][INFO ]  ---- Starting iteration 88/100
+2019-02-28 19:39:50,505 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.7696969696969698
+2019-02-28 19:39:50,505 [MainThread  ][INFO ]  Starting optimization for tf=1.7696969696969698
+2019-02-28 19:39:50,505 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 19:39:50,505 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 19:39:50,505 [MainThread  ][INFO ]  Initial parameter values: [1.53535207 0.88484848 1.14229888 1.02168586]
+2019-02-28 19:40:42,129 [MainThread  ][INFO ]  Final fidelity: 0.9992176655347446
+2019-02-28 19:40:42,131 [MainThread  ][INFO ]  Final parameters: [ 1.0577125   1.42097478 -1.048885    0.25471924]
+2019-02-28 19:40:42,131 [MainThread  ][INFO ]  Fidelity: 0.9992176655347446
+2019-02-28 19:40:42,131 [MainThread  ][INFO ]  ---- Starting iteration 89/100
+2019-02-28 19:40:42,131 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.7888888888888888
+2019-02-28 19:40:42,131 [MainThread  ][INFO ]  Starting optimization for tf=1.7888888888888888
+2019-02-28 19:40:42,131 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 19:40:42,131 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 19:40:42,132 [MainThread  ][INFO ]  Initial parameter values: [1.90887913 0.89444444 0.55500122 0.1349493 ]
+2019-02-28 19:41:02,250 [MainThread  ][INFO ]  Final fidelity: 0.9992097051345772
+2019-02-28 19:41:02,251 [MainThread  ][INFO ]  Final parameters: [1.25427076 0.88421784 0.58729834 0.16362498]
+2019-02-28 19:41:02,251 [MainThread  ][INFO ]  Fidelity: 0.9992097051345772
+2019-02-28 19:41:02,251 [MainThread  ][INFO ]  ---- Starting iteration 90/100
+2019-02-28 19:41:02,252 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.808080808080808
+2019-02-28 19:41:02,252 [MainThread  ][INFO ]  Starting optimization for tf=1.808080808080808
+2019-02-28 19:41:02,252 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 19:41:02,252 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 19:41:02,252 [MainThread  ][INFO ]  Initial parameter values: [1.59121557 0.9040404  1.58360293 0.547369  ]
+2019-02-28 19:41:44,561 [MainThread  ][INFO ]  Final fidelity: 0.9992396478106235
+2019-02-28 19:41:44,569 [MainThread  ][INFO ]  Final parameters: [ 1.00134899  1.57642934 -2.93226503  1.13814897]
+2019-02-28 19:41:44,569 [MainThread  ][INFO ]  Fidelity: 0.9992396478106235
+2019-02-28 19:41:44,569 [MainThread  ][INFO ]  ---- Starting iteration 91/100
+2019-02-28 19:41:44,569 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.8272727272727272
+2019-02-28 19:41:44,569 [MainThread  ][INFO ]  Starting optimization for tf=1.8272727272727272
+2019-02-28 19:41:44,569 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 19:41:44,570 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 19:41:44,570 [MainThread  ][INFO ]  Initial parameter values: [0.20148251 0.91363636 0.44354048 1.42213074]
+2019-02-28 19:42:41,868 [MainThread  ][INFO ]  Final fidelity: 0.9992193434479175
+2019-02-28 19:42:41,870 [MainThread  ][INFO ]  Final parameters: [ 0.82660092  0.9365742   2.18331068 -0.94481958]
+2019-02-28 19:42:41,870 [MainThread  ][INFO ]  Fidelity: 0.9992193434479175
+2019-02-28 19:42:41,870 [MainThread  ][INFO ]  ---- Starting iteration 92/100
+2019-02-28 19:42:41,871 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.8464646464646464
+2019-02-28 19:42:41,871 [MainThread  ][INFO ]  Starting optimization for tf=1.8464646464646464
+2019-02-28 19:42:41,871 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 19:42:41,871 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 19:42:41,871 [MainThread  ][INFO ]  Initial parameter values: [1.67036819 0.92323232 0.26561542 0.58984954]
+2019-02-28 19:43:03,375 [MainThread  ][INFO ]  Final fidelity: 0.9992119058956551
+2019-02-28 19:43:03,388 [MainThread  ][INFO ]  Final parameters: [1.70837648 0.6142141  0.29135001 0.6131465 ]
+2019-02-28 19:43:03,388 [MainThread  ][INFO ]  Fidelity: 0.9992119058956551
+2019-02-28 19:43:03,388 [MainThread  ][INFO ]  ---- Starting iteration 93/100
+2019-02-28 19:43:03,389 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.8656565656565656
+2019-02-28 19:43:03,389 [MainThread  ][INFO ]  Starting optimization for tf=1.8656565656565656
+2019-02-28 19:43:03,389 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 19:43:03,389 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 19:43:03,389 [MainThread  ][INFO ]  Initial parameter values: [1.78685327 0.93282828 0.05829279 0.78120263]
+2019-02-28 19:43:27,391 [MainThread  ][INFO ]  Final fidelity: 0.99919504294277
+2019-02-28 19:43:27,397 [MainThread  ][INFO ]  Final parameters: [1.65935489 0.69464657 0.06924974 0.7521734 ]
+2019-02-28 19:43:27,397 [MainThread  ][INFO ]  Fidelity: 0.99919504294277
+2019-02-28 19:43:27,397 [MainThread  ][INFO ]  ---- Starting iteration 94/100
+2019-02-28 19:43:27,397 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.8848484848484848
+2019-02-28 19:43:27,397 [MainThread  ][INFO ]  Starting optimization for tf=1.8848484848484848
+2019-02-28 19:43:27,397 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 19:43:27,397 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 19:43:27,398 [MainThread  ][INFO ]  Initial parameter values: [0.51832786 0.94242424 1.42676076 0.31113977]
+2019-02-28 19:43:52,860 [MainThread  ][INFO ]  Final fidelity: 0.9992470001209786
+2019-02-28 19:43:52,862 [MainThread  ][INFO ]  Final parameters: [1.16743193 0.37865114 1.27007951 0.12471864]
+2019-02-28 19:43:52,862 [MainThread  ][INFO ]  Fidelity: 0.9992470001209786
+2019-02-28 19:43:52,862 [MainThread  ][INFO ]  ---- Starting iteration 95/100
+2019-02-28 19:43:52,862 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.904040404040404
+2019-02-28 19:43:52,862 [MainThread  ][INFO ]  Starting optimization for tf=1.904040404040404
+2019-02-28 19:43:52,862 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 19:43:52,862 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 19:43:52,863 [MainThread  ][INFO ]  Initial parameter values: [0.61650735 0.9520202  1.23812929 0.45150412]
+2019-02-28 19:44:20,078 [MainThread  ][INFO ]  Final fidelity: 0.9992364751705449
+2019-02-28 19:44:20,089 [MainThread  ][INFO ]  Final parameters: [1.1213867  1.04108049 0.48356985 0.3008734 ]
+2019-02-28 19:44:20,089 [MainThread  ][INFO ]  Fidelity: 0.9992364751705449
+2019-02-28 19:44:20,089 [MainThread  ][INFO ]  ---- Starting iteration 96/100
+2019-02-28 19:44:20,090 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.9232323232323232
+2019-02-28 19:44:20,090 [MainThread  ][INFO ]  Starting optimization for tf=1.9232323232323232
+2019-02-28 19:44:20,090 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 19:44:20,090 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 19:44:20,090 [MainThread  ][INFO ]  Initial parameter values: [1.02800353 0.96161616 1.04422222 1.87545301]
+2019-02-28 19:44:55,794 [MainThread  ][INFO ]  Final fidelity: 0.9992965170049719
+2019-02-28 19:44:55,794 [MainThread  ][INFO ]  Final parameters: [ 0.89062886  1.54389328  2.01757146 -1.89567681]
+2019-02-28 19:44:55,794 [MainThread  ][INFO ]  Fidelity: 0.9992965170049719
+2019-02-28 19:44:55,794 [MainThread  ][INFO ]  ---- Starting iteration 97/100
+2019-02-28 19:44:55,795 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.9424242424242424
+2019-02-28 19:44:55,803 [MainThread  ][INFO ]  Starting optimization for tf=1.9424242424242424
+2019-02-28 19:44:55,803 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 19:44:55,803 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 19:44:55,803 [MainThread  ][INFO ]  Initial parameter values: [0.90046531 0.97121212 0.30562579 1.37491179]
+2019-02-28 19:45:37,565 [MainThread  ][INFO ]  Final fidelity: 0.9992727376238505
+2019-02-28 19:45:37,575 [MainThread  ][INFO ]  Final parameters: [ 0.93938833  1.50929259  0.44930987 -0.30316672]
+2019-02-28 19:45:37,576 [MainThread  ][INFO ]  Fidelity: 0.9992727376238505
+2019-02-28 19:45:37,576 [MainThread  ][INFO ]  ---- Starting iteration 98/100
+2019-02-28 19:45:37,576 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.9616161616161616
+2019-02-28 19:45:37,576 [MainThread  ][INFO ]  Starting optimization for tf=1.9616161616161616
+2019-02-28 19:45:37,576 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 19:45:37,576 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 19:45:37,576 [MainThread  ][INFO ]  Initial parameter values: [1.36616348 0.98080808 0.75197645 1.23232736]
+2019-02-28 19:46:01,350 [MainThread  ][INFO ]  Final fidelity: 0.9992715139362953
+2019-02-28 19:46:01,351 [MainThread  ][INFO ]  Final parameters: [ 0.9684004   1.18233384  0.9536008  -0.08381441]
+2019-02-28 19:46:01,351 [MainThread  ][INFO ]  Fidelity: 0.9992715139362953
+2019-02-28 19:46:01,351 [MainThread  ][INFO ]  ---- Starting iteration 99/100
+2019-02-28 19:46:01,352 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.9808080808080808
+2019-02-28 19:46:01,352 [MainThread  ][INFO ]  Starting optimization for tf=1.9808080808080808
+2019-02-28 19:46:01,352 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 19:46:01,352 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 19:46:01,352 [MainThread  ][INFO ]  Initial parameter values: [0.07086106 0.99040404 0.69567715 0.80474414]
+2019-02-28 19:46:39,136 [MainThread  ][INFO ]  Final fidelity: 0.9992812259769326
+2019-02-28 19:46:39,145 [MainThread  ][INFO ]  Final parameters: [-0.10643326  0.00385807  1.31069941  0.27807366]
+2019-02-28 19:46:39,145 [MainThread  ][INFO ]  Fidelity: 0.9992812259769326
+2019-02-28 19:46:39,145 [MainThread  ][INFO ]  ---- Starting iteration 100/100
+2019-02-28 19:46:39,146 [MainThread  ][DEBUG]  Setting hyperparameter tf=2.0
+2019-02-28 19:46:39,146 [MainThread  ][INFO ]  Starting optimization for tf=2.0
+2019-02-28 19:46:39,146 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-02-28 19:46:39,146 [MainThread  ][DEBUG]  Optimization options: None
+2019-02-28 19:46:39,146 [MainThread  ][INFO ]  Initial parameter values: [1.94312036 1.         0.77103598 0.89032041]
+2019-02-28 19:47:11,067 [MainThread  ][INFO ]  Final fidelity: 0.9992865883487954
+2019-02-28 19:47:11,099 [MainThread  ][INFO ]  Final parameters: [ 0.92408233  1.49810754  0.56408973 -0.13004448]
+2019-02-28 19:47:11,099 [MainThread  ][INFO ]  Fidelity: 0.9992865883487954

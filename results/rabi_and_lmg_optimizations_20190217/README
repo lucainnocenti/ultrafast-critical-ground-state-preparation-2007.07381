@@ -1,0 +1,20 @@
+20190219:
+	Realised the fidelities were computed without the square by qutip.fidelity. This happened on all the data currently generated for the Rabi, which consists of the following files:
+		- rabi_Omega100_bangramp_powell.csv
+		- rabi_Omega100_crab_2freq_powell.csv
+		- rabi_Omega100_crab_3freq_powell.csv
+		- rabi_Omega100_doublebang_powell.csv
+	This was manually fixed by squaring the values of the fidelities in the results. The code in the corresponding script files was also fixed.
+
+	The results for rabi and lmg with the crab method up to now:
+		- rabi_Omega100_crab_2freq_powell.csv
+		- rabi_Omega100_crab_3freq_powell.csv
+		- lmg_N50_crab_2freq_powell.csv
+		- lmg_N50_crab_3freq_powell.csv
+	were obtained using as random frequencies np.random.rand(num_frequencies).
+	This might not be the optimal way, as it makes more sense to use instead
+		(np.random.rand(num_frequencies) - 0.5) * tf / num_frequencies
+	This is what has been used from now on (hopefully).
+
+2019021:
+	Note that most of the optimizations here were run WITHOUT imposing bounds or regularization on the parameter space. This often resulted in very high values of the parameters being explored, as easily seen in the Mathematica notebook.

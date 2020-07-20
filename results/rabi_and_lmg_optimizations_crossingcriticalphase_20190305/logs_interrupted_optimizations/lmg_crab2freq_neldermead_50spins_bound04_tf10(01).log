@@ -1,0 +1,1458 @@
+2019-03-08 12:30:32,018 [MainThread  ][INFO ]  Output file name will be "lmg_crab2freq_neldermead_50spins_bound04_tf10.csv"
+2019-03-08 12:30:32,062 [MainThread  ][INFO ]  Using CRAB protocol ansatz.
+2019-03-08 12:30:32,062 [MainThread  ][INFO ]  (CRAB) Using 2 frequencies.
+2019-03-08 12:30:32,062 [MainThread  ][DEBUG]  Initializing ProtocolAnsatz instance "crab"
+2019-03-08 12:30:32,062 [MainThread  ][DEBUG]  Initializing CRAB protocol with 2 frequencies
+2019-03-08 12:30:32,063 [MainThread  ][DEBUG]  Setting hyperparameter y0=0
+2019-03-08 12:30:32,063 [MainThread  ][DEBUG]  Setting hyperparameter y1=2
+2019-03-08 12:30:32,063 [MainThread  ][INFO ]  Using parameters constraints: [[-200, 200], [-200, 200], [-200, 200], [-200, 200]]
+2019-03-08 12:30:32,063 [MainThread  ][INFO ]  Using total height constraint: [-4, 4]
+2019-03-08 12:30:32,063 [MainThread  ][INFO ]  ---- Starting iteration 1/200
+2019-03-08 12:30:32,064 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.39390332 -0.04346471]
+2019-03-08 12:30:32,064 [MainThread  ][DEBUG]  Setting hyperparameter tf=0.5
+2019-03-08 12:30:32,064 [MainThread  ][INFO ]  Starting optimization for tf=0.5
+2019-03-08 12:30:32,064 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 12:30:32,064 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 12:30:32,064 [MainThread  ][INFO ]  Initial parameter values: [0.8872293619068188, -0.18162914370945749, 0.6151428737018796, 0.22513803610714112]
+2019-03-08 12:30:53,400 [MainThread  ][INFO ]  Final fidelity: 1.5609408242230933e-05
+2019-03-08 12:30:53,401 [MainThread  ][INFO ]  Final parameters: [-199.99998892 -174.68183945 -199.99999889   31.60521605]
+2019-03-08 12:30:53,401 [MainThread  ][INFO ]  Fidelity: 1.5609408242230933e-05
+2019-03-08 12:30:53,401 [MainThread  ][INFO ]  ---- Starting iteration 2/200
+2019-03-08 12:30:53,401 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[ 0.24555646 -0.47382237]
+2019-03-08 12:30:53,401 [MainThread  ][DEBUG]  Setting hyperparameter tf=0.5477386934673367
+2019-03-08 12:30:53,401 [MainThread  ][INFO ]  Starting optimization for tf=0.5477386934673367
+2019-03-08 12:30:53,401 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 12:30:53,402 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 12:30:53,402 [MainThread  ][INFO ]  Initial parameter values: [-0.3178194863469339, -0.25176813128029885, 0.4108662852906755, 0.935100786646162]
+2019-03-08 12:31:20,569 [MainThread  ][INFO ]  Final fidelity: 1.6747790561113806e-05
+2019-03-08 12:31:20,570 [MainThread  ][INFO ]  Final parameters: [196.23861826 -97.47460248  59.30847473 199.99998957]
+2019-03-08 12:31:20,570 [MainThread  ][INFO ]  Fidelity: 1.6747790561113806e-05
+2019-03-08 12:31:20,570 [MainThread  ][INFO ]  ---- Starting iteration 3/200
+2019-03-08 12:31:20,570 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.02227703 -0.36154605]
+2019-03-08 12:31:20,570 [MainThread  ][DEBUG]  Setting hyperparameter tf=0.5954773869346733
+2019-03-08 12:31:20,570 [MainThread  ][INFO ]  Starting optimization for tf=0.5954773869346733
+2019-03-08 12:31:20,570 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 12:31:20,570 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 12:31:20,570 [MainThread  ][INFO ]  Initial parameter values: [0.06625715638781937, -0.07643913079462394, -0.48329880593133945, -0.5809571047233046]
+2019-03-08 12:31:49,764 [MainThread  ][INFO ]  Final fidelity: 2.1499655876514678e-05
+2019-03-08 12:31:49,764 [MainThread  ][INFO ]  Final parameters: [ 13.50219335 -29.34590119 156.49899225 199.9999998 ]
+2019-03-08 12:31:49,764 [MainThread  ][INFO ]  Fidelity: 2.1499655876514678e-05
+2019-03-08 12:31:49,765 [MainThread  ][INFO ]  ---- Starting iteration 4/200
+2019-03-08 12:31:49,765 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.32608047 -0.40602087]
+2019-03-08 12:31:49,765 [MainThread  ][DEBUG]  Setting hyperparameter tf=0.6432160804020101
+2019-03-08 12:31:49,765 [MainThread  ][INFO ]  Starting optimization for tf=0.6432160804020101
+2019-03-08 12:31:49,765 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 12:31:49,765 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 12:31:49,765 [MainThread  ][INFO ]  Initial parameter values: [-0.4262181662680209, -0.6829811241600359, 0.7068015325709192, -0.40372391542731045]
+2019-03-08 12:32:11,906 [MainThread  ][INFO ]  Final fidelity: 3.650356959788564e-05
+2019-03-08 12:32:11,907 [MainThread  ][INFO ]  Final parameters: [-199.99998081   69.15507385 -199.99997787   -9.07313438]
+2019-03-08 12:32:11,907 [MainThread  ][INFO ]  Fidelity: 3.650356959788564e-05
+2019-03-08 12:32:11,907 [MainThread  ][INFO ]  ---- Starting iteration 5/200
+2019-03-08 12:32:11,907 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[0.19916653 0.34501983]
+2019-03-08 12:32:11,907 [MainThread  ][DEBUG]  Setting hyperparameter tf=0.6909547738693467
+2019-03-08 12:32:11,907 [MainThread  ][INFO ]  Starting optimization for tf=0.6909547738693467
+2019-03-08 12:32:11,907 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 12:32:11,907 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 12:32:11,907 [MainThread  ][INFO ]  Initial parameter values: [0.14383901829004686, -0.05910724886548824, -0.1558578906453354, 0.350500921310672]
+2019-03-08 12:33:01,057 [MainThread  ][INFO ]  Final fidelity: 3.892326034076041e-05
+2019-03-08 12:33:01,058 [MainThread  ][INFO ]  Final parameters: [-118.89929627  -28.04369344  199.99997525   46.37271722]
+2019-03-08 12:33:01,058 [MainThread  ][INFO ]  Fidelity: 3.892326034076041e-05
+2019-03-08 12:33:01,058 [MainThread  ][INFO ]  ---- Starting iteration 6/200
+2019-03-08 12:33:01,058 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[0.37163612 0.47170732]
+2019-03-08 12:33:01,059 [MainThread  ][DEBUG]  Setting hyperparameter tf=0.7386934673366834
+2019-03-08 12:33:01,059 [MainThread  ][INFO ]  Starting optimization for tf=0.7386934673366834
+2019-03-08 12:33:01,059 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 12:33:01,059 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 12:33:01,059 [MainThread  ][INFO ]  Initial parameter values: [-0.7742254083590392, 0.1884594988114907, 0.1554829255348964, 0.6525418546452244]
+2019-03-08 12:33:35,535 [MainThread  ][INFO ]  Final fidelity: 5.188993397989636e-05
+2019-03-08 12:33:35,536 [MainThread  ][INFO ]  Final parameters: [ 168.37311053  -47.1264867   164.50203156 -119.55181278]
+2019-03-08 12:33:35,536 [MainThread  ][INFO ]  Fidelity: 5.188993397989636e-05
+2019-03-08 12:33:35,536 [MainThread  ][INFO ]  ---- Starting iteration 7/200
+2019-03-08 12:33:35,536 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[ 0.23438175 -0.4699281 ]
+2019-03-08 12:33:35,537 [MainThread  ][DEBUG]  Setting hyperparameter tf=0.7864321608040201
+2019-03-08 12:33:35,537 [MainThread  ][INFO ]  Starting optimization for tf=0.7864321608040201
+2019-03-08 12:33:35,537 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 12:33:35,537 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 12:33:35,537 [MainThread  ][INFO ]  Initial parameter values: [0.4191408982367677, 0.28656336845203345, -0.06602122687000844, 0.015269762337665638]
+2019-03-08 12:33:58,790 [MainThread  ][INFO ]  Final fidelity: 5.411404261258462e-05
+2019-03-08 12:33:58,791 [MainThread  ][INFO ]  Final parameters: [ 199.99999361 -199.99998075   55.60415762  -43.13498297]
+2019-03-08 12:33:58,791 [MainThread  ][INFO ]  Fidelity: 5.411404261258462e-05
+2019-03-08 12:33:58,791 [MainThread  ][INFO ]  ---- Starting iteration 8/200
+2019-03-08 12:33:58,791 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[ 0.09607611 -0.26347241]
+2019-03-08 12:33:58,791 [MainThread  ][DEBUG]  Setting hyperparameter tf=0.8341708542713568
+2019-03-08 12:33:58,792 [MainThread  ][INFO ]  Starting optimization for tf=0.8341708542713568
+2019-03-08 12:33:58,792 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 12:33:58,792 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 12:33:58,792 [MainThread  ][INFO ]  Initial parameter values: [-0.9636102599977334, 0.8565686970659372, 0.36310764929991524, 0.49133409559837893]
+2019-03-08 12:34:55,230 [MainThread  ][INFO ]  Final fidelity: 0.0001943726132184332
+2019-03-08 12:34:55,231 [MainThread  ][INFO ]  Final parameters: [-139.72342576   26.4190264   199.99927325  -66.1121199 ]
+2019-03-08 12:34:55,231 [MainThread  ][INFO ]  Fidelity: 0.0001943726132184332
+2019-03-08 12:34:55,231 [MainThread  ][INFO ]  ---- Starting iteration 9/200
+2019-03-08 12:34:55,232 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[0.05161856 0.24331384]
+2019-03-08 12:34:55,232 [MainThread  ][DEBUG]  Setting hyperparameter tf=0.8819095477386935
+2019-03-08 12:34:55,232 [MainThread  ][INFO ]  Starting optimization for tf=0.8819095477386935
+2019-03-08 12:34:55,232 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 12:34:55,232 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 12:34:55,232 [MainThread  ][INFO ]  Initial parameter values: [0.6799722237327455, 0.9518721241352508, -0.24166807815819213, -0.4282386800021578]
+2019-03-08 12:35:56,049 [MainThread  ][INFO ]  Final fidelity: 8.376804714450906e-05
+2019-03-08 12:35:56,050 [MainThread  ][INFO ]  Final parameters: [-105.38167706  124.44265323   50.82447402  -86.19666226]
+2019-03-08 12:35:56,050 [MainThread  ][INFO ]  Fidelity: 8.376804714450906e-05
+2019-03-08 12:35:56,050 [MainThread  ][INFO ]  ---- Starting iteration 10/200
+2019-03-08 12:35:56,050 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.1220901  -0.32947432]
+2019-03-08 12:35:56,050 [MainThread  ][DEBUG]  Setting hyperparameter tf=0.9296482412060301
+2019-03-08 12:35:56,050 [MainThread  ][INFO ]  Starting optimization for tf=0.9296482412060301
+2019-03-08 12:35:56,050 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 12:35:56,050 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 12:35:56,050 [MainThread  ][INFO ]  Initial parameter values: [0.4904161116290364, 0.3585742170068662, 0.3733060107553634, -0.5957433667368148]
+2019-03-08 12:36:32,621 [MainThread  ][INFO ]  Final fidelity: 0.0005439274906533137
+2019-03-08 12:36:32,621 [MainThread  ][INFO ]  Final parameters: [-199.9999757    63.68109732   15.4608702   -18.96641514]
+2019-03-08 12:36:32,622 [MainThread  ][INFO ]  Fidelity: 0.0005439274906533137
+2019-03-08 12:36:32,622 [MainThread  ][INFO ]  ---- Starting iteration 11/200
+2019-03-08 12:36:32,622 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[0.44014085 0.33703515]
+2019-03-08 12:36:32,622 [MainThread  ][DEBUG]  Setting hyperparameter tf=0.9773869346733668
+2019-03-08 12:36:32,622 [MainThread  ][INFO ]  Starting optimization for tf=0.9773869346733668
+2019-03-08 12:36:32,622 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 12:36:32,622 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 12:36:32,622 [MainThread  ][INFO ]  Initial parameter values: [-0.21603258737617614, 0.5927716992246252, 0.3842211375792439, -0.8270481900594584]
+2019-03-08 12:37:35,583 [MainThread  ][INFO ]  Final fidelity: 0.0002001825490079351
+2019-03-08 12:37:35,584 [MainThread  ][INFO ]  Final parameters: [101.13781307 138.78772134  86.41616874 -42.92532473]
+2019-03-08 12:37:35,584 [MainThread  ][INFO ]  Fidelity: 0.0002001825490079351
+2019-03-08 12:37:35,584 [MainThread  ][INFO ]  ---- Starting iteration 12/200
+2019-03-08 12:37:35,584 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.30116014  0.39027645]
+2019-03-08 12:37:35,584 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.0251256281407035
+2019-03-08 12:37:35,584 [MainThread  ][INFO ]  Starting optimization for tf=1.0251256281407035
+2019-03-08 12:37:35,584 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 12:37:35,584 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 12:37:35,584 [MainThread  ][INFO ]  Initial parameter values: [0.008873941072939706, 0.961347568708655, 0.677033814212153, 0.41261338148315163]
+2019-03-08 12:38:37,040 [MainThread  ][INFO ]  Final fidelity: 4.415829041090864e-05
+2019-03-08 12:38:37,041 [MainThread  ][INFO ]  Final parameters: [ 6.77701771e-02  1.12586870e+02 -2.67992181e+01 -1.32291861e+01]
+2019-03-08 12:38:37,041 [MainThread  ][INFO ]  Fidelity: 4.415829041090864e-05
+2019-03-08 12:38:37,041 [MainThread  ][INFO ]  ---- Starting iteration 13/200
+2019-03-08 12:38:37,041 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.18041747 -0.03726013]
+2019-03-08 12:38:37,041 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.0728643216080402
+2019-03-08 12:38:37,041 [MainThread  ][INFO ]  Starting optimization for tf=1.0728643216080402
+2019-03-08 12:38:37,041 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 12:38:37,041 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 12:38:37,041 [MainThread  ][INFO ]  Initial parameter values: [0.7037078155152099, 0.022287801291482, 0.9311149405087542, 0.6989496344289989]
+2019-03-08 12:39:40,735 [MainThread  ][INFO ]  Final fidelity: 0.001757695455439322
+2019-03-08 12:39:40,736 [MainThread  ][INFO ]  Final parameters: [-162.59095273    2.5330996     2.49405158   21.14690141]
+2019-03-08 12:39:40,736 [MainThread  ][INFO ]  Fidelity: 0.001757695455439322
+2019-03-08 12:39:40,736 [MainThread  ][INFO ]  ---- Starting iteration 14/200
+2019-03-08 12:39:40,736 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[ 0.35762578 -0.32955628]
+2019-03-08 12:39:40,736 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.120603015075377
+2019-03-08 12:39:40,736 [MainThread  ][INFO ]  Starting optimization for tf=1.120603015075377
+2019-03-08 12:39:40,736 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 12:39:40,736 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 12:39:40,736 [MainThread  ][INFO ]  Initial parameter values: [-0.6618842941868579, -0.9975046531419296, -0.4311173981678873, -0.15122336478618426]
+2019-03-08 12:40:41,153 [MainThread  ][INFO ]  Final fidelity: 0.00045738440517610347
+2019-03-08 12:40:41,153 [MainThread  ][INFO ]  Final parameters: [-156.3899912   199.9995834   125.27721515   -7.38289583]
+2019-03-08 12:40:41,154 [MainThread  ][INFO ]  Fidelity: 0.00045738440517610347
+2019-03-08 12:40:41,154 [MainThread  ][INFO ]  ---- Starting iteration 15/200
+2019-03-08 12:40:41,154 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[0.12823351 0.20893737]
+2019-03-08 12:40:41,154 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.1683417085427137
+2019-03-08 12:40:41,154 [MainThread  ][INFO ]  Starting optimization for tf=1.1683417085427137
+2019-03-08 12:40:41,154 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 12:40:41,154 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 12:40:41,154 [MainThread  ][INFO ]  Initial parameter values: [0.33986682773170496, 0.5621867377953582, -0.637888450890177, 0.30813838416008554]
+2019-03-08 12:41:30,554 [MainThread  ][INFO ]  Final fidelity: 0.0008238115958062311
+2019-03-08 12:41:30,555 [MainThread  ][INFO ]  Final parameters: [  6.68883544  12.89610247 100.91916755  21.98893865]
+2019-03-08 12:41:30,555 [MainThread  ][INFO ]  Fidelity: 0.0008238115958062311
+2019-03-08 12:41:30,555 [MainThread  ][INFO ]  ---- Starting iteration 16/200
+2019-03-08 12:41:30,555 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[ 0.20884172 -0.47514175]
+2019-03-08 12:41:30,555 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.2160804020100502
+2019-03-08 12:41:30,555 [MainThread  ][INFO ]  Starting optimization for tf=1.2160804020100502
+2019-03-08 12:41:30,555 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 12:41:30,555 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 12:41:30,555 [MainThread  ][INFO ]  Initial parameter values: [-0.38180380266105907, 0.6274166966583019, -0.08363418693642322, 0.8369573953144582]
+2019-03-08 12:41:54,378 [MainThread  ][INFO ]  Final fidelity: 0.0023353587132895503
+2019-03-08 12:41:54,379 [MainThread  ][INFO ]  Final parameters: [ 3.89379333e+00 -6.56202516e+01  6.51799789e-02  8.28919674e+01]
+2019-03-08 12:41:54,379 [MainThread  ][INFO ]  Fidelity: 0.0023353587132895503
+2019-03-08 12:41:54,379 [MainThread  ][INFO ]  ---- Starting iteration 17/200
+2019-03-08 12:41:54,380 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[0.0900613  0.46048523]
+2019-03-08 12:41:54,380 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.263819095477387
+2019-03-08 12:41:54,380 [MainThread  ][INFO ]  Starting optimization for tf=1.263819095477387
+2019-03-08 12:41:54,380 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 12:41:54,380 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 12:41:54,380 [MainThread  ][INFO ]  Initial parameter values: [-0.39815574910977203, 0.22606644570440015, 0.9641719455801105, 0.9033189423694512]
+2019-03-08 12:42:59,018 [MainThread  ][INFO ]  Final fidelity: 0.0026998809186101294
+2019-03-08 12:42:59,019 [MainThread  ][INFO ]  Final parameters: [-28.3946423   -2.04138361  86.28599437 -23.54705492]
+2019-03-08 12:42:59,019 [MainThread  ][INFO ]  Fidelity: 0.0026998809186101294
+2019-03-08 12:42:59,019 [MainThread  ][INFO ]  ---- Starting iteration 18/200
+2019-03-08 12:42:59,020 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[0.33222622 0.38770898]
+2019-03-08 12:42:59,020 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.3115577889447236
+2019-03-08 12:42:59,020 [MainThread  ][INFO ]  Starting optimization for tf=1.3115577889447236
+2019-03-08 12:42:59,020 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 12:42:59,020 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 12:42:59,020 [MainThread  ][INFO ]  Initial parameter values: [0.5542453011604735, -0.7509006131199003, 0.26748415436785256, -0.17096243167459435]
+2019-03-08 12:43:45,395 [MainThread  ][INFO ]  Final fidelity: 0.0004532372179143354
+2019-03-08 12:43:45,396 [MainThread  ][INFO ]  Final parameters: [-3.95880701 79.8269802  49.18221778  9.73086123]
+2019-03-08 12:43:45,396 [MainThread  ][INFO ]  Fidelity: 0.0004532372179143354
+2019-03-08 12:43:45,396 [MainThread  ][INFO ]  ---- Starting iteration 19/200
+2019-03-08 12:43:45,396 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.13067385  0.33234697]
+2019-03-08 12:43:45,397 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.3592964824120601
+2019-03-08 12:43:45,397 [MainThread  ][INFO ]  Starting optimization for tf=1.3592964824120601
+2019-03-08 12:43:45,397 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 12:43:45,397 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 12:43:45,397 [MainThread  ][INFO ]  Initial parameter values: [-0.8839497805632031, -0.3225054668068539, 0.2616379918658174, 0.9312969572997492]
+2019-03-08 12:44:48,878 [MainThread  ][INFO ]  Final fidelity: 0.00956075467120078
+2019-03-08 12:44:48,879 [MainThread  ][INFO ]  Final parameters: [-80.77135667  57.27995769  23.95547724  -0.49973787]
+2019-03-08 12:44:48,879 [MainThread  ][INFO ]  Fidelity: 0.00956075467120078
+2019-03-08 12:44:48,879 [MainThread  ][INFO ]  ---- Starting iteration 20/200
+2019-03-08 12:44:48,879 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[0.14020927 0.31707611]
+2019-03-08 12:44:48,879 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.4070351758793969
+2019-03-08 12:44:48,879 [MainThread  ][INFO ]  Starting optimization for tf=1.4070351758793969
+2019-03-08 12:44:48,880 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 12:44:48,880 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 12:44:48,880 [MainThread  ][INFO ]  Initial parameter values: [0.9641062750859484, 0.7534072676067225, -0.7601127357115491, 0.8910897788774561]
+2019-03-08 12:45:33,787 [MainThread  ][INFO ]  Final fidelity: 0.007192196391437983
+2019-03-08 12:45:33,788 [MainThread  ][INFO ]  Final parameters: [-14.71839876  39.63468531  76.48114124  14.42508362]
+2019-03-08 12:45:33,788 [MainThread  ][INFO ]  Fidelity: 0.007192196391437983
+2019-03-08 12:45:33,788 [MainThread  ][INFO ]  ---- Starting iteration 21/200
+2019-03-08 12:45:33,789 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.03193871 -0.04055165]
+2019-03-08 12:45:33,789 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.4547738693467336
+2019-03-08 12:45:33,789 [MainThread  ][INFO ]  Starting optimization for tf=1.4547738693467336
+2019-03-08 12:45:33,789 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 12:45:33,789 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 12:45:33,789 [MainThread  ][INFO ]  Initial parameter values: [-0.6073277217804856, -0.3895473328063086, -0.26921771879754175, 0.5498283924080245]
+2019-03-08 12:46:24,720 [MainThread  ][INFO ]  Final fidelity: 0.036776773898245144
+2019-03-08 12:46:24,720 [MainThread  ][INFO ]  Final parameters: [-85.99697075 -60.55134234  66.6350341   49.52300308]
+2019-03-08 12:46:24,721 [MainThread  ][INFO ]  Fidelity: 0.036776773898245144
+2019-03-08 12:46:24,721 [MainThread  ][INFO ]  ---- Starting iteration 22/200
+2019-03-08 12:46:24,721 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[0.03787034 0.19718318]
+2019-03-08 12:46:24,721 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.5025125628140703
+2019-03-08 12:46:24,721 [MainThread  ][INFO ]  Starting optimization for tf=1.5025125628140703
+2019-03-08 12:46:24,721 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 12:46:24,721 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 12:46:24,721 [MainThread  ][INFO ]  Initial parameter values: [-0.9064386334974517, -0.3987779125749873, -0.3333974964633819, 0.40679341694179394]
+2019-03-08 12:47:25,122 [MainThread  ][INFO ]  Final fidelity: 0.007719699278581995
+2019-03-08 12:47:25,123 [MainThread  ][INFO ]  Final parameters: [-40.7794342  -14.55150353  47.82827326  11.98741689]
+2019-03-08 12:47:25,123 [MainThread  ][INFO ]  Fidelity: 0.007719699278581995
+2019-03-08 12:47:25,123 [MainThread  ][INFO ]  ---- Starting iteration 23/200
+2019-03-08 12:47:25,123 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.21799695  0.20080701]
+2019-03-08 12:47:25,123 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.550251256281407
+2019-03-08 12:47:25,123 [MainThread  ][INFO ]  Starting optimization for tf=1.550251256281407
+2019-03-08 12:47:25,123 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 12:47:25,123 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 12:47:25,123 [MainThread  ][INFO ]  Initial parameter values: [-0.21269654559466722, -0.3586953232107939, 0.6985799860553077, 0.5298246588151074]
+2019-03-08 12:48:31,527 [MainThread  ][INFO ]  Final fidelity: 0.0053698180211683546
+2019-03-08 12:48:31,527 [MainThread  ][INFO ]  Final parameters: [-41.71184691  47.43942821  -6.40029006 -10.47288374]
+2019-03-08 12:48:31,528 [MainThread  ][INFO ]  Fidelity: 0.0053698180211683546
+2019-03-08 12:48:31,528 [MainThread  ][INFO ]  ---- Starting iteration 24/200
+2019-03-08 12:48:31,528 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-2.63233790e-04 -4.74751838e-01]
+2019-03-08 12:48:31,528 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.5979899497487438
+2019-03-08 12:48:31,528 [MainThread  ][INFO ]  Starting optimization for tf=1.5979899497487438
+2019-03-08 12:48:31,528 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 12:48:31,528 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 12:48:31,528 [MainThread  ][INFO ]  Initial parameter values: [-0.30067664043843845, -0.5965820945224463, -0.3902153563323423, -0.11449121355994007]
+2019-03-08 12:49:02,906 [MainThread  ][INFO ]  Final fidelity: 0.02074468032378122
+2019-03-08 12:49:02,906 [MainThread  ][INFO ]  Final parameters: [-14.50350041 -23.20210727  41.84958062   6.22895506]
+2019-03-08 12:49:02,906 [MainThread  ][INFO ]  Fidelity: 0.02074468032378122
+2019-03-08 12:49:02,906 [MainThread  ][INFO ]  ---- Starting iteration 25/200
+2019-03-08 12:49:02,906 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[ 0.11368386 -0.32629406]
+2019-03-08 12:49:02,906 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.6457286432160805
+2019-03-08 12:49:02,906 [MainThread  ][INFO ]  Starting optimization for tf=1.6457286432160805
+2019-03-08 12:49:02,907 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 12:49:02,907 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 12:49:02,907 [MainThread  ][INFO ]  Initial parameter values: [-0.7001447385240609, 0.7923018633554564, -0.45629343554992374, -0.7103248405216294]
+2019-03-08 12:49:52,903 [MainThread  ][INFO ]  Final fidelity: 0.08628902480653641
+2019-03-08 12:49:52,904 [MainThread  ][INFO ]  Final parameters: [-117.45432437  -33.01995727  199.99999931 -194.39888791]
+2019-03-08 12:49:52,904 [MainThread  ][INFO ]  Fidelity: 0.08628902480653641
+2019-03-08 12:49:52,904 [MainThread  ][INFO ]  ---- Starting iteration 26/200
+2019-03-08 12:49:52,904 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.25070425  0.03149926]
+2019-03-08 12:49:52,904 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.693467336683417
+2019-03-08 12:49:52,904 [MainThread  ][INFO ]  Starting optimization for tf=1.693467336683417
+2019-03-08 12:49:52,904 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 12:49:52,904 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 12:49:52,904 [MainThread  ][INFO ]  Initial parameter values: [-0.21152859448786154, 0.6820538435043242, -0.5104395075936174, -0.4898004546387469]
+2019-03-08 12:51:00,952 [MainThread  ][INFO ]  Final fidelity: 0.0021078669237029157
+2019-03-08 12:51:00,953 [MainThread  ][INFO ]  Final parameters: [-13.49221348 -33.59048161  -5.99552573  13.38372732]
+2019-03-08 12:51:00,953 [MainThread  ][INFO ]  Fidelity: 0.0021078669237029157
+2019-03-08 12:51:00,953 [MainThread  ][INFO ]  ---- Starting iteration 27/200
+2019-03-08 12:51:00,954 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[ 0.1743078  -0.12618161]
+2019-03-08 12:51:00,954 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.7412060301507537
+2019-03-08 12:51:00,954 [MainThread  ][INFO ]  Starting optimization for tf=1.7412060301507537
+2019-03-08 12:51:00,954 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 12:51:00,954 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 12:51:00,954 [MainThread  ][INFO ]  Initial parameter values: [0.7840873229267378, -0.0471604777516299, 0.034049768124565505, -0.586833719933286]
+2019-03-08 12:51:32,742 [MainThread  ][INFO ]  Final fidelity: 0.000878994294214958
+2019-03-08 12:51:32,743 [MainThread  ][INFO ]  Final parameters: [-13.70941102  -1.20077457  -2.26771883 -46.6171283 ]
+2019-03-08 12:51:32,743 [MainThread  ][INFO ]  Fidelity: 0.000878994294214958
+2019-03-08 12:51:32,743 [MainThread  ][INFO ]  ---- Starting iteration 28/200
+2019-03-08 12:51:32,743 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[ 0.35687597 -0.01240075]
+2019-03-08 12:51:32,743 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.7889447236180904
+2019-03-08 12:51:32,743 [MainThread  ][INFO ]  Starting optimization for tf=1.7889447236180904
+2019-03-08 12:51:32,743 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 12:51:32,743 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 12:51:32,743 [MainThread  ][INFO ]  Initial parameter values: [-0.2914135942610898, -0.007884777771927753, -0.6552588095550194, -0.9907493889813652]
+2019-03-08 12:52:29,496 [MainThread  ][INFO ]  Final fidelity: 0.08668193849029182
+2019-03-08 12:52:29,497 [MainThread  ][INFO ]  Final parameters: [74.44790326 -5.11736374 53.58187775 57.88483823]
+2019-03-08 12:52:29,497 [MainThread  ][INFO ]  Fidelity: 0.08668193849029182
+2019-03-08 12:52:29,497 [MainThread  ][INFO ]  ---- Starting iteration 29/200
+2019-03-08 12:52:29,497 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.14486115  0.45948561]
+2019-03-08 12:52:29,497 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.8366834170854272
+2019-03-08 12:52:29,497 [MainThread  ][INFO ]  Starting optimization for tf=1.8366834170854272
+2019-03-08 12:52:29,497 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 12:52:29,497 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 12:52:29,498 [MainThread  ][INFO ]  Initial parameter values: [-0.149899647001986, 0.26069889650178535, -0.5616268570016776, 0.24382926606385835]
+2019-03-08 12:53:23,377 [MainThread  ][INFO ]  Final fidelity: 0.0011007198016082524
+2019-03-08 12:53:23,378 [MainThread  ][INFO ]  Final parameters: [-12.6786444  -26.40609741  -3.01681414  21.41332214]
+2019-03-08 12:53:23,378 [MainThread  ][INFO ]  Fidelity: 0.0011007198016082524
+2019-03-08 12:53:23,378 [MainThread  ][INFO ]  ---- Starting iteration 30/200
+2019-03-08 12:53:23,378 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[ 0.10276192 -0.01955817]
+2019-03-08 12:53:23,378 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.8844221105527639
+2019-03-08 12:53:23,378 [MainThread  ][INFO ]  Starting optimization for tf=1.8844221105527639
+2019-03-08 12:53:23,378 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 12:53:23,378 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 12:53:23,378 [MainThread  ][INFO ]  Initial parameter values: [-0.8358204281363923, 0.0009459287627178181, -0.2821289154900579, -0.5389659637610706]
+2019-03-08 12:54:23,350 [MainThread  ][INFO ]  Final fidelity: 0.08091963172518855
+2019-03-08 12:54:23,351 [MainThread  ][INFO ]  Final parameters: [-6.34512829  0.18023518 47.37094688 11.41956734]
+2019-03-08 12:54:23,351 [MainThread  ][INFO ]  Fidelity: 0.08091963172518855
+2019-03-08 12:54:23,351 [MainThread  ][INFO ]  ---- Starting iteration 31/200
+2019-03-08 12:54:23,351 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.17302469 -0.39005905]
+2019-03-08 12:54:23,351 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.9321608040201004
+2019-03-08 12:54:23,351 [MainThread  ][INFO ]  Starting optimization for tf=1.9321608040201004
+2019-03-08 12:54:23,351 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 12:54:23,351 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 12:54:23,351 [MainThread  ][INFO ]  Initial parameter values: [0.49246904397541225, -0.6310293999743912, 0.821554140611233, -0.9257021599407831]
+2019-03-08 12:55:22,353 [MainThread  ][INFO ]  Final fidelity: 0.16003342086494624
+2019-03-08 12:55:22,354 [MainThread  ][INFO ]  Final parameters: [-72.78307114 -17.87062344  21.97732809 -32.14367792]
+2019-03-08 12:55:22,354 [MainThread  ][INFO ]  Fidelity: 0.16003342086494624
+2019-03-08 12:55:22,354 [MainThread  ][INFO ]  ---- Starting iteration 32/200
+2019-03-08 12:55:22,354 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.44463932 -0.47886777]
+2019-03-08 12:55:22,354 [MainThread  ][DEBUG]  Setting hyperparameter tf=1.979899497487437
+2019-03-08 12:55:22,354 [MainThread  ][INFO ]  Starting optimization for tf=1.979899497487437
+2019-03-08 12:55:22,354 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 12:55:22,354 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 12:55:22,354 [MainThread  ][INFO ]  Initial parameter values: [0.6906211414448098, 0.9041986323787261, -0.5565047440833455, -0.7451752184394216]
+2019-03-08 12:56:00,204 [MainThread  ][INFO ]  Final fidelity: 0.14126130003232434
+2019-03-08 12:56:00,205 [MainThread  ][INFO ]  Final parameters: [-26.04540214 -20.50714935 -14.94541265   4.40917709]
+2019-03-08 12:56:00,205 [MainThread  ][INFO ]  Fidelity: 0.14126130003232434
+2019-03-08 12:56:00,206 [MainThread  ][INFO ]  ---- Starting iteration 33/200
+2019-03-08 12:56:00,206 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[ 0.42802415 -0.16186126]
+2019-03-08 12:56:00,206 [MainThread  ][DEBUG]  Setting hyperparameter tf=2.027638190954774
+2019-03-08 12:56:00,206 [MainThread  ][INFO ]  Starting optimization for tf=2.027638190954774
+2019-03-08 12:56:00,206 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 12:56:00,206 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 12:56:00,206 [MainThread  ][INFO ]  Initial parameter values: [0.24564773845001509, -0.5748838130927207, -0.3182679981048999, 0.5988412509759442]
+2019-03-08 12:56:48,908 [MainThread  ][INFO ]  Final fidelity: 0.00843811375817877
+2019-03-08 12:56:48,909 [MainThread  ][INFO ]  Final parameters: [ 7.05634461 21.51953405 -0.72212228 -7.37468568]
+2019-03-08 12:56:48,909 [MainThread  ][INFO ]  Fidelity: 0.00843811375817877
+2019-03-08 12:56:48,909 [MainThread  ][INFO ]  ---- Starting iteration 34/200
+2019-03-08 12:56:48,909 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[0.12113589 0.30107185]
+2019-03-08 12:56:48,909 [MainThread  ][DEBUG]  Setting hyperparameter tf=2.0753768844221105
+2019-03-08 12:56:48,909 [MainThread  ][INFO ]  Starting optimization for tf=2.0753768844221105
+2019-03-08 12:56:48,909 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 12:56:48,909 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 12:56:48,909 [MainThread  ][INFO ]  Initial parameter values: [0.09084349163554073, -0.6088049657284447, -0.8052883861491154, 0.03212415955139791]
+2019-03-08 12:57:26,592 [MainThread  ][INFO ]  Final fidelity: 0.12272221156755893
+2019-03-08 12:57:26,593 [MainThread  ][INFO ]  Final parameters: [-0.75806324  9.13421982 35.50299282  2.52559981]
+2019-03-08 12:57:26,593 [MainThread  ][INFO ]  Fidelity: 0.12272221156755893
+2019-03-08 12:57:26,593 [MainThread  ][INFO ]  ---- Starting iteration 35/200
+2019-03-08 12:57:26,593 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.45974138  0.16910446]
+2019-03-08 12:57:26,593 [MainThread  ][DEBUG]  Setting hyperparameter tf=2.1231155778894473
+2019-03-08 12:57:26,593 [MainThread  ][INFO ]  Starting optimization for tf=2.1231155778894473
+2019-03-08 12:57:26,593 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 12:57:26,594 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 12:57:26,594 [MainThread  ][INFO ]  Initial parameter values: [0.016594029029953994, 0.646606211048401, -0.966325463089724, 0.05429600158844172]
+2019-03-08 12:58:10,539 [MainThread  ][INFO ]  Final fidelity: 0.1862102280069411
+2019-03-08 12:58:10,540 [MainThread  ][INFO ]  Final parameters: [-20.72921553   7.22024448 -28.80069301  19.81895292]
+2019-03-08 12:58:10,540 [MainThread  ][INFO ]  Fidelity: 0.1862102280069411
+2019-03-08 12:58:10,540 [MainThread  ][INFO ]  ---- Starting iteration 36/200
+2019-03-08 12:58:10,540 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[ 0.36112943 -0.4717476 ]
+2019-03-08 12:58:10,540 [MainThread  ][DEBUG]  Setting hyperparameter tf=2.1708542713567835
+2019-03-08 12:58:10,540 [MainThread  ][INFO ]  Starting optimization for tf=2.1708542713567835
+2019-03-08 12:58:10,540 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 12:58:10,540 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 12:58:10,540 [MainThread  ][INFO ]  Initial parameter values: [-0.5258396066407052, 0.22252007900617987, -0.07223287380741095, 0.1035044689881428]
+2019-03-08 12:58:50,003 [MainThread  ][INFO ]  Final fidelity: 0.026208907176351437
+2019-03-08 12:58:50,004 [MainThread  ][INFO ]  Final parameters: [ 33.32807863 -16.94609003 -10.56879246  -3.42291399]
+2019-03-08 12:58:50,004 [MainThread  ][INFO ]  Fidelity: 0.026208907176351437
+2019-03-08 12:58:50,004 [MainThread  ][INFO ]  ---- Starting iteration 37/200
+2019-03-08 12:58:50,004 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.35394336  0.34915226]
+2019-03-08 12:58:50,004 [MainThread  ][DEBUG]  Setting hyperparameter tf=2.2185929648241203
+2019-03-08 12:58:50,004 [MainThread  ][INFO ]  Starting optimization for tf=2.2185929648241203
+2019-03-08 12:58:50,004 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 12:58:50,004 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 12:58:50,004 [MainThread  ][INFO ]  Initial parameter values: [-0.05666860732207035, -0.9124044883508038, 0.6962120262066342, 0.7682188486245871]
+2019-03-08 13:00:01,088 [MainThread  ][INFO ]  Final fidelity: 0.003469973157840286
+2019-03-08 13:00:01,088 [MainThread  ][INFO ]  Final parameters: [-1.50487394 20.02158018 -3.47558081 -5.66412117]
+2019-03-08 13:00:01,088 [MainThread  ][INFO ]  Fidelity: 0.003469973157840286
+2019-03-08 13:00:01,088 [MainThread  ][INFO ]  ---- Starting iteration 38/200
+2019-03-08 13:00:01,088 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[ 0.27833525 -0.02327417]
+2019-03-08 13:00:01,088 [MainThread  ][DEBUG]  Setting hyperparameter tf=2.266331658291457
+2019-03-08 13:00:01,088 [MainThread  ][INFO ]  Starting optimization for tf=2.266331658291457
+2019-03-08 13:00:01,088 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 13:00:01,089 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 13:00:01,089 [MainThread  ][INFO ]  Initial parameter values: [0.28359075928784105, -0.33913309943481584, -0.04482662696546913, 0.33929157260584897]
+2019-03-08 13:01:12,646 [MainThread  ][INFO ]  Final fidelity: 0.004634602792115839
+2019-03-08 13:01:12,647 [MainThread  ][INFO ]  Final parameters: [  2.30657624  -8.57033824  -0.07424259 -15.91341062]
+2019-03-08 13:01:12,647 [MainThread  ][INFO ]  Fidelity: 0.004634602792115839
+2019-03-08 13:01:12,647 [MainThread  ][INFO ]  ---- Starting iteration 39/200
+2019-03-08 13:01:12,647 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.11857361  0.33851401]
+2019-03-08 13:01:12,647 [MainThread  ][DEBUG]  Setting hyperparameter tf=2.3140703517587937
+2019-03-08 13:01:12,647 [MainThread  ][INFO ]  Starting optimization for tf=2.3140703517587937
+2019-03-08 13:01:12,647 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 13:01:12,648 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 13:01:12,648 [MainThread  ][INFO ]  Initial parameter values: [0.5661253569190849, -0.16118790371947855, -0.267771313879436, -0.5280738260597513]
+2019-03-08 13:02:24,203 [MainThread  ][INFO ]  Final fidelity: 0.1584356546514757
+2019-03-08 13:02:24,204 [MainThread  ][INFO ]  Final parameters: [-19.1972197   -3.6165152    9.74664436  -7.8362347 ]
+2019-03-08 13:02:24,204 [MainThread  ][INFO ]  Fidelity: 0.1584356546514757
+2019-03-08 13:02:24,204 [MainThread  ][INFO ]  ---- Starting iteration 40/200
+2019-03-08 13:02:24,204 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[0.01614674 0.07366137]
+2019-03-08 13:02:24,204 [MainThread  ][DEBUG]  Setting hyperparameter tf=2.3618090452261304
+2019-03-08 13:02:24,204 [MainThread  ][INFO ]  Starting optimization for tf=2.3618090452261304
+2019-03-08 13:02:24,205 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 13:02:24,205 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 13:02:24,205 [MainThread  ][INFO ]  Initial parameter values: [0.03858436113744168, 0.5163722145390601, 0.31083780988166465, -0.1462117665980105]
+2019-03-08 13:03:21,111 [MainThread  ][INFO ]  Final fidelity: 0.02792999100803651
+2019-03-08 13:03:21,112 [MainThread  ][INFO ]  Final parameters: [-1.68672259 -3.21551961 13.44522204 -7.1870275 ]
+2019-03-08 13:03:21,112 [MainThread  ][INFO ]  Fidelity: 0.02792999100803651
+2019-03-08 13:03:21,112 [MainThread  ][INFO ]  ---- Starting iteration 41/200
+2019-03-08 13:03:21,113 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.27593835 -0.22756362]
+2019-03-08 13:03:21,113 [MainThread  ][DEBUG]  Setting hyperparameter tf=2.409547738693467
+2019-03-08 13:03:21,113 [MainThread  ][INFO ]  Starting optimization for tf=2.409547738693467
+2019-03-08 13:03:21,113 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 13:03:21,113 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 13:03:21,113 [MainThread  ][INFO ]  Initial parameter values: [0.44698380389405035, 0.9385538931189386, -0.43388723017174646, 0.5770572740396285]
+2019-03-08 13:04:33,337 [MainThread  ][INFO ]  Final fidelity: 0.20144631459324067
+2019-03-08 13:04:33,337 [MainThread  ][INFO ]  Final parameters: [-15.34573718   8.82790908   0.51501508   3.45579079]
+2019-03-08 13:04:33,338 [MainThread  ][INFO ]  Fidelity: 0.20144631459324067
+2019-03-08 13:04:33,338 [MainThread  ][INFO ]  ---- Starting iteration 42/200
+2019-03-08 13:04:33,338 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[0.39639904 0.30279671]
+2019-03-08 13:04:33,338 [MainThread  ][DEBUG]  Setting hyperparameter tf=2.457286432160804
+2019-03-08 13:04:33,338 [MainThread  ][INFO ]  Starting optimization for tf=2.457286432160804
+2019-03-08 13:04:33,338 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 13:04:33,338 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 13:04:33,338 [MainThread  ][INFO ]  Initial parameter values: [-0.582250172169273, 0.3341565402762543, -0.22071294199710212, 0.4611257463481633]
+2019-03-08 13:05:47,454 [MainThread  ][INFO ]  Final fidelity: 0.13234896142274064
+2019-03-08 13:05:47,454 [MainThread  ][INFO ]  Final parameters: [18.7389957  13.97556122  6.76387969 -9.94703806]
+2019-03-08 13:05:47,455 [MainThread  ][INFO ]  Fidelity: 0.13234896142274064
+2019-03-08 13:05:47,455 [MainThread  ][INFO ]  ---- Starting iteration 43/200
+2019-03-08 13:05:47,455 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[ 0.49976931 -0.27472208]
+2019-03-08 13:05:47,455 [MainThread  ][DEBUG]  Setting hyperparameter tf=2.5050251256281406
+2019-03-08 13:05:47,455 [MainThread  ][INFO ]  Starting optimization for tf=2.5050251256281406
+2019-03-08 13:05:47,455 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 13:05:47,455 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 13:05:47,455 [MainThread  ][INFO ]  Initial parameter values: [-0.17033172147194997, 0.9520343782466671, -0.8179902831697077, 0.8801746452141201]
+2019-03-08 13:06:39,598 [MainThread  ][INFO ]  Final fidelity: 0.0824654981751231
+2019-03-08 13:06:39,599 [MainThread  ][INFO ]  Final parameters: [-4.02292049 23.10096108  6.11804254 -3.14147898]
+2019-03-08 13:06:39,599 [MainThread  ][INFO ]  Fidelity: 0.0824654981751231
+2019-03-08 13:06:39,599 [MainThread  ][INFO ]  ---- Starting iteration 44/200
+2019-03-08 13:06:39,599 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[ 0.37471403 -0.47969293]
+2019-03-08 13:06:39,599 [MainThread  ][DEBUG]  Setting hyperparameter tf=2.5527638190954773
+2019-03-08 13:06:39,599 [MainThread  ][INFO ]  Starting optimization for tf=2.5527638190954773
+2019-03-08 13:06:39,599 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 13:06:39,599 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 13:06:39,599 [MainThread  ][INFO ]  Initial parameter values: [0.7856937669938395, -0.5714954726143331, 0.1660856345662549, 0.11016556208084594]
+2019-03-08 13:07:52,721 [MainThread  ][INFO ]  Final fidelity: 0.2535144959831324
+2019-03-08 13:07:52,722 [MainThread  ][INFO ]  Final parameters: [ 1.57933837 -3.9034378   1.79541509 16.90135714]
+2019-03-08 13:07:52,722 [MainThread  ][INFO ]  Fidelity: 0.2535144959831324
+2019-03-08 13:07:52,722 [MainThread  ][INFO ]  ---- Starting iteration 45/200
+2019-03-08 13:07:52,722 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.1158919  -0.06247827]
+2019-03-08 13:07:52,723 [MainThread  ][DEBUG]  Setting hyperparameter tf=2.600502512562814
+2019-03-08 13:07:52,723 [MainThread  ][INFO ]  Starting optimization for tf=2.600502512562814
+2019-03-08 13:07:52,723 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 13:07:52,723 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 13:07:52,723 [MainThread  ][INFO ]  Initial parameter values: [-0.17359050757697259, -0.5785612160896769, -0.8564971053022432, 0.45218319491032477]
+2019-03-08 13:08:36,831 [MainThread  ][INFO ]  Final fidelity: 0.04452442039785925
+2019-03-08 13:08:36,832 [MainThread  ][INFO ]  Final parameters: [ -3.17538235  -7.59442967   2.47564998 -10.03873105]
+2019-03-08 13:08:36,832 [MainThread  ][INFO ]  Fidelity: 0.04452442039785925
+2019-03-08 13:08:36,832 [MainThread  ][INFO ]  ---- Starting iteration 46/200
+2019-03-08 13:08:36,832 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[0.43254875 0.32919012]
+2019-03-08 13:08:36,832 [MainThread  ][DEBUG]  Setting hyperparameter tf=2.648241206030151
+2019-03-08 13:08:36,833 [MainThread  ][INFO ]  Starting optimization for tf=2.648241206030151
+2019-03-08 13:08:36,833 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 13:08:36,833 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 13:08:36,833 [MainThread  ][INFO ]  Initial parameter values: [0.6608278370596878, -0.8965095999738626, -0.8773953894538407, 0.8787840548568022]
+2019-03-08 13:09:51,778 [MainThread  ][INFO ]  Final fidelity: 0.1082202344088651
+2019-03-08 13:09:51,778 [MainThread  ][INFO ]  Final parameters: [12.29031969 12.01024497  3.69147434 -4.97433554]
+2019-03-08 13:09:51,778 [MainThread  ][INFO ]  Fidelity: 0.1082202344088651
+2019-03-08 13:09:51,779 [MainThread  ][INFO ]  ---- Starting iteration 47/200
+2019-03-08 13:09:51,779 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.15119856  0.22204346]
+2019-03-08 13:09:51,779 [MainThread  ][DEBUG]  Setting hyperparameter tf=2.6959798994974875
+2019-03-08 13:09:51,779 [MainThread  ][INFO ]  Starting optimization for tf=2.6959798994974875
+2019-03-08 13:09:51,779 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 13:09:51,779 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 13:09:51,779 [MainThread  ][INFO ]  Initial parameter values: [-0.633355797780814, 0.23742555352545525, -0.9746171384020417, -0.6625304201924844]
+2019-03-08 13:11:06,999 [MainThread  ][INFO ]  Final fidelity: 0.232752957307232
+2019-03-08 13:11:06,999 [MainThread  ][INFO ]  Final parameters: [-10.47273298  -2.48292079   6.31634028   6.61250941]
+2019-03-08 13:11:06,999 [MainThread  ][INFO ]  Fidelity: 0.232752957307232
+2019-03-08 13:11:07,000 [MainThread  ][INFO ]  ---- Starting iteration 48/200
+2019-03-08 13:11:07,000 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.29595601 -0.30961369]
+2019-03-08 13:11:07,000 [MainThread  ][DEBUG]  Setting hyperparameter tf=2.7437185929648242
+2019-03-08 13:11:07,000 [MainThread  ][INFO ]  Starting optimization for tf=2.7437185929648242
+2019-03-08 13:11:07,000 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 13:11:07,000 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 13:11:07,000 [MainThread  ][INFO ]  Initial parameter values: [0.4564672883967813, 0.9382374646365339, 0.9233961703170366, -0.9486393354198022]
+2019-03-08 13:12:07,350 [MainThread  ][INFO ]  Final fidelity: 0.4121952367795833
+2019-03-08 13:12:07,351 [MainThread  ][INFO ]  Final parameters: [-40.28223442 -19.41316763 -14.09996829 -19.72978122]
+2019-03-08 13:12:07,351 [MainThread  ][INFO ]  Fidelity: 0.4121952367795833
+2019-03-08 13:12:07,351 [MainThread  ][INFO ]  ---- Starting iteration 49/200
+2019-03-08 13:12:07,351 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[0.38269644 0.36381455]
+2019-03-08 13:12:07,351 [MainThread  ][DEBUG]  Setting hyperparameter tf=2.791457286432161
+2019-03-08 13:12:07,351 [MainThread  ][INFO ]  Starting optimization for tf=2.791457286432161
+2019-03-08 13:12:07,351 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 13:12:07,351 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 13:12:07,351 [MainThread  ][INFO ]  Initial parameter values: [-0.9160499730886993, 0.9783131561886256, 0.30474158095798365, -0.9051382872844262]
+2019-03-08 13:12:46,727 [MainThread  ][INFO ]  Final fidelity: 0.2804979547594261
+2019-03-08 13:12:46,728 [MainThread  ][INFO ]  Final parameters: [ 19.2054909   -0.02873109   3.23301582 -12.14104027]
+2019-03-08 13:12:46,728 [MainThread  ][INFO ]  Fidelity: 0.2804979547594261
+2019-03-08 13:12:46,728 [MainThread  ][INFO ]  ---- Starting iteration 50/200
+2019-03-08 13:12:46,728 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.18085208 -0.01397857]
+2019-03-08 13:12:46,728 [MainThread  ][DEBUG]  Setting hyperparameter tf=2.8391959798994972
+2019-03-08 13:12:46,728 [MainThread  ][INFO ]  Starting optimization for tf=2.8391959798994972
+2019-03-08 13:12:46,728 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 13:12:46,728 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 13:12:46,728 [MainThread  ][INFO ]  Initial parameter values: [0.4913727746729524, -0.07974276657676538, 0.7731891712597607, 0.22774016351659854]
+2019-03-08 13:13:50,525 [MainThread  ][INFO ]  Final fidelity: 0.4037833775625962
+2019-03-08 13:13:50,526 [MainThread  ][INFO ]  Final parameters: [-20.39858492  -4.15539324   3.44297472  18.04347023]
+2019-03-08 13:13:50,526 [MainThread  ][INFO ]  Fidelity: 0.4037833775625962
+2019-03-08 13:13:50,526 [MainThread  ][INFO ]  ---- Starting iteration 51/200
+2019-03-08 13:13:50,526 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.30614451  0.29636875]
+2019-03-08 13:13:50,526 [MainThread  ][DEBUG]  Setting hyperparameter tf=2.886934673366834
+2019-03-08 13:13:50,526 [MainThread  ][INFO ]  Starting optimization for tf=2.886934673366834
+2019-03-08 13:13:50,526 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 13:13:50,526 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 13:13:50,526 [MainThread  ][INFO ]  Initial parameter values: [0.6715488771848155, -0.4843759582992855, 0.39593883240015404, 0.8467877637883214]
+2019-03-08 13:15:07,238 [MainThread  ][INFO ]  Final fidelity: 0.14481602975334157
+2019-03-08 13:15:07,239 [MainThread  ][INFO ]  Final parameters: [-7.32534943 -1.70735445 -1.31044132  8.65851955]
+2019-03-08 13:15:07,239 [MainThread  ][INFO ]  Fidelity: 0.14481602975334157
+2019-03-08 13:15:07,239 [MainThread  ][INFO ]  ---- Starting iteration 52/200
+2019-03-08 13:15:07,239 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.14252298 -0.21877834]
+2019-03-08 13:15:07,239 [MainThread  ][DEBUG]  Setting hyperparameter tf=2.9346733668341707
+2019-03-08 13:15:07,239 [MainThread  ][INFO ]  Starting optimization for tf=2.9346733668341707
+2019-03-08 13:15:07,239 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 13:15:07,239 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 13:15:07,239 [MainThread  ][INFO ]  Initial parameter values: [0.24332196208103207, 0.8929046287258529, -0.6342295452629276, 0.30436973910940424]
+2019-03-08 13:16:23,560 [MainThread  ][INFO ]  Final fidelity: 0.2560361383268164
+2019-03-08 13:16:23,561 [MainThread  ][INFO ]  Final parameters: [-2.86367267  8.66654368  5.23656454  2.86301221]
+2019-03-08 13:16:23,561 [MainThread  ][INFO ]  Fidelity: 0.2560361383268164
+2019-03-08 13:16:23,561 [MainThread  ][INFO ]  ---- Starting iteration 53/200
+2019-03-08 13:16:23,561 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[0.30636707 0.40066364]
+2019-03-08 13:16:23,562 [MainThread  ][DEBUG]  Setting hyperparameter tf=2.9824120603015074
+2019-03-08 13:16:23,562 [MainThread  ][INFO ]  Starting optimization for tf=2.9824120603015074
+2019-03-08 13:16:23,562 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 13:16:23,562 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 13:16:23,562 [MainThread  ][INFO ]  Initial parameter values: [0.6810016819027997, -0.4629600948928132, 0.7080665384907379, -0.2503134890233749]
+2019-03-08 13:17:29,001 [MainThread  ][INFO ]  Final fidelity: 0.25911357295900733
+2019-03-08 13:17:29,002 [MainThread  ][INFO ]  Final parameters: [ 9.96354856  3.57983449  6.08395808 -1.87630809]
+2019-03-08 13:17:29,002 [MainThread  ][INFO ]  Fidelity: 0.25911357295900733
+2019-03-08 13:17:29,002 [MainThread  ][INFO ]  ---- Starting iteration 54/200
+2019-03-08 13:17:29,002 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[0.39475604 0.34405157]
+2019-03-08 13:17:29,002 [MainThread  ][DEBUG]  Setting hyperparameter tf=3.030150753768844
+2019-03-08 13:17:29,002 [MainThread  ][INFO ]  Starting optimization for tf=3.030150753768844
+2019-03-08 13:17:29,002 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 13:17:29,002 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 13:17:29,002 [MainThread  ][INFO ]  Initial parameter values: [0.042686576878367966, 0.4955494235192366, 0.7736533647058919, 0.2212645805429776]
+2019-03-08 13:18:11,301 [MainThread  ][INFO ]  Final fidelity: 0.04431953915876801
+2019-03-08 13:18:11,301 [MainThread  ][INFO ]  Final parameters: [2.61162065 8.97811916 2.53731488 4.43740275]
+2019-03-08 13:18:11,302 [MainThread  ][INFO ]  Fidelity: 0.04431953915876801
+2019-03-08 13:18:11,302 [MainThread  ][INFO ]  ---- Starting iteration 55/200
+2019-03-08 13:18:11,302 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[0.29638573 0.36827921]
+2019-03-08 13:18:11,302 [MainThread  ][DEBUG]  Setting hyperparameter tf=3.077889447236181
+2019-03-08 13:18:11,302 [MainThread  ][INFO ]  Starting optimization for tf=3.077889447236181
+2019-03-08 13:18:11,302 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 13:18:11,302 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 13:18:11,302 [MainThread  ][INFO ]  Initial parameter values: [-0.4640842025516061, -0.991614761497841, 0.9864681939704114, 0.7805016444716315]
+2019-03-08 13:19:08,100 [MainThread  ][INFO ]  Final fidelity: 0.22586758050176417
+2019-03-08 13:19:08,100 [MainThread  ][INFO ]  Final parameters: [7.1365092  4.41766658 5.74060763 1.230766  ]
+2019-03-08 13:19:08,100 [MainThread  ][INFO ]  Fidelity: 0.22586758050176417
+2019-03-08 13:19:08,100 [MainThread  ][INFO ]  ---- Starting iteration 56/200
+2019-03-08 13:19:08,101 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[ 0.24452304 -0.44117731]
+2019-03-08 13:19:08,101 [MainThread  ][DEBUG]  Setting hyperparameter tf=3.1256281407035176
+2019-03-08 13:19:08,101 [MainThread  ][INFO ]  Starting optimization for tf=3.1256281407035176
+2019-03-08 13:19:08,101 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 13:19:08,101 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 13:19:08,101 [MainThread  ][INFO ]  Initial parameter values: [0.4809060952482265, 0.08715996902756751, 0.6736050311939741, -0.49120512187370746]
+2019-03-08 13:20:26,336 [MainThread  ][INFO ]  Final fidelity: 0.3996691363103667
+2019-03-08 13:20:26,337 [MainThread  ][INFO ]  Final parameters: [-40.88672656  17.2864308  -28.89578885  53.85347819]
+2019-03-08 13:20:26,337 [MainThread  ][INFO ]  Fidelity: 0.3996691363103667
+2019-03-08 13:20:26,337 [MainThread  ][INFO ]  ---- Starting iteration 57/200
+2019-03-08 13:20:26,337 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[0.3227562  0.22740539]
+2019-03-08 13:20:26,337 [MainThread  ][DEBUG]  Setting hyperparameter tf=3.1733668341708543
+2019-03-08 13:20:26,337 [MainThread  ][INFO ]  Starting optimization for tf=3.1733668341708543
+2019-03-08 13:20:26,337 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 13:20:26,337 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 13:20:26,337 [MainThread  ][INFO ]  Initial parameter values: [-0.48852936510522493, 0.7180531855693353, 0.9928848618692232, 0.6117290246222513]
+2019-03-08 13:21:13,075 [MainThread  ][INFO ]  Final fidelity: 0.3798640090210817
+2019-03-08 13:21:13,075 [MainThread  ][INFO ]  Final parameters: [14.15444328  6.66954904  6.20450085 -5.83724082]
+2019-03-08 13:21:13,076 [MainThread  ][INFO ]  Fidelity: 0.3798640090210817
+2019-03-08 13:21:13,076 [MainThread  ][INFO ]  ---- Starting iteration 58/200
+2019-03-08 13:21:13,076 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[0.22137804 0.4066039 ]
+2019-03-08 13:21:13,076 [MainThread  ][DEBUG]  Setting hyperparameter tf=3.221105527638191
+2019-03-08 13:21:13,076 [MainThread  ][INFO ]  Starting optimization for tf=3.221105527638191
+2019-03-08 13:21:13,076 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 13:21:13,076 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 13:21:13,076 [MainThread  ][INFO ]  Initial parameter values: [-0.07866325104663452, 0.8366120034808111, 0.23891309053024834, -0.7913792813676146]
+2019-03-08 13:22:21,496 [MainThread  ][INFO ]  Final fidelity: 0.38027469179490164
+2019-03-08 13:22:21,496 [MainThread  ][INFO ]  Final parameters: [ 8.76196726 -2.50975767  9.12861445 -4.60212635]
+2019-03-08 13:22:21,496 [MainThread  ][INFO ]  Fidelity: 0.38027469179490164
+2019-03-08 13:22:21,496 [MainThread  ][INFO ]  ---- Starting iteration 59/200
+2019-03-08 13:22:21,497 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[0.33419014 0.33593792]
+2019-03-08 13:22:21,497 [MainThread  ][DEBUG]  Setting hyperparameter tf=3.2688442211055277
+2019-03-08 13:22:21,497 [MainThread  ][INFO ]  Starting optimization for tf=3.2688442211055277
+2019-03-08 13:22:21,497 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 13:22:21,497 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 13:22:21,497 [MainThread  ][INFO ]  Initial parameter values: [-0.14095367519518942, 0.04062386389250161, 0.9052014363212846, -0.8894179124963284]
+2019-03-08 13:23:13,069 [MainThread  ][INFO ]  Final fidelity: 0.32557161796193096
+2019-03-08 13:23:13,070 [MainThread  ][INFO ]  Final parameters: [ 7.25404439  4.99906539  3.61119737 -6.84744263]
+2019-03-08 13:23:13,070 [MainThread  ][INFO ]  Fidelity: 0.32557161796193096
+2019-03-08 13:23:13,070 [MainThread  ][INFO ]  ---- Starting iteration 60/200
+2019-03-08 13:23:13,070 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[ 0.26174636 -0.26112791]
+2019-03-08 13:23:13,070 [MainThread  ][DEBUG]  Setting hyperparameter tf=3.316582914572864
+2019-03-08 13:23:13,070 [MainThread  ][INFO ]  Starting optimization for tf=3.316582914572864
+2019-03-08 13:23:13,071 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 13:23:13,071 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 13:23:13,071 [MainThread  ][INFO ]  Initial parameter values: [0.4674909794085993, 0.5572241555497464, -0.05916659355943499, 0.9686953362762221]
+2019-03-08 13:24:26,516 [MainThread  ][INFO ]  Final fidelity: 0.32858804707664774
+2019-03-08 13:24:26,517 [MainThread  ][INFO ]  Final parameters: [7.81575955 3.96542876 0.80317072 4.6833302 ]
+2019-03-08 13:24:26,517 [MainThread  ][INFO ]  Fidelity: 0.32858804707664774
+2019-03-08 13:24:26,517 [MainThread  ][INFO ]  ---- Starting iteration 61/200
+2019-03-08 13:24:26,518 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[0.49568943 0.22390387]
+2019-03-08 13:24:26,518 [MainThread  ][DEBUG]  Setting hyperparameter tf=3.3643216080402008
+2019-03-08 13:24:26,518 [MainThread  ][INFO ]  Starting optimization for tf=3.3643216080402008
+2019-03-08 13:24:26,518 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 13:24:26,518 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 13:24:26,518 [MainThread  ][INFO ]  Initial parameter values: [0.07587236723745394, 0.07679354410438255, 0.1053381118074852, 0.6045348296427464]
+2019-03-08 13:25:45,747 [MainThread  ][INFO ]  Final fidelity: 0.36253936633791767
+2019-03-08 13:25:45,748 [MainThread  ][INFO ]  Final parameters: [13.47054923  3.85976084 -8.24462527 -6.44765808]
+2019-03-08 13:25:45,748 [MainThread  ][INFO ]  Fidelity: 0.36253936633791767
+2019-03-08 13:25:45,748 [MainThread  ][INFO ]  ---- Starting iteration 62/200
+2019-03-08 13:25:45,749 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.27449047  0.28134019]
+2019-03-08 13:25:45,749 [MainThread  ][DEBUG]  Setting hyperparameter tf=3.4120603015075375
+2019-03-08 13:25:45,749 [MainThread  ][INFO ]  Starting optimization for tf=3.4120603015075375
+2019-03-08 13:25:45,749 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 13:25:45,749 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 13:25:45,749 [MainThread  ][INFO ]  Initial parameter values: [0.9089191534114638, -0.8297312819552465, 0.16357106628035822, 0.8670616116565375]
+2019-03-08 13:26:57,703 [MainThread  ][INFO ]  Final fidelity: 0.37423390574110166
+2019-03-08 13:26:57,704 [MainThread  ][INFO ]  Final parameters: [-6.88479917 -1.45756998  0.31171091  4.68725008]
+2019-03-08 13:26:57,704 [MainThread  ][INFO ]  Fidelity: 0.37423390574110166
+2019-03-08 13:26:57,704 [MainThread  ][INFO ]  ---- Starting iteration 63/200
+2019-03-08 13:26:57,704 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[ 0.11279467 -0.38921017]
+2019-03-08 13:26:57,704 [MainThread  ][DEBUG]  Setting hyperparameter tf=3.459798994974874
+2019-03-08 13:26:57,704 [MainThread  ][INFO ]  Starting optimization for tf=3.459798994974874
+2019-03-08 13:26:57,704 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 13:26:57,704 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 13:26:57,704 [MainThread  ][INFO ]  Initial parameter values: [0.3166816919977924, 0.625720285896332, 0.4453600346176112, 0.25621640444615146]
+2019-03-08 13:28:12,967 [MainThread  ][INFO ]  Final fidelity: 0.4065583981665105
+2019-03-08 13:28:12,968 [MainThread  ][INFO ]  Final parameters: [  9.46395643 -43.98456462  76.5441069  -61.49607453]
+2019-03-08 13:28:12,968 [MainThread  ][INFO ]  Fidelity: 0.4065583981665105
+2019-03-08 13:28:12,968 [MainThread  ][INFO ]  ---- Starting iteration 64/200
+2019-03-08 13:28:12,968 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.35880216  0.19130671]
+2019-03-08 13:28:12,968 [MainThread  ][DEBUG]  Setting hyperparameter tf=3.507537688442211
+2019-03-08 13:28:12,968 [MainThread  ][INFO ]  Starting optimization for tf=3.507537688442211
+2019-03-08 13:28:12,968 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 13:28:12,968 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 13:28:12,968 [MainThread  ][INFO ]  Initial parameter values: [-0.0827940258206119, 0.8281845958256191, -0.09640835018870852, 0.7846343058685761]
+2019-03-08 13:29:34,136 [MainThread  ][INFO ]  Final fidelity: 0.42459349546464353
+2019-03-08 13:29:34,137 [MainThread  ][INFO ]  Final parameters: [-8.21333093  2.0054528  -3.99148397 -4.88341447]
+2019-03-08 13:29:34,137 [MainThread  ][INFO ]  Fidelity: 0.42459349546464353
+2019-03-08 13:29:34,137 [MainThread  ][INFO ]  ---- Starting iteration 65/200
+2019-03-08 13:29:34,137 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.29697078 -0.1931899 ]
+2019-03-08 13:29:34,138 [MainThread  ][DEBUG]  Setting hyperparameter tf=3.5552763819095476
+2019-03-08 13:29:34,138 [MainThread  ][INFO ]  Starting optimization for tf=3.5552763819095476
+2019-03-08 13:29:34,138 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 13:29:34,138 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 13:29:34,138 [MainThread  ][INFO ]  Initial parameter values: [-0.22642656567894948, 0.4388452718502256, 0.03099990202479841, -0.774827521869611]
+2019-03-08 13:30:28,338 [MainThread  ][INFO ]  Final fidelity: 0.427457761223881
+2019-03-08 13:30:28,338 [MainThread  ][INFO ]  Final parameters: [-11.09455271  -3.94782093  -1.30942131   6.19813587]
+2019-03-08 13:30:28,338 [MainThread  ][INFO ]  Fidelity: 0.427457761223881
+2019-03-08 13:30:28,339 [MainThread  ][INFO ]  ---- Starting iteration 66/200
+2019-03-08 13:30:28,339 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.05552995 -0.00327559]
+2019-03-08 13:30:28,339 [MainThread  ][DEBUG]  Setting hyperparameter tf=3.6030150753768844
+2019-03-08 13:30:28,339 [MainThread  ][INFO ]  Starting optimization for tf=3.6030150753768844
+2019-03-08 13:30:28,339 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 13:30:28,339 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 13:30:28,339 [MainThread  ][INFO ]  Initial parameter values: [-0.2714917747721568, -0.5628724485576042, 0.22316043839164124, -0.42162272810650503]
+2019-03-08 13:31:05,901 [MainThread  ][INFO ]  Final fidelity: 0.4615125224411337
+2019-03-08 13:31:05,902 [MainThread  ][INFO ]  Final parameters: [-7.88056396  1.59900532  5.81426466 12.36020553]
+2019-03-08 13:31:05,902 [MainThread  ][INFO ]  Fidelity: 0.4615125224411337
+2019-03-08 13:31:05,902 [MainThread  ][INFO ]  ---- Starting iteration 67/200
+2019-03-08 13:31:05,902 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.39299781  0.08651937]
+2019-03-08 13:31:05,903 [MainThread  ][DEBUG]  Setting hyperparameter tf=3.650753768844221
+2019-03-08 13:31:05,903 [MainThread  ][INFO ]  Starting optimization for tf=3.650753768844221
+2019-03-08 13:31:05,903 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 13:31:05,903 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 13:31:05,903 [MainThread  ][INFO ]  Initial parameter values: [-0.6839892522886248, -0.88981106223193, 0.36935572789180116, -0.7016775786192748]
+2019-03-08 13:32:29,018 [MainThread  ][INFO ]  Final fidelity: 0.45022140694838486
+2019-03-08 13:32:29,019 [MainThread  ][INFO ]  Final parameters: [-6.30209286  7.95449915 -5.31848735  4.82957071]
+2019-03-08 13:32:29,019 [MainThread  ][INFO ]  Fidelity: 0.45022140694838486
+2019-03-08 13:32:29,019 [MainThread  ][INFO ]  ---- Starting iteration 68/200
+2019-03-08 13:32:29,019 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[0.34856348 0.29726809]
+2019-03-08 13:32:29,019 [MainThread  ][DEBUG]  Setting hyperparameter tf=3.698492462311558
+2019-03-08 13:32:29,020 [MainThread  ][INFO ]  Starting optimization for tf=3.698492462311558
+2019-03-08 13:32:29,020 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 13:32:29,020 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 13:32:29,020 [MainThread  ][INFO ]  Initial parameter values: [0.9563112060059411, 0.3748324667688874, 0.10861817340978908, 0.5562968614557773]
+2019-03-08 13:33:25,764 [MainThread  ][INFO ]  Final fidelity: 0.3828380083980959
+2019-03-08 13:33:25,765 [MainThread  ][INFO ]  Final parameters: [ 7.8257798   2.40099859  0.87813791 -1.23139367]
+2019-03-08 13:33:25,765 [MainThread  ][INFO ]  Fidelity: 0.3828380083980959
+2019-03-08 13:33:25,765 [MainThread  ][INFO ]  ---- Starting iteration 69/200
+2019-03-08 13:33:25,765 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.39125847 -0.49389725]
+2019-03-08 13:33:25,765 [MainThread  ][DEBUG]  Setting hyperparameter tf=3.7462311557788945
+2019-03-08 13:33:25,765 [MainThread  ][INFO ]  Starting optimization for tf=3.7462311557788945
+2019-03-08 13:33:25,765 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 13:33:25,765 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 13:33:25,765 [MainThread  ][INFO ]  Initial parameter values: [-0.879239038986783, -0.004037481396647058, -0.38188105098323555, -0.4052705017589897]
+2019-03-08 13:34:04,258 [MainThread  ][INFO ]  Final fidelity: 0.441505427982494
+2019-03-08 13:34:04,258 [MainThread  ][INFO ]  Final parameters: [-12.8524944    0.14737598  -5.55763544  -8.58545512]
+2019-03-08 13:34:04,258 [MainThread  ][INFO ]  Fidelity: 0.441505427982494
+2019-03-08 13:34:04,259 [MainThread  ][INFO ]  ---- Starting iteration 70/200
+2019-03-08 13:34:04,259 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[ 0.24361113 -0.21348256]
+2019-03-08 13:34:04,259 [MainThread  ][DEBUG]  Setting hyperparameter tf=3.7939698492462313
+2019-03-08 13:34:04,259 [MainThread  ][INFO ]  Starting optimization for tf=3.7939698492462313
+2019-03-08 13:34:04,259 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 13:34:04,259 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 13:34:04,259 [MainThread  ][INFO ]  Initial parameter values: [-0.013781783726191765, -0.4245452496958826, 0.5128369659728802, 0.1447788581862306]
+2019-03-08 13:35:01,327 [MainThread  ][INFO ]  Final fidelity: 0.49979401104719606
+2019-03-08 13:35:01,327 [MainThread  ][INFO ]  Final parameters: [  4.51760234 -28.80530821  25.72300607  -3.10669218]
+2019-03-08 13:35:01,327 [MainThread  ][INFO ]  Fidelity: 0.49979401104719606
+2019-03-08 13:35:01,328 [MainThread  ][INFO ]  ---- Starting iteration 71/200
+2019-03-08 13:35:01,328 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[ 0.35506423 -0.30680087]
+2019-03-08 13:35:01,328 [MainThread  ][DEBUG]  Setting hyperparameter tf=3.8417085427135675
+2019-03-08 13:35:01,328 [MainThread  ][INFO ]  Starting optimization for tf=3.8417085427135675
+2019-03-08 13:35:01,328 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 13:35:01,328 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 13:35:01,328 [MainThread  ][INFO ]  Initial parameter values: [-0.8912019335412089, -0.7948536623002302, -0.5776398258374227, -0.3471937716201188]
+2019-03-08 13:36:17,887 [MainThread  ][INFO ]  Final fidelity: 0.49618990465150015
+2019-03-08 13:36:17,887 [MainThread  ][INFO ]  Final parameters: [ 182.80064607 -199.99996507  138.5770429  -112.78822002]
+2019-03-08 13:36:17,887 [MainThread  ][INFO ]  Fidelity: 0.49618990465150015
+2019-03-08 13:36:17,887 [MainThread  ][INFO ]  ---- Starting iteration 72/200
+2019-03-08 13:36:17,888 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.05483517  0.27408331]
+2019-03-08 13:36:17,888 [MainThread  ][DEBUG]  Setting hyperparameter tf=3.8894472361809043
+2019-03-08 13:36:17,888 [MainThread  ][INFO ]  Starting optimization for tf=3.8894472361809043
+2019-03-08 13:36:17,888 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 13:36:17,888 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 13:36:17,888 [MainThread  ][INFO ]  Initial parameter values: [0.28660966984956193, -0.89732844643273, 0.10480945667698727, -0.9049152237119236]
+2019-03-08 13:37:20,846 [MainThread  ][INFO ]  Final fidelity: 0.44479777144541804
+2019-03-08 13:37:20,846 [MainThread  ][INFO ]  Final parameters: [-3.6381625   1.22496804  3.7365473  -5.95456543]
+2019-03-08 13:37:20,846 [MainThread  ][INFO ]  Fidelity: 0.44479777144541804
+2019-03-08 13:37:20,847 [MainThread  ][INFO ]  ---- Starting iteration 73/200
+2019-03-08 13:37:20,847 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.14272017 -0.46596851]
+2019-03-08 13:37:20,847 [MainThread  ][DEBUG]  Setting hyperparameter tf=3.937185929648241
+2019-03-08 13:37:20,847 [MainThread  ][INFO ]  Starting optimization for tf=3.937185929648241
+2019-03-08 13:37:20,847 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 13:37:20,847 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 13:37:20,847 [MainThread  ][INFO ]  Initial parameter values: [0.7430837151204783, 0.24415448753751168, 0.9152896793844845, 0.28907905974002923]
+2019-03-08 13:38:22,368 [MainThread  ][INFO ]  Final fidelity: 0.6051443534217747
+2019-03-08 13:38:22,368 [MainThread  ][INFO ]  Final parameters: [-63.76577988  29.03393702  15.63408786 -53.88735562]
+2019-03-08 13:38:22,368 [MainThread  ][INFO ]  Fidelity: 0.6051443534217747
+2019-03-08 13:38:22,369 [MainThread  ][INFO ]  ---- Starting iteration 74/200
+2019-03-08 13:38:22,369 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.16197146 -0.30563333]
+2019-03-08 13:38:22,369 [MainThread  ][DEBUG]  Setting hyperparameter tf=3.9849246231155777
+2019-03-08 13:38:22,369 [MainThread  ][INFO ]  Starting optimization for tf=3.9849246231155777
+2019-03-08 13:38:22,369 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 13:38:22,369 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 13:38:22,369 [MainThread  ][INFO ]  Initial parameter values: [-0.9601996047943235, -0.61623987139996, 0.6131711503109967, -0.7720514084637577]
+2019-03-08 13:39:11,848 [MainThread  ][INFO ]  Final fidelity: 0.5986830954247883
+2019-03-08 13:39:11,848 [MainThread  ][INFO ]  Final parameters: [-21.31971455 -14.49251401   3.51956479 -14.78268612]
+2019-03-08 13:39:11,848 [MainThread  ][INFO ]  Fidelity: 0.5986830954247883
+2019-03-08 13:39:11,848 [MainThread  ][INFO ]  ---- Starting iteration 75/200
+2019-03-08 13:39:11,849 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.28400448  0.11808803]
+2019-03-08 13:39:11,849 [MainThread  ][DEBUG]  Setting hyperparameter tf=4.032663316582914
+2019-03-08 13:39:11,849 [MainThread  ][INFO ]  Starting optimization for tf=4.032663316582914
+2019-03-08 13:39:11,849 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 13:39:11,849 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 13:39:11,849 [MainThread  ][INFO ]  Initial parameter values: [-0.6069911298283295, 0.23783556936260397, -0.41938609106116753, 0.9631207181097807]
+2019-03-08 13:40:05,411 [MainThread  ][INFO ]  Final fidelity: 0.5047120726125018
+2019-03-08 13:40:05,412 [MainThread  ][INFO ]  Final parameters: [-5.80712708  7.11485562 -1.33790653  0.81162885]
+2019-03-08 13:40:05,412 [MainThread  ][INFO ]  Fidelity: 0.5047120726125018
+2019-03-08 13:40:05,412 [MainThread  ][INFO ]  ---- Starting iteration 76/200
+2019-03-08 13:40:05,413 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.14901237  0.06018331]
+2019-03-08 13:40:05,413 [MainThread  ][DEBUG]  Setting hyperparameter tf=4.080402010050252
+2019-03-08 13:40:05,413 [MainThread  ][INFO ]  Starting optimization for tf=4.080402010050252
+2019-03-08 13:40:05,413 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 13:40:05,413 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 13:40:05,413 [MainThread  ][INFO ]  Initial parameter values: [0.00842642806826821, 0.5335879218614084, -0.005389340038427504, -0.8966838715613195]
+2019-03-08 13:40:53,327 [MainThread  ][INFO ]  Final fidelity: 0.26851881783227577
+2019-03-08 13:40:53,328 [MainThread  ][INFO ]  Final parameters: [-0.58398324 -4.03648246  1.69796842 -1.94366961]
+2019-03-08 13:40:53,328 [MainThread  ][INFO ]  Fidelity: 0.26851881783227577
+2019-03-08 13:40:53,328 [MainThread  ][INFO ]  ---- Starting iteration 77/200
+2019-03-08 13:40:53,328 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.30831014 -0.29414719]
+2019-03-08 13:40:53,329 [MainThread  ][DEBUG]  Setting hyperparameter tf=4.128140703517587
+2019-03-08 13:40:53,329 [MainThread  ][INFO ]  Starting optimization for tf=4.128140703517587
+2019-03-08 13:40:53,329 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 13:40:53,329 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 13:40:53,329 [MainThread  ][INFO ]  Initial parameter values: [0.07443357908323112, -0.26238135265825036, 0.027383853514075573, 0.38768827009211226]
+2019-03-08 13:41:39,015 [MainThread  ][INFO ]  Final fidelity: 0.42764102964166245
+2019-03-08 13:41:39,016 [MainThread  ][INFO ]  Final parameters: [-3.75914832 -1.14630887  0.56166074  2.31278719]
+2019-03-08 13:41:39,016 [MainThread  ][INFO ]  Fidelity: 0.42764102964166245
+2019-03-08 13:41:39,016 [MainThread  ][INFO ]  ---- Starting iteration 78/200
+2019-03-08 13:41:39,016 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.01730677 -0.24155595]
+2019-03-08 13:41:39,016 [MainThread  ][DEBUG]  Setting hyperparameter tf=4.175879396984925
+2019-03-08 13:41:39,016 [MainThread  ][INFO ]  Starting optimization for tf=4.175879396984925
+2019-03-08 13:41:39,016 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 13:41:39,016 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 13:41:39,017 [MainThread  ][INFO ]  Initial parameter values: [-0.8611197362148919, -0.8427490942500997, -0.10033205898205266, -0.29330044817330814]
+2019-03-08 13:42:03,557 [MainThread  ][INFO ]  Final fidelity: 0.38654251624532365
+2019-03-08 13:42:03,558 [MainThread  ][INFO ]  Final parameters: [ 1.66536735  5.9691448  -0.30430426 -1.56264436]
+2019-03-08 13:42:03,558 [MainThread  ][INFO ]  Fidelity: 0.38654251624532365
+2019-03-08 13:42:03,558 [MainThread  ][INFO ]  ---- Starting iteration 79/200
+2019-03-08 13:42:03,558 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[0.4527953  0.29455582]
+2019-03-08 13:42:03,558 [MainThread  ][DEBUG]  Setting hyperparameter tf=4.223618090452261
+2019-03-08 13:42:03,558 [MainThread  ][INFO ]  Starting optimization for tf=4.223618090452261
+2019-03-08 13:42:03,558 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 13:42:03,558 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 13:42:03,558 [MainThread  ][INFO ]  Initial parameter values: [-0.2169305040701588, -0.890180396970307, -0.38359607594367273, -0.8643263193684014]
+2019-03-08 13:43:07,551 [MainThread  ][INFO ]  Final fidelity: 0.4267099690516935
+2019-03-08 13:43:07,551 [MainThread  ][INFO ]  Final parameters: [ 4.84345491 -0.68217354  0.40364898 -5.50770933]
+2019-03-08 13:43:07,551 [MainThread  ][INFO ]  Fidelity: 0.4267099690516935
+2019-03-08 13:43:07,551 [MainThread  ][INFO ]  ---- Starting iteration 80/200
+2019-03-08 13:43:07,552 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.28565721  0.398929  ]
+2019-03-08 13:43:07,552 [MainThread  ][DEBUG]  Setting hyperparameter tf=4.2713567839195985
+2019-03-08 13:43:07,552 [MainThread  ][INFO ]  Starting optimization for tf=4.2713567839195985
+2019-03-08 13:43:07,552 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 13:43:07,552 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 13:43:07,552 [MainThread  ][INFO ]  Initial parameter values: [0.9944557335871753, 0.21984945328406402, -0.376629411559561, 0.627097905082806]
+2019-03-08 13:44:19,861 [MainThread  ][INFO ]  Final fidelity: 0.4718960603435065
+2019-03-08 13:44:19,862 [MainThread  ][INFO ]  Final parameters: [-4.04001486 -4.17486801 -0.52453657  0.05245115]
+2019-03-08 13:44:19,862 [MainThread  ][INFO ]  Fidelity: 0.4718960603435065
+2019-03-08 13:44:19,862 [MainThread  ][INFO ]  ---- Starting iteration 81/200
+2019-03-08 13:44:19,862 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.28730411 -0.43975489]
+2019-03-08 13:44:19,862 [MainThread  ][DEBUG]  Setting hyperparameter tf=4.319095477386934
+2019-03-08 13:44:19,862 [MainThread  ][INFO ]  Starting optimization for tf=4.319095477386934
+2019-03-08 13:44:19,862 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 13:44:19,862 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 13:44:19,862 [MainThread  ][INFO ]  Initial parameter values: [-0.9749718612215912, 0.23161101716971544, 0.03766579894924016, -0.06706286033212949]
+2019-03-08 13:45:44,758 [MainThread  ][INFO ]  Final fidelity: 0.676073164512721
+2019-03-08 13:45:44,759 [MainThread  ][INFO ]  Final parameters: [-30.47823363   9.86462462 -11.86140477 -25.99953179]
+2019-03-08 13:45:44,759 [MainThread  ][INFO ]  Fidelity: 0.676073164512721
+2019-03-08 13:45:44,759 [MainThread  ][INFO ]  ---- Starting iteration 82/200
+2019-03-08 13:45:44,759 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[ 0.43111041 -0.09340523]
+2019-03-08 13:45:44,759 [MainThread  ][DEBUG]  Setting hyperparameter tf=4.366834170854271
+2019-03-08 13:45:44,760 [MainThread  ][INFO ]  Starting optimization for tf=4.366834170854271
+2019-03-08 13:45:44,760 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 13:45:44,760 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 13:45:44,760 [MainThread  ][INFO ]  Initial parameter values: [-0.6637260742891926, 0.9617240568799046, -0.5540197281951265, 0.3350655327752501]
+2019-03-08 13:46:31,445 [MainThread  ][INFO ]  Final fidelity: 0.5326030742414518
+2019-03-08 13:46:31,445 [MainThread  ][INFO ]  Final parameters: [12.0546643  -3.40307693  4.08659707 13.83637708]
+2019-03-08 13:46:31,446 [MainThread  ][INFO ]  Fidelity: 0.5326030742414518
+2019-03-08 13:46:31,446 [MainThread  ][INFO ]  ---- Starting iteration 83/200
+2019-03-08 13:46:31,446 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.02600501  0.40280152]
+2019-03-08 13:46:31,446 [MainThread  ][DEBUG]  Setting hyperparameter tf=4.414572864321608
+2019-03-08 13:46:31,446 [MainThread  ][INFO ]  Starting optimization for tf=4.414572864321608
+2019-03-08 13:46:31,446 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 13:46:31,446 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 13:46:31,446 [MainThread  ][INFO ]  Initial parameter values: [-0.44360607737187596, -0.4431545589912209, -0.49784385084034355, 0.3603498048888518]
+2019-03-08 13:47:27,022 [MainThread  ][INFO ]  Final fidelity: 0.4699895179202473
+2019-03-08 13:47:27,023 [MainThread  ][INFO ]  Final parameters: [-1.80038409 -4.11383321  2.62576061 -0.96827493]
+2019-03-08 13:47:27,023 [MainThread  ][INFO ]  Fidelity: 0.4699895179202473
+2019-03-08 13:47:27,023 [MainThread  ][INFO ]  ---- Starting iteration 84/200
+2019-03-08 13:47:27,023 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.26342801  0.49635115]
+2019-03-08 13:47:27,023 [MainThread  ][DEBUG]  Setting hyperparameter tf=4.4623115577889445
+2019-03-08 13:47:27,023 [MainThread  ][INFO ]  Starting optimization for tf=4.4623115577889445
+2019-03-08 13:47:27,023 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 13:47:27,023 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 13:47:27,024 [MainThread  ][INFO ]  Initial parameter values: [0.10764458066113303, -0.21983888111490324, 0.0546419348748286, -0.16188762298658066]
+2019-03-08 13:48:49,081 [MainThread  ][INFO ]  Final fidelity: 0.48634342448154394
+2019-03-08 13:48:49,082 [MainThread  ][INFO ]  Final parameters: [-3.12255888 -3.10241318 -0.11327955  2.78409403]
+2019-03-08 13:48:49,082 [MainThread  ][INFO ]  Fidelity: 0.48634342448154394
+2019-03-08 13:48:49,082 [MainThread  ][INFO ]  ---- Starting iteration 85/200
+2019-03-08 13:48:49,082 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[0.06659236 0.43055074]
+2019-03-08 13:48:49,082 [MainThread  ][DEBUG]  Setting hyperparameter tf=4.510050251256281
+2019-03-08 13:48:49,082 [MainThread  ][INFO ]  Starting optimization for tf=4.510050251256281
+2019-03-08 13:48:49,082 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 13:48:49,082 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 13:48:49,082 [MainThread  ][INFO ]  Initial parameter values: [-0.7243916339979855, -0.023561504958596657, 0.3604817944753247, 0.5672047542953935]
+2019-03-08 13:49:49,981 [MainThread  ][INFO ]  Final fidelity: 0.46648637288842515
+2019-03-08 13:49:49,982 [MainThread  ][INFO ]  Final parameters: [-5.48543003e-01 -4.00112560e+00  2.89857337e+00  2.32343275e-03]
+2019-03-08 13:49:49,982 [MainThread  ][INFO ]  Fidelity: 0.46648637288842515
+2019-03-08 13:49:49,982 [MainThread  ][INFO ]  ---- Starting iteration 86/200
+2019-03-08 13:49:49,982 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[ 0.28874955 -0.29732947]
+2019-03-08 13:49:49,983 [MainThread  ][DEBUG]  Setting hyperparameter tf=4.557788944723618
+2019-03-08 13:49:49,983 [MainThread  ][INFO ]  Starting optimization for tf=4.557788944723618
+2019-03-08 13:49:49,983 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 13:49:49,983 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 13:49:49,983 [MainThread  ][INFO ]  Initial parameter values: [0.5511469622425686, 0.1723088093933134, 0.9055691189935899, -0.2035804416234024]
+2019-03-08 13:50:51,820 [MainThread  ][INFO ]  Final fidelity: 0.6594812525828305
+2019-03-08 13:50:51,820 [MainThread  ][INFO ]  Final parameters: [ 21.80572991 -41.40511542  46.16211915 -32.42072975]
+2019-03-08 13:50:51,820 [MainThread  ][INFO ]  Fidelity: 0.6594812525828305
+2019-03-08 13:50:51,820 [MainThread  ][INFO ]  ---- Starting iteration 87/200
+2019-03-08 13:50:51,821 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[0.26987316 0.02725384]
+2019-03-08 13:50:51,821 [MainThread  ][DEBUG]  Setting hyperparameter tf=4.605527638190955
+2019-03-08 13:50:51,821 [MainThread  ][INFO ]  Starting optimization for tf=4.605527638190955
+2019-03-08 13:50:51,821 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 13:50:51,821 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 13:50:51,821 [MainThread  ][INFO ]  Initial parameter values: [0.5212727497592533, -0.7731660877878148, 0.21093008120190282, 0.6328671057896755]
+2019-03-08 13:51:30,312 [MainThread  ][INFO ]  Final fidelity: 0.3751765208803776
+2019-03-08 13:51:30,312 [MainThread  ][INFO ]  Final parameters: [ 2.22497112 -1.51588175 -0.05533161 -2.63764629]
+2019-03-08 13:51:30,312 [MainThread  ][INFO ]  Fidelity: 0.3751765208803776
+2019-03-08 13:51:30,313 [MainThread  ][INFO ]  ---- Starting iteration 88/200
+2019-03-08 13:51:30,313 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.39035732  0.27933557]
+2019-03-08 13:51:30,313 [MainThread  ][DEBUG]  Setting hyperparameter tf=4.653266331658291
+2019-03-08 13:51:30,313 [MainThread  ][INFO ]  Starting optimization for tf=4.653266331658291
+2019-03-08 13:51:30,313 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 13:51:30,313 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 13:51:30,313 [MainThread  ][INFO ]  Initial parameter values: [0.13233280182214746, -0.008619848771659555, 0.29927390680398713, 0.37750055122154236]
+2019-03-08 13:52:08,112 [MainThread  ][INFO ]  Final fidelity: 0.5485914094377468
+2019-03-08 13:52:08,113 [MainThread  ][INFO ]  Final parameters: [-2.88621933 -0.10828431 -2.00803505 -4.50873796]
+2019-03-08 13:52:08,113 [MainThread  ][INFO ]  Fidelity: 0.5485914094377468
+2019-03-08 13:52:08,113 [MainThread  ][INFO ]  ---- Starting iteration 89/200
+2019-03-08 13:52:08,114 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[0.27878273 0.01924355]
+2019-03-08 13:52:08,114 [MainThread  ][DEBUG]  Setting hyperparameter tf=4.701005025125628
+2019-03-08 13:52:08,114 [MainThread  ][INFO ]  Starting optimization for tf=4.701005025125628
+2019-03-08 13:52:08,114 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 13:52:08,114 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 13:52:08,114 [MainThread  ][INFO ]  Initial parameter values: [0.03346109103939021, -0.9206271180411016, 0.7844229103956102, 0.8351066592421246]
+2019-03-08 13:52:48,019 [MainThread  ][INFO ]  Final fidelity: 0.583274972736361
+2019-03-08 13:52:48,019 [MainThread  ][INFO ]  Final parameters: [2.85313837 4.34667033 4.60695866 6.16510262]
+2019-03-08 13:52:48,020 [MainThread  ][INFO ]  Fidelity: 0.583274972736361
+2019-03-08 13:52:48,020 [MainThread  ][INFO ]  ---- Starting iteration 90/200
+2019-03-08 13:52:48,020 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.09806789  0.12792732]
+2019-03-08 13:52:48,020 [MainThread  ][DEBUG]  Setting hyperparameter tf=4.748743718592965
+2019-03-08 13:52:48,020 [MainThread  ][INFO ]  Starting optimization for tf=4.748743718592965
+2019-03-08 13:52:48,020 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 13:52:48,020 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 13:52:48,020 [MainThread  ][INFO ]  Initial parameter values: [-0.33855530858172145, -0.9593709656778047, -0.07644566741035286, 0.611077384511975]
+2019-03-08 13:53:23,994 [MainThread  ][INFO ]  Final fidelity: 0.5916502502306493
+2019-03-08 13:53:23,994 [MainThread  ][INFO ]  Final parameters: [-2.8333993   5.13369864  1.83922045 -0.05396875]
+2019-03-08 13:53:23,994 [MainThread  ][INFO ]  Fidelity: 0.5916502502306493
+2019-03-08 13:53:23,994 [MainThread  ][INFO ]  ---- Starting iteration 91/200
+2019-03-08 13:53:23,995 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.11770831 -0.28260771]
+2019-03-08 13:53:23,995 [MainThread  ][DEBUG]  Setting hyperparameter tf=4.796482412060302
+2019-03-08 13:53:23,995 [MainThread  ][INFO ]  Starting optimization for tf=4.796482412060302
+2019-03-08 13:53:23,995 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 13:53:23,995 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 13:53:23,995 [MainThread  ][INFO ]  Initial parameter values: [0.395930085346909, -0.45133102815983683, -0.47880816737834864, 0.6428762249884554]
+2019-03-08 13:54:12,719 [MainThread  ][INFO ]  Final fidelity: 0.7041388929313033
+2019-03-08 13:54:12,720 [MainThread  ][INFO ]  Final parameters: [-10.38808587  -8.77503668   3.69510528  -6.515525  ]
+2019-03-08 13:54:12,720 [MainThread  ][INFO ]  Fidelity: 0.7041388929313033
+2019-03-08 13:54:12,720 [MainThread  ][INFO ]  ---- Starting iteration 92/200
+2019-03-08 13:54:12,720 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[0.40634219 0.02196771]
+2019-03-08 13:54:12,720 [MainThread  ][DEBUG]  Setting hyperparameter tf=4.844221105527638
+2019-03-08 13:54:12,720 [MainThread  ][INFO ]  Starting optimization for tf=4.844221105527638
+2019-03-08 13:54:12,720 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 13:54:12,720 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 13:54:12,721 [MainThread  ][INFO ]  Initial parameter values: [-0.7249686162025459, -0.5704136317666859, 0.7621389566591974, -0.07133877180541548]
+2019-03-08 13:55:20,191 [MainThread  ][INFO ]  Final fidelity: 0.5871218890373335
+2019-03-08 13:55:20,191 [MainThread  ][INFO ]  Final parameters: [5.15842892 4.88670472 2.56501087 6.12023694]
+2019-03-08 13:55:20,191 [MainThread  ][INFO ]  Fidelity: 0.5871218890373335
+2019-03-08 13:55:20,191 [MainThread  ][INFO ]  ---- Starting iteration 93/200
+2019-03-08 13:55:20,192 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[0.12713179 0.47754373]
+2019-03-08 13:55:20,192 [MainThread  ][DEBUG]  Setting hyperparameter tf=4.891959798994975
+2019-03-08 13:55:20,192 [MainThread  ][INFO ]  Starting optimization for tf=4.891959798994975
+2019-03-08 13:55:20,192 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 13:55:20,192 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 13:55:20,192 [MainThread  ][INFO ]  Initial parameter values: [0.7840229917642907, -0.35358381080384804, 0.3881148961287799, 0.06576967653068766]
+2019-03-08 13:55:55,868 [MainThread  ][INFO ]  Final fidelity: 0.47267276296695254
+2019-03-08 13:55:55,869 [MainThread  ][INFO ]  Final parameters: [ 0.07233733 -2.57353192  1.68184311 -0.14860045]
+2019-03-08 13:55:55,869 [MainThread  ][INFO ]  Fidelity: 0.47267276296695254
+2019-03-08 13:55:55,869 [MainThread  ][INFO ]  ---- Starting iteration 94/200
+2019-03-08 13:55:55,870 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[ 0.29365346 -0.35411236]
+2019-03-08 13:55:55,870 [MainThread  ][DEBUG]  Setting hyperparameter tf=4.939698492462312
+2019-03-08 13:55:55,870 [MainThread  ][INFO ]  Starting optimization for tf=4.939698492462312
+2019-03-08 13:55:55,870 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 13:55:55,870 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 13:55:55,870 [MainThread  ][INFO ]  Initial parameter values: [-0.5867228017703863, 0.7029051688100443, 0.4517420513382573, -0.0450660231010398]
+2019-03-08 13:56:37,729 [MainThread  ][INFO ]  Final fidelity: 0.4485882610670097
+2019-03-08 13:56:37,730 [MainThread  ][INFO ]  Final parameters: [-199.01486429  199.99994912    2.05532204    0.71070252]
+2019-03-08 13:56:37,730 [MainThread  ][INFO ]  Fidelity: 0.4485882610670097
+2019-03-08 13:56:37,730 [MainThread  ][INFO ]  ---- Starting iteration 95/200
+2019-03-08 13:56:37,730 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[ 0.00166967 -0.09451011]
+2019-03-08 13:56:37,730 [MainThread  ][DEBUG]  Setting hyperparameter tf=4.9874371859296485
+2019-03-08 13:56:37,730 [MainThread  ][INFO ]  Starting optimization for tf=4.9874371859296485
+2019-03-08 13:56:37,730 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 13:56:37,730 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 13:56:37,730 [MainThread  ][INFO ]  Initial parameter values: [-0.759161261902414, 0.7609242631617432, 0.3061614002556985, 0.7287183652145093]
+2019-03-08 13:57:54,650 [MainThread  ][INFO ]  Final fidelity: 0.6899410701082053
+2019-03-08 13:57:54,650 [MainThread  ][INFO ]  Final parameters: [-3.170504   -3.36230688  4.1042485   5.5233528 ]
+2019-03-08 13:57:54,650 [MainThread  ][INFO ]  Fidelity: 0.6899410701082053
+2019-03-08 13:57:54,651 [MainThread  ][INFO ]  ---- Starting iteration 96/200
+2019-03-08 13:57:54,651 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[ 0.41032739 -0.10547027]
+2019-03-08 13:57:54,651 [MainThread  ][DEBUG]  Setting hyperparameter tf=5.035175879396985
+2019-03-08 13:57:54,651 [MainThread  ][INFO ]  Starting optimization for tf=5.035175879396985
+2019-03-08 13:57:54,651 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 13:57:54,651 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 13:57:54,651 [MainThread  ][INFO ]  Initial parameter values: [-0.1453303064700704, 0.2359683475362111, 0.7346652021883628, 0.7165002506547902]
+2019-03-08 13:59:07,447 [MainThread  ][INFO ]  Final fidelity: 0.662522968586946
+2019-03-08 13:59:07,448 [MainThread  ][INFO ]  Final parameters: [ 8.39894346 -5.58355689  4.5823524   9.91980663]
+2019-03-08 13:59:07,448 [MainThread  ][INFO ]  Fidelity: 0.662522968586946
+2019-03-08 13:59:07,448 [MainThread  ][INFO ]  ---- Starting iteration 97/200
+2019-03-08 13:59:07,448 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.15006292 -0.24247028]
+2019-03-08 13:59:07,448 [MainThread  ][DEBUG]  Setting hyperparameter tf=5.082914572864322
+2019-03-08 13:59:07,448 [MainThread  ][INFO ]  Starting optimization for tf=5.082914572864322
+2019-03-08 13:59:07,449 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 13:59:07,449 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 13:59:07,449 [MainThread  ][INFO ]  Initial parameter values: [0.43270645113585826, -0.7613680007999042, 0.9396173221403192, -0.6505491173248337]
+2019-03-08 14:00:48,293 [MainThread  ][INFO ]  Final fidelity: 0.3890299215518628
+2019-03-08 14:00:48,293 [MainThread  ][INFO ]  Final parameters: [-4.71701363 -5.73039459  5.27556372  1.16786028]
+2019-03-08 14:00:48,293 [MainThread  ][INFO ]  Fidelity: 0.3890299215518628
+2019-03-08 14:00:48,294 [MainThread  ][INFO ]  ---- Starting iteration 98/200
+2019-03-08 14:00:48,294 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[0.08675178 0.27283975]
+2019-03-08 14:00:48,294 [MainThread  ][DEBUG]  Setting hyperparameter tf=5.130653266331658
+2019-03-08 14:00:48,294 [MainThread  ][INFO ]  Starting optimization for tf=5.130653266331658
+2019-03-08 14:00:48,294 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 14:00:48,294 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 14:00:48,294 [MainThread  ][INFO ]  Initial parameter values: [-0.1847553342778523, 0.2767096916189007, 0.17253949067641794, -0.41152463873471223]
+2019-03-08 14:01:30,205 [MainThread  ][INFO ]  Final fidelity: 0.5383565009462958
+2019-03-08 14:01:30,206 [MainThread  ][INFO ]  Final parameters: [-0.14455527 -1.24961405  2.37706322 -3.0683985 ]
+2019-03-08 14:01:30,206 [MainThread  ][INFO ]  Fidelity: 0.5383565009462958
+2019-03-08 14:01:30,206 [MainThread  ][INFO ]  ---- Starting iteration 99/200
+2019-03-08 14:01:30,206 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[0.11902227 0.14102002]
+2019-03-08 14:01:30,206 [MainThread  ][DEBUG]  Setting hyperparameter tf=5.1783919597989945
+2019-03-08 14:01:30,207 [MainThread  ][INFO ]  Starting optimization for tf=5.1783919597989945
+2019-03-08 14:01:30,207 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 14:01:30,207 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 14:01:30,207 [MainThread  ][INFO ]  Initial parameter values: [-0.3128390443778366, -0.49104851512636105, -0.6122761530194947, -0.7862966828119609]
+2019-03-08 14:02:58,784 [MainThread  ][INFO ]  Final fidelity: 0.3435910720852227
+2019-03-08 14:02:58,785 [MainThread  ][INFO ]  Final parameters: [ 1.12025664 -2.41060078  1.02960999 -1.34453131]
+2019-03-08 14:02:58,785 [MainThread  ][INFO ]  Fidelity: 0.3435910720852227
+2019-03-08 14:02:58,785 [MainThread  ][INFO ]  ---- Starting iteration 100/200
+2019-03-08 14:02:58,785 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.14050905  0.10158945]
+2019-03-08 14:02:58,785 [MainThread  ][DEBUG]  Setting hyperparameter tf=5.226130653266331
+2019-03-08 14:02:58,785 [MainThread  ][INFO ]  Starting optimization for tf=5.226130653266331
+2019-03-08 14:02:58,785 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 14:02:58,785 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 14:02:58,786 [MainThread  ][INFO ]  Initial parameter values: [0.5915362377200859, -0.8319322506148525, 0.5501477320750541, 0.8827575821881655]
+2019-03-08 14:03:46,627 [MainThread  ][INFO ]  Final fidelity: 0.6732789474574616
+2019-03-08 14:03:46,628 [MainThread  ][INFO ]  Final parameters: [-2.42701425  3.8328884   1.05305804  1.20886027]
+2019-03-08 14:03:46,628 [MainThread  ][INFO ]  Fidelity: 0.6732789474574616
+2019-03-08 14:03:46,628 [MainThread  ][INFO ]  ---- Starting iteration 101/200
+2019-03-08 14:03:46,628 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[ 0.16580985 -0.42066939]
+2019-03-08 14:03:46,628 [MainThread  ][DEBUG]  Setting hyperparameter tf=5.273869346733668
+2019-03-08 14:03:46,628 [MainThread  ][INFO ]  Starting optimization for tf=5.273869346733668
+2019-03-08 14:03:46,628 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 14:03:46,628 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 14:03:46,628 [MainThread  ][INFO ]  Initial parameter values: [-0.47445296539929216, -0.18081206447166642, -0.7824141437962544, 0.2875049306802102]
+2019-03-08 14:04:05,007 [MainThread  ][INFO ]  Final fidelity: 0.4603677918331295
+2019-03-08 14:04:05,007 [MainThread  ][INFO ]  Final parameters: [ 0.65629262 -0.26888734  0.4312564   0.7158496 ]
+2019-03-08 14:04:05,007 [MainThread  ][INFO ]  Fidelity: 0.4603677918331295
+2019-03-08 14:04:05,007 [MainThread  ][INFO ]  ---- Starting iteration 102/200
+2019-03-08 14:04:05,007 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.00369269 -0.40945292]
+2019-03-08 14:04:05,008 [MainThread  ][DEBUG]  Setting hyperparameter tf=5.321608040201005
+2019-03-08 14:04:05,008 [MainThread  ][INFO ]  Starting optimization for tf=5.321608040201005
+2019-03-08 14:04:05,008 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 14:04:05,008 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 14:04:05,008 [MainThread  ][INFO ]  Initial parameter values: [-0.9062974566443407, 0.4448818596330153, -0.7726068852921519, -0.9164654968265455]
+2019-03-08 14:05:06,282 [MainThread  ][INFO ]  Final fidelity: 0.7380589373734088
+2019-03-08 14:05:06,283 [MainThread  ][INFO ]  Final parameters: [-13.7418808    1.49249346  13.33031831 -18.43374558]
+2019-03-08 14:05:06,283 [MainThread  ][INFO ]  Fidelity: 0.7380589373734088
+2019-03-08 14:05:06,283 [MainThread  ][INFO ]  ---- Starting iteration 103/200
+2019-03-08 14:05:06,283 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[0.09240373 0.4284406 ]
+2019-03-08 14:05:06,283 [MainThread  ][DEBUG]  Setting hyperparameter tf=5.369346733668341
+2019-03-08 14:05:06,283 [MainThread  ][INFO ]  Starting optimization for tf=5.369346733668341
+2019-03-08 14:05:06,283 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 14:05:06,283 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 14:05:06,284 [MainThread  ][INFO ]  Initial parameter values: [-0.4226809628946875, 0.4045884640156472, 0.2497594238329679, 0.7559823769365599]
+2019-03-08 14:05:46,480 [MainThread  ][INFO ]  Final fidelity: 0.5476589941967521
+2019-03-08 14:05:46,481 [MainThread  ][INFO ]  Final parameters: [-0.12577608 -2.91218679  1.65012045  0.12817865]
+2019-03-08 14:05:46,481 [MainThread  ][INFO ]  Fidelity: 0.5476589941967521
+2019-03-08 14:05:46,481 [MainThread  ][INFO ]  ---- Starting iteration 104/200
+2019-03-08 14:05:46,482 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.34106498 -0.48881567]
+2019-03-08 14:05:46,482 [MainThread  ][DEBUG]  Setting hyperparameter tf=5.417085427135678
+2019-03-08 14:05:46,482 [MainThread  ][INFO ]  Starting optimization for tf=5.417085427135678
+2019-03-08 14:05:46,482 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 14:05:46,482 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 14:05:46,482 [MainThread  ][INFO ]  Initial parameter values: [-0.7305595823423301, 0.2791790552534852, 0.10180032583129894, 0.8286994096045937]
+2019-03-08 14:06:54,134 [MainThread  ][INFO ]  Final fidelity: 0.7497119042493408
+2019-03-08 14:06:54,135 [MainThread  ][INFO ]  Final parameters: [-11.44358001   7.30515552  -7.4869942   -7.88985616]
+2019-03-08 14:06:54,135 [MainThread  ][INFO ]  Fidelity: 0.7497119042493408
+2019-03-08 14:06:54,135 [MainThread  ][INFO ]  ---- Starting iteration 105/200
+2019-03-08 14:06:54,135 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.20697401  0.25286877]
+2019-03-08 14:06:54,135 [MainThread  ][DEBUG]  Setting hyperparameter tf=5.464824120603015
+2019-03-08 14:06:54,135 [MainThread  ][INFO ]  Starting optimization for tf=5.464824120603015
+2019-03-08 14:06:54,135 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 14:06:54,135 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 14:06:54,135 [MainThread  ][INFO ]  Initial parameter values: [-0.39740281952892653, 0.6078671858775435, 0.3098230456409339, -0.19046049464393344]
+2019-03-08 14:07:28,832 [MainThread  ][INFO ]  Final fidelity: 0.6538924901632045
+2019-03-08 14:07:28,833 [MainThread  ][INFO ]  Final parameters: [-1.82003592  1.08987845  0.33137055 -2.94332546]
+2019-03-08 14:07:28,833 [MainThread  ][INFO ]  Fidelity: 0.6538924901632045
+2019-03-08 14:07:28,833 [MainThread  ][INFO ]  ---- Starting iteration 106/200
+2019-03-08 14:07:28,833 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[ 0.16883704 -0.30355817]
+2019-03-08 14:07:28,833 [MainThread  ][DEBUG]  Setting hyperparameter tf=5.5125628140703515
+2019-03-08 14:07:28,833 [MainThread  ][INFO ]  Starting optimization for tf=5.5125628140703515
+2019-03-08 14:07:28,833 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 14:07:28,833 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 14:07:28,833 [MainThread  ][INFO ]  Initial parameter values: [0.49508175720594294, -0.20207081892785173, 0.9271835420108994, -0.1877311066236329]
+2019-03-08 14:08:23,207 [MainThread  ][INFO ]  Final fidelity: 0.7377784114626679
+2019-03-08 14:08:23,208 [MainThread  ][INFO ]  Final parameters: [-0.72695937 -8.58111549 11.54088973 -7.98550107]
+2019-03-08 14:08:23,208 [MainThread  ][INFO ]  Fidelity: 0.7377784114626679
+2019-03-08 14:08:23,208 [MainThread  ][INFO ]  ---- Starting iteration 107/200
+2019-03-08 14:08:23,208 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.10989729 -0.37040225]
+2019-03-08 14:08:23,208 [MainThread  ][DEBUG]  Setting hyperparameter tf=5.560301507537688
+2019-03-08 14:08:23,208 [MainThread  ][INFO ]  Starting optimization for tf=5.560301507537688
+2019-03-08 14:08:23,208 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 14:08:23,208 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 14:08:23,209 [MainThread  ][INFO ]  Initial parameter values: [-0.18755583956367028, 0.6225786966115974, -0.42429173100103945, -0.6240337012605162]
+2019-03-08 14:09:13,576 [MainThread  ][INFO ]  Final fidelity: 0.7489239538562663
+2019-03-08 14:09:13,576 [MainThread  ][INFO ]  Final parameters: [-7.57524421 -1.67977728  2.85830541 -7.19098182]
+2019-03-08 14:09:13,576 [MainThread  ][INFO ]  Fidelity: 0.7489239538562663
+2019-03-08 14:09:13,576 [MainThread  ][INFO ]  ---- Starting iteration 108/200
+2019-03-08 14:09:13,576 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.06690749  0.22289955]
+2019-03-08 14:09:13,576 [MainThread  ][DEBUG]  Setting hyperparameter tf=5.608040201005025
+2019-03-08 14:09:13,576 [MainThread  ][INFO ]  Starting optimization for tf=5.608040201005025
+2019-03-08 14:09:13,577 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 14:09:13,577 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 14:09:13,577 [MainThread  ][INFO ]  Initial parameter values: [0.21834265072147385, 0.2739070552397944, 0.6614589309244874, 0.6965619342142733]
+2019-03-08 14:10:15,393 [MainThread  ][INFO ]  Final fidelity: 0.6703341102459951
+2019-03-08 14:10:15,394 [MainThread  ][INFO ]  Final parameters: [-1.2351364   1.83355995  1.1954154  -2.43723201]
+2019-03-08 14:10:15,394 [MainThread  ][INFO ]  Fidelity: 0.6703341102459951
+2019-03-08 14:10:15,394 [MainThread  ][INFO ]  ---- Starting iteration 109/200
+2019-03-08 14:10:15,394 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.30444082 -0.47449343]
+2019-03-08 14:10:15,394 [MainThread  ][DEBUG]  Setting hyperparameter tf=5.655778894472362
+2019-03-08 14:10:15,394 [MainThread  ][INFO ]  Starting optimization for tf=5.655778894472362
+2019-03-08 14:10:15,394 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 14:10:15,394 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 14:10:15,394 [MainThread  ][INFO ]  Initial parameter values: [-0.9346564084694913, -0.188733537824477, 0.7623829555389057, -0.6411079919662761]
+2019-03-08 14:11:12,150 [MainThread  ][INFO ]  Final fidelity: 0.7602603992913004
+2019-03-08 14:11:12,151 [MainThread  ][INFO ]  Final parameters: [-9.60015353  4.9860554  -4.41073447 -6.87186622]
+2019-03-08 14:11:12,151 [MainThread  ][INFO ]  Fidelity: 0.7602603992913004
+2019-03-08 14:11:12,151 [MainThread  ][INFO ]  ---- Starting iteration 110/200
+2019-03-08 14:11:12,151 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.21776121 -0.37207795]
+2019-03-08 14:11:12,152 [MainThread  ][DEBUG]  Setting hyperparameter tf=5.703517587939698
+2019-03-08 14:11:12,152 [MainThread  ][INFO ]  Starting optimization for tf=5.703517587939698
+2019-03-08 14:11:12,152 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 14:11:12,152 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 14:11:12,152 [MainThread  ][INFO ]  Initial parameter values: [0.25169210284983645, -0.969110869528446, 0.6956254370125929, 0.28301301837300796]
+2019-03-08 14:12:05,943 [MainThread  ][INFO ]  Final fidelity: 0.7572800556075379
+2019-03-08 14:12:05,944 [MainThread  ][INFO ]  Final parameters: [-6.22734209 -1.06720847 -0.42266228 -5.1468985 ]
+2019-03-08 14:12:05,944 [MainThread  ][INFO ]  Fidelity: 0.7572800556075379
+2019-03-08 14:12:05,944 [MainThread  ][INFO ]  ---- Starting iteration 111/200
+2019-03-08 14:12:05,944 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[ 0.11997401 -0.43136354]
+2019-03-08 14:12:05,944 [MainThread  ][DEBUG]  Setting hyperparameter tf=5.751256281407035
+2019-03-08 14:12:05,944 [MainThread  ][INFO ]  Starting optimization for tf=5.751256281407035
+2019-03-08 14:12:05,944 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 14:12:05,944 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 14:12:05,944 [MainThread  ][INFO ]  Initial parameter values: [-0.09137539688728258, -0.09909433032290593, 0.965731922215751, -0.8712780994218918]
+2019-03-08 14:13:19,682 [MainThread  ][INFO ]  Final fidelity: 0.7560209410017347
+2019-03-08 14:13:19,682 [MainThread  ][INFO ]  Final parameters: [ -38.15000291   29.58769872  124.06614852 -125.95980382]
+2019-03-08 14:13:19,682 [MainThread  ][INFO ]  Fidelity: 0.7560209410017347
+2019-03-08 14:13:19,682 [MainThread  ][INFO ]  ---- Starting iteration 112/200
+2019-03-08 14:13:19,683 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[0.36779393 0.27161674]
+2019-03-08 14:13:19,683 [MainThread  ][DEBUG]  Setting hyperparameter tf=5.798994974874372
+2019-03-08 14:13:19,683 [MainThread  ][INFO ]  Starting optimization for tf=5.798994974874372
+2019-03-08 14:13:19,683 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 14:13:19,683 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 14:13:19,683 [MainThread  ][INFO ]  Initial parameter values: [-0.7154292620410991, 0.5889049915933591, -0.2744704571255949, 0.9539935793745855]
+2019-03-08 14:14:25,435 [MainThread  ][INFO ]  Final fidelity: 0.5812734516232754
+2019-03-08 14:14:25,435 [MainThread  ][INFO ]  Final parameters: [ 1.80255511 -1.10287548  0.67100543 -2.55208125]
+2019-03-08 14:14:25,435 [MainThread  ][INFO ]  Fidelity: 0.5812734516232754
+2019-03-08 14:14:25,435 [MainThread  ][INFO ]  ---- Starting iteration 113/200
+2019-03-08 14:14:25,436 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.11427576 -0.03756976]
+2019-03-08 14:14:25,436 [MainThread  ][DEBUG]  Setting hyperparameter tf=5.846733668341709
+2019-03-08 14:14:25,436 [MainThread  ][INFO ]  Starting optimization for tf=5.846733668341709
+2019-03-08 14:14:25,436 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 14:14:25,436 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 14:14:25,436 [MainThread  ][INFO ]  Initial parameter values: [0.3836607748166778, 0.7162289511618387, -0.1568994000017665, 0.8851665994704323]
+2019-03-08 14:15:58,350 [MainThread  ][INFO ]  Final fidelity: 0.7882999849078941
+2019-03-08 14:15:58,350 [MainThread  ][INFO ]  Final parameters: [-3.61220199 -1.94324182  0.5263219   4.83868796]
+2019-03-08 14:15:58,350 [MainThread  ][INFO ]  Fidelity: 0.7882999849078941
+2019-03-08 14:15:58,350 [MainThread  ][INFO ]  ---- Starting iteration 114/200
+2019-03-08 14:15:58,351 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.42478359 -0.02014663]
+2019-03-08 14:15:58,351 [MainThread  ][DEBUG]  Setting hyperparameter tf=5.894472361809045
+2019-03-08 14:15:58,351 [MainThread  ][INFO ]  Starting optimization for tf=5.894472361809045
+2019-03-08 14:15:58,351 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 14:15:58,351 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 14:15:58,351 [MainThread  ][INFO ]  Initial parameter values: [0.7081877098797447, 0.06312063361232423, 0.4091690865644797, 0.25347247436299547]
+2019-03-08 14:16:39,271 [MainThread  ][INFO ]  Final fidelity: 0.4842199151597051
+2019-03-08 14:16:39,272 [MainThread  ][INFO ]  Final parameters: [-3.11641198  0.18401267 -0.85798259  1.83615244]
+2019-03-08 14:16:39,272 [MainThread  ][INFO ]  Fidelity: 0.4842199151597051
+2019-03-08 14:16:39,272 [MainThread  ][INFO ]  ---- Starting iteration 115/200
+2019-03-08 14:16:39,272 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.00912517 -0.25507864]
+2019-03-08 14:16:39,272 [MainThread  ][DEBUG]  Setting hyperparameter tf=5.942211055276382
+2019-03-08 14:16:39,272 [MainThread  ][INFO ]  Starting optimization for tf=5.942211055276382
+2019-03-08 14:16:39,272 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 14:16:39,272 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 14:16:39,272 [MainThread  ][INFO ]  Initial parameter values: [-0.7919481214619544, -0.45221292722123785, 0.28188549334830504, 0.47617007856396354]
+2019-03-08 14:17:32,752 [MainThread  ][INFO ]  Final fidelity: 0.7581852456057883
+2019-03-08 14:17:32,752 [MainThread  ][INFO ]  Final parameters: [-2.65224939 -3.45192814  2.75056987 -1.33891929]
+2019-03-08 14:17:32,752 [MainThread  ][INFO ]  Fidelity: 0.7581852456057883
+2019-03-08 14:17:32,752 [MainThread  ][INFO ]  ---- Starting iteration 116/200
+2019-03-08 14:17:32,752 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.31324153  0.32567929]
+2019-03-08 14:17:32,753 [MainThread  ][DEBUG]  Setting hyperparameter tf=5.989949748743719
+2019-03-08 14:17:32,753 [MainThread  ][INFO ]  Starting optimization for tf=5.989949748743719
+2019-03-08 14:17:32,753 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 14:17:32,753 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 14:17:32,753 [MainThread  ][INFO ]  Initial parameter values: [-0.008437769971844533, -0.5020352340156624, 0.5882179766698166, 0.31448294184584324]
+2019-03-08 14:18:09,367 [MainThread  ][INFO ]  Final fidelity: 0.19251667314279597
+2019-03-08 14:18:09,368 [MainThread  ][INFO ]  Final parameters: [-0.05020857  2.08139253  0.34633767 -0.51261072]
+2019-03-08 14:18:09,368 [MainThread  ][INFO ]  Fidelity: 0.19251667314279597
+2019-03-08 14:18:09,368 [MainThread  ][INFO ]  ---- Starting iteration 117/200
+2019-03-08 14:18:09,368 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.17965404  0.29323627]
+2019-03-08 14:18:09,368 [MainThread  ][DEBUG]  Setting hyperparameter tf=6.0376884422110555
+2019-03-08 14:18:09,368 [MainThread  ][INFO ]  Starting optimization for tf=6.0376884422110555
+2019-03-08 14:18:09,368 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 14:18:09,368 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 14:18:09,368 [MainThread  ][INFO ]  Initial parameter values: [-0.5095037122948489, 0.7902464193018433, 0.32267577751624454, 0.5642822001593124]
+2019-03-08 14:18:41,986 [MainThread  ][INFO ]  Final fidelity: 0.6981241499734601
+2019-03-08 14:18:41,986 [MainThread  ][INFO ]  Final parameters: [-1.18395194 -0.04133144  0.38729631 -2.24188228]
+2019-03-08 14:18:41,986 [MainThread  ][INFO ]  Fidelity: 0.6981241499734601
+2019-03-08 14:18:41,986 [MainThread  ][INFO ]  ---- Starting iteration 118/200
+2019-03-08 14:18:41,987 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.23357284 -0.01143059]
+2019-03-08 14:18:41,987 [MainThread  ][DEBUG]  Setting hyperparameter tf=6.085427135678392
+2019-03-08 14:18:41,987 [MainThread  ][INFO ]  Starting optimization for tf=6.085427135678392
+2019-03-08 14:18:41,987 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 14:18:41,987 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 14:18:41,987 [MainThread  ][INFO ]  Initial parameter values: [0.30234165618948805, -0.937445510118913, 0.20614203459291658, -0.6441519660168791]
+2019-03-08 14:19:41,917 [MainThread  ][INFO ]  Final fidelity: 0.7502362600427797
+2019-03-08 14:19:41,917 [MainThread  ][INFO ]  Final parameters: [-1.61839487  0.21887347 -0.0613668   1.68454742]
+2019-03-08 14:19:41,917 [MainThread  ][INFO ]  Fidelity: 0.7502362600427797
+2019-03-08 14:19:41,917 [MainThread  ][INFO ]  ---- Starting iteration 119/200
+2019-03-08 14:19:41,918 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.03000184  0.27859045]
+2019-03-08 14:19:41,918 [MainThread  ][DEBUG]  Setting hyperparameter tf=6.133165829145728
+2019-03-08 14:19:41,918 [MainThread  ][INFO ]  Starting optimization for tf=6.133165829145728
+2019-03-08 14:19:41,918 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 14:19:41,918 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 14:19:41,918 [MainThread  ][INFO ]  Initial parameter values: [-0.9943115013330714, 0.3319261445114816, 0.8914367549124513, 0.9929552808247235]
+2019-03-08 14:20:37,780 [MainThread  ][INFO ]  Final fidelity: 0.7007599840482572
+2019-03-08 14:20:37,780 [MainThread  ][INFO ]  Final parameters: [-0.68294603  0.22466942  0.95112649 -2.1967587 ]
+2019-03-08 14:20:37,780 [MainThread  ][INFO ]  Fidelity: 0.7007599840482572
+2019-03-08 14:20:37,781 [MainThread  ][INFO ]  ---- Starting iteration 120/200
+2019-03-08 14:20:37,781 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.49445285 -0.16562801]
+2019-03-08 14:20:37,781 [MainThread  ][DEBUG]  Setting hyperparameter tf=6.180904522613065
+2019-03-08 14:20:37,781 [MainThread  ][INFO ]  Starting optimization for tf=6.180904522613065
+2019-03-08 14:20:37,781 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 14:20:37,781 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 14:20:37,781 [MainThread  ][INFO ]  Initial parameter values: [-0.12266033979177382, -0.9885877884838983, 0.4910412719493149, -0.013579227025238172]
+2019-03-08 14:21:35,149 [MainThread  ][INFO ]  Final fidelity: 0.4152308930519936
+2019-03-08 14:21:35,149 [MainThread  ][INFO ]  Final parameters: [ 0.86572386 -2.19739712 -1.94771569  0.18891281]
+2019-03-08 14:21:35,149 [MainThread  ][INFO ]  Fidelity: 0.4152308930519936
+2019-03-08 14:21:35,149 [MainThread  ][INFO ]  ---- Starting iteration 121/200
+2019-03-08 14:21:35,150 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[ 0.41294988 -0.40518521]
+2019-03-08 14:21:35,150 [MainThread  ][DEBUG]  Setting hyperparameter tf=6.2286432160804015
+2019-03-08 14:21:35,150 [MainThread  ][INFO ]  Starting optimization for tf=6.2286432160804015
+2019-03-08 14:21:35,150 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 14:21:35,150 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 14:21:35,150 [MainThread  ][INFO ]  Initial parameter values: [-0.13574710846132865, 0.6174906052737275, -0.08728149360850246, 0.04702948633730952]
+2019-03-08 14:22:28,210 [MainThread  ][INFO ]  Final fidelity: 0.5062170460879521
+2019-03-08 14:22:28,210 [MainThread  ][INFO ]  Final parameters: [-0.1201286   0.81696943  0.8056041   0.18930271]
+2019-03-08 14:22:28,210 [MainThread  ][INFO ]  Fidelity: 0.5062170460879521
+2019-03-08 14:22:28,210 [MainThread  ][INFO ]  ---- Starting iteration 122/200
+2019-03-08 14:22:28,211 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[ 0.09918438 -0.18065073]
+2019-03-08 14:22:28,211 [MainThread  ][DEBUG]  Setting hyperparameter tf=6.276381909547738
+2019-03-08 14:22:28,211 [MainThread  ][INFO ]  Starting optimization for tf=6.276381909547738
+2019-03-08 14:22:28,211 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 14:22:28,211 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 14:22:28,211 [MainThread  ][INFO ]  Initial parameter values: [-0.3847035629607576, 0.06720584963078324, 0.48494875676822025, -0.7877317608478795]
+2019-03-08 14:23:22,229 [MainThread  ][INFO ]  Final fidelity: 0.7656544791299214
+2019-03-08 14:23:22,230 [MainThread  ][INFO ]  Final parameters: [-0.75655582 -2.53623712  2.44188773  0.72278605]
+2019-03-08 14:23:22,230 [MainThread  ][INFO ]  Fidelity: 0.7656544791299214
+2019-03-08 14:23:22,230 [MainThread  ][INFO ]  ---- Starting iteration 123/200
+2019-03-08 14:23:22,230 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.45670136 -0.43560902]
+2019-03-08 14:23:22,230 [MainThread  ][DEBUG]  Setting hyperparameter tf=6.324120603015075
+2019-03-08 14:23:22,230 [MainThread  ][INFO ]  Starting optimization for tf=6.324120603015075
+2019-03-08 14:23:22,230 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 14:23:22,231 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 14:23:22,231 [MainThread  ][INFO ]  Initial parameter values: [-0.7019282374556113, 0.2468342745946941, -0.1259008288561272, 0.7322045713738037]
+2019-03-08 14:24:26,240 [MainThread  ][INFO ]  Final fidelity: 0.7968027790527074
+2019-03-08 14:24:26,241 [MainThread  ][INFO ]  Final parameters: [-2.57855445  0.95092921 -4.13326038 -2.91834446]
+2019-03-08 14:24:26,241 [MainThread  ][INFO ]  Fidelity: 0.7968027790527074
+2019-03-08 14:24:26,241 [MainThread  ][INFO ]  ---- Starting iteration 124/200
+2019-03-08 14:24:26,241 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[ 0.46655144 -0.40849484]
+2019-03-08 14:24:26,241 [MainThread  ][DEBUG]  Setting hyperparameter tf=6.371859296482412
+2019-03-08 14:24:26,241 [MainThread  ][INFO ]  Starting optimization for tf=6.371859296482412
+2019-03-08 14:24:26,241 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 14:24:26,241 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 14:24:26,241 [MainThread  ][INFO ]  Initial parameter values: [-0.6026037353560023, 0.3364968767019496, 0.02097007021448083, 0.8718493904477551]
+2019-03-08 14:25:19,672 [MainThread  ][INFO ]  Final fidelity: 0.7750108768698581
+2019-03-08 14:25:19,673 [MainThread  ][INFO ]  Final parameters: [-4.10888682  0.06285601 -1.90640349  4.52561852]
+2019-03-08 14:25:19,673 [MainThread  ][INFO ]  Fidelity: 0.7750108768698581
+2019-03-08 14:25:19,673 [MainThread  ][INFO ]  ---- Starting iteration 125/200
+2019-03-08 14:25:19,674 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.02463568 -0.30237573]
+2019-03-08 14:25:19,674 [MainThread  ][DEBUG]  Setting hyperparameter tf=6.419597989949748
+2019-03-08 14:25:19,674 [MainThread  ][INFO ]  Starting optimization for tf=6.419597989949748
+2019-03-08 14:25:19,674 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 14:25:19,674 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 14:25:19,674 [MainThread  ][INFO ]  Initial parameter values: [0.8461185784333316, 0.06894049685404524, 0.8496008560460899, -0.9578247985076584]
+2019-03-08 14:26:41,111 [MainThread  ][INFO ]  Final fidelity: 0.7864741177200104
+2019-03-08 14:26:41,112 [MainThread  ][INFO ]  Final parameters: [-2.49203009 -2.24095794  2.23809661 -2.13639838]
+2019-03-08 14:26:41,112 [MainThread  ][INFO ]  Fidelity: 0.7864741177200104
+2019-03-08 14:26:41,112 [MainThread  ][INFO ]  ---- Starting iteration 126/200
+2019-03-08 14:26:41,112 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.43527492  0.31567697]
+2019-03-08 14:26:41,112 [MainThread  ][DEBUG]  Setting hyperparameter tf=6.467336683417085
+2019-03-08 14:26:41,113 [MainThread  ][INFO ]  Starting optimization for tf=6.467336683417085
+2019-03-08 14:26:41,113 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 14:26:41,113 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 14:26:41,113 [MainThread  ][INFO ]  Initial parameter values: [0.07367146808167813, -0.5293592911524174, -0.5699108673132314, 0.3811607289131438]
+2019-03-08 14:28:30,368 [MainThread  ][INFO ]  Final fidelity: 0.29180704286053716
+2019-03-08 14:28:30,369 [MainThread  ][INFO ]  Final parameters: [-0.01813154 -0.84115167  1.56730402  1.35667354]
+2019-03-08 14:28:30,369 [MainThread  ][INFO ]  Fidelity: 0.29180704286053716
+2019-03-08 14:28:30,369 [MainThread  ][INFO ]  ---- Starting iteration 127/200
+2019-03-08 14:28:30,369 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[ 0.1025716  -0.19196509]
+2019-03-08 14:28:30,370 [MainThread  ][DEBUG]  Setting hyperparameter tf=6.515075376884422
+2019-03-08 14:28:30,370 [MainThread  ][INFO ]  Starting optimization for tf=6.515075376884422
+2019-03-08 14:28:30,370 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 14:28:30,370 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 14:28:30,370 [MainThread  ][INFO ]  Initial parameter values: [-0.6814118541160412, -0.9390845858867445, 0.18792009953886502, 0.17339448896373755]
+2019-03-08 14:29:21,764 [MainThread  ][INFO ]  Final fidelity: 0.7787637877692277
+2019-03-08 14:29:21,765 [MainThread  ][INFO ]  Final parameters: [-0.65751611 -2.28285823  2.20078573  0.41743612]
+2019-03-08 14:29:21,765 [MainThread  ][INFO ]  Fidelity: 0.7787637877692277
+2019-03-08 14:29:21,765 [MainThread  ][INFO ]  ---- Starting iteration 128/200
+2019-03-08 14:29:21,766 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[0.00570193 0.24621419]
+2019-03-08 14:29:21,766 [MainThread  ][DEBUG]  Setting hyperparameter tf=6.562814070351759
+2019-03-08 14:29:21,766 [MainThread  ][INFO ]  Starting optimization for tf=6.562814070351759
+2019-03-08 14:29:21,766 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 14:29:21,766 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 14:29:21,766 [MainThread  ][INFO ]  Initial parameter values: [-0.2021153941325613, 0.018506434698516427, -0.5545884287355578, -0.37774906746984116]
+2019-03-08 14:30:22,733 [MainThread  ][INFO ]  Final fidelity: 0.733063083308889
+2019-03-08 14:30:22,734 [MainThread  ][INFO ]  Final parameters: [-0.43441329  0.70443668  0.75549687 -1.30946363]
+2019-03-08 14:30:22,734 [MainThread  ][INFO ]  Fidelity: 0.733063083308889
+2019-03-08 14:30:22,734 [MainThread  ][INFO ]  ---- Starting iteration 129/200
+2019-03-08 14:30:22,735 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.08633078  0.39560245]
+2019-03-08 14:30:22,735 [MainThread  ][DEBUG]  Setting hyperparameter tf=6.610552763819095
+2019-03-08 14:30:22,735 [MainThread  ][INFO ]  Starting optimization for tf=6.610552763819095
+2019-03-08 14:30:22,735 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 14:30:22,735 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 14:30:22,735 [MainThread  ][INFO ]  Initial parameter values: [0.7619298238494607, -0.7870895988025512, -0.23365875798113178, -0.9797026940686184]
+2019-03-08 14:31:00,854 [MainThread  ][INFO ]  Final fidelity: 0.7027474860196008
+2019-03-08 14:31:00,855 [MainThread  ][INFO ]  Final parameters: [-1.22168543 -1.5135599   0.00391535 -2.46498623]
+2019-03-08 14:31:00,855 [MainThread  ][INFO ]  Fidelity: 0.7027474860196008
+2019-03-08 14:31:00,855 [MainThread  ][INFO ]  ---- Starting iteration 130/200
+2019-03-08 14:31:00,855 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.23699105  0.34466059]
+2019-03-08 14:31:00,855 [MainThread  ][DEBUG]  Setting hyperparameter tf=6.658291457286432
+2019-03-08 14:31:00,856 [MainThread  ][INFO ]  Starting optimization for tf=6.658291457286432
+2019-03-08 14:31:00,856 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 14:31:00,856 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 14:31:00,856 [MainThread  ][INFO ]  Initial parameter values: [-0.5312484137320757, -0.06203271787541165, 0.599890463352081, -0.7729002501566187]
+2019-03-08 14:31:35,421 [MainThread  ][INFO ]  Final fidelity: 0.14569200760881762
+2019-03-08 14:31:35,421 [MainThread  ][INFO ]  Final parameters: [-1.06407524 -0.0415411   0.60672868 -1.85188565]
+2019-03-08 14:31:35,421 [MainThread  ][INFO ]  Fidelity: 0.14569200760881762
+2019-03-08 14:31:35,421 [MainThread  ][INFO ]  ---- Starting iteration 131/200
+2019-03-08 14:31:35,422 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[0.16658391 0.4198702 ]
+2019-03-08 14:31:35,422 [MainThread  ][DEBUG]  Setting hyperparameter tf=6.706030150753769
+2019-03-08 14:31:35,422 [MainThread  ][INFO ]  Starting optimization for tf=6.706030150753769
+2019-03-08 14:31:35,422 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 14:31:35,422 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 14:31:35,422 [MainThread  ][INFO ]  Initial parameter values: [-0.39282282386229994, -0.9989889499321307, 0.9919390925990839, 0.6396018067172446]
+2019-03-08 14:32:07,278 [MainThread  ][INFO ]  Final fidelity: 0.6803469022660065
+2019-03-08 14:32:07,279 [MainThread  ][INFO ]  Final parameters: [ 0.36977139 -2.04301904  0.93774068  0.23354136]
+2019-03-08 14:32:07,279 [MainThread  ][INFO ]  Fidelity: 0.6803469022660065
+2019-03-08 14:32:07,279 [MainThread  ][INFO ]  ---- Starting iteration 132/200
+2019-03-08 14:32:07,279 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.32784351 -0.25857436]
+2019-03-08 14:32:07,279 [MainThread  ][DEBUG]  Setting hyperparameter tf=6.7537688442211055
+2019-03-08 14:32:07,279 [MainThread  ][INFO ]  Starting optimization for tf=6.7537688442211055
+2019-03-08 14:32:07,279 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 14:32:07,279 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 14:32:07,279 [MainThread  ][INFO ]  Initial parameter values: [-0.17359701379204928, -0.620334935657638, 0.9442955388766625, 0.16576477876091156]
+2019-03-08 14:33:07,998 [MainThread  ][INFO ]  Final fidelity: 0.8065304888661965
+2019-03-08 14:33:07,999 [MainThread  ][INFO ]  Final parameters: [-1.66451398 -1.20425215 -0.83214103 -0.5311498 ]
+2019-03-08 14:33:07,999 [MainThread  ][INFO ]  Fidelity: 0.8065304888661965
+2019-03-08 14:33:07,999 [MainThread  ][INFO ]  ---- Starting iteration 133/200
+2019-03-08 14:33:07,999 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.22814075 -0.07254935]
+2019-03-08 14:33:07,999 [MainThread  ][DEBUG]  Setting hyperparameter tf=6.801507537688442
+2019-03-08 14:33:08,000 [MainThread  ][INFO ]  Starting optimization for tf=6.801507537688442
+2019-03-08 14:33:08,000 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 14:33:08,000 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 14:33:08,000 [MainThread  ][INFO ]  Initial parameter values: [0.004518349030896429, 0.753270265201373, -0.8361752095347921, -0.5650140677946023]
+2019-03-08 14:34:03,347 [MainThread  ][INFO ]  Final fidelity: 0.435273292134869
+2019-03-08 14:34:03,348 [MainThread  ][INFO ]  Final parameters: [ 0.00412766 -1.23722662 -1.47954595  0.76239247]
+2019-03-08 14:34:03,348 [MainThread  ][INFO ]  Fidelity: 0.435273292134869
+2019-03-08 14:34:03,348 [MainThread  ][INFO ]  ---- Starting iteration 134/200
+2019-03-08 14:34:03,348 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.45087879  0.1105825 ]
+2019-03-08 14:34:03,348 [MainThread  ][DEBUG]  Setting hyperparameter tf=6.849246231155779
+2019-03-08 14:34:03,348 [MainThread  ][INFO ]  Starting optimization for tf=6.849246231155779
+2019-03-08 14:34:03,348 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 14:34:03,348 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 14:34:03,348 [MainThread  ][INFO ]  Initial parameter values: [0.9422944413422396, 0.9335429799438597, 0.008377196888466054, -0.8448592943478108]
+2019-03-08 14:34:44,273 [MainThread  ][INFO ]  Final fidelity: 0.41989485092723017
+2019-03-08 14:34:44,274 [MainThread  ][INFO ]  Final parameters: [1.01706316 0.11614021 0.02023928 1.21950428]
+2019-03-08 14:34:44,274 [MainThread  ][INFO ]  Fidelity: 0.41989485092723017
+2019-03-08 14:34:44,274 [MainThread  ][INFO ]  ---- Starting iteration 135/200
+2019-03-08 14:34:44,274 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[0.14901081 0.08904347]
+2019-03-08 14:34:44,274 [MainThread  ][DEBUG]  Setting hyperparameter tf=6.896984924623116
+2019-03-08 14:34:44,274 [MainThread  ][INFO ]  Starting optimization for tf=6.896984924623116
+2019-03-08 14:34:44,274 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 14:34:44,274 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 14:34:44,274 [MainThread  ][INFO ]  Initial parameter values: [-0.8149722445206247, -0.842356276736995, -0.7883534287363574, 0.6768088594740864]
+2019-03-08 14:36:11,753 [MainThread  ][INFO ]  Final fidelity: 0.773006131994407
+2019-03-08 14:36:11,753 [MainThread  ][INFO ]  Final parameters: [-0.38710025  2.70499687  1.93777285  2.01830594]
+2019-03-08 14:36:11,753 [MainThread  ][INFO ]  Fidelity: 0.773006131994407
+2019-03-08 14:36:11,753 [MainThread  ][INFO ]  ---- Starting iteration 136/200
+2019-03-08 14:36:11,754 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.1793174  -0.32837781]
+2019-03-08 14:36:11,754 [MainThread  ][DEBUG]  Setting hyperparameter tf=6.944723618090452
+2019-03-08 14:36:11,754 [MainThread  ][INFO ]  Starting optimization for tf=6.944723618090452
+2019-03-08 14:36:11,754 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 14:36:11,754 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 14:36:11,754 [MainThread  ][INFO ]  Initial parameter values: [0.17450000049424497, -0.4764029417272124, -0.2829060275880395, -0.14210071631853993]
+2019-03-08 14:37:21,090 [MainThread  ][INFO ]  Final fidelity: 0.8161553776177648
+2019-03-08 14:37:21,091 [MainThread  ][INFO ]  Final parameters: [-2.12706289 -0.99374561  0.27753399 -1.39883906]
+2019-03-08 14:37:21,091 [MainThread  ][INFO ]  Fidelity: 0.8161553776177648
+2019-03-08 14:37:21,091 [MainThread  ][INFO ]  ---- Starting iteration 137/200
+2019-03-08 14:37:21,091 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.28335508 -0.35329109]
+2019-03-08 14:37:21,091 [MainThread  ][DEBUG]  Setting hyperparameter tf=6.992462311557789
+2019-03-08 14:37:21,091 [MainThread  ][INFO ]  Starting optimization for tf=6.992462311557789
+2019-03-08 14:37:21,091 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 14:37:21,091 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 14:37:21,091 [MainThread  ][INFO ]  Initial parameter values: [-0.1542492002060747, 0.8475870105529975, 0.8862297385261657, -0.16694924526411392]
+2019-03-08 14:38:29,749 [MainThread  ][INFO ]  Final fidelity: 0.8209056090260739
+2019-03-08 14:38:29,750 [MainThread  ][INFO ]  Final parameters: [-2.05811649 -0.61906096 -0.60953034 -1.42393924]
+2019-03-08 14:38:29,750 [MainThread  ][INFO ]  Fidelity: 0.8209056090260739
+2019-03-08 14:38:29,750 [MainThread  ][INFO ]  ---- Starting iteration 138/200
+2019-03-08 14:38:29,750 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.18233553  0.43814038]
+2019-03-08 14:38:29,750 [MainThread  ][DEBUG]  Setting hyperparameter tf=7.040201005025126
+2019-03-08 14:38:29,750 [MainThread  ][INFO ]  Starting optimization for tf=7.040201005025126
+2019-03-08 14:38:29,751 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 14:38:29,751 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 14:38:29,751 [MainThread  ][INFO ]  Initial parameter values: [0.03610193444851939, -0.6050302604198121, -0.7082230875884228, 0.3091772293016679]
+2019-03-08 14:39:52,250 [MainThread  ][INFO ]  Final fidelity: 0.44701917005817693
+2019-03-08 14:39:52,251 [MainThread  ][INFO ]  Final parameters: [-0.00626142 -0.26335864 -0.22338424 -1.96686388]
+2019-03-08 14:39:52,251 [MainThread  ][INFO ]  Fidelity: 0.44701917005817693
+2019-03-08 14:39:52,251 [MainThread  ][INFO ]  ---- Starting iteration 139/200
+2019-03-08 14:39:52,251 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.24571884 -0.35745628]
+2019-03-08 14:39:52,251 [MainThread  ][DEBUG]  Setting hyperparameter tf=7.0879396984924625
+2019-03-08 14:39:52,251 [MainThread  ][INFO ]  Starting optimization for tf=7.0879396984924625
+2019-03-08 14:39:52,251 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 14:39:52,251 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 14:39:52,251 [MainThread  ][INFO ]  Initial parameter values: [-0.01662222881368125, -0.8037241127301784, 0.24572415233229328, -0.662576069536926]
+2019-03-08 14:41:37,461 [MainThread  ][INFO ]  Final fidelity: 0.11363279152682018
+2019-03-08 14:41:37,462 [MainThread  ][INFO ]  Final parameters: [-0.0217758  -3.0454293   0.09890888 -0.18454379]
+2019-03-08 14:41:37,462 [MainThread  ][INFO ]  Fidelity: 0.11363279152682018
+2019-03-08 14:41:37,462 [MainThread  ][INFO ]  ---- Starting iteration 140/200
+2019-03-08 14:41:37,463 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[0.31360422 0.45629839]
+2019-03-08 14:41:37,463 [MainThread  ][DEBUG]  Setting hyperparameter tf=7.135678391959798
+2019-03-08 14:41:37,463 [MainThread  ][INFO ]  Starting optimization for tf=7.135678391959798
+2019-03-08 14:41:37,463 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 14:41:37,463 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 14:41:37,463 [MainThread  ][INFO ]  Initial parameter values: [-0.8150961024871397, -0.6540640681995278, -0.8850515616896262, -0.27927293051417124]
+2019-03-08 14:42:48,028 [MainThread  ][INFO ]  Final fidelity: 0.34934224317556883
+2019-03-08 14:42:48,029 [MainThread  ][INFO ]  Final parameters: [-1.59992218  1.26130862 -1.01043723 -0.44160733]
+2019-03-08 14:42:48,029 [MainThread  ][INFO ]  Fidelity: 0.34934224317556883
+2019-03-08 14:42:48,029 [MainThread  ][INFO ]  ---- Starting iteration 141/200
+2019-03-08 14:42:48,029 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.14824387  0.37285422]
+2019-03-08 14:42:48,029 [MainThread  ][DEBUG]  Setting hyperparameter tf=7.183417085427135
+2019-03-08 14:42:48,029 [MainThread  ][INFO ]  Starting optimization for tf=7.183417085427135
+2019-03-08 14:42:48,029 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 14:42:48,029 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 14:42:48,029 [MainThread  ][INFO ]  Initial parameter values: [-0.716776825503499, -0.653459968452192, 0.5594096962186064, 0.6115624340426544]
+2019-03-08 14:43:24,520 [MainThread  ][INFO ]  Final fidelity: 0.7473308888040787
+2019-03-08 14:43:24,521 [MainThread  ][INFO ]  Final parameters: [-0.51039588 -0.61693491  0.22019853 -0.67031985]
+2019-03-08 14:43:24,521 [MainThread  ][INFO ]  Fidelity: 0.7473308888040787
+2019-03-08 14:43:24,521 [MainThread  ][INFO ]  ---- Starting iteration 142/200
+2019-03-08 14:43:24,522 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[0.00355024 0.36094894]
+2019-03-08 14:43:24,522 [MainThread  ][DEBUG]  Setting hyperparameter tf=7.231155778894472
+2019-03-08 14:43:24,522 [MainThread  ][INFO ]  Starting optimization for tf=7.231155778894472
+2019-03-08 14:43:24,522 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 14:43:24,522 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 14:43:24,522 [MainThread  ][INFO ]  Initial parameter values: [0.29377540955394044, -0.9617310696309671, -0.3342878777020071, -0.9119156174331686]
+2019-03-08 14:45:06,797 [MainThread  ][INFO ]  Final fidelity: 0.018365058264383654
+2019-03-08 14:45:06,798 [MainThread  ][INFO ]  Final parameters: [ 0.39006064 -0.06801193 -0.01386261 -1.30086278]
+2019-03-08 14:45:06,798 [MainThread  ][INFO ]  Fidelity: 0.018365058264383654
+2019-03-08 14:45:06,798 [MainThread  ][INFO ]  ---- Starting iteration 143/200
+2019-03-08 14:45:06,798 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[0.37969121 0.00686065]
+2019-03-08 14:45:06,798 [MainThread  ][DEBUG]  Setting hyperparameter tf=7.2788944723618085
+2019-03-08 14:45:06,798 [MainThread  ][INFO ]  Starting optimization for tf=7.2788944723618085
+2019-03-08 14:45:06,798 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 14:45:06,798 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 14:45:06,798 [MainThread  ][INFO ]  Initial parameter values: [0.5973624145359766, 0.6516791608295767, 0.09462755092562403, 0.874938695992292]
+2019-03-08 14:45:53,451 [MainThread  ][INFO ]  Final fidelity: 0.7849038660396689
+2019-03-08 14:45:53,452 [MainThread  ][INFO ]  Final parameters: [0.82941542 0.46923745 0.63979625 1.15177665]
+2019-03-08 14:45:53,452 [MainThread  ][INFO ]  Fidelity: 0.7849038660396689
+2019-03-08 14:45:53,452 [MainThread  ][INFO ]  ---- Starting iteration 144/200
+2019-03-08 14:45:53,452 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[0.32396899 0.48482712]
+2019-03-08 14:45:53,452 [MainThread  ][DEBUG]  Setting hyperparameter tf=7.326633165829145
+2019-03-08 14:45:53,452 [MainThread  ][INFO ]  Starting optimization for tf=7.326633165829145
+2019-03-08 14:45:53,452 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 14:45:53,452 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 14:45:53,452 [MainThread  ][INFO ]  Initial parameter values: [-0.9754535974135148, -0.48059298357147284, -0.8086596679422486, -0.6586455974844392]
+2019-03-08 14:47:51,047 [MainThread  ][INFO ]  Final fidelity: 0.13475585857496472
+2019-03-08 14:47:51,048 [MainThread  ][INFO ]  Final parameters: [-2.16931097  0.17238599 -0.84393136 -0.23679006]
+2019-03-08 14:47:51,048 [MainThread  ][INFO ]  Fidelity: 0.13475585857496472
+2019-03-08 14:47:51,048 [MainThread  ][INFO ]  ---- Starting iteration 145/200
+2019-03-08 14:47:51,048 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.46006973  0.49372657]
+2019-03-08 14:47:51,048 [MainThread  ][DEBUG]  Setting hyperparameter tf=7.374371859296482
+2019-03-08 14:47:51,048 [MainThread  ][INFO ]  Starting optimization for tf=7.374371859296482
+2019-03-08 14:47:51,048 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-08 14:47:51,048 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-08 14:47:51,048 [MainThread  ][INFO ]  Initial parameter values: [-0.10553776585107699, -0.8753176829713116, 0.8489098157809396, -0.4154043190782182]
+2019-03-08 14:47:59,724 [MainThread  ][INFO ]  Final fidelity: 39601.0
+2019-03-08 14:47:59,724 [MainThread  ][INFO ]  Final parameters: [-0.10553777 -0.87531768  0.84890982 -0.41540432]

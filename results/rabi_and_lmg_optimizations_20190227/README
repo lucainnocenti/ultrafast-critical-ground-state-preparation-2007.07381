@@ -1,0 +1,4 @@
+This data is flawed:
+
+	1) There was a problem in the way the discontinuity of bangramp and doublebang was implemented. Instead of an actual abrupt change, the protocol was implemented via linear interpolating between (t1, y0) and (t1 * 1.01, y1), which generates spurious results when the intermediate time is set very close to the end of the protocol and the change in parameter is big.
+	2) The CRAB results are actually all with only two frequencies, and moreover the actual frequencies were not saved to file.
