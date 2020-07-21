@@ -18,5 +18,5 @@ The notebooks require code found in `./src`. Running the code doesn't require to
 - `./lmg_4spins_optimizations.ipynb`, `./lmg_20spins_optimizations.ipynb`, `./lmg_50spins_optimizations.ipynb`
     Optimizations double-bang vs CRAB for LMG with 20 and 50 spins.
     The 50 spins notebook also contains optimisations for different energy bounds.
-- `rabi_and_lmg_optimizations.ipynb`
+- `./rabi_and_lmg_optimizations.ipynb`
     Older notebook. Contains a variety of optimisation attempts with LMG and Rabi models.
